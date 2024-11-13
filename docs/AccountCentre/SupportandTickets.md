@@ -24,8 +24,6 @@ Creating a ticket will send you a notification email and another email with tick
 
 You may reply to the assigned support agent from the ticket interface by using the message box at the bottom of the ticket. Ticket replies also support uploading attachments.
 
-![Support and Tickets](img/SupportandTickets3.png)
-
 Alternatively, you can reply to the email that you received with the ticket information or the latest reply from the support agent. Email replies will also show up in the ticket details section on Ananta CloudConsole.
 
 # Ticket Classifiers
