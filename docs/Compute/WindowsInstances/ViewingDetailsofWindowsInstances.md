@@ -16,15 +16,11 @@ From [Operating Windows Instances](AboutWindowsInstances), navigate into a Windo
     2. Internal Name
     3. Created On
 
-![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances2.png)
-
 3. Security and Access Control- Depending on the networking zone, the information and operations will be available here.
 4.  If it's a VPC Networking zone, then the below information will be shown:
     1. Network Name
     2. VPC Name
     3. Access Control
-
-![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances3.png)
 
 5. If it’s a Basic/Flat EC networking zone, then the following information will be shown.
     1. Default Guest Network
