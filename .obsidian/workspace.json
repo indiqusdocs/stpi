@@ -165,6 +165,10 @@
   },
   "active": "84d0bba12d17b32b",
   "lastOpenFiles": [
+    "src/css/DocumentationCover.webp",
+    "src/css/oldDocumentationCover.webp",
+    "src/css/Ananta login page background.webp",
+    "docs/LoggingIn.md",
     "docs/SigningUp.md",
     "docs/Storage/ObjectStorageBucket/img/AnantaObjectStorage.png",
     "docs/Networking/DNSManagement/img/LinkingDomainstoAnantaCloudConsole.png",
@@ -184,8 +188,6 @@
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
     "build/img/sps.svg",
-    "build/img/sps.png",
-    "build/img/rn.svg",
     "docs/Networking/LoadBalancerInstances/AboutLoadBalancerInstances.md",
     "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
     "docs/Subscribers/Compute/LinuxInstances/ViewingDetailsofLinuxInstances.md",
@@ -209,8 +211,6 @@
     "docs/Administration/ConfiguringSections/ConfiguringObjectStorage.md",
     "docs/Subscribers/Storage/ObjectStorageBucket/FrequentlyAskedQuestions.md",
     "docs/Subscribers/Storage/ObjectStorageBucket/SystemRequirements.md",
-    "docs/Subscribers/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md",
-    "docs/Subscribers/Storage/ObjectStorageBucket/AboutApiculusObjectStorage.md",
     "Untitled.canvas"
   ]
 }
