@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ananta Technical Documentation',
-  tagline: 'Find user guides, quickstarts, release notes, FAQs, and more for Service Providers and Subscribers.',
+ // tagline: 'Find user guides, quickstarts, release notes, FAQs, and more for Service Providers and Subscribers.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -36,7 +36,7 @@ const config = {
 
 stylesheets: [
     {
-      href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap',
+      href: 'https://fonts.cdnfonts.com/css/aptos', // Update this to the correct link to load Aptos
       rel: 'stylesheet',
     },
   ],
@@ -131,7 +131,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
 		   {
           href: 'https://swagger.apiculus.io/', // Change to the desired link
           label: 'APIs', // The label of your button
-          position: 'left',
+          position: 'right',
           className: 'button button--primary', // Add button classes here
         },
 		   	  
