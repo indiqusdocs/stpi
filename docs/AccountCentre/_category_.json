@@ -1,0 +1,9 @@
+{
+  "label": "Account Center",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Account Centre on Apiculus CloudConsole is the non-technical (commercial and support) dashboard that can be used for viewing and managing all non-technical aspects of your Apiculus Cloud account.
+"
+  }
+}

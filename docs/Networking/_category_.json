@@ -1,0 +1,9 @@
+{
+  "label": "Networking",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Enable seamless connectivity between cloud infrastructure and resources, providing efficient data flow and communication. It manages virtual networks, firewalls, and security groups to ensure secure and scalable cloud operations.
+"
+  }
+}

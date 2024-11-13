@@ -1,0 +1,8 @@
+{
+  "label": "Windows Instances",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Instances are computing units that provide you with resources to run your applications/workloads. Windows Instances are virtual machines that run the images of Windows Operating Systems."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Kubernetes",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Apiculus offers CloudConsole users the ability to deploy highly-available Kubernetes clusters for their cloud-native development, deployment and DevOps use cases. The Apiculus Kubernetes Service (AK8s) extends basic and advanced cluster management functionalities via the CloudConsole UI and the kubectl utility."
+  }
+}

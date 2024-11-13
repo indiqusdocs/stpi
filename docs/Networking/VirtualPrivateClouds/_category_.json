@@ -1,0 +1,9 @@
+{
+  "label": "Virtual Private Clouds",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A Virtual Private Cloud (VPC) is a software-defined networking capability on Apiculus that allows cloud users to simulate a traditional private cloud environment on a public cloud.
+"
+  }
+}
