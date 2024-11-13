@@ -2,8 +2,9 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+
 const FeatureList = [
-  
+  /* This section lists the options to add links on the home page.
   {
     title: (
 	<a href="/docs/intro" target="_self" rel="noopener noreferrer">
@@ -55,8 +56,8 @@ const FeatureList = [
 	  </div>
     ),
   },
-  
-  /* {
+    
+  {
     title: 'API Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -68,7 +69,6 @@ const FeatureList = [
   }, 
   */
 ];
-
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>

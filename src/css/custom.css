@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* You can override the default variables here. */
 
 :root {
   --ifm-color-primary: #004bd1;
@@ -120,8 +120,6 @@ img:active {
 }
 
 
-
-
 /* Colored Blocks */
 .custom-block-blue {
   background-color: #f0f8ff;
@@ -217,6 +215,37 @@ img:active {
   
 }
 
+/* Dark mode styling for top navigation bar links using [data-theme='dark'] */
+[data-theme='dark'] .navbar__link {
+    background-color: #F59700 !important;
+    color: #FFFFFF !important;
+    padding: 6px 10px !important;
+    border-radius: 35px !important; /* Increased border-radius for a more rounded appearance */
+    margin-right: 5px !important; /* Optional: to add spacing between buttons */
+}
+
+/* Dark mode hover effect for top navigation bar links */
+[data-theme='dark'] .navbar__link:hover {
+    background-color: #d77f00 !important;
+    color: #FFFFFF !important;
+}
+
+/* Dark mode styling for active (selected) top navigation link */
+[data-theme='dark'] .navbar__link--active {
+    background-color: #F59700 !important;
+    color: #FFFFFF !important;
+    padding: 6px 12px !important; /* Slightly more padding for a better rounded effect */
+    border-radius: 35px !important; /* Ensures a rounded button */
+}
+
+/* Dark mode styling for active link hover */
+[data-theme='dark'] .navbar__link--active:hover {
+    background-color: #d77f00 !important;
+    color: #FFFFFF !important;
+}
+
+
+
 .DocSearch-Button-Placeholder {
   font-family: Poppins, sans-serif; /* Replace with your desired font */
 }
@@ -226,14 +255,14 @@ img:active {
 .hero {
     background-image: url('DocumentationCover.webp'); /* Replace with your image path */
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    height: 32vh; /* Adjust the height as needed */
+    height: 90vh; /* Adjust the height as needed */
 }	
 
 .hero .button {
-    background-color: #004bd1;  /* Change the background color */
-    color: white !important;  /* Change the text color */
+    background-color: #FFFFFF;  /* Change the background color */
+    color: #004bd1 !important;  /* Change the text color */
     border-radius: 25px;  /* Make the button rounded */
     padding: 10px 20px;  /* Adjust padding */
     font-size: 16px;  /* Adjust font size */
@@ -244,18 +273,18 @@ img:active {
 }
 
 .hero .button:hover {
-    background-color: #004bd1;  /* Change background color on hover */
+    background-color: #FFFFFF;  /* Change background color on hover */
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);  /* Increase shadow on hover */
 }
 
 /* Title color for both light and dark modes */
 html .hero__title {
      font-size: 32px; /* Title size */
-	color: #004bd1 !important; /* Force the title color to remain black */
+	color: #FFFFFF !important; /* Force the title color to remain black */
 }
 
 .hero__subtitle {
-    color: #000000; /* Replace with your desired description color */
+    color: #FFFFFF; /* Replace with your desired description color */
 	font-size: 19px; /* Title size */
 }
 

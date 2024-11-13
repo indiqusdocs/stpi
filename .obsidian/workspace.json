@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef7415b37c790712",
+  "active": "84d0bba12d17b32b",
   "lastOpenFiles": [
+    "src/css/oldDocumentationCover.webp",
     "docs/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
     "docs/Compute/WindowsInstances/ViewingDetailsofWindowsInstances.md",
     "docs/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
@@ -190,7 +191,6 @@
     "docs/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
     "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "docs/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
     "docs/Storage/ObjectStorageBucket/img/AnantaObjectStorage.png",
     "docs/Networking/DNSManagement/img/LinkingDomainstoAnantaCloudConsole.png",
     "docs/AnantaCentral.png",
