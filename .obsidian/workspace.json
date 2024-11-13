@@ -165,6 +165,7 @@
   },
   "active": "84d0bba12d17b32b",
   "lastOpenFiles": [
+    "docs/LoggingIn.md",
     "docs/SigningUp.md",
     "docs/Storage/ObjectStorageBucket/img/AnantaObjectStorage.png",
     "docs/Networking/DNSManagement/img/LinkingDomainstoAnantaCloudConsole.png",
@@ -210,7 +211,6 @@
     "docs/Subscribers/Storage/ObjectStorageBucket/FrequentlyAskedQuestions.md",
     "docs/Subscribers/Storage/ObjectStorageBucket/SystemRequirements.md",
     "docs/Subscribers/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md",
-    "docs/Subscribers/Storage/ObjectStorageBucket/AboutApiculusObjectStorage.md",
     "Untitled.canvas"
   ]
 }
