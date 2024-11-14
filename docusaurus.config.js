@@ -129,7 +129,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
           },
 		 		 
 		   {
-          href: 'https://swagger.apiculus.io/', // Change to the desired link
+          href: '#, // Change to the desired link
           label: 'APIs', // The label of your button
           position: 'right',
           className: 'button button--primary', // Add button classes here
