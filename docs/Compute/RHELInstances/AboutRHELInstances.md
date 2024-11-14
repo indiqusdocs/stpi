@@ -30,10 +30,7 @@ Ananta offers a highly usable and visual way of working with and operating RHEL 
 	- IPv6 Address
 	- Created
 
-![RHEL Instances](img/RHEL3.png)
-
 Click on the instance name to view a list of sections and the various operations or actions you can perform by going inside the particular section. 
-![RHEL Instances](img/RHEL4.png)
 
 Below the Instance name, there is an informational view where you can find the following details:
 - Configuration

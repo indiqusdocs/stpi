@@ -10,7 +10,6 @@ To create a Linux instance, follow these steps:
 1. Navigate to **Compute > Linux Instances**.
     ![Create Linux Instance](img/CreatingLinuxInstances1.png)
 2. Click on **NEW LINUX INSTANCE**.
-    ![Create Linux Instance](img/CreatingLinuxInstances2.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. 
 4. Select the **Destination** and then the **Network** from the respective drop-down lists.
 5. **Choose an OS Image** to run on your Instance.
