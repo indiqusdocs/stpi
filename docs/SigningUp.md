@@ -39,7 +39,7 @@ Admin-initiated signups are manual and require the maximum intervention from adm
 5. Upon successful verification, the subscriber sets their account password and logs in with their email and password combination.
 
 :::note
-Only new subscriber accounts can be created using this process. Resellers, child admins and child subscribers can not be created this way and need to be invited from within their respective parent accounts.
+Only new subscriber accounts can be created using this process. Child admins and child subscribers can not be created this way and need to be invited from within their respective parent accounts.
 :::
 
 
