@@ -8,6 +8,6 @@ Ananta servers can be used as authoritative name server(s) for managing DNS reco
 The following sections outline how to use this service:
 
 - [Bringing your domains to Ananta CloudConsole](LinkingDomainstoAnantaCloudConsole)
-- [Managing DNS records using Ananta CloudConsole](ManagingDNSRecords)
+- [Managing DNS records using Ananta Cloud Console](ManagingDNSRecords)
 - [Switching (back) to another DNS provider](SwitchingtoAnotherDNSProvider)
 

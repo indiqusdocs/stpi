@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Cloud/Operations Management
-Setting up and managing cloud resources on [Ananta CloudConsole](CloudConsoleOverview) follows a highly intuitive approach that is built on UX principles of modern-day software. The CloudConsole user journeys are simple, visual and information-rich which makes managing cloud resources extremely delightful.
+Setting up and managing cloud resources on [Ananta Cloud Console](CloudConsoleOverview) follows a highly intuitive approach that is built on UX principles of modern-day software. The CloudConsole user journeys are simple, visual and information-rich which makes managing cloud resources extremely delightful.
 
 Some rules of thumb while using Ananta CloudConsole for managing cloud resources are:
 
