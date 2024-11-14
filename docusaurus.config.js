@@ -87,6 +87,8 @@ stylesheets: [
       }),
     ],
   ],
+  
+  // here is the search plug-in.
 plugins: [
 [
 require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -129,7 +131,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
           },
 		 		 
 		   {
-          href: '#, // Change to the desired link
+          href: '#', // Change to the desired link
           label: 'APIs', // The label of your button
           position: 'right',
           className: 'button button--primary', // Add button classes here
