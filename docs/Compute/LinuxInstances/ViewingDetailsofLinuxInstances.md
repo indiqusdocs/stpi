@@ -20,15 +20,10 @@ This section displays the information used for internal identification of this i
     - Template Name
     - Internal Name
     - Created On
-
-![Viewing Details of Linux Instances](img/ViewingDetailsofLinuxInstances2.png)
-
 ## Security and Access Control
 This section displays the following information:
 
 - Network Name
 - VPC Name
 - Access Control
-
-![Viewing Details of Linux Instances](img/ViewingDetailsofLinuxInstances3.png)
 

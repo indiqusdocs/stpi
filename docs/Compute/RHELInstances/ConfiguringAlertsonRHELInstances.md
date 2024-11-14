@@ -11,14 +11,9 @@ Navigate to a [RHEL Instance](AboutRHELInstances.md) and access the **Alerts** t
 ## Instance Alerts
 
 The Alerts tab lists all the alerts already configured for that particular RHEL Instance. In addition, it will show the details, i.e., ID, the name for the alert, Parameter, Trigger When, Value, and Reading Duration.
-
-![Configuring Alerts on RHEL Instances](img/ConfiguringAlerts1.png)
-
 ## Adding an Alert
 
 You can create or add alerts simply by clicking on the **Add Alert** button. The following screen will open up, and you can configure the alert using the on-screen input form.
-
-![Configuring Alerts on Linux Instances](img/ConfiguringAlerts2.png)
 
 The various fields of the add alert page are described below:
 
@@ -38,8 +33,6 @@ This will list and display all the email IDs already configured for the alerts. 
 3. Add the email ids; multiple IDs can be added (separated by comma).
 4. Click on the **+** icon.
 5. Click on the **Update** button, and update the recipient's list.
-
-![Configuring Alerts on Linux Instances](img/ConfiguringAlerts3.png)
 
 :::note
 All the recipients configured will receive all the setup alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.

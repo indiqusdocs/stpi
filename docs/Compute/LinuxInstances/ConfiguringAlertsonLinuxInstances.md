@@ -25,8 +25,6 @@ The Alerts tab lists all the alerts already configured for that particular Linux
 
 To create or add alerts, click the **Create Alert** button. The Create Alert window opens.
 
-![Configuring Alerts on Linux Instances](img/ConfiguringAlerts2.png)
-
 The various fields of the Create Alert screen are as follows:
 
 - **Name** - You can define the name for your alert.

@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 # Cluster Operations
 
-Kubernetes clusters created on Ananta CloudConsole allow for a set of management operations from the CloudConsole UI. While these options can be controlled using kubectl, these are provided on the UI for quick and easy access.
+Kubernetes clusters created on Ananta Cloud Console allow for a set of management operations from the Cloud Console UI. While these options can be controlled using kubectl, these are provided on the UI for quick and easy access.
 
 ![Cluster Operations](img/ClusterOperations.png)
 

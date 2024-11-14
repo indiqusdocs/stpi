@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Linking Domains to Ananta CloudConsole
+# Linking Domains to Ananta Cloud Console
 
 The Ananta-powered cloud will have nameservers if the service provider has enabled this Service. These name servers are simply fully-qualified domain names (FQDN) for the servers that will store all the domain/zone information. Typically, these name servers will be in the following format:
 
