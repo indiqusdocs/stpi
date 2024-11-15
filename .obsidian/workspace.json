@@ -11,12 +11,14 @@
             "id": "f7a6eb6d49533364",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes3.png"
+                "file": "docs/Networking/NATGateways/ManagingNATGateways.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "WorkingwithInstanceVolumes3"
+              "icon": "lucide-file",
+              "title": "ManagingNATGateways"
             }
           }
         ]
@@ -161,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef7415b37c790712",
+  "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
+    "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes3.png",
     "build/blog/rss.xml",
     "build/blog/atom.xml",
     "build/blog/atom.css",
@@ -173,7 +176,6 @@
     "build/docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails/index.html",
     "build/docs/Storage/ObjectStorageBucket/FrequentlyAskedQuestions/index.html",
     "build/docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots/index.html",
-    "build/docs/Storage/ObjectStorageBucket/AboutApiculusObjectStorage/index.html",
     "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",

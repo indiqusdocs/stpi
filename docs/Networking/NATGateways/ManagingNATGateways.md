@@ -29,7 +29,7 @@ Each virtual gateway comes with a default IPv4 address that belongs to the Virtu
 ![Manage NAT gateway](img/NAT4.png)
 
 ### Adding Public IPv4 Addresses
-You can add additional public IPv4 addresses to configure load balancers, port forwarding and static NATs.
+You can add additional public IPv4 addresses to configure firewall rule, port forwarding rule and source NATs.
 
 1. Click on the **Add Public IPv4 Address** button. The following screen appears:
 2. Select **Monthly** or **Hourly** option and then click the **Confirm Purchase** button. 
