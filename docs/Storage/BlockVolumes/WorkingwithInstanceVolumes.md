@@ -57,6 +57,7 @@ Attachment/detachment actions can be performed from the **Operations** section
 ## Downloading a Volume
 
 Detached data disks can be downloaded as 'virtual hard disk' files for portability. This option is also available in the **Operations** section/tab of data disk details.
+![](img/WorkingwithInstanceVolumes4.png)
 
 :::note
 Data disks will be downloaded as .ova files.

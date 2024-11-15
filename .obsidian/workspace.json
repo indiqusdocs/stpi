@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 323.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -165,6 +165,9 @@
   },
   "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
+    "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes4.PNG",
+    "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes4.png",
+    "docs/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
     "build/blog/rss.xml",
     "build/blog/atom.xml",
     "build/blog/rss.css",
@@ -175,7 +178,6 @@
     "build/docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots/index.html",
     "build/docs/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes/index.html",
     "build/docs/Storage/BlockVolumes/WorkingwithInstanceVolumes/index.html",
-    "build/docs/Storage/BlockVolumes/AboutBlockVolumes/index.html",
     "build/assets/images/SSHKeysandKeyPairs1-58c22acba0eb2174f4a6361119c33a52.png",
     "build/assets/images/SSHKeysandKeyPairs2-64475fffb066f728734fee6b9fb75a18.png",
     "build/assets/images/DeletingaVFINetwork3-fff8ddbe1b059599dd6074cd4a04c30e.png",
@@ -185,7 +187,6 @@
     "build/assets/images/WorkingwithVolumeSnapshots-ed89425d6162aa2a12df33b525fdc469.png",
     "build/assets/images/NAT1-558e1c75bbc41dac423d2759ddf40cd8.png",
     "build/assets/images/NAT4da-14695a5ac58b6723fe6c79f792ce48d5.png",
-    "build/assets/images/NAT7-5d80fbe659a3c6b8bc5785809a406c0b.png",
     "docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs.md",
     "docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
     "docs/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
@@ -210,7 +211,6 @@
     "docs/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
     "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
     "docs/Compute/RHELInstances/ProtectingRHELInstances.md",
-    "docs/Compute/RHELInstances/NetworkingManagementwithRHELInstances.md",
     "Untitled.canvas"
   ]
 }
