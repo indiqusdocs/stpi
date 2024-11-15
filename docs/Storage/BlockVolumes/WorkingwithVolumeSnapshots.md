@@ -13,7 +13,7 @@ Volume snapshots can be created manually with the current timestamp by using the
 
 ## Creating Automated Snapshot Schedules
 
-Ananta CloudConsole users can create snapshot policies for their root and data disks. These schedules allow for strategic management of data retention policies and can be used as an alternative to using a backup solution. Snapshot schedules can be managed from the **Schedules** section of disk details.
+Ananta Cloud Console users can create snapshot policies for their root and data disks. These schedules allow for strategic management of data retention policies and can be used as an alternative to using a backup solution. Snapshot schedules can be managed from the **Schedules** section of disk details.
 
 The following schedules are supported:
 

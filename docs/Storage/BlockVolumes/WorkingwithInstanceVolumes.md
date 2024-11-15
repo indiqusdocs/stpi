@@ -35,9 +35,7 @@ To create a Block Volume data disk, follow the below steps:
     3. Clicking on the **CANCEL** button, this action will be canceled.
 10. Click on the **CONFIRM** to create the Data Disk.
 
-![Working with Instance Volumes](img/WorkingwithInstanceVolumes1.png)
-
-Please note that this might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window.
+Please note that this might take up to 5-8 minutes. You may use the Cloud Console during this time, but it is advised that you do not refresh the browser window.
 
 Once ready, you’ll be notified of this purchase on your email address on record. The newly created Data Disk can be accessed from **Storage >** **Block Volumes** on the main navigation panel.
 
@@ -60,6 +58,7 @@ Attachment/detachment actions can be performed from the **Operations** section
 
 Detached data disks can be downloaded as 'virtual hard disk' files for portability. This option is also available in the **Operations** section/tab of data disk details.
 
+![Working with Instance Volumes](img/WorkingwithInstanceVolumes4.png)
 :::note
 Data disks will be downloaded as .ova files.
 :::

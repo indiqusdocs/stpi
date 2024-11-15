@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ananta Technical Documentation',
+  title: 'Ananta Cloud Technical Documentation',
  // tagline: 'Find user guides, quickstarts, release notes, FAQs, and more for Service Providers and Subscribers.',
   favicon: 'img/favicon.ico',
 
@@ -87,6 +87,8 @@ stylesheets: [
       }),
     ],
   ],
+  
+  // here is the search plug-in.
 plugins: [
 [
 require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -129,7 +131,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
           },
 		 		 
 		   {
-          href: 'https://swagger.apiculus.io/', // Change to the desired link
+          href: '#', // Change to the desired link
           label: 'APIs', // The label of your button
           position: 'right',
           className: 'button button--primary', // Add button classes here
@@ -144,8 +146,9 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
 		  	  
 		  ],
       },
-    /*  footer: {
-        style: 'dark',
+	/*	
+     footer: {
+		style: 'dark',
         links: [
           {
             title: 'Docs',
@@ -154,15 +157,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
                 label: 'Service Providers',
                 to: '/docs/intro',
               },
-			  			  {
-                label: 'Release Notes',
-                to: '/docs/category/release-notes',
-              },
-			  {
-                label: 'Subscribers',
-                to: '/docs/Subscribers/intro',
-              },
-            ],
+			 ],
           },
           {
             title: 'Social',
@@ -188,10 +183,10 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apiculus, Inc.`,
+        ],		
+ Copyright ${new Date().getFullYear()} Software Technology Parks of India (STPI),
       },
-	  */
+	*/ 
 	  
 	  /* Algolia Search is here.
 	 

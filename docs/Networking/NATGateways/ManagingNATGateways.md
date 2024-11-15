@@ -7,8 +7,7 @@ To manage a NAT gateway, follow these steps:
 
 1. Navigate to **Networking > NAT Gateways**.
    ![Manage NAT gateway](img/NAT1.png)
-2. Click on a gateway from the list. The following screen appears:
-   ![Manage NAT gateway](img/NAT2.png)
+2. Click on a gateway from the list. 
 
 The gateways show the details under the following categories:
 
@@ -22,8 +21,6 @@ Navigate to the **Overview** tab to view the following details:
 - Internal Information
 
 To power off the virtual router, click on the **Powered On** button. The Stop Virtual Router window appears that lets you stop the virtual router. To power on a virtual router, click the **Powered Off** button.
-
-   ![Manage NAT gateway](img/NAT3.png)
 ## Instances
 This section lists all the instances that are a part of this Virtual Firewall.
 
@@ -35,11 +32,8 @@ Each virtual gateway comes with a default IPv4 address that belongs to the Virtu
 You can add additional public IPv4 addresses to configure load balancers, port forwarding and static NATs.
 
 1. Click on the **Add Public IPv4 Address** button. The following screen appears:
-   ![Manage NAT gateway](img/NAT5.png)
-2. Select **Monthly** or **Hourly** option and then click the **Confirm Purchase** button. The following screen appears.
-   
-	  ![Manage NAT gateway](img/NAT6.png)
-1. Verify the details and click the **Confirm** button to create complete adding a public IPv4 address.
+2. Select **Monthly** or **Hourly** option and then click the **Confirm Purchase** button. 
+3. Verify the details and click the **Confirm** button to create complete adding a public IPv4 address.
 ### Managing Firewall Rules
 1. Click on the **Firewall Rules** icon.
    ![Manage NAT gateway](img/NAT4a.png)
@@ -50,28 +44,22 @@ You can add additional public IPv4 addresses to configure load balancers, port f
 	4. Enter the Start Port. 
 	5. Enter the End Port.
 	6. Click **Add Rule**.
-    ![Manage NAT gateway](img/NAT4aa.png)
 
 ### Managing Port Forwarding Rules
 1. Click on the **Port Forwarding Rule** icon.
    ![Manage NAT gateway](img/NAT4b.png)
 	The following screen appears where you can view the already created port forwarding rules.
 	
-1. To add a new rule, click on **Add Rule**.
-   ![Manage NAT gateway](img/NAT4ba.png)
-
-4. Enter the required details to add a rule.
-   ![Manage NAT gateway](img/NAT4bb.png)
-
-5. Click the **Add Port Forwarding Rule** button.
+2. To add a new rule, click on **Add Rule**.
+3. Enter the required details to add a rule.
+4. Click the **Add Port Forwarding Rule** button.
    
 
 ### Changing Source NAT IPv4 Address
 1. Click in the **Source NAT** icon.
    ![Manage NAT gateway](img/NAT4c.png)
 
-3. Click on the **Okay** button. <br />
-   ![Manage NAT gateway](img/NAT4ca.png)
+2. Click on the **Okay** button. <br />
    
 ### Deleting IP Address
 1. Click on the **Delete IP** icon.
