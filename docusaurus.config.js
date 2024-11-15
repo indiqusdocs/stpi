@@ -130,13 +130,13 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
 			position: "left",
           },
 		 		 
-		   {
+		/*   {
           href: '#', // Change to the desired link
           label: 'APIs', // The label of your button
           position: 'right',
           className: 'button button--primary', // Add button classes here
         },
-		   	  
+		 */  	  
 		  {
           href: 'https://console.ananta.stpi.in', // Change to the desired link
           label: 'Ananta Cloud', // The label of your button
