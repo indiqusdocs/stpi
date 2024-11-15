@@ -22,8 +22,6 @@ To create a VPC, follow the below steps:
     3. Clicking on the **CANCEL** button, this action will be canceled.
 11. Click on the **CONFIRM** to create the VPC.
 
-![Create, List and View VPCs](img/CreateVPC1.png)
-
 Once ready, you’ll be notified of this purchase on your email address on record. 
 
 _**Note** - this might take up to 5-8 minutes. You may use the CloudConsole during this time, but it is advised that you do not refresh the browser window._
