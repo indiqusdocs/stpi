@@ -34,6 +34,6 @@ sidebar_position: 3
 12. Then, Define the **Scale Down Policy**; the parameters are similar to the Scale UP policy. Only the breach parameter will be greater than by default.
 13. Next is to set up the SSH Key. if your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting **Upload a key pair**._
 14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. i.e., Notify to account users, Notify to comma-separated email addresses.
-15. Last is to specify the name of your autoscale group. (Use the naming convention mentioned in the helper text below.)
-16. Now, click on the **PUBLISH THIS AUTOSCALE GROUP** button for publishing the autoscale group.
+15. Last is to specify the name of your Autoscale group. (Use the naming convention mentioned in the helper text below.)
+16. Now, click on the **PUBLISH THIS AUTOSCALE GROUP** button for publishing the Autoscale group.
 

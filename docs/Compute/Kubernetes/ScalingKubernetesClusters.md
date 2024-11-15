@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Scaling Kubernetes Clusters
 
-Ananta CloudConsole allows for manual and automatic cluster scaling. Clusters scaling can be configured from the **Nodes** section of cluster details or from the **Operations** section of cluster details.
+Ananta Cloud Console allows for manual and automatic cluster scaling. Clusters scaling can be configured from the **Nodes** section of cluster details or from the **Operations** section of cluster details.
 ## Manually Scaling a Cluster
 
 1. Under **Nodes** (or under **Operations**), click on **SCALE CLUSTER**, and a pop tab will appear; keep 'autoscaling' disabled.

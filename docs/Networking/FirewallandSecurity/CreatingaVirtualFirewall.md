@@ -27,17 +27,9 @@ _Needed only if approval-based provisioning is enabled for the VFI Service_
 
 For approval-based provisioning, a request will be raised to the cloud administrator for provisioning approval, and, once approved or rejected, the requester user will be notified of the same. Upon approval/activation, the Virtual Firewall appliance will be visible in the list of Virtual Firewalls.
 
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall7.png)
-
 The request can be found in the **Requests** section under **Support & Operations** on the Ananta admin console.
-
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall8.png)
 
 Admin can approve (or reject) the request by clicking on approve and entering any custom price overrides, as shown in the screenshot below and then clicking on **OK**. An email will be sent to both the end user and admin about the approval of the request.
 
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall9.png)
-
 The end user will receive an additional email mentioning subscription and service access details.
-
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall10.png)
 
