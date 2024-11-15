@@ -165,6 +165,7 @@
   },
   "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
+    "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes4.PNG",
     "docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
     "docs/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
     "docs/ToolsandUtilities/AboutToolsandUtilities.md",
@@ -210,7 +211,6 @@
     "docs/Compute/RHELInstances/ProtectingRHELInstances.md",
     "docs/Compute/RHELInstances/NetworkingManagementwithRHELInstances.md",
     "docs/Compute/RHELInstances/CreatingRHELInstances.md",
-    "docs/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
     "Untitled.canvas"
   ]
 }
