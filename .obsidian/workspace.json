@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
+                "file": "docs/Networking/NATGateways/ManagingNATGateways.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WorkingwithInstanceVolumes"
+              "title": "ManagingNATGateways"
             }
           }
         ]
@@ -165,9 +165,9 @@
   },
   "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
+    "docs/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
     "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes4.PNG",
     "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes4.png",
-    "docs/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
     "build/blog/rss.xml",
     "build/blog/atom.xml",
     "build/blog/rss.css",
@@ -186,7 +186,6 @@
     "build/assets/images/NAT4c-38b25f1a2719d3321ebf053d5bcb97ee.png",
     "build/assets/images/WorkingwithVolumeSnapshots-ed89425d6162aa2a12df33b525fdc469.png",
     "build/assets/images/NAT1-558e1c75bbc41dac423d2759ddf40cd8.png",
-    "build/assets/images/NAT4da-14695a5ac58b6723fe6c79f792ce48d5.png",
     "docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs.md",
     "docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
     "docs/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
