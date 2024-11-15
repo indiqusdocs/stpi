@@ -146,8 +146,9 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
 		  	  
 		  ],
       },
-    /*  footer: {
-        style: 'dark',
+	/*	
+     footer: {
+		style: 'dark',
         links: [
           {
             title: 'Docs',
@@ -156,15 +157,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
                 label: 'Service Providers',
                 to: '/docs/intro',
               },
-			  			  {
-                label: 'Release Notes',
-                to: '/docs/category/release-notes',
-              },
-			  {
-                label: 'Subscribers',
-                to: '/docs/Subscribers/intro',
-              },
-            ],
+			 ],
           },
           {
             title: 'Social',
@@ -190,10 +183,10 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Apiculus, Inc.`,
+        ],		
+ Copyright ${new Date().getFullYear()} Software Technology Parks of India (STPI),
       },
-	  */
+	*/ 
 	  
 	  /* Algolia Search is here.
 	 
