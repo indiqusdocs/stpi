@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 # Managing Custom Templates and Images
-Custom OS templates can be created from a Volume Snapshot. These custom templates can be found under **Tools and Utilities > My Images** with the following details:
+You can create custom OS templates from a Volume Snapshot.  To locate these custom templates, navigate to **Tools and Utilities > My Images** with the following details:
 
 - _Image Name_
 - _Operating System_
