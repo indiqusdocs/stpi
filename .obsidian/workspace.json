@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
+                "file": "blog/2019-05-29-long-blog-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VolumeManagementwithLinuxInstances"
+              "title": "2019-05-29-long-blog-post"
             }
           }
         ]
@@ -163,8 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7a6eb6d49533364",
+  "active": "ef7415b37c790712",
   "lastOpenFiles": [
+    "blog/2019-05-28-first-blog-post.md",
+    "src/pages/markdown-page.md",
+    "src/css/oldDocumentationCover.webp",
+    "src/css/DocumentationCover.webp",
+    "().md",
+    "docs/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
     "docs/AccountCentre/UnbilledCharges.md",
     "docs/AccountCentre/TeamandChildUserManagement.md",
     "docs/AccountCentre/Organisation-AccountProfile.md",
@@ -187,10 +193,6 @@
     "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
     "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
     "docs/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
-    "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
-    "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
-    "docs/Networking/LoadBalancerInstances/CreatingaLoadBalancerInstance.md",
-    "docs/Networking/LoadBalancerInstances/ActivatingtheNetScalerVPX.md",
     "docs/Networking/DNSManagement/img/CreatingaVirtualFirewall2.PNG",
     "docs/Storage/ObjectStorageBucket/ApiculusObjectStorage.png",
     "docs/Storage/BlockVolumes/img/WorkingwithInstanceVolumes3.png",
@@ -209,8 +211,6 @@
     "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
     "Untitled.canvas"
   ]
 }
