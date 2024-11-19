@@ -5,6 +5,7 @@ sidebar_position: 3
 
 Ananta offers an easy way of signing up for a subscriber cloud account. Clicking on the **Sign Up** link on [Ananta Cloud](https://console.ananta.stpi.in/) will navigate to the signup form. Users can simply fill up this form and follow the next steps to get access to their account.
 
+![Signing Up](SigningUp.png)
 ## Self-service Signup
 
 Self-service signups are completely automated and require no intervention from admins. These are only governed by configurations and rules defined under platform configurations, and take up default values from there. The flow of information is as below:

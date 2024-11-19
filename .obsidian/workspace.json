@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
+                "file": "docs/AccessCentral.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CreatingaVirtualFirewall"
+              "title": "AccessCentral"
             }
           }
         ]
@@ -165,23 +165,17 @@
   },
   "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
-    "docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
-    "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
-    "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
-    "build/blog/atom.xml",
-    "build/blog/rss.xml",
+    "build/blog/authors/yangshun/index.html",
+    "build/blog/authors/all-sebastien-lorber-articles/index.html",
+    "build/blog/tags/docusaurus/index.html",
+    "build/blog/authors/yangshun",
+    "build/blog/authors/index.html",
+    "build/blog/authors/all-sebastien-lorber-articles",
+    "build/blog/tags/index.html",
+    "build/blog/tags/docusaurus",
+    "build/blog/mdx-blog-post/index.html",
+    "build/blog/archive/index.html",
     "build/blog/atom.css",
-    "build/blog/rss.css",
-    "build/blog/rss.xsl",
-    "build/blog/atom.xsl",
-    "build/search-index.json",
-    "build/sitemap.xml",
-    "build/docs/Storage/BlockVolumes/AboutBlockVolumes/index.html",
-    "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
-    "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
@@ -191,6 +185,16 @@
     "build/img/sbs.png",
     "build/img/rn.svg",
     "build/img/rn.png",
+    "build/img/logo.svg",
+    "docs/intro.md",
+    "docs/SigningUp.md",
+    "docs/LoggingIn.md",
+    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
+    "docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
+    "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
+    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
+    "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
     "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Compute/Kubernetes/AccessingtheClusterDashboard.md",
@@ -207,9 +211,6 @@
     "docs/Compute/Kubernetes/ClusterOperations.md",
     "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
     "docs/CloudExperienceManagement/CloudOperationsManagement.md",
-    "docs/CloudExperienceManagement/CloudConsoleOverview.md",
-    "docs/AccountCentre/WalletandTransactions.md",
-    "docs/AccountCentre/UnbilledCharges.md",
     "Untitled.canvas"
   ]
 }
