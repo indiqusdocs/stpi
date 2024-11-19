@@ -37,7 +37,7 @@ Port forwarding allows external traffic to access specific services running with
 
 Cluster load balancing rules distribute incoming network traffic across multiple Kubernetes pods to ensure high availability, fault tolerance, and optimal resource utilisation.
 
-1. Click the **ADD NETWORKING RULE* button, and a popover will open._
+1. Click the **ADD NETWORKING RULE** button, and a popover will open.
 2. _Select_ **Load Balancing** from the list of networking options and then specify the following options.
     1. Specify the name of the rule.
     2. Choose a Protocol from the available options, i.e., TCP proxy, TCP, and UDP. (The protocol determines how the traffic is transmitted)

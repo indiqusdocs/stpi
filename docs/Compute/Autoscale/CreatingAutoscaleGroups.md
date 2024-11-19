@@ -18,21 +18,21 @@ sidebar_position: 3
     - **Expunge VM grace period:** This defines how long before a scale-down is executed should the app/user connections to an Instance be removed.
     - **Polling Interval:** This defines at what interval should the Autoscale Group check your policy conditions and execute the relevant Scale or Scale-down configurations.
   10.  Next is to define the **Scale Up policy** (Multiple policies can be configured; if multiple conditions are specified, all of them need to be met for the Autoscale Group to execute). You need to specify the following:
-- **Policy Name**
-- **Duration (in mins):** This is the duration in which the conditions have to be true before action is taken.
-- **Quiet Time (in mins):** The cool-down period in which the policy should not be evaluated after the action has been taken.
-- **Parameter:** Name of the counter for which the policy will be evaluated.
+- **Policy Name **
+- **Duration (in mins) -** This is the duration in which the conditions have to be true before action is taken.
+- **Quiet Time (in mins) -** The cool-down period in which the policy should not be evaluated after the action has been taken.
+- **Parameter -** Name of the counter for which the policy will be evaluated.
     - Parameters: The performance parameters expose the state of the monitored Instances. As of now, there are five new parameters to work with that feature:
 	- Instance CPU - average percentage.
 	- Instance Memory - average percentage.
 	- Public Network - mbps received per Instance.
 	- Public Network - mbps transmit per Instance.
 	- Load Balancer - average connections per Instance
-- **Breach:** Relational Operator to be used with threshold. This will be Greater Than by default.
-- **Threshold:** This is the value for which the Counter will be evaluated with the Operator selected.
+- **Breach -** Relational Operator to be used with threshold. This will be Greater Than by default.
+- **Threshold -** This is the value for which the Counter will be evaluated with the Operator selected.
 11. Then click on the  **ADD CONDITION** to add the policy. If you want to add more policies, click on the **+ ADD NEW** button present beside the Policy name.
 12. Then, Define the **Scale Down Policy**; the parameters are similar to the Scale UP policy. Only the breach parameter will be greater than by default.
-13. Next is to set up the SSH Key. if your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting **Upload a key pair**._
+13. Next is to set up the SSH Key. if your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting **Upload a key pair**.
 14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. i.e., Notify to account users, Notify to comma-separated email addresses.
 15. Last is to specify the name of your Autoscale group. (Use the naming convention mentioned in the helper text below.)
 16. Now, click on the **PUBLISH THIS AUTOSCALE GROUP** button for publishing the Autoscale group.
