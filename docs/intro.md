@@ -8,4 +8,5 @@ Welcome to Ananta! As a subscriber, you have access to a powerful platform desig
 This manual provides step-by-step guidance to help you navigate the Ananta platform effectively. Whether you need help setting up your account, managing resources, or utilizing advanced features, this guide is here to support you.
 
 Let's get started on maximizing the value of your Ananta subscription!
+
 ![Welcome](Welcome.png)

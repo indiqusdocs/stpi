@@ -21,6 +21,7 @@ Ananta offers the following features in its current scope:
 - [Activating and accessing the VFI control panel](AccessingtheVFIControlPanel)
 - [Viewing VFI network details](ViewingVFINetworkDetails)
 - [Deleting a VFI network](DeletingaVFINetwork)
+- [Application Load Balancer](ApplicationLoadBalancer)
 
 All VFI created in an account can be accessed from navigating to the **Networking > Virtual Firewalls** tab.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)

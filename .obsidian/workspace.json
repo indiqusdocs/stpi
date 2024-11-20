@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "AccessCentral"
             }
+          },
+          {
+            "id": "ca8d67f7a786ff92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ApplicationLoadBalancer"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 238.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -163,38 +178,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7a6eb6d49533364",
+  "active": "ca8d67f7a786ff92",
   "lastOpenFiles": [
+    "build/blog/tags/docusaurus/index.html",
     "build/blog/authors/yangshun/index.html",
     "build/blog/authors/all-sebastien-lorber-articles/index.html",
-    "build/blog/tags/docusaurus/index.html",
-    "build/blog/authors/yangshun",
-    "build/blog/authors/index.html",
-    "build/blog/authors/all-sebastien-lorber-articles",
-    "build/blog/tags/index.html",
     "build/blog/tags/docusaurus",
+    "build/blog/tags/index.html",
+    "build/blog/authors/index.html",
     "build/blog/mdx-blog-post/index.html",
+    "build/blog/authors/yangshun",
+    "build/blog/authors/all-sebastien-lorber-articles",
     "build/blog/archive/index.html",
-    "build/blog/atom.css",
-    "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
-    "build/img/sps.png",
-    "build/img/sbs.svg",
-    "build/img/sbs.png",
-    "build/img/rn.svg",
-    "build/img/rn.png",
-    "build/img/logo.svg",
-    "docs/intro.md",
-    "docs/SigningUp.md",
-    "docs/LoggingIn.md",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
-    "docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
-    "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
+    "build/blog/tags",
+    "build/icons/home.svg",
     "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
+    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
+    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
+    "docs/Networking/FirewallandSecurity/img/Certificates.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer12.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer11.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer10.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer9.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer8.png",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer7.png",
+    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer6.png",
+    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
+    "docs/Networking/FirewallandSecurity/img/ApplicationLoadBalancer5.png",
+    "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
+    "docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
+    "docs/ResettingPassword.md",
+    "docs/LoggingIn.md",
+    "docs/SigningUp.md",
+    "docs/AccessCentral.md",
+    "docs/intro.md",
     "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Compute/Kubernetes/AccessingtheClusterDashboard.md",
@@ -208,9 +226,6 @@
     "docs/Compute/Kubernetes/ScalingKubernetesClusters.md",
     "docs/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
     "docs/Compute/Kubernetes/CreatingaKubernetesCluster.md",
-    "docs/Compute/Kubernetes/ClusterOperations.md",
-    "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "docs/CloudExperienceManagement/CloudOperationsManagement.md",
     "Untitled.canvas"
   ]
 }
