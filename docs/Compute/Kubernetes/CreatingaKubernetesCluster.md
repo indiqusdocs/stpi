@@ -5,10 +5,12 @@ sidebar_position: 2
 
 To create a Kubernetes cluster on an advanced VPC AZ, follow the below steps:
 
-1. Navigate to **Compute > Kubernetes** 
+1. Navigate to **Compute > Kubernetes**.
+	![New Kubernetes Cluster](img/KubernetesCluster1.png)
 2. Click on the **+ NEW KUBERNETES CLUSTER** from the top right.
 3. Enter the name for your Kubernetes Cluster by following the naming convention mentioned below in the helper text.
 4. Choose an Availability Zone, which is the geographical region where your Kubernetes cluster will be deployed. Kubernetes Clusters can be created only in Availability Zones that support VPC Networking.
+   ![Availability Zone](img/KubernetesCluster2.png)
 5. Choose a cluster pack from any of the available VPC Network Collections to set up the Kubernetes Cluster.
 6. Public IP will be selected by default.
 7. Choose a compute pack from the available compute collections.
