@@ -10,7 +10,7 @@ Upon successful login, the navigation is as below:
 - Subscriber users (admin and children) - to Ananta Cloud Console
 - Admin users - to Ananta admin console
 
-
+![Logging In](LoggingIn.png)
 
 
 

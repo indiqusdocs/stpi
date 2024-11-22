@@ -3,13 +3,13 @@ sidebar_position: 8
 ---
 # Cluster Operations
 
-Kubernetes clusters created on Ananta Cloud Console allow for a set of management operations from the Cloud Console UI. While these options can be controlled using kubectl, these are provided on the UI for quick and easy access.
+Kubernetes clusters created on Ananta Cloud Console allow for a set of management operations from the Cloud Console UI. While these options can be controlled using **kubectl**, these are provided on the UI for quick and easy access.
 
 ![Cluster Operations](img/ClusterOperations.png)
 
 ## Powering ON/OFF a Cluster
 
-Kubernetes clusters can be powered ON/OFF using the _power_ button on top of the cluster details. This button will typically show in green colour when a cluster is powered ON, and grey when powered OFF.
+Kubernetes clusters can be powered ON/OFF using the **power button** on top of the cluster details. This button will typically show in green when a cluster is powered ON, and grey when powered OFF.
 
 ## Stopping and Restarting a Cluster
 

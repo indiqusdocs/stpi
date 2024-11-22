@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # About Ananta Cloud Support Centre
 
-Ananta Cloud Support Centre is the non-technical (commercial and support) dashboard that can be used for viewing and managing all non-technical aspects of your Ananta Cloud account. The Cloud Support Centre can be accessed by clicking on any item in the user menu on the top-right, on the help/support icon in the header, or on the wallet icon in the header.
+Ananta Cloud Support Centre is the non-technical (commercial and support) dashboard that you can use to view and manage all the non-technical aspects of an Ananta Cloud account.  You can access the Cloud Support Centre by clicking on any item in **Top-Right User Menu** on the help/support icon in the header, or click the **Header** > Click the **Wallet Icon**.
 
 ![Account Centre](img/AccountCentre.png)
 Ananta Cloud Console offers a one-click view switcher between Account Centre and the Cloud Dashboard.

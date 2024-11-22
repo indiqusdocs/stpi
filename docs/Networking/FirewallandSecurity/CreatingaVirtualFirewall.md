@@ -3,33 +3,52 @@ sidebar_position: 2
 ---
 # Creating a Virtual Firewall
 
-Virtual Firewalls can be created from the **Firewalls and Security** section in the main menu and navigating to the **Virtual Firewalls** tab. Using the **Create Virtual Firewall** button, the Service can be activated in a self-explained manner.
-
-_**Note** - Ananta currently only supports one Virtual Firewall per Availability Zone._
+ To create a Virtual Firewall, follow these steps:
+ 
+ 1. In the main menu, navigate to the **Networking > Virtual Firewalls** tab. 
+ 2. To activate the service, click on **+ NEW VIRTUAL FIREWALL** button.
+  :::note
+    Ananta currently only supports one Virtual Firewall per Availability Zone.
+  :::
 
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
-
+3. Select your Availability Zone.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall2.png)
-
+4. Choose the compute pack from the list.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall3.png)
-
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall4.png)
-
+5. Select the Firewall provider from the dropdown menu.<br />
+![Firewall Provider](img/FirewallProvider.png)
+7. Select the Incoming Traffic Rule (Allow All , Deny All, Allow Custom) and give name to your Virtual Firewall.
+:::note
+	**Allow All-** Grants access to all protocols and services without restriction when selected.
+	**Deny All-**  Restrict access to all protocols and services when selected
+	**Allow Custom-** Enable the user to specify the Source from which traffic should be allowed.
+:::
+![Incoming Traffic Rule](img/TrafficRule.png)
+9. Review the summary and estimated costs for both **Hourly** and **Monthly** options.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall5.png)
-
+7. Choose **Buy Hourly** or **Buy Monthly** based on your requirement, and then click **Confirm** on the confirmation popover.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall6.png)
 
 The Virtual Firewall service can be configured for provisioning in a self-service or an approval-based manner.
 
 ## Managing Virtual Firewall Provisioning Requests
 
-_Needed only if approval-based provisioning is enabled for the VFI Service_
-
-For approval-based provisioning, a request will be raised to the cloud administrator for provisioning approval, and, once approved or rejected, the requester user will be notified of the same. Upon approval/activation, the Virtual Firewall appliance will be visible in the list of Virtual Firewalls.
-
-The request can be found in the **Requests** section under **Support & Operations** on the Ananta admin console.
-
-Admin can approve (or reject) the request by clicking on approve and entering any custom price overrides, as shown in the screenshot below and then clicking on **OK**. An email will be sent to both the end user and admin about the approval of the request.
-
-The end user will receive an additional email mentioning subscription and service access details.
+If **approval-based provisioning** is enabled for the VFI Service, the following process will be followed:
+1. **Request Submission**
+	-  A provisioning request is automatically raised to the cloud administrator.
+	- The requester will be notified via email once the request is approved or rejected.
+1. **Request Status**
+	-  Upon approval or activation, the Virtual Firewall appliance becomes visible in the **Virtual Firewalls list**.
+2. **Accessing the Request**
+	- The request is available under the **Requests** section in the **Support & Operations** menu on the Ananta admin console.
+1. **Admin Actions**
+	- The administrator can:
+	    - Review the request
+	    - Approve or reject the request
+	    - Enter any custom price overrides
+	    - Click **OK** to finalize the action
+	- The **end user** and the **admin** will receive an email notification regarding the request status.
+1. **End User Notification**
+	- If the request is approved, the end user will receive an additional email with- **Subscription details, Service access information.**
 

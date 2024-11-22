@@ -9,10 +9,11 @@ As the VFI and the VFI-based network are created, Cloud Console users can view t
 2. Name of the Virtual Firewall
 3. Availability Zone
 4. L2-WAN IPV4
-5. No. Of Instances associated with the particular Virtual Firewall
+5. No. of Instances associated with the particular Virtual Firewall
 6. Quick operations like [accessing the VFI control panel](AccessingtheVFIControlPanel) and deleting the Virtual Firewall
 
 ![Viewing VFI Network Details](img/CreatingaVirtualFirewall1.png)
 
-Clicking on the Virtual Firewall name will show details of this appliance. Additionally, users will also be able to log in to the Virtual Firewall’s self-service UI.
+To view the details of Virtual Firewall, Click on the Virtual Firewall name. Additionally, users will also be able to log in to the Virtual Firewall’s self-service UI.
+![Virtual Firewall Details](img/VirtualFirewallDetails.png)
 
