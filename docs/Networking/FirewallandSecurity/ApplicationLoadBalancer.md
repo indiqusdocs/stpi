@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Application Load Balancer
+# Application Load Balancerrrr
 
 First, set up the Virtual Firewall on Ananta Cloud. For detailed instructions, refer to the [Creating a Virtual Firewall](/docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall) page.
 
