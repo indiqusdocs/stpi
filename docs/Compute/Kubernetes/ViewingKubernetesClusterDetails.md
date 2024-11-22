@@ -13,13 +13,16 @@ To view cluster details on the UI, follow these steps:
     2. Public IP address
     3. Autoscaling Enabled/Disabled
     4. Created 
+![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
 
-To  view a list of sections and the various actions you can perform inside the particular section, click the Kubernetes Cluster name. Below the cluster name is an informational view where you can find the below details.
+To  view a list of sections and the various actions you can perform inside the particular section, click the **Kubernetes Cluster** name. Below the cluster name is an informational view where you can find the below details.
 
 - Configuration
 - Availability Zone
 - Cluster Pack
 - High Availability Enabled/Disabled
+
+![ Viewing Details of Cluster ](img/ViewingKubernetes2.png)
 
 A quick option is available in the top right corner, i.e., to  **POWER OFF/ON** the cluster.
 
@@ -37,6 +40,8 @@ At this stage, the following details can be accessed for the cluster:
     1. Kubernetes Version
     2. Virtual router internal name
     3. Created on
+
+![Details](img/ViewingKubernetes3.png)
 
 Additionally, other sections will be available on the left which can then be used to view and access various aspects of managing the Kubernetes cluster. These are:
 
