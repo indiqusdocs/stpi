@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Networking Management with Linux Instances
 
-From [Operating Linux Instances](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Networking** tab to see the networks that this Instance is attached to.
+To view the Networks associated with Linux Instance, navigate to a **Linux Instance** and access the **Networking** tab.
 
 The Networking and NICs section list all the networks that a Linux Instance is attached to.
 

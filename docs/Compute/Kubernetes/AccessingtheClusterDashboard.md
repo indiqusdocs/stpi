@@ -27,7 +27,7 @@ Each Kubernetes cluster has its own dashboard.
 
 ## Getting Token for Dashboard Login
 
-To login to the cluster dashboard, a token needs to be obtained which can be done using the following command on the CLI:
+To login to the cluster dashboard, you need to obtain a token, which can be done using the following command in the CLI:
 
 ```
 kubectl --kubeconfig /custom/path/kube.conf describe secret $(kubectl --kubeconfig /custom/path/kube.conf get secrets -n kubernetes-dashboard | grep kubernetes-dashboard-token | awk '{print $1}') -n kubernetes-dashboard
