@@ -69,3 +69,4 @@ set gateway {gateway}
 
 Once the control panel has been activated and the public IPv4 bound to the management UI, the same can be accessed by typing the public IPv4 in the browser's URL bar, or by clicking on the **open in new tab** icon for the selected VFI.
 
+

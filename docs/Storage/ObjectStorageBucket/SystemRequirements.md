@@ -39,3 +39,4 @@ A software license is required to use Cloudian HyperStore. You should contact Cl
 
 The hardware Bill of Quantity (BoQ) will depend on expected data capacity, performance requirements, and desired redundancy levels. Cloudian provides hardware guidelines and recommendations for deploying HyperStore, including information on server specifications, disk configurations, networking, and power requirements. Consulting the official documentation or contacting Cloudian or their authorized partners will help determine the appropriate hardware BoQ for your specific needs.
 
+

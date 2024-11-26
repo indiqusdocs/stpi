@@ -18,3 +18,4 @@ Ananta Cloud Console provides the options to perform common operations on Window
 	Deleting a Windows instance will remove it entirely along with its subscription and is a non-reversible action.
 	:::
 
+

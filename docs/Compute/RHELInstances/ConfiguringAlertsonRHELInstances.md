@@ -26,8 +26,7 @@ The various fields of the add alert page are described below:
 ![Creating Alert](img/CreatingAlert.png)
 ## Managing Recipients
 
-This will list and display all the email IDs already configured for the alerts. You can delete the existing ids and add other email ids by following the steps below.
-
+This will list and display all the email IDs already configured for the alerts. You can delete the existing ids and add other email ids by these steps:
 1. Click on the **Manage Recipients** button.
 2. Click on **+ Add more recipients**.
 3. Add the email ids; multiple IDs can be added (separated by comma).
@@ -37,4 +36,5 @@ This will list and display all the email IDs already configured for the alerts. 
 :::note
 All the recipients configured will receive all the setup alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
 :::
+
 

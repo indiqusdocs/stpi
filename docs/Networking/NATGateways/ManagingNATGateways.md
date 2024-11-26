@@ -76,3 +76,4 @@ You can perform the following operations in the Operations section:
 - Delete NAT Gateway
 ![Manage NAT gateway](img/NAT7.png)
 
+

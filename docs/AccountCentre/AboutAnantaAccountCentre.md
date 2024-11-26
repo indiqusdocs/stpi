@@ -8,3 +8,4 @@ Ananta Cloud Support Centre is the non-technical (commercial and support) dashbo
 ![Account Centre](img/AccountCentre.png)
 Ananta Cloud Console offers a one-click view switcher between Account Centre and the Cloud Dashboard.
 
+

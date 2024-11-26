@@ -8,3 +8,4 @@ The service balance and transactions listing on the main navigation panel can al
 
 ![# Wallet and Transactions](img/WalletandTransactions.png)
 
+

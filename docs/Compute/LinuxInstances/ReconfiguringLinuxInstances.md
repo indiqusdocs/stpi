@@ -17,3 +17,4 @@ A Linux Instance on Ananta can be reconfigured in the following ways:
 You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the **Switch Plan** button. It is recommended to switch the plan first before reconfiguring the instance if you wish to use both the Reconfigure and Switch Plan options. You will be charged according to the new plan you reconfigure, not the previous one.
 :::
 
+

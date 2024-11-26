@@ -16,3 +16,4 @@ Load Balancer Instances can be created inside a VPC by following these simple st
 The above steps will create an LBI and place it in the correct spot in the network. To configure traffic management rules and access other options via the NetScaler VPX control panel, additional activation steps are needed. These instructions are sent over email when an LBI is created.
 :::
 
+

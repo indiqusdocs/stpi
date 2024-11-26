@@ -19,7 +19,7 @@ Apart from this, there is no difference between a root disk and a data disk. Bot
 
 ## Creating Data Disk
 
-To create a Block Volume data disk, follow the below steps:
+To create a Block Volume data disk, follow these steps:
 
 1. Navigate to **Storage > Block Volumes.**
 2. Click on the **_+ NEW DATA DISK_** from the top right.
@@ -68,4 +68,5 @@ Data disks will be downloaded as .ova files.
 Data disks can be deleted from the **Operations** section/tab in the data disk details. Deleting a data disk will remove the Volume and all associated snapshots and snapshot schedules, and is an irreversible action.
 
 To delete a root disk/volume, simply delete the parent Instance.
+
 

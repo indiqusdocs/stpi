@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Viewing Details of RHEL Instances
 
-From [RHEL Instance](AboutRHELInstances.md) navigate into a RHEL Instance and access the **Overview** tab to see the following details:
+To view the details below, navigate to [RHEL Instance](AboutRHELInstances.md), select a RHEL Instance and access the **Overview** tab.
 
 - [Configuration and Availability](#configuration-and-availability)
 - [Internal Information](#internal-information)
@@ -24,5 +24,6 @@ The following information is avaialble:
 	- Network Name
 	- VPC Name
 	- Access Control
+
 
 

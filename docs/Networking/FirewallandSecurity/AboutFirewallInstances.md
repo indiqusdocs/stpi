@@ -25,3 +25,4 @@ Ananta offers the following features in its current scope:
 
 All VFI created in an account can be accessed from navigating to the **Networking > Virtual Firewalls** tab.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
+

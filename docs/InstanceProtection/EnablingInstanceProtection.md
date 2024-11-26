@@ -13,7 +13,7 @@ Instance Protection service can be enabled in two ways.
 
 **After Instance Creation**
 
-If you already have a Linux or Windows Instance and didn't enable the protection service while creating the instance, you can do it later. Navigate to the Listing of the Linux/Windows Instances. Click on the particular instance. Follow the below steps to activate the protection plan service.
+If you already have a Linux or Windows Instance and didn't enable the protection service while creating the instance, you can do it later. Navigate to the Listing of the Linux/Windows Instances. Click on the particular instance. follow these steps to activate the protection plan service.
 
 1. Inside the instance listing, find the **Protection** section and click on the **ENABLE PROTECTION** button.
    2.  Click on Confirm, and if you want to enable the advanced protection features, then enable the switch.
@@ -23,4 +23,5 @@ If you already have a Linux or Windows Instance and didn't enable the protection
 The list of supported operating systems and environments can be viewed at the following link:
 https://www.acronis.com/en-us/support/documentation/AcronisCyberProtect_15/index.html#cshid=36983
 :::
+
 

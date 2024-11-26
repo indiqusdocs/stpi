@@ -12,3 +12,4 @@ As soon as the admin approves the request, your virtual firewall service for tha
 Admin needs to click on approve, and then a confirmation popover will open for the admins to click on **OK**, and the service will be deactivated, and the end user will be intimated of the same through an email.
 
 
+

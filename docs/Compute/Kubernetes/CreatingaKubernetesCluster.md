@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Creating a Kubernetes Cluster
 
-To create a Kubernetes cluster on an advanced VPC AZ, follow the below steps:
+To create a Kubernetes cluster on an advanced VPC AZ, follow these steps:
 
 1. Navigate to **Compute > Kubernetes**.
 	![New Kubernetes Cluster](img/KubernetesCluster1.png)
@@ -31,4 +31,5 @@ This might take up to 5-8 minutes. You may use the Cloud Console during this tim
 :::
 
 Once ready, you’ll be notified of this purchase on your email address on record. The newly created Kubernetes cluster can be accessed from **Compute >** **Kubernetes** on the main navigation panel.
+
 

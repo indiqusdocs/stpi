@@ -29,3 +29,4 @@ sidebar_position: 4
 8. Create the Auto Scale Group using the custom template (**My Image**).
 9. You can now log in to the initial VM using the static password (the same one used for the standard VM). Additionally, you can successfully log in to the secondary VM using the same static password.
 
+

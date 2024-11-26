@@ -101,3 +101,4 @@ No, Root Volumes, i.e., root disks that are created at the time of Instance crea
 Data Volumes, i.e., addon disks that are created separately, can be attached to and detached from Instances. In other words, Data Volumes are portable while Root Volumes are not.
 
 
+
