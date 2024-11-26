@@ -4,6 +4,7 @@ sidebar_position: 4
 # Using Static Password In Autoscale Group’s VMs
 
 1. Create a VPC and add a network tier inside the VPC.
+   ![Adding a Tier](img/SubnetandTier.png)
 2. Create a Virtual Machine using the standard templates.
 3. Launch the console and login with the initial password (Generated at the time of VM Creation).
 4. Run the following commands. 
@@ -20,7 +21,11 @@ sidebar_position: 4
 
 5. Stop The VM from the Ananta portal and create a Root snapshot of that VM.
 6. Create Image using the Snapshot. (After creation, it will be visible in the **My Image** section).
+   ![My Image Section](img/MyImage.png)
 7. Navigate to the VPC section, purchase an IPv4 address, and create a load balancing rule using the acquired IPv4 address.
+   ![Adding IPV Address](img/IPV4Address.png)
+
+	![Load Balancing](img/LoadBalancing.png)
 8. Create the Auto Scale Group using the custom template (**My Image**).
 9. You can now log in to the initial VM using the static password (the same one used for the standard VM). Additionally, you can successfully log in to the secondary VM using the same static password.
 

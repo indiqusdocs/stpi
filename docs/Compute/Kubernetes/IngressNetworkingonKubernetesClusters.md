@@ -14,12 +14,14 @@ Ananta Kubernetes Service supports traefik and nginx ingress controllers.
 A firewall restricts incoming and outgoing network traffic to enhance the security of Kubernetes clusters. It prevents unauthorised access to the cluster's components and resources.
 
 1. Click the **ADD NETWORKING RULE** button, and a popover will open.
+   ![Networking Rule](img/NetworkingRule.png)
 2. Select **Firewall** from the list of networking options and then specify the following options.
     1. Super CIDR (CIDR notation typically consists of an IP address followed by a slash ("/") and a number indicating the number of significant bits in the subnet mask. For example, "192.168.1.0/24" represents a subnet with an IP range from 192.168.1.0 to 192.168.1.255).
     2. Choose a Protocol from the available options, i.e., TCP, UDP & ICMP.
     3. Enter the Start Port.
     4. Enter the End Port.
     5. Click on **ADD FIREWALL RULE.**
+    ![Firewall Rule](img/FirewallRule.png)
 
 ## Adding a Port Forwarding Rule to Cluster
 
@@ -32,17 +34,19 @@ Port forwarding allows external traffic to access specific services running with
     3. Enter the Public Start and End Port.
     4. Enter the Private Start and End Port.
     5. Click on **ADD PORT FORWARDING RULE.**
+    ![Port Forwarding](img/PortForwarding.png)   
 
 ## Adding a Load Balancing Rule to Cluster
 
 Cluster load balancing rules distribute incoming network traffic across multiple Kubernetes pods to ensure high availability, fault tolerance, and optimal resource utilisation.
 
 1. Click the **ADD NETWORKING RULE** button, and a popover will open.
-2. _Select_ **Load Balancing** from the list of networking options and then specify the following options.
+2. Select **Load Balancing** from the list of networking options and then specify the following options.
     1. Specify the name of the rule.
     2. Choose a Protocol from the available options, i.e., TCP proxy, TCP, and UDP. (The protocol determines how the traffic is transmitted)
     3. Enter the Public Port.
     4. Enter the Private Port.
     5. Select the algorithm.
     6. Click on **ADD LOAD BALANCING RULE**.
+    ![Load Balancing Rule](img/LoadBalancingRule.png)
 

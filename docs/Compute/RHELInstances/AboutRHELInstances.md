@@ -20,7 +20,7 @@ Each slab follows Red Hat's established core model, ensuring transparent and pre
 
 Before creating an RHEL instance, it is important to plan the architecture, networking and access to the RHEL Instances.
 
-Ananta offers a highly usable and visual way of working with and operating RHEL Instances using the CloudConsole. All RHEL Instances available in your account can be accessed in the following way:
+Ananta offers a highly usable and visual way of working with and operating RHEL Instances using the Cloud Console. All RHEL Instances available in your account can be accessed in the following way:
 
 1. Navigate to **Compute > RHEL Instances**.
 2. All the RHEL instances for your account are listed here with the following details:
@@ -29,13 +29,13 @@ Ananta offers a highly usable and visual way of working with and operating RHEL 
 	- Default IP Address
 	- IPv6 Address
 	- Created
-
-Click on the instance name to view a list of sections and the various operations or actions you can perform by going inside the particular section. 
+![RHEL Instance](img/RHELInstance.png)
+To view the list of sections and the various operations or actions you can perform within each section, click on the instance name.
 
 Below the Instance name, there is an informational view where you can find the following details:
 - Configuration
 - Availability Zone
-- Default IP
+- Default IP ADDRESS
 - Created 
 
 On the top right corner, two quick options are available, one to **Launch Console** and the other to **POWER OFF/ON** the Instance.
@@ -52,3 +52,4 @@ Details on available RHEL Instance operations and actions can be found in their 
 - [Reconfigure](ReconfiguringRHELInstances.md)
 - [Operations](RHELInstanceOperations.md)
 
+![RHEL Instance Details](img/RHELInstance1.png)
