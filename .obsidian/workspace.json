@@ -180,6 +180,11 @@
   },
   "active": "ca8d67f7a786ff92",
   "lastOpenFiles": [
+    "docs/InstanceProtection/AboutInstanceprotection.md",
+    "docs/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
+    "docs/Compute/WindowsInstances/WindowsInstanceOperations.md",
+    "docs/Compute/WindowsInstances/img/Operations1.png",
+    "docs/Compute/WindowsInstances/img/Operations.png",
     "docs/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
     "docs/Compute/WindowsInstances/ViewingGraphsandUtilisationofWindowsInstances.md",
     "docs/Compute/WindowsInstances/img/Graph.png",
@@ -207,8 +212,6 @@
     "build/img/sbs.png",
     "build/img/rn.svg",
     "build/img/logo.png",
-    "build/img/logo.svg",
-    "build/img/rn.png",
     "docs/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
     "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
     "docs/Compute/RHELInstances/CreatingRHELInstances.md",
@@ -223,8 +226,6 @@
     "docs/Compute/RHELInstances/AboutRHELInstances.md",
     "docs/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
     "docs/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
-    "docs/Compute/Kubernetes/ScalingKubernetesClusters.md",
-    "docs/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
     "Untitled.canvas"
   ]
 }
