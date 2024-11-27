@@ -31,3 +31,4 @@ The following features are available as part of AS3, with enhancements underway.
 - **S3 API Compatibility** - Ananta Object Storage Service is fully compatible with S3 API.
 - **Option to Unsubscribe from the Service** - Users can easily unsubscribe from the service at any time from the Ananta UI only.
 
+

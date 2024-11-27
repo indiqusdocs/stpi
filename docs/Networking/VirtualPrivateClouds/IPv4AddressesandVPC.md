@@ -67,3 +67,4 @@ Choosing the **Enable Static NAT** will allow you to use this public IP as a st
 
 To test whether static NAT has been configured correctly, you can use the public IP to SSH into the virtual machine that the IP is NAT-ing to.
 
+

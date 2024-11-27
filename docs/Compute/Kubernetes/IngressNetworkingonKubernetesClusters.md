@@ -50,3 +50,4 @@ Cluster load balancing rules distribute incoming network traffic across multiple
     6. Click on **ADD LOAD BALANCING RULE**.
     ![Load Balancing Rule](img/LoadBalancingRule.png)
 
+

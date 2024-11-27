@@ -21,3 +21,4 @@ You can delete the image by clicking on the delete icon present and the rightmos
 
 These Images can be used while creating new Linux or Windows Instances and found under the **MY IMAGES** tab in the OS Collection section.
 
+

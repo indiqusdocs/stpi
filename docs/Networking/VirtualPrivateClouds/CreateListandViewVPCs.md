@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Creating a VPC
 
-To create a VPC, follow the below steps:
+To create a VPC, follow these steps:
 
 1. Navigate to **Networking > Virtual Private Clouds**
 2. Click on the **_+ NEW VIRTUAL PRIVATE CLOUD_** from the top right.
@@ -60,4 +60,5 @@ Along with the summary, the following information is readily available under the
 ![Create, List and View VPCs](img/CreateVPC3.png)
 
 From here on, VPC operations, configurations and other available functions can be managed by navigating to the respective tabs/sections.
+
 

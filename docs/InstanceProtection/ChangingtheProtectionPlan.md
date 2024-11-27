@@ -11,3 +11,4 @@ Suppose you want to switch your current plan to a different one. This can be ach
 
 The change plan can also be made by navigating to the Protection section of a particular Instance.
 
+

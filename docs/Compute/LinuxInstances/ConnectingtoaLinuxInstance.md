@@ -27,7 +27,7 @@ You are now connected to your Instance.
 ## Connect from a macOS or Linux Machine
 
 1. Open any terminal program.
-2. Enter the following command below into the terminal. 
+2. Enter the following command into the terminal. 
    
    :::important 
    Make sure you replace `<your_private_key>` with the filename of your private key; `<your_instance_ip>` with the IP address of your Instance; and `<username>` with the default root user name (typically **ubuntu** for Ubuntu images and **root** for all other Linux OS images).
@@ -46,4 +46,5 @@ You are now connected to your Instance.
 	
 	You are now connected to your Instance.
 	```
+
 

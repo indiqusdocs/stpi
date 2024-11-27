@@ -11,3 +11,4 @@ The following points, however, need to be considered:
 2. If you simply switch nameservers, you'll still incur billing on your Ananta-powered cloud unless you have deleted the DNS Zone file from the **Operations** section of the DNS Zone on Ananta CloudConsole;
 3. There might be a propagation delay while switching nameservers, which means it's always a good idea to let the nameservers propagate completely before deleting anything from Ananta CloudConsole.
 
+

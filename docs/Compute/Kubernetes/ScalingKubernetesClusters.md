@@ -19,3 +19,4 @@ Ananta Cloud Console allows for manual and automatic cluster scaling. Clusters s
 3. Click on **CONFIRM SCALING**.
    ![Enable scaling](img/ScalingCluster4.png)
 
+

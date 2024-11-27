@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Networking Management with RHEL Instances
 
-Navigate to a [RHEL Instances](AboutRHELInstances.md), and access the **Networking** tab to see the networks that this Instance is attached to.
+To view the networks attached to RHEL Instance, navigate to  [RHEL Instances](AboutRHELInstances.md), and access the **Networking** tab
 
 The Networking and NICs section will list all the networks that a RHEL Instance is attached to.
 
@@ -17,5 +17,6 @@ The following actions are available:
 :::note
 Advanced networking configurations can be done using the [Virtual Private Clouds](/docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds) service.
 :::
+
 
 

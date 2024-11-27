@@ -51,3 +51,4 @@ This section list and display all the email IDs already configured for the alert
 All the recipients configured will receive all the setup alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
 :::
 
+

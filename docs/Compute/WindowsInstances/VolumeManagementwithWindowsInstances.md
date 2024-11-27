@@ -3,9 +3,7 @@ sidebar_position: 7
 ---
 # Volume Management with Windows Instances
 
-From [Operating Windows Instances](AboutWindowsInstances), navigate into a Windows Instance and access the **Volumes** tab to see the disks attached to this Instance.
-
-Windows Instances on Ananta work with the [Block Volumes Service](/docs/Storage/BlockVolumes/AboutBlockVolumes) and let you carry out basic disk operations.
+To view see the disks attached to Instance, navigate to [Operating Windows Instances](AboutWindowsInstances), select a Windows Instance and access the **Volumes** tab. Windows Instances on Ananta work with the [Block Volumes Service](/docs/Storage/BlockVolumes/AboutBlockVolumes) and let you carry out basic disk operations.
 
 ![Volume Management](img/VolumeManagement.png)
 
@@ -18,4 +16,5 @@ The following quick actions available:
 :::note
 Volume-level operations are available as part of the Block Volumes Service.
 :::
+
 

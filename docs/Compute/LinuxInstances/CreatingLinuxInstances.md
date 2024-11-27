@@ -40,3 +40,4 @@ It might take up to 5-8 minutes for the Linux instance to get created. You may u
 
 Once ready, you will be notified of this purchase on your registered email ID. The newly created Linux Instances can be accessed from **Compute >** **Linux Instances** on the main navigation panel.
 
+

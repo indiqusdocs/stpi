@@ -10,3 +10,4 @@ Ananta Cloud Console is the white-label CMP (cloud management platform) that sub
 
 ![CloudConsole Overview](img/CloudConsoleOverview.png)
 
+

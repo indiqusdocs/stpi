@@ -11,3 +11,4 @@ If Ananta Cloud takes online payments, then payments against individual invoices
 Ananta Cloud does not store any card or bank account information, and the same is handled solely by the payment gateway provider.
 :::
 
+

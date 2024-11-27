@@ -23,3 +23,4 @@ Two quick options are available, one is to revert the Instance from the snapshot
 
 To create a snapshot, please click on the **CREATE SNAPSHOT** button and it will ask you for the name of the snapshot and the description of the snapshot click on create the snapshot will be created, and if you click on cancel the action will be canceled.
 
+

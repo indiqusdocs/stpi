@@ -54,3 +54,4 @@ You can simply delete the Volume Snapshot by clicking on the delete icon from th
 
 ![Managing Instance and Volume Snapshots](img/ManagingInstanceandVolumeSnapshots8.png)
 
+

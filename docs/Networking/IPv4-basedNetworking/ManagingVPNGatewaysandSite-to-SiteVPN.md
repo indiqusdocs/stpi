@@ -21,3 +21,4 @@ To use a site-to-site VPN connection into your VPC, you’ll need to first defin
 
 To test this configuration, you can ping any of the subnet IPs or the VR’s default IP from within your external private network.
 
+

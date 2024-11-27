@@ -52,3 +52,4 @@ If **approval-based provisioning** is enabled for the VFI Service, the following
 1. **End User Notification**
 	- If the request is approved, the end user will receive an additional email with- **Subscription details, Service access information.**
 
+
