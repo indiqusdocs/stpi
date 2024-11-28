@@ -8,16 +8,16 @@ Instance Protection service can be enabled in two ways.
 **During Instance Creation**
 
 1. Follow the steps to create a [Linux](/docs/Compute/LinuxInstances/CreatingLinuxInstances) or a [Windows](/docs/Compute/WindowsInstances/CreatingWindowsInstances) instance.
-2. You have to enable the _Protect this Instance_ switch. There, you will get a _Standard Protection Service_, and you can also opt for _Advance Protection Features_. 
+2. You have to enable the **Protect this Instance** switch. There, you will get a **Standard Protection Service**, and you can also opt for **Advance Protection Features**. 
   3. The pricing summary will be reflected as per the selection.
 
 **After Instance Creation**
 
-If you already have a Linux or Windows Instance and didn't enable the protection service while creating the instance, you can do it later. Navigate to the Listing of the Linux/Windows Instances. Click on the particular instance. follow these steps to activate the protection plan service.
+If you did not enable the protection service while creating the instance, follow these steps to activate it:
 
-1. Inside the instance listing, find the **Protection** section and click on the **ENABLE PROTECTION** button.
-   2.  Click on Confirm, and if you want to enable the advanced protection features, then enable the switch.
- 3. After the confirmation, the steps for the activation will be listed, and these steps need to be run through the command line. Once the instructions mentioned have been performed, the particular instance will be protected, and the details will be listed in the  **Instance Protection** menu.
+1. Go to the **Linux/Windows Instances** section and click on the specific instance. Then, navigate to the **Protection** section and click the **ENABLE PROTECTION** button.
+2. To enable advanced protection features, toggle the switch to enable them and Click **Confirm**.
+3. After confirming, a list of activation steps will appear. These steps should be executed via the command line. Once completed, the instance will be protected, and its details will be available in the **Instance Protection** menu.
 
 :::note
 The list of supported operating systems and environments can be viewed at the following link:

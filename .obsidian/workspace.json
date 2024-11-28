@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/WindowsInstances/WindowsInstanceOperations.md",
+                "file": "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WindowsInstanceOperations"
+              "title": "AboutFirewallInstances"
             }
           }
         ],
@@ -180,6 +180,15 @@
   },
   "active": "ca8d67f7a786ff92",
   "lastOpenFiles": [
+    "docs/Networking/DNSManagement/SwitchingtoAnotherDNSProvider.md",
+    "docs/Networking/DNSManagement/ManagingDNSRecords.md",
+    "docs/Networking/DNSManagement/LinkingDomainstoAnantaCloudConsole.md",
+    "docs/Networking/DNSManagement/AboutDNSManagement.md",
+    "docs/InstanceProtection/ViewingProtectedInstances.md",
+    "docs/InstanceProtection/TurningofftheProtectionPlan.md",
+    "docs/InstanceProtection/EnablingInstanceProtection.md",
+    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "docs/InstanceProtection/ChangingtheProtectionPlan.md",
     "docs/InstanceProtection/AboutInstanceprotection.md",
     "docs/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
     "docs/Compute/WindowsInstances/WindowsInstanceOperations.md",
@@ -217,15 +226,6 @@
     "docs/Compute/RHELInstances/CreatingRHELInstances.md",
     "docs/Compute/RHELInstances/WorkingwithRHELInstanceSnapshots.md",
     "docs/Compute/RHELInstances/VolumeManagementwithRHELInstances.md",
-    "docs/Compute/RHELInstances/ViewingGraphsandUtilizationofRHELInstances.md",
-    "docs/Compute/RHELInstances/ViewingDetailsofRHELInstances.md",
-    "docs/Compute/RHELInstances/RHELInstanceOperations.md",
-    "docs/Compute/RHELInstances/ReconfiguringRHELInstances.md",
-    "docs/Compute/RHELInstances/ProtectingRHELInstances.md",
-    "docs/Compute/RHELInstances/NetworkingManagementwithRHELInstances.md",
-    "docs/Compute/RHELInstances/AboutRHELInstances.md",
-    "docs/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
-    "docs/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
     "Untitled.canvas"
   ]
 }

@@ -3,9 +3,9 @@ sidebar_position: 1
 ---
 # About Firewall Instances
 
-Ananta supports the delivery and management of Virtual Firewall Instances (VFI) in an as-a-service model. VFI is essentially a Linux Instance pre-loaded with a firewall software which makes it work as a a virtual appliance. The Service falls under the ‘Firewalls and Security’ paradigm and is built using our integration framework using [pfSense](https://pfsense.org/) or [FortiGate VM](https://www.fortinet.com/products/private-cloud-security/fortigate-virtual-appliances) for powering the appliance.
+Ananta supports the delivery and management of Virtual Firewall Instances (VFI) in an as-a-service model. VFI is essentially a Linux Instance pre-loaded with a firewall software which makes it work as a a virtual appliance. The Service falls under the **Virtual Firewall** and is built using our integration framework using [pfSense](https://pfsense.org/) or [FortiGate VM](https://www.fortinet.com/products/private-cloud-security/fortigate-virtual-appliances) for powering the appliance.
 
-Cloud Console users can use VFI as an alternative to VR-based VPC which allows users to achieve stronger security and firewalling capabilities. The VFI Service uses L2 networks, which can help in conserving IPv4 addresses.
+Cloud Console users can use VFI as an alternative to VR-based VPC, enabling stronger security and enhanced firewall capabilities. The VFI service utilizes L2 networks, which help conserve IPv4 addresses.
 
 Currently, VFI is an experimental Service on Ananta and there are a few limitations to it:
 
