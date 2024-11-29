@@ -7,7 +7,7 @@ The Application Load Balancer feature prevents the overloading of a single serve
 
 To configure **pfSense Firewall** and **Application Load Balancer**, follow these steps:
 
-First, set up the Virtual Firewall on Ananta Cloud. For detailed instructions, refer to the [Creating a Virtual Firewall](/docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall) page.
+To set up the Virtual Firewall on Ananta Cloud, refer to the [Creating a Virtual Firewall](/docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall) page.
 
 1. To view the details of the pfSense Firewall, click the **Virtual Firewall Name** highlighted in blue.
 ![Pfsense Firewall](img/ApplicationLoadBalancer1.png)

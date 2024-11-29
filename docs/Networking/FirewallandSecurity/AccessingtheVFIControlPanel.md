@@ -9,7 +9,7 @@ Depending on the software/appliance powering the VFI, the steps needed to activa
 
 ## Prerequisites and Preparation
 
-Under the VFI listing, click on the **VFI** whose control panel needs to be activated. The [details popover](/docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails) will list the required information, which are:
+Navigate to VFI, click on the **VFI** whose control panel needs to be activated. The [details popover](/docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails) will list the required information, which are:
 
 ```
 Virtual Firewall: <virtual_firewall_vm_name>
@@ -24,9 +24,9 @@ Keeping the above information ready and handy, click on the icon that looks like
 ## Activating the Control Panel for pfSense VFI
 
 1. On the VFI/machine's console, you'll be shown an on-screen menu - `use option 2` to enter the `Set Interface(s) IP Address` menu.
-2. Select the option corresponding to the WAN interface; where prompted, **do not** use DHCP and, instead, use the Virtual Firewall's Public/WAN IPv4 address to designate as the WAN IP.
-3. Specify gateway and subnet details as mentioned in this email and on Ananta Cloud Console.
-4. Where prompted, **do not** use `https` for the `webconfigurator` module. Once done, you should be able to use the `Public/WAN IPv4` Address to access the Virtual Firewall Management UI. The default login details are:
+2. When prompted, select the WAN interface option. **Do not** use DHCP; instead, assign the Virtual Firewall's Public/WAN IPv4 address as the WAN IP.
+3. Specify gateway and subnet details as mentioned in the email and on Ananta Cloud Console.
+4. When prompted, **do not** use `https` for the `webconfigurator` module. After completing this, you should be able to access the Virtual Firewall Management UI using the `Public/WAN IPv4` Address. The default login details are:
 ```
 Username: **admin**
 Password: **pfsense**

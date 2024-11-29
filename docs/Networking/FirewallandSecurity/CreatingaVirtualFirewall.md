@@ -38,18 +38,18 @@ If **approval-based provisioning** is enabled for the VFI Service, the following
 1. **Request Submission**
 	-  A provisioning request is automatically raised to the cloud administrator.
 	- The requester will be notified via email once the request is approved or rejected.
-1. **Request Status**
+2. **Request Status**
 	-  Upon approval or activation, the Virtual Firewall appliance becomes visible in the **Virtual Firewalls list**.
-2. **Accessing the Request**
+3. **Accessing the Request**
 	- The request is available under the **Requests** section in the **Support & Operations** menu on the Ananta admin console.
-1. **Admin Actions**
+4. **Admin Actions**
 	- The administrator can:
 	    - Review the request
 	    - Approve or reject the request
 	    - Enter any custom price overrides
 	    - Click **OK** to finalize the action
 	- The **end user** and the **admin** will receive an email notification regarding the request status.
-1. **End User Notification**
+5. **End User Notification**
 	- If the request is approved, the end user will receive an additional email with- **Subscription details, Service access information.**
 
 

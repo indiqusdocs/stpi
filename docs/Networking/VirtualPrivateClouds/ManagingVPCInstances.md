@@ -5,7 +5,7 @@ sidebar_position: 6
 
 ## Viewing VPC Instances
 
-Ananta Cloud Console offers a quick means to view Instances that are part of a VPC network, and to associate or dissociate Instances with VPCs. This can be done via the **VPC Instances** section under VPC details.
+Ananta Cloud Console offers a quick means to view Instances that are part of a VPC network, and to associate or dissociate Instances with VPCs. For this navigate to VPC Instance and click on it. 
 
 ![Managing VPC Instances](img/ManagingVPCInstances1.png)
 

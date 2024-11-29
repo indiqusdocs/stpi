@@ -7,12 +7,12 @@ VPC management offers the following operations. These are basic VPC management a
 
 ## Reconfiguring a VPC
 
-The **Reconfigure** section/tab will list your current subscription details and allow you to reconfigure the networking pack, or switch between _hourly_ and _monthly_ pricing.
+The **Reconfigure** section/tab will list your current subscription details and allow you to reconfigure the networking pack, or switch between **hourly** and **monthly** pricing.
 
 ![VPC Management and Basic Operations](img/VPCManagement1.png)
 
 :::note
-You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We recommend switching the plan first before reconfiguring the Instance if you wish to use both the Reconfigure and Switch Plan options. In either case, you will be charged as per the reconfiguration and not the existing.  
+You can only reconfigure with the same billing interval. If you wish to change the billing interval, please use the **Switch Plan** button. We recommend switching the plan first before reconfiguring the instance if you wish to use both the **Reconfigure** and **Switch Plan** options. In either case, you will be charged based on the reconfiguration, not the existing plan.
 :::
 
 ## Powering ON/OFF the Virtual Router

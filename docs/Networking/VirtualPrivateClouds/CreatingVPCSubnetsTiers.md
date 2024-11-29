@@ -7,13 +7,17 @@ VPCs follow the convention of 3-tiered architectures, with web, app, and DB tier
 
 ![Creating VPC Subnets/Tiers](img/VPCSubnets1.png)
 
-To add a tier to your VPC, navigate to the VPC you wish to add the tier to, and click on the **ADD TIER** option present inside the **SUBNETS AND TIERS** section of the VPC. This will open up a dialog box asking you to provide the following information:
+To add a tier to your VPC, navigate to the VPC you wish to add the tier to,  select a **SUBNETS AND TIERS** section and click the **ADD TIER** option. A dialog box will open to ask the following information:
 
 - **Name** of the tier.
-- **Gateway** for the subnet. _Please note that this gateway should be consistent with the_ 
+- **Gateway** for the subnet. 
 - **Subnet mask** for the tier/subnet.
 - Default **access control** policy for this tier.
-- **Load balancing** required on this tier. _Please note that to set up a public load balancer, you need to select_ **_Public LB_** _on this dropdown. Please also note that there can only be 1 tier of type Public LB in a network.
+- **Load balancing** information for this tier.
+
+:::note
+To set up a public load balancer, you need to select **Public LB** on this dropdown. There can only be 1 tier of type Public LB in a network.
+:::
 
 Click on **ADD NETWORK TIER** to create the tier or subnet to be used as part of the VPC.
 
