@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
+                "file": "docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VPCManagementandBasicOperations"
+              "title": "ManagingSSHKeysandKeyPairs"
+            }
+          },
+          {
+            "id": "34a5904895b7987e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20241202113149.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241202113149"
             }
           }
         ],
@@ -178,8 +190,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca8d67f7a786ff92",
+  "active": "ef7415b37c790712",
   "lastOpenFiles": [
+    "build/search-index.json",
+    "build/docs/Networking/L2 Networks/AboutL2Networks/index.html",
+    "build/docs/Networking/L2 Networks/AddNewL2Networks/index.html",
+    "build/docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails/index.html",
+    "build/docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork/index.html",
+    "build/docs/Networking/FirewallandSecurity/AboutFirewallInstances/index.html",
+    "build/docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC/index.html",
+    "build/docs/Networking/FirewallandSecurity/DeletingaVFINetwork/index.html",
+    "build/docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall/index.html",
+    "build/docs/Networking/FirewallandSecurity/ApplicationLoadBalancer/index.html",
+    "build/docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations/index.html",
+    "docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
+    "docs/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
+    "docs/ToolsandUtilities/AboutToolsandUtilities.md",
+    "docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots.md",
+    "docs/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
+    "Pasted image 20241202113241.png",
+    "Pasted image 20241202113222.png",
+    "Pasted image 20241202113149.png",
+    "docs/Storage/BlockVolumes/img/BlockVolume3.png",
+    "docs/Storage/BlockVolumes/img/BlockVolume2.png",
+    "docs/Storage/BlockVolumes/img/BlockVolume1.png",
+    "docs/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes.md",
+    "docs/Storage/BlockVolumes/AboutBlockVolumes.md",
+    "docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
+    "docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
     "docs/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
     "docs/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
     "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
@@ -194,38 +232,12 @@
     "Pasted image 20241129122434.png",
     "docs/Networking/VirtualPrivateClouds/img/VPCCreation3.png",
     "docs/Networking/VirtualPrivateClouds/img/VPCCreation2.png",
-    "docs/Networking/VirtualPrivateClouds/img/VPCCreation1.png",
     "docs/Networking/NATGateways/ManagingNATGateways.md",
     "docs/Networking/NATGateways/AboutNATGateways.md",
-    "docs/Networking/VirtualPrivateClouds/img/LoadBalancing1.png",
     "docs/Networking/L2 Networks/AddNewL2Networks.md",
     "docs/Networking/L2 Networks/AboutL2Networks.md",
     "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
     "docs/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
-    "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
-    "docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails.md",
-    "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
-    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
-    "docs/Networking/FirewallandSecurity/AboutFirewallInstances.md",
-    "docs/Networking/DNSManagement/SwitchingtoAnotherDNSProvider.md",
-    "docs/Networking/DNSManagement/ManagingDNSRecords.md",
-    "docs/Compute/WindowsInstances/img/Operations1.png",
-    "docs/Compute/WindowsInstances/img/Operations.png",
-    "docs/Compute/WindowsInstances/img/Graph.png",
-    "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
-    "build/docs/Storage/ObjectStorageBucket/AboutApiculusObjectStorage/index.html",
-    "build/docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations/index.html",
-    "build/docs/Storage/ObjectStorageBucket/FrequentlyAskedQuestions/index.html",
-    "build/docs/Networking/LoadBalancerInstances/CreatingaLoadBalancerInstance/index.html",
-    "build/docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails/index.html",
-    "build/docs/Storage/BlockVolumes/WorkingwithInstanceVolumes/index.html",
-    "build/docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots/index.html",
-    "build/docs/Storage/BlockVolumes/AboutBlockVolumes/index.html",
-    "build/docs/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes/index.html",
-    "build/img/undraw_docusaurus_mountain.svg",
     "Untitled.canvas"
   ]
 }
