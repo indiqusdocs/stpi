@@ -20,7 +20,7 @@ SSH keys can be managed from the **Tools and Utilities > SSH Key Pairs** secti
 
 To use an Linux Instance with an SSH key, it needs to be associated with a key first. This can be done in two ways:
 
-1. While [creating a new Linux Instance](/docs/Compute/LinuxInstances/CreatingLinuxInstances), in the provisioning details form, choose any of the SSH options from the **Use SSH key pair** option under **Choose an Authentication method**. This will let you:
+1. While [creating a new Linux Instance](/docs/Compute/LinuxInstances/CreatingLinuxInstances), in the provisioning details form, choose any of the SSH options from the **Use SSH key pair** option under **Choose an Authentication method**. This will allow you to:
     1. Generate a new key pair on the go.
     2. Upload a public key from your system.
     3. Choose an already added SSH key in your Ananta Cloud account.

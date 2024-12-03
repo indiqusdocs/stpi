@@ -25,7 +25,7 @@ Additionally, a VPC restart is possible using the **RESTART VIRTUAL ROUTER** o
 
 ## Deleting a VPC
 
-To delete a VPC, navigate to the **Operations** tab>**Delete VPC Network** button. Deleting a VPC will remove it permanently. Before attempting to delete this VPC, ensure that all Tiers, IPv4 Addresses, and Instances are removed from this VPC.
+To delete a VPC, navigate to the **Operations** > **Delete VPC Network** button. Deleting a VPC will remove it permanently. Before attempting to delete this VPC, ensure that all Tiers, IPv4 Addresses, and Instances are removed from this VPC.
 
 :::note
 This action is irreversible, and you may not be able to recover any data for this VPC.

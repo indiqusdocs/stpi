@@ -27,10 +27,10 @@ Keeping the above information ready and handy, click on the icon that looks like
 2. When prompted, select the WAN interface option. **Do not** use DHCP; instead, assign the Virtual Firewall's Public/WAN IPv4 address as the WAN IP.
 3. Specify gateway and subnet details as mentioned in the email and on Ananta Cloud Console.
 4. When prompted, **do not** use `https` for the `webconfigurator` module. After completing this, you should be able to access the Virtual Firewall Management UI using the `Public/WAN IPv4` Address. The default login details are:
-```
-Username: **admin**
-Password: **pfsense**
-```
+	```
+	Username: **admin**
+	Password: **pfsense**
+	```
 
 
 ## Activating the Control Panel for FortiGate VM VFI
@@ -43,7 +43,9 @@ Password: **pfsense**
 show system interface
 ```
 
-port1 will be the default WAN interface.
+	:::note
+	port1 will be the default WAN interface.
+	:::
 
 4. Use the following commands in sequence to configure the **Virtual Firewall Management** UI.
 
@@ -63,7 +65,6 @@ config router static
 edit 1  
 set gateway {gateway}
 ```
-
 
 ## Accessing the Control Panel(s)
 

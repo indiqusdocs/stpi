@@ -50,7 +50,10 @@ Choosing **+ Add Port Forwarding Rule** from the IP address menu will enable t
 
 - **Protocol** for port-forwarding.
 - The **tier** and the **virtual machine** to port-forward to.
-- **Public** and **private port** ranges. _Please note that the_ **_end ports_** _should be equal to or greater than the_ **_start ports_**_._
+- **Public** and **private port** ranges. 
+	:::note
+	The end ports should be equal to or greater than the start ports.
+	:::
 
 Once the port-forwarding rule has been created, you can now go into the port-fowarding IP address and view details of this rule. To do this, follow these steps:
 

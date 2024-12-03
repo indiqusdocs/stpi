@@ -3,8 +3,8 @@ sidebar_position: 3
 ---
 # Viewing Protected Instances
 
-1. Navigate to  Backups and select an **Instance Protection**
-2. To display a list of all protected instances, click the **Protected Instances** 
+1. Navigate to Backups and select an **Instance Protection**.
+2. To display a list of all protected instances, click the **Protected Instances**.
 3. Select a specific instance name to view the following options:
     - **Protection**
     - **Backups**

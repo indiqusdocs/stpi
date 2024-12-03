@@ -7,7 +7,7 @@ The Ananta Block Volumes Service allows for extensively working with volume snap
 
 ## Creating Instant Snapshots
 
-To create Volume Snapshot , navigate to the Snapshots tab and select CREATE SNAPSHOT. It will create a snapshot which can be used to further create an Image (template) or restore an existing volume.
+To create Volume Snapshot, navigate to the Snapshots tab and select CREATE SNAPSHOT. It will create a snapshot which can be used to further create an Image (template) or restore an existing volume.
 
 ![Working with Volume Snapshots](img/WorkingwithVolumeSnapshots.png)
 

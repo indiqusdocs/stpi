@@ -7,28 +7,28 @@ sidebar_position: 2
  
  1. In the main menu, navigate to the **Networking > Virtual Firewalls** tab. 
  2. To activate the service, click on **+ NEW VIRTUAL FIREWALL** button.
-  :::note
-    Ananta currently only supports one Virtual Firewall per Availability Zone.
-  :::
+	  :::note
+	    Ananta currently only supports one Virtual Firewall per Availability Zone.
+	  :::
 
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
+	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
 3. Select your Availability Zone.
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall2.png)
+	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall2.png)
 4. Choose the compute pack from the list.
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall3.png)
+	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall3.png)
 5. Select the Firewall provider from the dropdown menu.<br />
-![Firewall Provider](img/FirewallProvider.png)
-7. Select the Incoming Traffic Rule (Allow All , Deny All, Allow Custom) and give name to your Virtual Firewall.
-:::note
-	**Allow All-** Grants access to all protocols and services without restriction when selected.
-	**Deny All-**  Restrict access to all protocols and services when selected
-	**Allow Custom-** Enable the user to specify the Source from which traffic should be allowed.
-:::
-![Incoming Traffic Rule](img/TrafficRule.png)
-9. Review the summary and estimated costs for both **Hourly** and **Monthly** options.
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall5.png)
-7. Choose **Buy Hourly** or **Buy Monthly** based on your requirement, and then click **Confirm** on the confirmation popover.
-![Creating a Virtual Firewall](img/CreatingaVirtualFirewall6.png)
+	 ![Firewall Provider](img/FirewallProvider.png)
+6. Select the Incoming Traffic Rule (Allow All , Deny All, Allow Custom) and give name to your Virtual Firewall.
+	:::note
+		**Allow All-** Grants access to all protocols and services without restriction when selected.
+		**Deny All-**  Restrict access to all protocols and services when selected
+		**Allow Custom-** Enable the user to specify the Source from which traffic should be allowed.
+	:::
+	![Incoming Traffic Rule](img/TrafficRule.png)
+7. Review the summary and estimated costs for both **Hourly** and **Monthly** options.
+	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall5.png)
+8. Choose **Buy Hourly** or **Buy Monthly** based on your requirement, and then click **Confirm** on the confirmation popover.
+	 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall6.png)
 
 The Virtual Firewall service can be configured for provisioning in a self-service or an approval-based manner.
 

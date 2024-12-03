@@ -5,7 +5,7 @@ sidebar_position: 2
 
 Each Instance on Ananta (Linux or Windows) includes a 'root' disk or volume. This is the primary disk partition on the Instance, and by default, all operating systems, data, components and files reside on the root disk.
 
-Further, Instances can have addon or 'data' disks attached to them which act as additional disk partitions. These data disks are modular and can be moved between multiple Instances.
+Further, Instances can have add-on or 'data' disks attached to them which act as additional disk partitions. These data disks are modular and can be moved between multiple Instances.
 
 Apart from this, there is no difference between a root disk and a data disk. Both types of Volumes are managed using the Block Volumes Service. However, based on the volume type, certain operations may not be available.
 
@@ -22,7 +22,7 @@ Apart from this, there is no difference between a root disk and a data disk. Bot
 To create a Block Volume data disk, follow these steps:
 
 1. Navigate to **Storage > Block Volumes.**
-   ![New Block Volume](img/BlockVolume1.png)
+	![New Block Volume](img/BlockVolume1.png)
 2. Choose your Availability Zone.
 3. Select an Instance from the list available in the dropdown to which you want to attach your Disk to. This is not mandatory; it can also be done later.
 4. Choose the disk configuration from the available Disk packs, or you can use the free size option to specify the Disk configuration.

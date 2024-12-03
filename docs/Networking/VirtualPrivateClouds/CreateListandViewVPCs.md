@@ -19,7 +19,7 @@ To create a VPC, follow these steps:
 8. Click the check box after going through the policies mentioned by your cloud service provider.
    ![Name your Virtual Private Cloud](img/VPCCreation3.png)
 9. To display the price summary, click the **BUY HOURLY** or **BUY MONTHLY** button, a confirmation pop-over will open up.
-    1. You can apply any of the discount codes listed by clicking on the **APPLY** button. 
+    1. You can apply any of the discount codes listed by clicking the **APPLY** button. 
     2. You can also remove the applied discount code by clicking the **REMOVE** button. 
     3. You can cancel your action by clicking the **CANCEL** button.
 10. Click the **CONFIRM** to create the VPC.
@@ -51,7 +51,7 @@ To view a list of sections and the various operations or actions you can perform
 
 Along with the summary, the following information is readily available in the **Overview** tab:
 
-- Configuration and Availability
+- Configuration and Availability-
     - The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in greyed out.
     - Information about the Virtual Router Pack.
     - Information about the Network Size

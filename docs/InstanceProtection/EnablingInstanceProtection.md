@@ -9,7 +9,7 @@ Instance Protection service can be enabled in two ways.
 
 1. Follow the steps to create a [Linux](/docs/Compute/LinuxInstances/CreatingLinuxInstances) or a [Windows](/docs/Compute/WindowsInstances/CreatingWindowsInstances) instance.
 2. You have to enable the **Protect this Instance** switch. There, you will get a **Standard Protection Service**, and you can also opt for **Advance Protection Features**. 
-  3. The pricing summary will be reflected as per the selection.
+3. The pricing summary will be reflected as per the selection.
 
 **After Instance Creation**
 
