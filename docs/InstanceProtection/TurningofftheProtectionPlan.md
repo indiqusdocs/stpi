@@ -5,13 +5,11 @@ sidebar_position: 5
 
 Protection can be turned off in two ways. The first one is as follows:
 
--  To turn off the protection plan, click on the **TURN OFF PROTECTION** button inside the protection section of a particular instance and click confirm.
-- Click on **YES, CONFIRM** button, and the protection will be turned off for this particular instance.
+-  To turn off the protection plan, click the **TURN OFF PROTECTION** button inside the protection section of a particular instance and click confirm.
 
-The other way is mentioned as follows:
+The another way is mentioned as follows:
 
-- Navigate to the _Instance Protection_ Under _Backups_ and click on the particular instance.
-- Navigate to the _Operations_ section and click on _Turn off_ _Protection_
-- Click on _YES, CONFIRM_ button, and the protection will be turned off for this particular instance.
+- Navigate to  Backups and select an **Instance Protection** and click the particular instance.
+- To Turn off the protection for this particular instance, Navigate to the **Operations** section and click on **Turn off** **Protection**
 
 

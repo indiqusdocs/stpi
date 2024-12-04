@@ -7,7 +7,7 @@ The VPC feature on Ananta provides advanced networking capabilities for use with
 
 There are two types of VPN connections supported on Ananta Cloud:
 
-1. **[Remote Access VPN](/docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC) -** To connect securely from your home or office to your VPC on Ananta Cloud. This is used primarily when you’re using a dynamic IP to connect to the internet and a VPN connection can, therefore, not be pre-configured.
+1. **[Remote Access VPN](/docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC) -** To connect securely from your home or office to your VPC on Ananta Cloud. This is mainly used when you have a dynamic IP to connect to the internet, so a VPN connection cannot be pre-configured.
 2. **[Site-to-Site VPN](/docs/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN) -** To connect a private static network to your VPC on Ananta Cloud using an IPSec tunnel. Site-to-site gateways must be pre-configured on Ananta Cloud.
 
 The underlying SDN on Ananta Cloud provides a L2TP-over-IPsec-based remote access VPN service to VPCs and guest virtual networks. Since each VPC has its own virtual router, VPNs are not shared across the networks.
