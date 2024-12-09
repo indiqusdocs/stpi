@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
+                "file": "docs/Networking/FirewallandSecurity/DeletingaVFINetwork.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VolumeManagementwithLinuxInstances"
+              "title": "DeletingaVFINetwork"
             }
           },
           {
@@ -104,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 321.5
   },
   "right": {
     "id": "d1303f5c52f5e51b",
@@ -192,6 +192,9 @@
   },
   "active": "ca8d67f7a786ff92",
   "lastOpenFiles": [
+    "docs/AccountCentre/AboutAnantaAccountCentre.md",
+    "docs/CloudExperienceManagement/CloudOperationsManagement.md",
+    "docs/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
     "docs/Compute/LinuxInstances/WorkingwithLinuxInstanceSnapshots.md",
     "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
     "docs/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
@@ -215,8 +218,6 @@
     "docs/AccountCentre/Payments.md",
     "docs/AccountCentre/Organisation-AccountProfile.md",
     "docs/AccountCentre/InvoicesandCreditNotes.md",
-    "docs/AccountCentre/AboutAnantaAccountCentre.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
     "build/blog/atom.xml",
     "build/blog/rss.xml",
     "build/blog/atom.css",
@@ -232,7 +233,6 @@
     "build/assets/images/AnantaObjectStorage-b83a335fec6a9d8dee505133062b88b6.png",
     "build/assets/images/ManagingCustomTemplatesandImages2-53ee351cddbac6a830454625fb3207fb.png",
     "build/assets/images/ManagingCustomTemplatesandImages1-b1a84c70bfc4e336927cebdf742b6f82.png",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
     "docs/Storage/ObjectStorageBucket/ApiculusObjectStorage.png",
     "docs/Storage/ObjectStorageBucket/img/AnantaObjectStorage.png",
     "Pasted image 20241202113241.png",
