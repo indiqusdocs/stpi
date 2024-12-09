@@ -19,7 +19,7 @@ sidebar_position: 4
 	11. Remove any cloud-init entry from the grub. <br />`sudo update-grub`
 	12. Reboot the system. <br />`sudo reboot`
 
-5. Stop The VM from the Ananta portal and create a Root snapshot of that VM.
+5. Stop the VM from the Ananta portal and create a Root snapshot of that VM.
 6. Create Image using the Snapshot. (After creation, it will be visible in the **My Image** section).
    ![My Image Section](img/MyImage.png)
 7. Navigate to the VPC section, purchase an IPv4 address, and create a load balancing rule using the acquired IPv4 address.
