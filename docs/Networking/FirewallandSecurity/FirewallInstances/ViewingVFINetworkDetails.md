@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 10
 ---
 # Viewing VFI Network Details
 
@@ -10,7 +10,6 @@ As the VFI and the VFI-based network are created, Cloud Console users can view t
 3. Availability Zone
 4. L2-WAN IPV4
 5. No. of Instances associated with the particular Virtual Firewall
-6. Quick operations like [accessing the VFI control panel](AccessingtheVFIControlPanel) and deleting the Virtual Firewall
 
 ![Viewing VFI Network Details](img/CreatingaVirtualFirewall1.png)
 
