@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 # Accessing the VFI Control Panel
 
@@ -9,7 +9,7 @@ Depending on the software/appliance powering the VFI, the steps needed to activa
 
 ## Prerequisites and Preparation
 
-Navigate to VFI, click on the **VFI** whose control panel needs to be activated. The [details popover](/docs/Networking/FirewallandSecurity/ViewingVFINetworkDetails) will list the required information, which are:
+Navigate to VFI, click on the **VFI** whose control panel needs to be activated. The details popover will list the required information, which are:
 
 ```
 Virtual Firewall: <virtual_firewall_vm_name>

@@ -14,15 +14,6 @@ Currently, VFI is an experimental Service on Ananta and there are a few limitati
 3. Only Instances with a special Linux OS can be added to VFI-based networks.
 4. VFI needn't inherit Ananta-level RBAC for users.
 
-Ananta offers the following features in its current scope:
-
-- [Creating a Virtual Firewall Instance](docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md)
-- [Creating a VFI-based network](AddingInstancestoaVFI-basedNetwork)
-- [Activating and accessing the VFI control panel](AccessingtheVFIControlPanel)
-- [Viewing VFI network details](ViewingVFINetworkDetails)
-- [Deleting a VFI network](DeletingaVFINetwork)
-- [Application Load Balancer](ApplicationLoadBalancer)
-
 All VFI created in an account can be accessed from navigating to the **Networking > Virtual Firewalls** tab.
 ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
 

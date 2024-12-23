@@ -7,7 +7,7 @@ Ananta Cloud Console allows for manual and automatic cluster scaling. Clusters s
 ![Scale Cluster](img/ScalingCluster1.png)
 ## Manually Scaling a Cluster
 
-1. Under **Nodes**, click on **SCALE CLUSTER**, and a pop tab will appear; keep 'autoscaling' disabled.
+1. Under **Nodes**, click on **SCALE CLUSTER**, and a pop over will appear; keep 'autoscaling' disabled.
    ![AutoScaling ](img/ScalingCluster2.png)
 2. Select one of the available compute packs.
 3. Click on **CONFIRM SCALING**.
