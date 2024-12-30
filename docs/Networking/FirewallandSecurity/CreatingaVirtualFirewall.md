@@ -5,12 +5,11 @@ sidebar_position: 2
 
  To create a Virtual Firewall, follow these steps:
  
- 1. In the main menu, navigate to the **Networking > Virtual Firewalls** tab. 
- 2. To activate the service, click on **+ NEW VIRTUAL FIREWALL** button.
+ 1. Navigate to the **Networking > Virtual Firewalls**.
+ 2. Click on **+ NEW VIRTUAL FIREWALL** button.
 	  :::note
 	    Ananta currently only supports one Virtual Firewall per Availability Zone.
 	  :::
-
 	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
 3. Select your Availability Zone.
 	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall2.png)

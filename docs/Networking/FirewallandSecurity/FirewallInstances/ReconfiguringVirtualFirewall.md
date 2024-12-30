@@ -1,11 +1,14 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 ---
 # Reconfiguring Virtual Firewall
 
-To view a available reconfiguration options, navigate to the Networking section and select a Virtual Firewall and access the **Reconfigure** tab.
+To view a available reconfiguration options, navigate the Virtual Firewall and access the **Reconfigure** tab.![Reconfigure](img/Reconfigure.png)
 
- The Virtual Firewall on Apiculus can be reconfigured in the following ways:
+:::note 
+Your Virtual Firewall needs to be powered OFF in order to be reconfigured.
+:::
+ The Virtual Firewall on Ananta can be reconfigured in the following ways:
 
 - Billing interval changed between monthly and hourly.
 - Choosing and applying a new Compute pack.

@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/FirewallandSecurity/FirewallInstances/Operations.md",
+                "file": "Sample.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operations"
-            }
-          },
-          {
-            "id": "34a5904895b7987e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20241202113149.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241202113149"
+              "title": "Sample"
             }
           }
         ]
@@ -64,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Apiculus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,23 +166,40 @@
   },
   "active": "f7a6eb6d49533364",
   "lastOpenFiles": [
-    "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/Operations.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall.md",
+    "Self-service and Administration.md",
+    "Sample.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/Operations.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
+    "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
+    "docs/Storage/ObjectStorageBucket/AboutAnantaObjectStorage.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
+    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
+    "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/Overview.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
+    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
+    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/Snapshots.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFINetworkDetails.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Reconfigure.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateSnapshot.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Snapshots.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Operations.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Networking.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Volumes.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateAlert.png",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/img/Alerts.png",
+    "Pasted image 20241202113149.png",
+    "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
     "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Compute/LinuxInstances/ViewingGraphsandUtilizationofLinuxInstances.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/Overview.md",
     "docs/Compute/LinuxInstances/ViewingDetailsofLinuxInstances.md",
     "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/DeletingaVFINetwork.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
     "build/search-index.json",
     "build/docs/InstanceProtection/ViewingProtectedInstances/index.html",
     "build/docs/InstanceProtection/TurningofftheProtectionPlan/index.html",
@@ -205,24 +211,7 @@
     "build/docs/InstanceProtection/EnablingInstanceProtection",
     "build/docs/InstanceProtection/ChangingtheProtectionPlan",
     "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
-    "build/img/sps.png",
-    "build/img/sbs.png",
-    "build/img/sbs.svg",
-    "build/img/rn.svg",
-    "build/img/favicon.png",
-    "build/img/rn.png",
-    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
     "docs/AccessCentral.md",
-    "docs/Networking/FirewallandSecurity/New folder/DeletingaVFINetwork.md",
-    "docs/Networking/FirewallandSecurity/New folder/AboutFirewallInstances.md",
-    "docs/Networking/FirewallandSecurity/New folder/ConfiguringAlerts.md",
-    "docs/Networking/FirewallandSecurity/Operations.md",
-    "docs/Networking/FirewallandSecurity/New folder/ViewingVFINetworkDetails.md",
     "Untitled.canvas"
   ]
 }
