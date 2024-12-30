@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Snapshots
 
-To view all the Snapshots taken for Instance, navigate to the Networking, select a Virtual Firewall and access the **Snapshots** tab.
+To view all the Snapshots taken for Instance, navigate to the Virtual Firewall and access the **Snapshots** tab.![Snapshots](img/Snapshots.png)
 
 Instance Snapshots allow you to create point-in-time images of instances that preserve all their data volume as well as (optionally) their CPU/memory states. You can use Snapshots to quickly restore Instances.
 
@@ -26,6 +26,6 @@ The following quick options are available:
 
 To create a Snapshot, follow these steps:
 
-1. Click on the **CREATE SNAPSHOT** button. The Take Snapshot window appears.
-2. Enter the name of the Snapshot and the description of the Snapshot.
-3. Click on the Create button. The Snapshot will be created. 
+1. Click on the **CREATE SNAPSHOT** button. The Take Snapshot window appears.![Create Snapshot](img/CreateSnapshot.png)
+2. Enter the **Name** of the Snapshot and the **Description** of the Snapshot.
+3. Click on the **Create** button. The Snapshot will be created. 

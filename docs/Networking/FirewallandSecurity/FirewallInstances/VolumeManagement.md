@@ -3,9 +3,9 @@ sidebar_position: 4
 ---
 # Volume Management
 
-To view the disks attached to this Instance, navigate to the Networking, select a Virtual Firewall and access the **Volumes** tab.
+To view the disks attached to this Instance, navigate to the **Networking**, select a Virtual Firewall and access the **Volumes** tab.![Volumes](img/Volumes.png)
 
-Virtual Firewall on Apiculus work with the Block Volumes Service and let you carry out basic disk operations.
+Virtual Firewall work with the Block Volumes Service and let you carry out basic disk operations.
 
 The following are the quick actions:
 
