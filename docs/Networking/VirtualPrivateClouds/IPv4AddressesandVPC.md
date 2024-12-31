@@ -70,5 +70,3 @@ A port-forwarding IP address can be used to configure multiple port-forwarding a
 Choose the **Enable Static NAT** to use the public IP as a static translation to any of the contained virtual machines. To use this as a static NAT, choose the virtual machine you want to translate this public IP to in the dialog box that opens and click on **enable**.
 
 To test whether static NAT has been configured correctly, you can use the public IP to SSH into the virtual machine that the IP is NAT-ing to.
-
-

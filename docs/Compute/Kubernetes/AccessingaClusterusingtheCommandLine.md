@@ -18,14 +18,10 @@ kubectl --kubeconfig /custom/path/kube.conf {COMMAND}
 
 ```
 List pods kubectl --kubeconfig /custom/path/kube.conf get pods --all-namespaces  
-  
 List nodes kubectl --kubeconfig /custom/path/kube.conf get nodes --all-namespaces  
-  
 List services kubectl --kubeconfig /custom/path/kube.conf get services --all-namespaces  
-  
-Download kubeconfig for the cluster using the above button. The kubectl command-line tool uses kubeconfig files to find the information it needs to choose a cluster and communicate with the API server of a cluster.
 ```
-
+Download kubeconfig for the cluster using the above button. The kubectl command-line tool uses kubeconfig files to find the information it needs to choose a cluster and communicate with the API server of a cluster.
 ### Downloading kubectl
 
 The kubectl utility can be downloaded for the correct Kubernetes version from any of these links:

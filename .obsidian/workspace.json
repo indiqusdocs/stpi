@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
+                "file": "docs/Compute/LinuxInstances/ProtectingLinuxInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CreatingWindowsInstances"
+              "title": "ProtectingLinuxInstances"
             }
           }
         ]
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,6 +165,27 @@
   },
   "active": "c09e937b8caa18ba",
   "lastOpenFiles": [
+    "docs/tutorial-extras/img/localeDropdown.png",
+    "docs/tutorial-extras/img/docsVersionDropdown.png",
+    "docs/tutorial-extras/translate-your-site.md",
+    "docs/tutorial-extras/_category_.json",
+    "docs/tutorial-extras/manage-docs-versions.md",
+    "docs/tutorial-extras/img",
+    "docs/tutorial-extras",
+    "docs/tutorial-basics/_category_.json",
+    "docs/tutorial-basics/markdown-features.mdx",
+    "docs/tutorial-basics/deploy-your-site.md",
+    "docs/tutorial-basics/create-a-document.md",
+    "docs/tutorial-basics/create-a-page.md",
+    "docs/tutorial-basics/create-a-blog-post.md",
+    "docs/tutorial-basics/congratulations.md",
+    "docs/tutorial-basics",
+    "docs/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
+    "docs/AccountCentre/SubscriptionsandServices.md",
+    "docs/AccountCentre/TeamandChildUserManagement.md",
+    "docs/AccountCentre/Organisation-AccountProfile.md",
+    "docs/CloudExperienceManagement/CloudOperationsManagement.md",
+    "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
     "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
     "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
@@ -181,28 +201,8 @@
     "build/blog/atom.xml",
     "build/blog/rss.xml",
     "build/blog/atom.css",
-    "build/blog/rss.css",
-    "build/blog/atom.xsl",
-    "build/blog/rss.xsl",
-    "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
-    "build/docs/Storage/ObjectStorageBucket/FrequentlyAskedQuestions/index.html",
-    "build/docs/Storage/ObjectStorageBucket/AboutAnantaObjectStorage/index.html",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall.md",
     "Self-service and Administration.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/Operations.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
-    "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
-    "docs/Storage/ObjectStorageBucket/AboutAnantaObjectStorage.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/Overview.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFIControlPanel.md",
-    "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Reconfigure.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateSnapshot.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Snapshots.png",
@@ -212,7 +212,6 @@
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateAlert.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Alerts.png",
     "Pasted image 20241202113149.png",
-    "build/img/undraw_docusaurus_tree.svg",
     "Untitled.canvas"
   ]
 }

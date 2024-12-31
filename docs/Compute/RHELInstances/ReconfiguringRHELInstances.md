@@ -10,7 +10,6 @@ A RHEL Instance on Ananta can be reconfigured in the following ways:
 - Billing interval changed between monthly and hourly.
 - Choosing and applying a new Compute pack.
 - Choosing and applying a new Root Disk pack.
-
 ![Reconfiguring RHEL Instances](img/Reconfiguring1.png)
 
 :::note
