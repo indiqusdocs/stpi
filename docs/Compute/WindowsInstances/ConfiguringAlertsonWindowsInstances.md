@@ -21,12 +21,12 @@ Subscribers can create or add alerts simply by clicking on the **Add Alert** b
 ![Create Alert Window](img/WindowsInstance1.png)
 
 The various fields of the add alert page are described below:
-- **Name**- You can define the name for your alert.
-- **Choose parameter** - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Ananta Cloud supports CPU, RAM, Disk, 1-min Load Average, 5- min Load Average, 15- min Load Average parameter_s.
+- **Name** - You can define the name for your alert.
+- **Choose parameter** - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Ananta Cloud supports CPU, RAM, Disk, 1-min Load Average, 5-min Load Average, 15-min Load Average parameters.
 - **Trigger when** - This set of options lets you define whether to trigger above or below a custom value.
-- **Value** – You can define the Value. 
+- **Value** - You can define the Value. 
 - **Reading duration** - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
-- **Send email to** -Email ids can be added here, or also you can add them by using the configure recipients. 
+- **Send email to** - Email IDs can be added here, or also you can add them by using the configure recipients. 
 - 1-min Load Average - How many processes were active, executed, or awaiting execution at the last minute.
 - 5-min Load Average - How many processes were active, executed, or awaiting execution in the last five minutes.
 - 15-min Load Average - How many processes were active, executed, or awaiting execution in the last fifteen minutes.
@@ -38,9 +38,7 @@ This will list and display all the email IDs already configured for the alerts. 
 2. Click on **+ Add More Recipients**.
 3. Add the email ids; multiple ids can be added and separated by (Comma).
 4. Click on the **+** icon.
-5. Then click on the **Update** button, and update the recipient's list.
-
-![Configuring Alerts on Windows Instances](img/ConfiguringAlerts3.png)
+5. Then click on the **Update** button, and update the recipient's list.![Configuring Alerts on Windows Instances](img/ConfiguringAlerts3.png)
 
 :::note
 All configured recipients will receive all the set-up alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
