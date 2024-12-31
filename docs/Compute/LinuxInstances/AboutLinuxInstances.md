@@ -7,7 +7,7 @@ Instances are computing units that provide you with resources to run your applic
 
 Before creating a Linux instance, it is important to plan the architecture, networking and access to the Linux Instances. 
 
-Ananta offers a highly usable and visual way of working with and operating Linux Instances using the CloudConsole. You can access all the Linux Instances available in your account in the following way:
+Ananta offers a highly usable and visual way of working with and operating Linux Instances using the Cloud Console. You can access all the Linux Instances available in your account in the following way:
 
 1. Navigate to **Compute > Linux Instances**.
 2. All the Linux instances for your account are listed here with the following details:
@@ -18,7 +18,7 @@ Ananta offers a highly usable and visual way of working with and operating Linux
 
 ![Create Linux Instance](img/CreatingLinuxInstances1.png)
 
-Click on the instance name to view a list of sections and the various operations or actions you can perform by going inside the particular section. Below the Instance name, there is an informational view where you can find the following details:
+To view a list of sections and the various actions you can perform by going inside the particular section, click the **instance name**. Below the instance name, you will find an informational view displaying the following details:
 
 - Configuration
 - Availability Zone
@@ -26,7 +26,7 @@ Click on the instance name to view a list of sections and the various operations
 - Created 
 
 On the top right corner, two quick options are available, one to **LAUNCH CONSOLE** and the other to **POWER OFF/ON** the Instance.
-
+![Launch Console](img/LaunchConsole.png)
 Details on available Linux Instance operations and actions can be found in their respective sections.
 
 - [Overview](ViewingDetailsofLinuxInstances.md)
@@ -37,4 +37,5 @@ Details on available Linux Instance operations and actions can be found in their
 - [Snapshots](WorkingwithLinuxInstanceSnapshots.md)
 - [Reconfigure](ReconfiguringLinuxInstances.md)
 - [Operations](LinuxInstanceOperations.md)
+
 

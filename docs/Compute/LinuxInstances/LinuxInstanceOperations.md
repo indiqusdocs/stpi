@@ -6,7 +6,7 @@ sidebar_position: 11
 From [Operating Linux Instances](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Operations** tab to see all available Instance operations.
 ![Linux Instance Operations](img/Operations1.png)
 
-Ananta CloudConsole provides the options to perform the following operations on Linux Instances:
+Ananta Cloud Console provides the options to perform the following operations on Linux Instances:
 
 - **Restart Instance** - Perform a quick reboot on your Instance. This is a simple restart, and no data will be lost.
 - **Force Stop Instance** - Force stop a running or a hung Linux Instance.
@@ -19,4 +19,5 @@ Ananta CloudConsole provides the options to perform the following operations on 
   :::warning
   Deleting a Linux Instance will remove it entirely along with its subscription and is a non-reversible action.
   :::
+
 

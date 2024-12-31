@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 # Working with RHEL Instance Snapshots
 
-Navigate to a [RHEL Instances](AboutRHELInstances.md) and access the **Snapshots** tab to see all the snapshots taken for this Instance.
+To view all the snapshots for the Instance, navigate to [RHEL Instances](AboutRHELInstances.md) and access the **Snapshots** tab.
 
 Instance Snapshots allow you to create point-in-time images of instances that preserve all their data volume as well as (optionally) their CPU/memory states. You can use Snapshots to quickly restore Instances.
 
@@ -27,4 +27,5 @@ To create a snapshot:
 3. Click on **Create**.
 
 ![RHEL Instance Snapshots](img/Snapshots2.png)
+
 

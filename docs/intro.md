@@ -9,4 +9,4 @@ This manual provides step-by-step guidance to help you navigate the Ananta platf
 
 Let's get started on maximizing the value of your Ananta subscription!
 
-
+![Welcome](Welcome.png)

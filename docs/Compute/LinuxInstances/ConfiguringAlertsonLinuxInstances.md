@@ -33,6 +33,7 @@ The various fields of the Create Alert screen are as follows:
 - **Value** - You can define the trigger value/threshold.
 - **Reading duration** - This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
 - **Send email to** - Email IDs can be added here, or also you can add them by using the configure recipients.
+  ![Creating Alert](img/Alert.png)
 
 ## Configuring Recipients
 
@@ -49,4 +50,5 @@ This section list and display all the email IDs already configured for the alert
 :::note
 All the recipients configured will receive all the setup alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
 :::
+
 

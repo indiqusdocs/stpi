@@ -22,3 +22,4 @@ Using the **Profile** section, you can manage your organisation account profil
 
 ![Account Profile](img/AccountProfile2.png)
 
+

@@ -14,6 +14,7 @@ A Windows Instance on Ananta can be reconfigured in the following ways:
 ![Reconfiguring Windows Instances](img/Reconfiguring.png)
 
 :::note
-You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We recommend switching the plan first before reconfiguring the Instance if you wish to use both the Reconfigure and Switch Plan options. You will be charged as per the pack you have reconfigured, not based on the older pack.
+Reconfiguration can only be performed with the same billing interval. If you wish to change the billing interval, please use the "Switch Plan" button. To utilize both the "Reconfigure" and "Switch Plan" options, it is recommended to switch the plan first before reconfiguring the instance. Please note that charges will be based on the newly reconfigured plan, not the previous one.
 :::
+
 

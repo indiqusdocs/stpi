@@ -15,3 +15,4 @@ NAT gateways work as follows:
 
 **Sample Setup**: A NAT gateway can be deployed in a public subnet within a Virtual Private Cloud (VPC). Resources in private subnets route their outbound internet-bound traffic to this NAT gateway, which forwards it to the internet.
 
+

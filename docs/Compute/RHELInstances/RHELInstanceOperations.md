@@ -3,10 +3,11 @@ sidebar_position: 11
 ---
 # RHEL Instance Operations
 
-From [RHEL Instances](AboutRHELInstances.md) and access the **Operations** tab to see all available Instance operations.
+To view all available Instance operations, from [RHEL Instances](AboutRHELInstances.md) and access the **Operations** tab.
+
 ![RHEL Instance Operations](img/Operations1.png)
 
-Ananta CloudConsole provides the options to perform common operations on RHEL Instances.
+Ananta Cloud Console provides the options to perform common operations on RHEL Instances.
 
 - **Restart Instance** - Perform a quick reboot on your Instance. This is a simple restart, and no data will be lost.
 - **Force Stop Instance** - Force stop a running or a hung RHEL Instance.
@@ -19,4 +20,5 @@ Ananta CloudConsole provides the options to perform common operations on RHEL In
   :::warning
   Deleting a RHEL Instance will remove it entirely along with its subscription and is a non-reversible action.
   :::
+
 

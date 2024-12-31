@@ -7,16 +7,16 @@ sidebar_position: 13
 ### What happens if I miss a payment due date?
 Depending on how your service provider has set up the payment collections policies, one of the following might happen:
 
-1. You may be able to continue using your cloud account (_uninterrupted usage_);
-2. You might get payment due date notifications (_reminder state_);
-3. You might be disallowed from purchasing new resources but continue to use existing ones (_restricted usage_);
-4. You might be put in a disabled state along with all your cloud resources (_suspended state_);
-5. You might lose access to your account and all your resources entirely (_terminated state_).
+1. You may be able to continue using your cloud account (uninterrupted usage);
+2. You might get payment due date notifications (reminder state);
+3. You might be disallowed from purchasing new resources but continue to use existing ones (restricted usage);
+4. You might be put in a disabled state along with all your cloud resources (suspended state);
+5. You might lose access to your account and all your resources entirely (terminated state).
 
 While scenario 1 is the most ideal, realistically one of 2-5 will be configured as a policy. To avoid any likelihood of these events, it is best recommended to always pay your due invoices on time and never miss a due date.
 
 ### How is my wallet balance calculated?
-Wallet balance (or [Service Balance](/docs/AccountCentre/WalletandTransactions) is a real-time 'ability to spend' on Ananta CloudConsole. It is a net total of your credit limit, all charges incurred and all payments made for your account.
+Wallet balance (or [Service Balance](/docs/AccountCentre/WalletandTransactions) is a real-time 'ability to spend' on Ananta Cloud Console. It is a net total of your credit limit, all charges incurred and all payments made for your account.
 
 ```
 Service Balance = Credit Limit - sum(Incurred Charges) + sum(Payments)
@@ -99,5 +99,6 @@ No, Ananta Kubernetes Service (AK8s) only supports equally-sized Control and Wor
 No, Root Volumes, i.e., root disks that are created at the time of Instance creation, can not be moved between Instances.
 
 Data Volumes, i.e., addon disks that are created separately, can be attached to and detached from Instances. In other words, Data Volumes are portable while Root Volumes are not.
+
 
 

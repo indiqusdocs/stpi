@@ -7,7 +7,7 @@ To manage a NAT gateway, follow these steps:
 
 1. Navigate to **Networking > NAT Gateways**.
    ![Manage NAT gateway](img/NAT1.png)
-2. Click on a gateway from the list. 
+2. Click on a **gateway** from the list. 
 
 The gateways show the details under the following categories:
 
@@ -20,7 +20,7 @@ Navigate to the **Overview** tab to view the following details:
 - Configuration and Availability
 - Internal Information
 
-To power off the virtual router, click on the **Powered On** button. The Stop Virtual Router window appears that lets you stop the virtual router. To power on a virtual router, click the **Powered Off** button.
+To power off the virtual router, click the **Powered On** button. The Stop Virtual Router window appears that lets you stop the virtual router. To power on a virtual router, click the **Powered Off** button.
 ## Instances
 This section lists all the instances that are a part of this Virtual Firewall.
 
@@ -29,9 +29,9 @@ Each virtual gateway comes with a default IPv4 address that belongs to the Virtu
 ![Manage NAT gateway](img/NAT4.png)
 
 ### Adding Public IPv4 Addresses
-You can add additional public IPv4 addresses to configure load balancers, port forwarding and static NATs.
+You can add additional public IPv4 addresses to configure firewall rules, port forwarding rules and source NATs.
 
-1. Click on the **Add Public IPv4 Address** button. The following screen appears:
+1. Click the **Add Public IPv4 Address** button. 
 2. Select **Monthly** or **Hourly** option and then click the **Confirm Purchase** button. 
 3. Verify the details and click the **Confirm** button to create complete adding a public IPv4 address.
 ### Managing Firewall Rules
@@ -54,15 +54,14 @@ You can add additional public IPv4 addresses to configure load balancers, port f
 3. Enter the required details to add a rule.
 4. Click the **Add Port Forwarding Rule** button.
    
-
 ### Changing Source NAT IPv4 Address
-1. Click in the **Source NAT** icon.
+1. Click the **Source NAT** icon.
    ![Manage NAT gateway](img/NAT4c.png)
 
-2. Click on the **Okay** button. <br />
+2. Click the **Okay** button. <br />
    
 ### Deleting IP Address
-1. Click on the **Delete IP** icon.
+1. Click the **Delete IP** icon.
    ![Manage NAT gateway](img/NAT4d.png)
 2. Select the checkbox and click the **Delete Now** button.
    ![Manage NAT gateway](img/NAT4da.png)
@@ -75,4 +74,5 @@ You can perform the following operations in the Operations section:
 - Restart NAT Gateway
 - Delete NAT Gateway
 ![Manage NAT gateway](img/NAT7.png)
+
 

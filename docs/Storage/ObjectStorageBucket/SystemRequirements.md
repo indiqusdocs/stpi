@@ -14,7 +14,7 @@ Cloudian HyperStore can be deployed as a software-defined storage solution on in
 ### Recommended Configuration
 
 - 1 CPU, 8 cores 
-- 64GB RAM
+- 64 GB RAM
 - 2 x 300GB SSD (for RAID-1 mirrored hosting of the OS as well as Cassandra and Redis databases storing system metadata) l 
 - 12 x 4TB HDD (for ext4 file systems storing object data) (JBOD, no RAID)
 - 2x10GbE Ports
@@ -22,14 +22,14 @@ Cloudian HyperStore can be deployed as a software-defined storage solution on in
 ### Minimum Requirement for Production Systems 
 
 - 1 CPU, 8 cores 
-- 32GB RAM 
+- 32 GB RAM 
 - 2 x 160GB SSD (for RAID-1 mirrored hosting of the OS as well as Cassandra and Redis databases storing system metadata) 
 - 12 x 2TB HDD (for ext4 file systems storing object data) (JBOD, no RAID)
 - 1x1GbE Port
 
 ### Operating System Requirements
 
-To perform a fresh installation of HyperStore 7.4.1, you must have an RHEL 7. x or CentOS 7. x Linux operating system on each host.
+To perform a fresh installation of HyperStore 7.4.1, you must have an RHEL 7.x or CentOS 7.x Linux operating system on each host.
 
 ## HyperStore License
 
@@ -38,4 +38,5 @@ A software license is required to use Cloudian HyperStore. You should contact Cl
 ## Hardware BoQ
 
 The hardware Bill of Quantity (BoQ) will depend on expected data capacity, performance requirements, and desired redundancy levels. Cloudian provides hardware guidelines and recommendations for deploying HyperStore, including information on server specifications, disk configurations, networking, and power requirements. Consulting the official documentation or contacting Cloudian or their authorized partners will help determine the appropriate hardware BoQ for your specific needs.
+
 

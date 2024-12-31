@@ -3,7 +3,8 @@
   "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "The Apiculus Load Balancer Instances (LBI) Service allows CloudConsole users to create load balancer appliances, which are Linux Instances pre-loaded with a Citrix NetScaler VPX image.
+    "description": "The Ananta Load Balancer Instances (LBI) Service allows CloudConsole users to create load balancer appliances, which are Linux Instances pre-loaded with a Citrix NetScaler VPX image.
 "
   }
 }
+

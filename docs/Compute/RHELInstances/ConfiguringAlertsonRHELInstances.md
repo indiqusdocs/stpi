@@ -23,18 +23,18 @@ The various fields of the add alert page are described below:
 4. **Value** - You can define the trigger value/threshold.
 5. **Reading duration** - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
 6. **Send email to** - Email IDs (comma-separated) can be added here, or also you can add them by using the configure recipients.
-
+![Creating Alert](img/CreatingAlert.png)
 ## Managing Recipients
 
-This will list and display all the email IDs already configured for the alerts. You can delete the existing ids and add other email ids by following the steps below.
-
+This will list and display all the email IDs already configured for the alerts. You can delete the existing ids and add other email ids by these steps:
 1. Click on the **Manage Recipients** button.
 2. Click on **+ Add more recipients**.
 3. Add the email ids; multiple IDs can be added (separated by comma).
 4. Click on the **+** icon.
 5. Click on the **Update** button, and update the recipient's list.
-
+	![Update Recipients](img/UpdateRecipients.png)
 :::note
 All the recipients configured will receive all the setup alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
 :::
+
 

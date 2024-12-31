@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.console.ananta.stpi.in',
+  url: 'https://docs.ananta.stpi.in',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -138,7 +138,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
         },
 		 */  	  
 		  {
-          href: 'https://console.ananta.stpi.in', // Change to the desired link
+          href: 'https://portal.ananta.stpi.in', // Change to the desired link
           label: 'Ananta Cloud', // The label of your button
           position: 'right',
           className: 'button button--primary', // Add button classes here

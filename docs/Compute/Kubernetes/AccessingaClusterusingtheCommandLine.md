@@ -6,6 +6,7 @@ sidebar_position: 5
 Kubernetes clusters can be accessed and controlled from the command line using the **kubeconfig** manifest for the cluster. Each cluster has a unique manifest which is required to identify and target the cluster using the `kubectl` utility.
 
 The manifest for a cluster can be downloaded using the **DOWNLOAD KUBECONFIG** button in the **Access** section of the cluster details.
+![Download Kubeconfig ](img/Download.png)
 
 ### Using kubectl
 
@@ -32,4 +33,5 @@ The kubectl utility can be downloaded for the correct Kubernetes version from 
 - **Linux:** https://storage.googleapis.com/kubernetes-release/release/v1.23.3/bin/linux/amd64/kubectl  
 - **MacOS:** https://storage.googleapis.com/kubernetes-release/release/v1.23.3/bin/darwin/amd64/kubectl  
 - **Windows:** https://storage.googleapis.com/kubernetes-release/release/v1.23.3/bin/windows/amd64/kubectl.exe
+
 
