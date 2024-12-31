@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3edcd90e4967a7cc",
+        "id": "23085b19b254ac19",
         "type": "tabs",
         "children": [
           {
-            "id": "f7a6eb6d49533364",
+            "id": "c09e937b8caa18ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sample.md",
+                "file": "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sample"
+              "title": "CreatingWindowsInstances"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Apiculus",
+                "query": "basic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7a6eb6d49533364",
+  "active": "c09e937b8caa18ba",
   "lastOpenFiles": [
+    "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
+    "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
+    "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
+    "docs/Compute/LinuxInstances/NetworkingManagementwithLinuxInstances.md",
+    "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
+    "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
+    "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
+    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "2024-12-31.md",
+    "Untitled 1.canvas",
+    "Sample.md",
     "build/assets/js/7d8c9e93.0dabed54.js",
     "build/blog/atom.xml",
     "build/blog/rss.xml",
@@ -176,10 +187,8 @@
     "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
     "build/docs/Storage/ObjectStorageBucket/FrequentlyAskedQuestions/index.html",
     "build/docs/Storage/ObjectStorageBucket/AboutAnantaObjectStorage/index.html",
-    "build/docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots/index.html",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall.md",
     "Self-service and Administration.md",
-    "Sample.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/Operations.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
     "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
@@ -194,8 +203,6 @@
     "docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/Snapshots.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement.md",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Reconfigure.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateSnapshot.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Snapshots.png",
@@ -205,12 +212,6 @@
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/CreateAlert.png",
     "docs/Networking/FirewallandSecurity/FirewallInstances/img/Alerts.png",
     "Pasted image 20241202113149.png",
-    "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
-    "docs/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
-    "docs/Compute/LinuxInstances/ViewingGraphsandUtilizationofLinuxInstances.md",
-    "docs/Compute/LinuxInstances/ViewingDetailsofLinuxInstances.md",
-    "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "docs/Networking/FirewallandSecurity/FirewallInstances/DeletingaVFINetwork.md",
     "build/img/undraw_docusaurus_tree.svg",
     "Untitled.canvas"
   ]

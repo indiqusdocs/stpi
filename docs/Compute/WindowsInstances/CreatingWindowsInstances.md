@@ -5,7 +5,7 @@ sidebar_position: 2
 
 Before creating a Windows Instance, it is important to plan the architecture, networking and access to the Windows Instances. As a thumb rule:
 
-- You can use a ‘Basic/Flat’ (or EC, elastic compute) Windows Instance to get started quickly and set up your Linux Instances behind Ananta-powered cloud’s global server load balancer (GSLB) and control access by setting up virtual firewall rules; or;
+- You can use a Windows Instance to get started quickly and set up your Linux Instances behind Ananta-powered cloud’s global server load balancer (GSLB) and control access by setting up virtual firewall rules; or;
 - You can use a ‘tiered’ network (or Advanced VPC, virtual private cloud) Windows Instances to configure advanced networking and application architectures and control access by setting up access control lists.
 ## Creating a Windows Instance
 
