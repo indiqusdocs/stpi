@@ -7,7 +7,7 @@ Instances are computing units that provide you with resources to run your applic
 
 Before purchasing a Windows Instance, it is important to plan the architecture, networking, and access to the Windows Instances. As a thumb rule:
 
-- You can use a ‘Basic/Flat’ (or EC, elastic compute) Windows Instance to get started quickly and set up your Windows Instances behind Ananta Cloud’s global server load balancer (GSLB) and control access by setting up virtual firewall rules; or;
+- You can use a Windows Instance to get started quickly and set up your Windows Instances behind Ananta Cloud’s global server load balancer (GSLB) and control access by setting up virtual firewall rules; or;
 - You can use a ‘tiered’ network (or Advanced VPC, virtual private cloud) Windows Instances to configure advanced networking and application architectures and control access by setting up access control lists.
 
 Ananta offers a highly usable and visual way of working with and operating Windows Instances using the Cloud Console. All Linux Instances available in your account can be accessed in the following way:

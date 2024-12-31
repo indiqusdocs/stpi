@@ -7,7 +7,7 @@ IPv4 Addresses form the backbone of networking operations on Ananta. Internally,
 
 IPv4 Addresses are used:
 
-- For connecting to any Instance created in a Basic/EC network.
+- For connecting to any Instance created
 - For accessing a VPC virtual router.
 - For accessing Kubernetes clusters.
 - For accessing the contents of a VPC network.
