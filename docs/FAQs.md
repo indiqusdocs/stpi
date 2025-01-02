@@ -12,15 +12,15 @@ sidebar_position: 13
 **5.** You might lose access to your account and all your resources entirely (terminated state). While scenario 1 is the most ideal, realistically one of 2-5 will be configured as a policy. To avoid any likelihood of these events, it is best recommended to always pay your due invoices on time and never miss a due date.</details>
 
 <details><summary>**How is my wallet balance calculated?**</summary>
-Wallet balance or [Service Balance](/docs/Subscribers/AccountCentre/WalletandTransactions) is a real-time 'ability to spend' on Ananta Cloud Console. It is a net total of your credit limit, all charges incurred and all payments made for your account. <br />
+Wallet balance or [Service Balance](/docs/AccountCentre/WalletandTransactions) is a real-time 'ability to spend' on Ananta Cloud Console. It is a net total of your credit limit, all charges incurred and all payments made for your account. <br />
 `Service Balance = Credit Limit - sum(Incurred Charges) + sum(Payments)`</details>
 
 <details><summary>**How can I deploy monitoring tools and other apps on my Kubernetes cluster?**</summary>Once a cluster is deployed, you can deploy pretty much any application using kubectl. Some examples:<br />
-**- Postgres DB service: ** a PostgreSQL Instance can be deployed on a running Kubernetes cluster using the `kubeconfig` manifests. At this moment, we have not automated this. However, there are standard methods of deploying apps and packages (example) available online, all of which just require cluster access via `kubectl`. The same should be applicable to MongoDB and MySQL instances on clusters.<br />
-**- Persistent storage: ** CKS uses CloudStack’s block volumes for cluster storage. As of now, CKS does not support using NFS or S3 as persistent storage for Kubernetes clusters. However, once a cluster is created, its PersistentVolume can be pointed to a S3 bucket using the Cloudian S3 operator.<br /> 
-**- Monitoring of Kubernetes infrastructure: ** users can freely install their own monitoring apps (e.g., Prometheus+Grafana, Rancher etc.) using `kubectl` and Helm Charts.<br /> 
-**- Gitlab, ArgoCD: **  these apps can be installed using Helm.<br />
-**- Advanced Load balancing and Certificate management: ** typically these are handled at the cloud provider level and not at the Kubernetes level.<br /></details>
+**- Postgres DB service**: a PostgreSQL Instance can be deployed on a running Kubernetes cluster using the `kubeconfig` manifests. At this moment, we have not automated this. However, there are standard methods of deploying apps and packages (example) available online, all of which just require cluster access via `kubectl`. The same should be applicable to MongoDB and MySQL instances on clusters.<br />
+**- Persistent storage**: CKS uses CloudStack’s block volumes for cluster storage. As of now, CKS does not support using NFS or S3 as persistent storage for Kubernetes clusters. However, once a cluster is created, its PersistentVolume can be pointed to a S3 bucket using the Cloudian S3 operator.<br /> 
+**- Monitoring of Kubernetes infrastructure**: users can freely install their own monitoring apps (e.g., Prometheus+Grafana, Rancher etc.) using `kubectl` and Helm Charts.<br /> 
+**- Gitlab, ArgoCD**:  these apps can be installed using Helm.<br />
+**- Advanced Load balancing and Certificate management**: typically these are handled at the cloud provider level and not at the Kubernetes level.<br /></details>
 
 <details><summary>**Can I deploy a Kubernetes cluster with a private registry?**</summary>Private registry is not supported on Ananta Cloud Console. However, using the Ananta API gateway, you can still pass the private registry details (username, password, URL) as the API query parameters and the API will work as intended, but with restrictive SLA on support.</details>
 
@@ -40,10 +40,10 @@ Wallet balance or [Service Balance](/docs/Subscribers/AccountCentre/WalletandTr
 
 <details><summary>**Can I upload my own ISO or VHD images?**</summary>No, custom Image uploads are currently not possible on Ananta Cloud Console.</details>
 
-<details><summary> **Can control and worker nodes be scaled individually in a Kubernetes cluster**</summary>No, when a Kubernetes cluster is scaled, the scaling configurations are applied to all the nodes alike.<br /> The following [scaling modes](/docs/Subscribers/Compute/Kubernetes/ScalingKubernetesClusters) are available:
+<details><summary> **Can control and worker nodes be scaled individually in a Kubernetes cluster**</summary>No, when a Kubernetes cluster is scaled, the scaling configurations are applied to all the nodes alike.<br /> The following [scaling modes](/docs/Compute/Kubernetes/ScalingKubernetesClusters) are available:
 <br/>**Scaling the Control Node** - this can be done by enabling HA at the time of cluster creation;<br/>**Scaling the number of Worker Nodes** - this can be done by specifying minimum and maximum cluster size (Control Nodes are excluded from these limits);<br/>**Reconfiguring the Cluster** - this can be done by specifying a new number of Worker Nodes and changing their Compute configuration.<br/></details>
 
-<details><summary>**Is there a way to add or link multiple emails to an account?**</summary>Yes, multiple email IDs can be used to login to the same subscriber 'parent' account by [creating child users](/docs/Subscribers/AccountCentre/TeamandChildUserManagement). Child users are semi-isolated accounts, in the sense that they all have their own identities on Ananta Cloud Console, but share all resources created in the parent subscriber account.</details>
+<details><summary>**Is there a way to add or link multiple emails to an account?**</summary>Yes, multiple email IDs can be used to login to the same subscriber 'parent' account by [creating child users](/docs/AccountCentre/TeamandChildUserManagement). Child users are semi-isolated accounts, in the sense that they all have their own identities on Ananta Cloud Console, but share all resources created in the parent subscriber account.</details>
 
 <details><summary> **How can I get admin credentials for Windows Instances on Ananta Cloud Console?**</summary>When you create a Windows Instance on Ananta Cloud Console, you will receive the password on the email ID registered for your Ananta Cloud Console account.</details>
 
