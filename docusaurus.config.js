@@ -112,7 +112,7 @@ require.resolve("@easyops-cn/docusaurus-search-local"),
 	  
     },
       // Replace with your project's social card
-      image: 'img/apiculus-social-card.png',
+      image: 'img/ananta-social-card.png',
       navbar: {
         title: '',
 		// hideOnScroll: true,
