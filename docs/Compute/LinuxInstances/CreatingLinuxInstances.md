@@ -15,7 +15,7 @@ To create a Linux instance, follow these steps:
 6. **Choose a Compute Pack** from the available compute collections.   ![Compute Pack](img/ComputePack.png)
 8. **Choose a Root Disk** from the available options.
 9. Select the option to **Protect this Instance**.
-10. Under **Choose Instant Apps**, select the available applications and stacks to deploy on this Instance.
+10. In **Choose Instant Apps**, select the available applications. To Verify/Login into your selected database, refer to [App Overlays](AppOverlays.md).
     ![Root Disk](img/RootDisk.png)
 11. **Choose an Authentication Method**:
     - **Use SSH key pair**: Click on the Use SSH key pair option; all the SSH key pairs present in your account will be listed. If your account does not have any SSH key pair, then you can click the **Generate a new key pair** option or upload the key pair by clicking the **Upload a key pair** option. 
