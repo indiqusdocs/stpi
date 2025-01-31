@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/LinuxInstances/AppOverlays.md",
+                "file": "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AppOverlays"
+              "title": "UsingRemoteAccessVPNwithVPC"
+            }
+          },
+          {
+            "id": "ac200cbbbeb73e13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UsingRemoteAccessVPNwithVPC"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 453.5
+    "width": 274.5
   },
   "right": {
     "id": "f27b6e8a49e79237",
@@ -162,31 +178,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40d501cff488e097",
+  "active": "ac200cbbbeb73e13",
   "lastOpenFiles": [
-    "build/blog/atom.xml",
-    "build/blog/rss.xml",
-    "build/blog/rss.css",
-    "build/blog/atom.css",
-    "build/blog/atom.xsl",
-    "build/blog/rss.xsl",
-    "build/search-index.json",
-    "build/sitemap.xml",
-    "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
-    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages/index.html",
-    "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots/index.html",
-    "build/img/rn.png",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Snapshots/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Operations/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts/index.html",
+    "build/docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances/index.html",
+    "build/docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel/index.html",
+    "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
     "build/img/sps.svg",
+    "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/undraw_docusaurus_react.svg",
     "build/img/sps.png",
     "build/img/sbs.svg",
-    "build/img/sbs.png",
     "build/img/rn.svg",
-    "build/img/logo.svg",
-    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "build/img/sbs.png",
+    "build/img/rn.png",
+    "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
+    "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+    "docs/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
     "docs/Compute/LinuxInstances/AppOverlays.md",
+    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
     "docs/Compute/WindowsInstances/ConfiguringMSSQL.md",
     "docs/InstanceProtection/TurningofftheProtectionPlan.md",
@@ -206,9 +225,6 @@
     "docs/Estimates/AboutInvoices.md",
     "docs/AboutInvoices.md",
     "docs/AboutEstimates.md",
-    "docs/AccessCentral.md",
-    "docs/LoggingIn.md",
-    "docs/SigningUp.md",
-    "docs/ResettingPassword.md"
+    "docs/AccessCentral.md"
   ]
 }
