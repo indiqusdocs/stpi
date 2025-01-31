@@ -29,7 +29,7 @@ To  configure a VPN Connection on Windows using Native VPN client, follow these 
    ![Connect to a workplace](img/ConfigureVPN4.png)
 4. Select the **Use my Internet connection(VPN)** option.
    ![Use my Internet Connection](img/ConfigureVPN5.png)
-5. The following window appears. Enter the **Internet address** (**IPv4 Address** associated with your VPC, as mentioned above).	   ![Internet Address](img/ConfigureVPN6.png)
+5. The following window appears. Enter the **Internet address** (refer **IPv4 Address** from **point 2** under **Using Remote Access VPN with VPC** ).	   ![Internet Address](img/ConfigureVPN6.png)
 6. Select the **Remember my credentials** option, and click **Create**.
 7. To configure VPN settings, open **Network and Sharing Center**, and click **Change adapter settings**.
    ![Adapter Settings](img/ConfigureVPN7.png)
@@ -44,7 +44,7 @@ To  configure a VPN Connection on Windows using Native VPN client, follow these 
 	- Select the **Allow these protocols** option.
 	- Select **Microsoft CHAP Version 2(MS-CHAP v2)**.
 12. Click the **Advanced settings** button. The following window appears:![Advance Settings](img/ConfigureVPN11.png)
-13. Select the **Use pre-shared key for authentication** option, and enter the key that was shared with you earlier.
+13. Select the **Use pre-shared key for authentication** option (for pre-shared key refer to **point 3** under **Using Remote Access VPN with VPC** ).
 14. Click **OK** to save your settings.    
 15. To initiate the VPN connection, navigate to **Network > Connection Settings**, then click **Connect**.
     ![Connection Settings](img/ConfigureVPN12.png)
