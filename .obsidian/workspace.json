@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
+                "file": "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AccessingtheVFControlPanel"
+              "title": "CreateListandViewVPCs"
             }
           }
         ],
@@ -180,35 +180,37 @@
   },
   "active": "ac200cbbbeb73e13",
   "lastOpenFiles": [
-    "build/blog/atom.xml",
     "build/blog/rss.xml",
-    "build/blog/atom.css",
+    "build/blog/atom.xml",
     "build/blog/rss.css",
-    "build/blog/atom.xsl",
+    "build/blog/atom.css",
     "build/blog/rss.xsl",
+    "build/blog/atom.xsl",
     "build/search-index.json",
     "build/sitemap.xml",
+    "build/index.html",
     "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
     "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots/index.html",
-    "build/docs/ToolsandUtilities/AboutToolsandUtilities/index.html",
-    "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_react.svg",
+    "build/assets/images/VPCCreation2-d11928ee6a3e0fd18df45b2137434bac.png",
+    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
+    "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
+    "build/icons/home.svg",
     "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
-    "build/img/sps.png",
+    "build/img/undraw_docusaurus_tree.svg",
     "build/img/sbs.svg",
+    "build/img/sps.svg",
+    "build/img/undraw_docusaurus_react.svg",
+    "build/img/sps.png",
     "build/img/rn.png",
     "build/img/sbs.png",
-    "build/img/rn.svg",
-    "build/img/logo.svg",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingInstancestoaVFI-basedNetwork.md",
+    "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingInstancestoaVFI-basedNetwork.md",
     "docs/Networking/FirewallandSecurity/AddingLinuxInstance.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
     "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
     "docs/Networking/FirewallandSecurity/AddingWindowsInstance.md",
-    "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
     "docs/Compute/WindowsInstances/ConfiguringMSSQL.md",
     "docs/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
@@ -223,8 +225,6 @@
     "docs/InstanceProtection/TurningofftheProtectionPlan.md",
     "docs/InstanceProtection/EnablingInstanceProtection.md",
     "docs/InstanceProtection/ChangingtheProtectionPlan.md",
-    "docs/InstanceProtection/AboutInstanceprotection.md",
-    "docs/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
-    "docs/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md"
+    "docs/InstanceProtection/AboutInstanceprotection.md"
   ]
 }
