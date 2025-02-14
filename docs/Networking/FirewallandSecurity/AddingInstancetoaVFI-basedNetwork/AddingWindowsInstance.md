@@ -14,11 +14,10 @@ To create a Windows instance, follow these steps:
 	To add a Windows Instance to a VPC, you need to have a VPC configured with at least one tier.
 	:::
 	![Windows Instance](img/WindowsInstance4.png)
-6. Choose an Image to run on your Instance. This can be an operating system or a custom image that is available under **MY IMAGES.**
+6. Choose an OS Image to run on your Instance. 
 7. Choose a compute pack from the available compute collections.
-   ![Compute Pack](img/ComputePack.png)
 8. Choose a Root disk from the available Disk packs, or you can use the free size option to specify the Root Disk.
-   ![Root Disk](img/RootDisk.png)
+   ![Root Disk](img/WindowsRootDisk.png)
 9. Verify the Estimated Cost of your Windows Instance based on the specifications you have   chosen from the Summary and Estimated Costs Section (Here, both Hourly and Monthly Prices summary will be displayed)
 10. After reviewing the policies provided by your cloud service provider, click the checkbox.
 11. To view the price summary and any discount codes in your account, click the **BUY HOURLY** or **BUY MONTHLY** button.
