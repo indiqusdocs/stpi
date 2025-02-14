@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
+                "file": "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AddingWindowsInstance"
+              "title": "CreatingLinuxInstances"
             }
           }
         ],
@@ -180,31 +180,33 @@
   },
   "active": "ac200cbbbeb73e13",
   "lastOpenFiles": [
-    "build/blog/atom.xml",
-    "build/blog/rss.xml",
-    "build/blog/atom.css",
-    "build/blog/rss.css",
-    "build/blog/atom.xsl",
-    "build/blog/rss.xsl",
     "build/search-index.json",
     "build/sitemap.xml",
-    "build/docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
-    "build/docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
-    "build/assets/images/WindowsInstance4-49c9bcdb669d9abfbb25d640f48d592d.png",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
-    "docs/Compute/LinuxInstances/AppOverlays.md",
-    "build/img/undraw_docusaurus_tree.svg",
+    "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
+    "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots/index.html",
+    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages/index.html",
+    "build/docs/ToolsandUtilities/AboutToolsandUtilities/index.html",
+    "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots",
+    "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs",
+    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages",
+    "build/docs/ToolsandUtilities/AboutToolsandUtilities",
+    "build/docs/ToolsandUtilities",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
-    "build/img/sbs.svg",
     "build/img/sps.png",
-    "build/img/rn.svg",
+    "build/img/sbs.svg",
+    "build/img/sps.svg",
     "build/img/sbs.png",
+    "build/img/rn.svg",
     "build/img/rn.png",
+    "build/img/logo.svg",
+    "build/img/logo.png",
+    "docs/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
+    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
     "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
+    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
+    "docs/Compute/LinuxInstances/AppOverlays.md",
     "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
     "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
     "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
@@ -216,7 +218,6 @@
     "docs/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
     "docs/Compute/WindowsInstances/ConfiguringMSSQL.md",
     "docs/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
-    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
     "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
     "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
@@ -224,7 +225,6 @@
     "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
     "docs/InstanceProtection/TurningofftheProtectionPlan.md",
     "docs/InstanceProtection/EnablingInstanceProtection.md",
-    "docs/InstanceProtection/ChangingtheProtectionPlan.md",
-    "docs/InstanceProtection/AboutInstanceprotection.md"
+    "docs/InstanceProtection/ChangingtheProtectionPlan.md"
   ]
 }
