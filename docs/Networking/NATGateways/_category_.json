@@ -1,0 +1,10 @@
+{
+  "label": "NAT Gateways",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "NAT gateways help in enhancing security in cloud infrastructure by keeping resources in private subnets isolated from direct public access..
+"
+  }
+}
+

@@ -1,0 +1,297 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default variables here. */
+
+:root {
+  --ifm-color-primary: #004bd1;
+  --ifm-color-primary-dark: #0044bc;
+  --ifm-color-primary-darker: #0040b2;
+  --ifm-color-primary-darkest: #003592;
+  --ifm-color-primary-light: #0053e6;
+  --ifm-color-primary-lighter: #0056f0;
+  --ifm-color-primary-lightest: #1166ff;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+   --ifm-color-primary: #f59700;
+  --ifm-color-primary-dark: #dd8800;
+  --ifm-color-primary-darker: #d08000;
+  --ifm-color-primary-darkest: #ab6a00;
+  --ifm-color-primary-light: #ffa30f;
+  --ifm-color-primary-lighter: #ffa71b;
+  --ifm-color-primary-lightest: #ffb640;
+  --ifm-background-color: #0d1449;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom CSS for Fonts and Styles */
+
+/* Set Montserrat font for all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aptos', sans-serif;
+}
+
+/* Set Open Sans font for all body text */
+body {
+  font-family: 'Aptos', sans-serif;
+  font-size: 14px; /* You can adjust the size as needed */
+}
+
+/* Set H1 color to navy and font size to 28px */
+h1 {
+  color: #004bd1;
+  font-size: 24px;
+}
+
+/* Set H2 font size to 20px */
+h2 {
+  font-size: 20px;
+}
+
+/* Set H3 font size to 16px */
+h3 {
+  font-size: 16px;
+}
+
+/* Dark mode heading color */
+[data-theme='dark'] h1
+{
+  color: #F59700; /* Orange text for headings in dark mode */
+}
+
+[data-theme='dark'] h2,
+[data-theme='dark'] h3 {
+  color: #ffffff; /* White text for headings in dark mode */
+}
+
+
+a {
+   /* text-decoration: none;  Removes underline from links */
+    color: #004bd1 !important; /* Default link color */
+  /* transition: color 0.3s ease;  Smooth transition for color change */
+
+  /* transition: text-shadow 0.3s ease;  Smooth transition for glow effect */
+}
+
+a:hover {
+  /* text-shadow: 0 0 1px rgba(0, 0, 255, 0.8);  Creates a blue glow effect */
+ /* font-weight: bold; */
+}
+
+.theme-doc-sidebar-item-link:hover {
+    font-weight: bold;
+}
+
+.menu__link--active {
+    font-weight: bold;
+}
+
+/* Dark mode link color */
+[data-theme='dark'] a {
+  color: #F59700 !important; /* orange link color for dark mode */
+}
+
+/* Custom CSS for Image Zoom Effect */
+
+/* Apply zoom effect to all images when clicked */
+
+img {
+  cursor: zoom-in; /* Show zoom-in cursor */
+  transition: transform 0.5s ease; /* Smooth transition effect for scaling */
+  position: relative; /* Allows z-index to work */
+  z-index: 1; /* Base z-index for all images */
+}
+
+
+/* Zoom effect on click */
+img:active {
+  transform: scale(1.5); /* Zoom in the image on click */
+  cursor: zoom-out; /* Change cursor to zoom-out */
+  z-index: 1000; /* Bring zoomed image above all other elements */
+  }
+
+.footer {
+  background-color: #708090; /* Replace with your desired color */
+}
+
+
+/* Colored Blocks */
+.custom-block-blue {
+  background-color: #f0f8ff;
+  border-left: 4px solid #000000;
+  padding: 1em;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+.custom-block-peach {
+  background-color: #FFDAB9;
+  border-left: 4px solid #000000;
+  padding: 1em;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+.custom-block-green {
+  background-color: #D0F0C0;
+  border-left: 4px solid #000000;
+  padding: 1em;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+/* Custom blocks for the dark theme */
+
+/* Custom block for dark theme */
+:root[data-theme='dark'] .custom-block-blue {
+  background-color: #f0f8ff; /* Same light blue background */
+  border-left: 4px solid #000000; /* Black border */
+  color: #000000; /* Black text */
+}
+
+:root[data-theme='dark'] .custom-block-peach {
+  background-color: #FFDAB9; /* Same light peach background */
+  border-left: 4px solid #000000; /* Black border */
+  color: #000000; /* Black text */
+}
+
+:root[data-theme='dark'] .custom-block-green {
+  background-color: ##D0F0C0; /* Same light green background */
+  border-left: 4px solid #000000; /* Black border */
+  color: #000000; /* Black text */
+}
+
+
+/* Text colors */
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+/* Default link style for the button at the top*/
+.navbar__link {
+  padding: 6px 10px;
+  color: #004bd1;
+  text-decoration: none;
+  border: none;
+  background: none;
+  border-radius: 5px;
+   margin-right: 5px; /* Adjust the spacing as needed */
+}
+
+/* When a menu item is active, make it look like a button */
+.navbar__link--active {
+  background-color: #004bd1;
+  color: #FFFFFF !important;
+  border: 1px 004bd1;
+  border-radius: 35px;
+  padding: 5px 10px;
+}
+
+/* Keep the hover color the same as the active state */
+.navbar__link--active:hover {
+  background-color: #004bd1 !important ;
+  color: #FFFFFF !important; /* Ensure the text remains navy on hover */
+  border-color: #004bd1 ;
+}
+.navbar .button--primary {
+  background-color: #004bd1; /* Custom background color */
+  color: white !important; /* Text color */
+  border: none; /* Optional: remove border */
+  border-radius: 20px; /* Optional: rounded corners */
+  padding: 6px 10px; /* Optional: padding for better appearance */
+  
+}
+
+/* Dark mode styling for top navigation bar links using [data-theme='dark'] */
+[data-theme='dark'] .navbar__link {
+    background-color: #F59700 !important;
+    color: #FFFFFF !important;
+    padding: 6px 10px !important;
+    border-radius: 35px !important; /* Increased border-radius for a more rounded appearance */
+    margin-right: 5px !important; /* Optional: to add spacing between buttons */
+}
+
+/* Dark mode hover effect for top navigation bar links */
+[data-theme='dark'] .navbar__link:hover {
+    background-color: #d77f00 !important;
+    color: #FFFFFF !important;
+}
+
+/* Dark mode styling for active (selected) top navigation link */
+[data-theme='dark'] .navbar__link--active {
+    background-color: #F59700 !important;
+    color: #FFFFFF !important;
+    padding: 6px 12px !important; /* Slightly more padding for a better rounded effect */
+    border-radius: 35px !important; /* Ensures a rounded button */
+}
+
+/* Dark mode styling for active link hover */
+[data-theme='dark'] .navbar__link--active:hover {
+    background-color: #d77f00 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+.DocSearch-Button-Placeholder {
+  font-family: Poppins, sans-serif; /* Replace with your desired font */
+}
+
+/* Set background image for the homepage */
+
+.hero {
+    background-image: url('DocumentationCover.webp'); /* Replace with your image path */
+    height: 75vh; /* Full viewport height */
+    background-position: bottom;	
+		}	
+
+.hero .button {
+    background-color: #FFFFFF;  /* Change the background color */
+    color: #004bd1 !important;  /* Change the text color */
+    border-radius: 25px;  /* Make the button rounded */
+    padding: 10px 20px;  /* Adjust padding */
+    font-size: 16px;  /* Adjust font size */
+    text-transform: uppercase;  /* Make text uppercase */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Add shadow effect */
+    transition: background-color 0.3s ease;  /* Add a hover transition */
+	text-transform: none;  /* Prevents capitalization */
+}
+
+.hero .button:hover {
+    background-color: #FFFFFF;  /* Change background color on hover */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);  /* Increase shadow on hover */
+}
+
+/* Title color for both light and dark modes */
+html .hero__title {
+     font-size: 32px; /* Title size */
+	color: #FFFFFF !important; /* Force the title color to remain black */
+}
+
+.hero__subtitle {
+    color: #FFFFFF; /* Replace with your desired description color */
+	font-size: 19px; /* Title size */
+}
+
+.title {
+  font-size: 19px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+
