@@ -14,15 +14,18 @@ To create a VPC, follow these steps:
 4. Specify network address base size and select size i.e. The **super CIDR** for the internal IP allocation in an x.x.x.x/x format.
 5. Choose a Networking pack (IPV4 or IPV6) from the available network collections. 
    ![VPC Creation](img/VPCCreation2.png)
-6. Select the default IPV4 address for VPC Networking so that the VPC network will be created with a new Public IP address.
-7. Verify the Estimated Cost of your VPC, based on the options that you have chosen from the Summary and Estimated Costs Section( Here, both the Hourly and Monthly Prices summary will be displayed).
-8. Click the check box after going through the policies mentioned by your cloud service provider.
+   :::note
+	To configure IPv6 under a **VPC,** you must create a ticket with our support team for assistance.
+    :::
+7. Select the default IPV4 address for VPC Networking so that the VPC network will be created with a new Public IP address.
+8. Verify the Estimated Cost of your VPC, based on the options that you have chosen from the Summary and Estimated Costs Section( Here, both the Hourly and Monthly Prices summary will be displayed).
+9. Click the check box after going through the policies mentioned by your cloud service provider.
    ![Name your Virtual Private Cloud](img/VPCCreation3.png)
-9. To display the price summary, click the **BUY HOURLY** or **BUY MONTHLY** button, a confirmation pop-over will open up.
+10. To display the price summary, click the **BUY HOURLY** or **BUY MONTHLY** button, a confirmation pop-over will open up.
     1. You can apply any of the discount codes listed by clicking the **APPLY** button. 
     2. You can also remove the applied discount code by clicking the **REMOVE** button. 
     3. You can cancel your action by clicking the **CANCEL** button.
-10. Click the **CONFIRM** to create the VPC.
+11. Click the **CONFIRM** to create the VPC.
 
 Once ready, you’ll be notified of this purchase on your email address on record. 
 

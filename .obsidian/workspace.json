@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+                "file": "docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CreatingLinuxInstances"
+              "title": "WorkingwithVPNConnectionsinaVPC"
             }
           }
         ],
@@ -180,6 +180,16 @@
   },
   "active": "ac200cbbbeb73e13",
   "lastOpenFiles": [
+    "docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
+    "docs/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
+    "docs/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
+    "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
+    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
+    "docs/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
+    "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
+    "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
+    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
+    "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
     "build/search-index.json",
     "build/sitemap.xml",
     "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
@@ -190,7 +200,6 @@
     "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs",
     "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages",
     "build/docs/ToolsandUtilities/AboutToolsandUtilities",
-    "build/docs/ToolsandUtilities",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
     "build/img/sps.png",
@@ -202,14 +211,11 @@
     "build/img/logo.svg",
     "build/img/logo.png",
     "docs/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
-    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
     "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
     "docs/Compute/LinuxInstances/AppOverlays.md",
     "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
-    "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
-    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
     "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
     "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingInstancestoaVFI-basedNetwork.md",
     "docs/Networking/FirewallandSecurity/AddingLinuxInstance.md",
@@ -219,12 +225,6 @@
     "docs/Compute/WindowsInstances/ConfiguringMSSQL.md",
     "docs/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
     "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
-    "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
-    "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
-    "docs/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
-    "docs/Compute/LinuxInstances/LinuxInstanceOperations.md",
-    "docs/InstanceProtection/TurningofftheProtectionPlan.md",
-    "docs/InstanceProtection/EnablingInstanceProtection.md",
-    "docs/InstanceProtection/ChangingtheProtectionPlan.md"
+    "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md"
   ]
 }
