@@ -17,6 +17,9 @@ If you did not enable the protection service while creating the instance, follow
 
 1. Go to the **Linux/Windows Instances** section and click on the specific instance. Then, navigate to the **Protection** section and click the **ENABLE PROTECTION** button.
 2. To enable advanced protection features, toggle the switch to enable them and Click **Confirm**.
+   :::note
+	   When a user enables the Advance Plan, it works in addition to the Standard Plan. The pricing is calculated based on per GB/usage basis for Standard Plan features and per instance/per workload for Advance plan features.
+	:::
 3. After confirming, a list of activation steps will appear. These steps should be executed via the command line. Once completed, the instance will be protected, and its details will be available in the **Instance Protection** menu.
 
 :::note
