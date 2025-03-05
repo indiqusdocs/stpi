@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/InstanceProtection/EnablingInstanceProtection.md",
+                "file": "docs/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EnablingInstanceProtection"
+              "title": "AbouttheKubernetesDashboard"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 287.5
   },
   "right": {
     "id": "f27b6e8a49e79237",
@@ -180,29 +180,36 @@
   },
   "active": "ac200cbbbeb73e13",
   "lastOpenFiles": [
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
-    "build/docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
-    "build/docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Snapshots/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/Operations/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts/index.html",
-    "build/docs/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement/index.html",
-    "build/icons/home.svg",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.png",
-    "build/img/undraw_docusaurus_tree.svg",
-    "build/img/sps.svg",
-    "build/img/rn.svg",
-    "build/img/sbs.svg",
+    "build/markdown-page/index.html",
+    "build/markdown-page",
+    "build/blog/authors/all-sebastien-lorber-articles/index.html",
+    "build/blog/authors/yangshun/index.html",
+    "build/blog/tags/docusaurus/index.html",
+    "build/blog/tags/index.html",
+    "build/blog/tags/docusaurus",
+    "build/blog/authors/yangshun",
+    "build/blog/mdx-blog-post/index.html",
+    "build/blog/authors/index.html",
+    "build/blog/authors/all-sebastien-lorber-articles",
     "build/img/sbs.png",
-    "build/img/logo.png",
-    "docs/InstanceProtection/AboutInstanceprotection.md",
+    "build/img/undraw_docusaurus_tree.svg",
+    "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/undraw_docusaurus_react.svg",
+    "build/img/sps.png",
+    "build/img/sps.svg",
+    "build/img/sbs.svg",
+    "build/img/rn.png",
+    "build/img/rn.svg",
+    "build/img/ananta-social-card.png",
+    "docs/Compute/Kubernetes/ScalingKubernetesClusters.md",
+    "docs/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
+    "docs/Compute/Kubernetes/CreatingaKubernetesCluster.md",
+    "docs/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
+    "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
+    "docs/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
+    "docs/Compute/Kubernetes/ClusterOperations.md",
     "docs/InstanceProtection/EnablingInstanceProtection.md",
+    "docs/InstanceProtection/AboutInstanceprotection.md",
     "docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
     "docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
     "docs/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
@@ -218,13 +225,6 @@
     "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
     "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
-    "docs/Compute/LinuxInstances/AppOverlays.md",
-    "docs/Compute/WindowsInstances/AboutWindowsInstances.md",
-    "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/AddingLinuxInstance.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancestoaVFI-basedNetwork.md",
-    "docs/Networking/FirewallandSecurity/AddingWindowsInstance.md",
-    "docs/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md"
+    "docs/Compute/LinuxInstances/AppOverlays.md"
   ]
 }

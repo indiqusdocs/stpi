@@ -11,7 +11,7 @@ To access all available Kubernetes clusters, navigate to **Compute > Kubernetes
 - [Viewing cluster details](ViewingKubernetesClusterDetails)
 - [Scaling a Cluster](ScalingKubernetesClusters)
 - [Accessing a cluster (using kubectl)](AccessingaClusterusingtheCommandLine)
-- [Accessing the Kubernetes dashboard](AccessingtheClusterDashboard)
+- [Accessing the Kubernetes dashboard](AbouttheKubernetesDashboard.md)
 - [Managing cluster networking (ingress)](IngressNetworkingonKubernetesClusters)
 - [Cluster management operations](ClusterOperations)
 
