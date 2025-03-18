@@ -8,9 +8,10 @@ To view the details below, navigate to [RHEL Instances Screen](AboutRHELInstance
 - [Configuration and Availability](#configuration-and-availability)
 - [Internal Information](#internal-information)
 - [Security and Access Control](#security-and-access-control)
+
 ---
 ## Configuration and Availability
-The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas STOPPED is displayed in <span style="color:grey">greyed </span>out.
+The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas STOPPED is displayed in <span style={{ color: 'grey' }}>grey </span>.
 
 ![Viewing Details of RHEL Instances](img/RHEL5.png)
 
@@ -19,8 +20,9 @@ This displays the information that is used for internal identification of this i
     - Template Name
     -  Internal Name
     -  Created On
+
 ## Security and Access Control
-The following information is avaialble:
+The following information is available:
 	- Network Name
 	- VPC Name
 	- Access Control

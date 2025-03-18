@@ -11,8 +11,8 @@ You can use these graphs to understand Instance utilisation patterns and create 
 
 The following graphs are available on a 24-hour time-scale graph with a 30-day trend line for the following parameters:
 
-- CPU utilisation
-- RAM utilisation
+- CPU Utilisation
+- RAM Utilisation
 - Network Input
 - Network Output
 
