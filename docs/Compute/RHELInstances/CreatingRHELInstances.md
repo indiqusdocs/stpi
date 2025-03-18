@@ -8,7 +8,7 @@ To create a RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**.
    ![RHEL Instances](img/RHEL1.png)
-2. Click on the **NEW RHEL INSTANCE**.
+2. Click on **NEW RHEL INSTANCE**.
    ![RHEL Instances](img/RHEL2.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. 
 4. Select the **Destination** and then the **Network** from the drop-downs.
@@ -29,12 +29,12 @@ To create a RHEL instance, follow these steps:
     2. You can also remove the applied discount code by clicking the **REMOVE** button. 
     3. Clicking on the **CANCEL** button, this action will be canceled.
     ![Name and choose estimated costs](img/RHELInstance4.png)
-16. Click on the **CONFIRM** to create the RHEL Instance.
+14. Click **CONFIRM** to create the RHEL Instance.
 
 :::note
 It might take up to 5-8 minutes for the instance to create. You may use the Cloud Console during this time, but it is advised that you do not refresh the browser window.
 :::
 
-Once ready, you will be notified of this purchase on your registered email address. To access the newly created RHEL Instances, navigate to **Compute >** **RHEL Instances**.
+Once ready, you get the notification of this purchase on your registered email address. To access the newly created RHEL Instances, navigate to **Compute >** **RHEL Instances**.
 
 

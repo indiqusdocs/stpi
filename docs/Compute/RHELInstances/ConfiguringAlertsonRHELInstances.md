@@ -7,7 +7,7 @@ Alerts get triggered whenever a configured condition is met. You can create mult
 
 You can configure alerts for instances running on the Ananta. You can define alerts for Instances and configure the email recipients for these alerts using a straightforward and easy-to-use interface.
 
-Navigate to a [RHEL Instance](AboutRHELInstances.md) and access the **Alerts** tab to view the configured alerts or configure new ones.
+Navigate to a [RHEL Instances Screen](AboutRHELInstances.md) and access the **Alerts** tab to view the configured alerts or configure new ones.
 ## Instance Alerts
 
 The Alerts tab lists all the alerts already configured for that particular RHEL Instance. In addition, it will show the details, i.e., ID, the name for the alert, Parameter, Trigger When, Value, and Reading Duration.

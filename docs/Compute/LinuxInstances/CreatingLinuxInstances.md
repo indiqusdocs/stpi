@@ -8,7 +8,7 @@ Before creating a Linux instance, it is important to plan the architecture, netw
 To create a Linux instance, follow these steps:
 
 1. Navigate to **Compute > Linux Instances**.
-2.  Click the **+ NEW LINUX INSTANCE** button.
+2.  Click the **NEW LINUX INSTANCE** button.
     ![Create Linux Instance](img/CreatingLinuxInstances1.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. ![Availability Zone](img/AvailablitiyZone.png)
 4. Select the **Destination** (VPC/VNF) and then the **Network** from the respective drop-down lists.   
@@ -30,6 +30,7 @@ To create a Linux instance, follow these steps:
     - You can apply any of the discount codes listed by clicking on the **APPLY** button. 
     - You can also remove the applied discount code by clicking the **REMOVE** button. 
     - Clicking on the **CANCEL** button, this action will be canceled.
+    ![Discount Codes](img/DiscountCodes.png)
 14. Click the **CONFIRM**  button to create the Linux Instance.
 
 :::note

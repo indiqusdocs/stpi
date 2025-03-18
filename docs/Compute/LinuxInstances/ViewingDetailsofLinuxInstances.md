@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Viewing Details of Linux Instances
 
-To view the below details, navigate to a Linux Instance from  [Operating Linux Instances](AboutLinuxInstances.md) and access the **Overview** tab.
+To view the below details, navigate to a Linux Instance from  [Linux Instances screen](AboutLinuxInstances.md), and access the **Overview** tab.
 
 - [Configuration and Availability](#configuration-and-availability)
 - [Internal Information](#internal-information)

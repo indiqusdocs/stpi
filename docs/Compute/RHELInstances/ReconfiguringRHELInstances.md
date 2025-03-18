@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Reconfiguring RHEL Instances
 
-To view the available reconfiguration options, navigate to [RHEL Instances](AboutRHELInstances.md) and access the **Reconfigure** tab.
+To view the available reconfiguration options, navigate to [RHEL Instances Screen](AboutRHELInstances.md) and access the **Reconfigure** tab.
 
 A RHEL Instance on Ananta can be reconfigured in the following ways:
 

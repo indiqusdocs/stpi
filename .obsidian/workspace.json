@@ -13,30 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+                "file": "docs/Compute/RHELInstances/RHELInstanceOperations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UsingRemoteAccessVPNwithVPC"
+              "title": "RHELInstanceOperations"
             }
           },
           {
             "id": "ac200cbbbeb73e13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AbouttheKubernetesDashboard"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 345.5
   },
   "right": {
     "id": "f27b6e8a49e79237",
@@ -178,8 +173,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac200cbbbeb73e13",
+  "active": "40d501cff488e097",
   "lastOpenFiles": [
+    "docs/Compute/RHELInstances/ViewingDetailsofRHELInstances.md",
+    "docs/Compute/RHELInstances/ReconfiguringRHELInstances.md",
+    "docs/Compute/RHELInstances/ProtectingRHELInstances.md",
+    "docs/Compute/RHELInstances/NetworkingManagementwithRHELInstances.md",
+    "docs/Compute/RHELInstances/CreatingRHELInstances.md",
+    "docs/Compute/RHELInstances/AboutRHELInstances.md",
+    "docs/Compute/RHELInstances/VolumeManagementwithRHELInstances.md",
+    "docs/Compute/RHELInstances/WorkingwithRHELInstanceSnapshots.md",
+    "docs/Compute/RHELInstances/ViewingGraphsandUtilizationofRHELInstances.md",
+    "docs/Compute/RHELInstances/RHELInstanceOperations.md",
+    "docs/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
+    "docs/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
+    "docs/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
+    "docs/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
+    "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
+    "docs/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
+    "docs/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
+    "docs/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
+    "docs/Compute/Kubernetes/ScalingKubernetesClusters.md",
+    "docs/Compute/Kubernetes/CreatingaKubernetesCluster.md",
+    "docs/Compute/Kubernetes/ClusterOperations.md",
+    "docs/Compute/WindowsInstances/WindowsInstanceOperations.md",
+    "docs/Compute/WindowsInstances/WorkingwithWindowsInstanceSnapshots.md",
+    "docs/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
+    "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+    "docs/Compute/WindowsInstances/img/TakeSnapshot.png",
+    "docs/Compute/WindowsInstances/ViewingGraphsandUtilisationofWindowsInstances.md",
+    "docs/Compute/WindowsInstances/img/Utilisation.png",
+    "docs/Compute/LinuxInstances/img/Utilisation.png",
+    "docs/Compute/LinuxInstances/img/DiscountCodes.png",
+    "docs/AccountCentre/img/StandardLevelAgreement.png",
     "build/markdown-page/index.html",
     "build/markdown-page",
     "build/blog/authors/all-sebastien-lorber-articles/index.html",
@@ -190,41 +216,10 @@
     "build/blog/authors/yangshun",
     "build/blog/mdx-blog-post/index.html",
     "build/blog/authors/index.html",
-    "build/blog/authors/all-sebastien-lorber-articles",
     "build/img/sbs.png",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_mountain.svg",
     "build/img/undraw_docusaurus_react.svg",
-    "build/img/sps.png",
-    "build/img/sps.svg",
-    "build/img/sbs.svg",
-    "build/img/rn.png",
-    "build/img/rn.svg",
-    "build/img/ananta-social-card.png",
-    "docs/Compute/Kubernetes/ScalingKubernetesClusters.md",
-    "docs/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
-    "docs/Compute/Kubernetes/CreatingaKubernetesCluster.md",
-    "docs/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
-    "docs/Compute/Kubernetes/AboutKubernetesonAnanta.md",
-    "docs/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
-    "docs/Compute/Kubernetes/ClusterOperations.md",
-    "docs/InstanceProtection/EnablingInstanceProtection.md",
-    "docs/InstanceProtection/AboutInstanceprotection.md",
-    "docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
-    "docs/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
-    "docs/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
-    "docs/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
-    "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
-    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
-    "docs/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
-    "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
-    "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
-    "docs/Compute/LinuxInstances/CreatingLinuxInstances.md",
-    "docs/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "docs/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance.md",
-    "docs/Compute/WindowsInstances/CreatingWindowsInstances.md",
-    "docs/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance.md",
-    "docs/Compute/LinuxInstances/AppOverlays.md"
+    "build/img/sps.png"
   ]
 }

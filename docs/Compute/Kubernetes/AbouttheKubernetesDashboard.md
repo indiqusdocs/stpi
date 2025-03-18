@@ -11,7 +11,7 @@ The Kubernetes Dashboard is a web-based user interface that provides a visual re
 
 Details of services, pods, namespaces, controllers etc. for a Kubernetes cluster are available on the **Kubernetes Dashboard UI**. To access the dashboard, the **kubeconfig** manifest needs to be downloaded and used.
 
-If not, navigate to the **Access** section of a cluster to first [set up kubectl and _kubeconfig_](AccessingaClusterusingtheCommandLine).
+If not, navigate to the **Access** section of a cluster to first [configure kubectl and kubeconfig](AccessingaClusterusingtheCommandLine).
 
 Once done, a local proxy needs to be run using the command given below:
 

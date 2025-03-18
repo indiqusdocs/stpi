@@ -7,7 +7,7 @@ Enabling protection ensures that all instances are protected while all the threa
 
 To enable instance protection, follow these steps:
 
-1. From [Operating RHEL Instances](AboutRHELInstances.md), navigate to RHEL Instance and access the **Protection** tab.
+1. From [RHEL Instances Screen](AboutRHELInstances.md), navigate to RHEL Instance and access the **Protection** tab.
 2. Click on the **Enable Protection** button. The screen appears where the standard protection service is selected.
 3. To enable advanced protection features such as antivirus, anti-malware and backup/restore service for the SQL databases, turn on the toggle button. 
 4. Click **Confirm**. The protection gets enabled and the following screen appears:
