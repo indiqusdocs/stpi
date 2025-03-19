@@ -11,7 +11,7 @@ To view the details below, navigate to [RHEL Instances Screen](AboutRHELInstance
 
 ---
 ## Configuration and Availability
-The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas STOPPED is displayed in <span style={{ color: 'grey' }}>grey </span>.
+The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas STOPPED is displayed in <span style={{ color: 'grey' }}>grey</span>.
 
 ![Viewing Details of RHEL Instances](img/RHEL5.png)
 

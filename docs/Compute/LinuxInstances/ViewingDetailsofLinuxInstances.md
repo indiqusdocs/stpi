@@ -11,7 +11,7 @@ To view the below details, navigate to a Linux Instance from  [Linux Instances s
 ---
 ## Configuration and Availability
 
-This section displays the instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey </span> and the information about the networking zone.
+This section displays the instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey</span> and the information about the networking zone.
 
 ![Viewing Details of Linux Instances](img/ViewingDetailsofLinuxInstances1.png)
 

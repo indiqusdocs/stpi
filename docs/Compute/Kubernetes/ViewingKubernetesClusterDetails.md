@@ -26,7 +26,7 @@ A quick option is available in the top right corner, i.e., to  **POWER OFF/ON*
 
 At this stage, the following details can be accessed for the cluster:
 1. **Configuration and Availability**
-    1. The cluster’s status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey </span>.
+    1. The cluster’s status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey</span>.
     2. Information about the VPC networking zone.
 2. **Nodes Information**- This displays the basic information about the nodes as listed below.
     1. Cluster Size
