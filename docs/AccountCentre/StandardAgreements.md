@@ -12,3 +12,4 @@ The following documents are available:
 - Frequently Asked Questions (optional)
 
 
+![SLA](img/StandardLevelAgreement.png)

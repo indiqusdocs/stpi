@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 # Volume Management with RHEL Instances
 
-To view the disk attached to particular instance, navigate to [RHEL Instances](AboutRHELInstances.md) and access the **Volumes** tab.
+To view the disk attached to particular instance, navigate to [RHEL Instances Screen](AboutRHELInstances.md) and access the **Volumes** tab.
 
 RHEL Instances on Ananta work with the [Block Volumes Service](/docs/Storage/BlockVolumes/AboutBlockVolumes) and let you carry out basic disk operations.
 
@@ -11,9 +11,9 @@ RHEL Instances on Ananta work with the [Block Volumes Service](/docs/Storage/Bl
 
 The following are the quick actions:
 
-- **Create Template** - Click on it, and enter the image name and description.
-- **Create Snapshot** - Clicking on this will create a Volume snapshot.
-- **Detach/attach** - This will attach/detach the volume to/from the instance.
+- **Create Template** - To enter the image name and description, click the icon
+- **Create Snapshot** - To create a Volume snapshot, click the icon.
+- **Detach/attach** - This option attach/detach the volume to/from the instance.
 
 :::note
 Volume-level operations are available as part of the Block Volumes service.

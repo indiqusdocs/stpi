@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 # Reconfiguring Windows Instances
 
-From [Operating Windows Instances](AboutWindowsInstances), navigate into a Windows Instance and access the **Reconfigure** tab to see available reconfiguration options.
+From [Windows Instances Screen](AboutWindowsInstances), navigate into a Windows Instance and access the **Reconfigure** tab to see available reconfiguration options.
 
 A Windows Instance on Ananta can be reconfigured in the following ways:
 

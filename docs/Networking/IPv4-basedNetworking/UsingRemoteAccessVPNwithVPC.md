@@ -7,10 +7,10 @@ To use a VPN client to connect to your VPC, follow these steps:
 
 1. Navigate to  **Networking > Virtual Private Clouds** from the main navigation panel and enter the VPC that you wish to connect using your VPN client.
    ![VPC ](img/Remote1.png)
-2. To enable the switch for the Remote Access VPN, navigate to VPC, Click the **Manage VPN access** available under the **IPv4 ADDRESSES** section, then click on the **Remote Access (L2TP)** option.
+2. To enable the switch for the Remote Access VPN, navigate to VPC, Click the **Manage VPN access** available under the **IPv4 ADDRESSES** section, then click the **Remote Access (L2TP)** option.
    ![Ipv4 Address](img/Remote2.png)
    ![Manage VPN Access](img/ManageVPNaccess.png)
-3. This will also enable the **Remote Access VPN** button for the VPC’s default IP. Click on the button to copy the pre-shared key (PSK) and the IP range from the dialog box to use in your VPN client.
+3. This will also enable the **Remote Access VPN** button for the VPC’s default IP. Click the button to copy the pre-shared key (PSK) and the IP range from the dialog box to use in your VPN client.
    ![Presharedkey](img/PreSharedkey.png)
 4. Additionally, you’ll need to add VPN user credentials here.
 

@@ -3,7 +3,7 @@ sidebar_position: 11
 ---
 # Linux Instance Operations
 
-From [Operating Linux Instances](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Operations** tab to see all available Instance operations.
+From [Linux Instances Screen](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Operations** tab to see all available Instance operations.
 ![Linux Instance Operations](img/Operations1.png)
 
 Ananta Cloud Console provides the options to perform the following operations on Linux Instances:

@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Viewing Details of Linux Instances
 
-To view the below details, navigate to a Linux Instance from  [Operating Linux Instances](AboutLinuxInstances.md) and access the **Overview** tab.
+To view the below details, navigate to a Linux Instance from  [Linux Instances screen](AboutLinuxInstances.md), and access the **Overview** tab.
 
 - [Configuration and Availability](#configuration-and-availability)
 - [Internal Information](#internal-information)
@@ -11,7 +11,7 @@ To view the below details, navigate to a Linux Instance from  [Operating Linux I
 ---
 ## Configuration and Availability
 
-This section displays the instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in greyed out and the information about the networking zone.
+This section displays the instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey</span> and the information about the networking zone.
 
 ![Viewing Details of Linux Instances](img/ViewingDetailsofLinuxInstances1.png)
 

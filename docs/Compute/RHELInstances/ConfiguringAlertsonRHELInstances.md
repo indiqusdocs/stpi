@@ -7,13 +7,13 @@ Alerts get triggered whenever a configured condition is met. You can create mult
 
 You can configure alerts for instances running on the Ananta. You can define alerts for Instances and configure the email recipients for these alerts using a straightforward and easy-to-use interface.
 
-Navigate to a [RHEL Instance](AboutRHELInstances.md) and access the **Alerts** tab to view the configured alerts or configure new ones.
+Navigate to a [RHEL Instances Screen](AboutRHELInstances.md) and access the **Alerts** tab to view the configured alerts or configure new ones.
 ## Instance Alerts
 
 The Alerts tab lists all the alerts already configured for that particular RHEL Instance. In addition, it will show the details, i.e., ID, the name for the alert, Parameter, Trigger When, Value, and Reading Duration.
 ## Adding an Alert
 
-You can create or add alerts simply by clicking on the **Add Alert** button. The following screen will open up, and you can configure the alert using the on-screen input form.
+You can create or add alerts simply by clicking on the **CREATE ALERT** button. The following screen will open up, and you can configure the alert using the on-screen input form.
 
 The various fields of the add alert page are described below:
 
@@ -22,7 +22,7 @@ The various fields of the add alert page are described below:
 3. **Trigger when** - This set of options lets you define whether to trigger above or below a custom value.
 4. **Value** - You can define the trigger value/threshold.
 5. **Reading duration** - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
-6. **Send email to** - Email IDs (comma-separated) can be added here, or also you can add them by using the configure recipients.
+6. **Send email to** - Email IDs (separated by a comma) can be added here, or also you can add them by using the configure recipients.
 ![Creating Alert](img/CreatingAlert.png)
 ## Managing Recipients
 
