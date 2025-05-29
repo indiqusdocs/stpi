@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
+                "file": "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AboutFirewallInstances"
+              "title": "CreatingaVirtualFirewall"
             }
           }
         ]
@@ -165,28 +165,34 @@
   },
   "active": "287aed1f8416057a",
   "lastOpenFiles": [
-    "docs/Storage/ObjectStorageBucket/CreatingObjectStorageBucket.md",
-    "docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md",
-    "docs/Storage/ObjectStorageBucket/ApiculusObjectStorage.png",
-    "build/docs/ResettingPassword/index.html",
-    "build/docs/ResettingPassword",
-    "build/docs/Storage/BlockVolumes/WorkingwithVolumeSnapshots/index.html",
+    "build/search-index.json",
+    "build/sitemap.xml",
     "build/docs/Storage/BlockVolumes/WorkingwithInstanceVolumes/index.html",
-    "build/docs/Storage/ObjectStorageBucket/FrequentlyAskedQuestions/index.html",
-    "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
+    "build/docs/Storage/BlockVolumes/WorkingwithInstanceVolumes",
     "build/docs/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes/index.html",
+    "build/docs/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes",
+    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages/index.html",
+    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages",
+    "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots/index.html",
+    "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots",
     "build/docs/Storage/BlockVolumes/AboutBlockVolumes/index.html",
-    "build/docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails/index.html",
-    "build/docs/Storage/ObjectStorageBucket/CreatingObjectStorageBucket/index.html",
+    "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
-    "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sbs.svg",
+    "build/img/undraw_docusaurus_react.svg",
     "build/img/sps.svg",
+    "build/img/rn.png",
+    "build/img/sbs.svg",
     "build/img/sps.png",
     "build/img/sbs.png",
     "build/img/rn.svg",
-    "build/img/rn.png",
+    "docs/Networking/FirewallandSecurity/ApplicationLoadBalancer.md",
+    "docs/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
+    "docs/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
+    "docs/Storage/ObjectStorageBucket/CreatingObjectStorageBucket.md",
+    "docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md",
     "docs/Networking/NATGateways/ManagingNATGateways.md",
     "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
     "docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
@@ -204,12 +210,6 @@
     "docs/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
     "docs/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
     "docs/Compute/RHELInstances/AboutRHELInstances.md",
-    "docs/Networking/DNSManagement/LinkingDomainstoAnantaCloudConsole.md",
-    "docs/Networking/DNSManagement/ManagingDNSRecords.md",
-    "docs/Networking/DNSManagement/AboutDNSManagement.md",
-    "docs/Networking/L2 Networks/AddNewL2Networks.md",
-    "docs/Networking/LoadBalancerInstances/AboutLoadBalancerInstances.md",
-    "docs/Networking/L2 Networks/AboutL2Networks.md",
-    "docs/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md"
+    "docs/Networking/DNSManagement/LinkingDomainstoAnantaCloudConsole.md"
   ]
 }
