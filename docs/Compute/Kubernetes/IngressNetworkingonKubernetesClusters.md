@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Ingress Networking on Kubernetes Clusters
 
-This **Networking** section under cluster details helps manage a cluster's firewalls and ingress networking. Port forwarding and load balancing rules can also be managed using kubectl.
+This **Networking** section under cluster details helps manage a cluster's firewalls and ingress networking. Port forwarding and load balancing rules can also be managed using `kubectl`.
 
 :::note
 Ananta Kubernetes Service supports traefik and nginx ingress controllers.

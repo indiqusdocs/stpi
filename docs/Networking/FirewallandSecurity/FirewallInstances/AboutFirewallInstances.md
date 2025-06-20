@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Virtual Firewalls enables you to use Virtual Firewalls in a Virtualized Network Function (VNF) style, which include support for multiple VLANs and Public IPv4 addresses and automated service activation. This allows for more robust firewall management capabilities.
 
-The Service falls under the **Virtual Firewall** and is built using our integration framework using [pfSense](https://pfsense.org/) or [FortiGate VM](https://www.fortinet.com/products/private-cloud-security/fortigate-virtual-appliances) for powering the appliance.
+The Service falls under the **Virtual Firewall** and is built using our integration framework using [pfSense](https://pfsense.org/) for powering the appliance.
 
 The following are the important features:
 - Multi-VLAN support and multiple Public IPv4 addresses for Virtual Firewalls.

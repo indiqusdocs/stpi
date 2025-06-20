@@ -10,8 +10,8 @@ NAT gateways work as follows:
 - NAT gateways allow resources in private subnets to initiate outbound connections to the internet for tasks like software updates, data backups, or API calls. However, they block any unsolicited inbound traffic, preventing external actors from directly accessing private resources. 
 - When a resource (for example, a virtual machine) in a private subnet sends a request to the internet, the NAT gateway translates the private IP address of the resource into a public IP address, making the resource appear as if it is on the internet. Responses to these requests are then routed back through the NAT gateway to the initiating resource.
 - NAT gateways are managed services that are highly available and scalable by default. They can handle large volumes of traffic without requiring manual setup for failover or redundancy.
-- By keeping resources in private subnets and restricting internet exposure, NAT gateways enhance security for sensitive data and applications.
 
+**Security Benefit**: By keeping resources in private subnets and restricting internet exposure, NAT gateways enhance security for sensitive data and applications.
 
 **Sample Setup**: A NAT gateway can be deployed in a public subnet within a Virtual Private Cloud (VPC). Resources in private subnets route their outbound internet-bound traffic to this NAT gateway, which forwards it to the internet.
 

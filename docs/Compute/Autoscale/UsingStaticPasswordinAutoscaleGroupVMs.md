@@ -7,7 +7,7 @@ sidebar_position: 4
 2. Create a Virtual Machine using the standard templates.
 3. Launch the console and login with the initial password (Generated at the time of VM Creation).
 4. Run the following commands. 
-	1. Create own password. <br />`sudo passwd <yourusername>` (ubuntu/root)
+	1. Create your password. <br />`sudo passwd <yourusername>` (ubuntu/root)
 	2. Disable the password expiry. <br />`sudo chage -I -1 -m 0 -M 99999 -E -1 <yourusername>` (ubuntu/root)
 	3. Ensure password Authentication is enabled (If using SSH). <br />`sudo vi /etc/ssh/sshd_config`
 	4. Make sure the following lines are set correctly. <br />`PasswordAuthentication yes` 

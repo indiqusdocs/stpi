@@ -27,8 +27,7 @@ To view a list of sections and the various actions you can perform by going insi
 
 On the top right corner, two quick options are available, one to **LAUNCH CONSOLE** and the other to **POWER OFF/ON** the Instance.
 ![Launch Console](img/LaunchConsole.png)
-Details on available Linux Instance operations and actions can be found in their respective sections.
-
+Details on available Linux Instance operations and actions can be found in their respective sections:
 - [Overview](ViewingDetailsofLinuxInstances.md)
 - [Graphs & Utilisation](ViewingGraphsandUtilizationofLinuxInstances.md)
 - [Alerts](ConfiguringAlertsonLinuxInstances.md)

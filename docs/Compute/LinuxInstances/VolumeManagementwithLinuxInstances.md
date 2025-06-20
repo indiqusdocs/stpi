@@ -3,9 +3,9 @@ sidebar_position: 6
 ---
 # Volume Management with Linux Instances
 
-From [Operating Linux Instances](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Volumes** tab to see the disks attached to this Instance.
+From [Linux Instances Screen](AboutLinuxInstances.md), navigate into a Linux Instance, and access the **Volumes** tab to see the disks attached to this Instance.
 
-Linux Instances on Ananta work with the [Block Volumes Service](/docs/Storage/BlockVolumes/AboutBlockVolumes) and let you carry out basic disk operations.
+Linux Instances on Ananta work with the [Block Volumes Service](/docs/Storage/BlockVolumes/AboutBlockVolumes), and let you carry out basic disk operations.
 
 ![Volume Management](img/VolumeManagement.png)
 

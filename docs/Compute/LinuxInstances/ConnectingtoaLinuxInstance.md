@@ -14,7 +14,7 @@ To connect to your Linux Instance from a Windows machine, you will need to use a
    ![Putty](img/putty1.png)
 4. Navigate to **Connection** > **SSH** > **Auth**.
 	  ![Putty](img/putty2.png)
-5. Click the **Browse** button and select the private key file you generated earlier.
+5. Click the **Browse** button and select the previously generated private key file.
 6. To open a connection to the instance, click **Open** at the bottom of the screen. PuTTY will prompt you to allow the connection to the host.
 7. Click **OK** to confirm, and the terminal window will appear.
 8. Enter the default root username (typically **ubuntu** for Ubuntu images and **root** for other Linux OS images) and press **Enter** to authenticate using your SSH key.

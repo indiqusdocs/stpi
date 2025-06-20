@@ -3,8 +3,6 @@ sidebar_position: 1
 ---
 # About Windows Instances
 
-Instances are computing units that provide you with resources to run your applications/workloads. Windows Instances are virtual machines that run the images of Windows Operating Systems.
-
 Before purchasing a Windows Instance, it is important to plan the architecture, networking, and access to the Windows Instances. As a thumb rule:
 
 - You can use a Windows Instance to get started quickly and set up your Windows Instances behind Ananta Cloud’s global server load balancer (GSLB) and control access by setting up virtual firewall rules; or;
@@ -27,7 +25,7 @@ To view a list of sections and the various operations or actions you can perform
 - Default IP
 - Created 
 
-On the top right corner, two quick options are available, one for accessing the Instance console Instance and the other to POWER OFF/ON the instance.
+On the top right corner, two quick options are available, one for accessing the Instance console Instance and the other to **POWER OFF/ON** the instance.
 
 ![Overview screen](img/WindowsInstance.png)
 Details on available Windows Instance operations and actions can be found in their respective sections.

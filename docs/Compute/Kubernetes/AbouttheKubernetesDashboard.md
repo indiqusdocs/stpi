@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# Accessing the Cluster Dashboard
+# About the Kubernetes Dashboard
 
 The Kubernetes Dashboard is a web-based user interface that provides a visual representation of a cluster's resources and enables easier management and monitoring. Here's an overview of the dashboard:
 
@@ -11,7 +11,7 @@ The Kubernetes Dashboard is a web-based user interface that provides a visual re
 
 Details of services, pods, namespaces, controllers etc. for a Kubernetes cluster are available on the **Kubernetes Dashboard UI**. To access the dashboard, the **kubeconfig** manifest needs to be downloaded and used.
 
-If not, navigate to the **Access** section of a cluster to first [set up kubectl and _kubeconfig_](AccessingaClusterusingtheCommandLine).
+If not, navigate to the **Access** section of a cluster to first [configure kubectl and kubeconfig](AccessingaClusterusingtheCommandLine).
 
 Once done, a local proxy needs to be run using the command given below:
 
@@ -32,6 +32,8 @@ To login to the cluster dashboard, you need to obtain a token, which can be done
 ```
 kubectl --kubeconfig /custom/path/kube.conf describe secret $(kubectl --kubeconfig /custom/path/kube.conf get secrets -n kubernetes-dashboard | grep kubernetes-dashboard-token | awk '{print $1}') -n kubernetes-dashboard
 ```
+
+To learn how to access the dashboard from version 1.24 onwards, refer to [Accessing the Dashboard](Accessingthekubernetesdashboard.md).
 
 :::note
 More information about accessing the Kubernetes Dashboard UI can be found on: [https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#accessing-the-dashboard-ui](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#accessing-the-dashboard-ui) 

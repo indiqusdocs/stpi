@@ -3,7 +3,7 @@ sidebar_position: 11
 ---
 # RHEL Instance Operations
 
-To view all available Instance operations, from [RHEL Instances](AboutRHELInstances.md) and access the **Operations** tab.
+To view all available Instance operations, from [RHEL Instances Screen](AboutRHELInstances.md) and access the **Operations** tab.
 ![RHEL Instance Operations](img/Operations1.png)
 
 Ananta Cloud Console provides the options to perform common operations on RHEL Instances.

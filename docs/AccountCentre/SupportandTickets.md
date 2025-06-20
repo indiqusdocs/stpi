@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Support and Tickets
 
-Ananta Cloud provides SLA-driven support to all subscriber customers in accordance with the terms and conditions outlined in the Service Level Agreement. The SLA can be accessed from the top helper bar by clicking on the **user icon**.
+Ananta Cloud provides SLA-driven support to all subscriber customers in accordance with the terms and conditions outlined in the Service Level Agreement. The SLA can be accessed from the top helper bar by clicking on the user icon.
 ![Support and Tickets](img/SupportandTickets1.png)
 ## Creating a Support Ticket
 
