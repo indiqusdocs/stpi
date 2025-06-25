@@ -5,6 +5,19 @@ sidebar_position: 3
 
 This section outlines the steps to configure port forwarding for a Virtual Machine (VM) using a Virtual Network Function (VNF) in a cloud environment. Port forwarding allows external clients to securely access services (for example SSH, HTTP) hosted on the VM by mapping ports from the VNF’s public IP to the VM’s private IP. This approach improves network segmentation and control by routing all incoming traffic through the VNF layer.
 
+This section outlines all the steps required to configure port forwarding for a VM via a VNF. Here are the following steps:
+
+1. [Accessing and Selecting a NAT Gateway](#accessing-and-selecting-a-nat-gateway)
+2. [Reviewing Configuration](#reviewing-configuration)
+3. [Accessing Port Forwarding Settings for NAT Gateway](#accessing-port-forwarding-settings-for-nat-gateway)
+4. [Adding a New Port Forwarding Rule](#adding-a-new-port-forwarding-rule)
+5. [Adding Details and Creating Port Forwarding Rule](#adding-details-and-creating-port-forwarding-rule)
+6. [Verifying the Added Port Forwarding Rule](#verifying-the-added-port-forwarding-rule)
+7. [Configuring NAT Settings In pfsense Firewall](#configuring-nat-settings-in-pfsense-firewall)
+8. [Adding a New Port Forward Rule in pfsense Firewall](#adding-a-new-port-forward-rule-in-pfsense-firewall)
+9. [Adding a Rule with Value](#adding-a-rule-with-value)
+10. [Verifying SSH Access Using Public IP](#verifying-ssh-access-using-public-ip)
+11. [Verifying VM Info and IP Configuration](#verifying-vm-info-and-ip-configuration)
 ## Accessing and Selecting a NAT Gateway
 
 This section outlines the steps to access and select a NAT Gateway within the Ananta Cloud platform. Before managing configuration or operational settings, users must navigate to the appropriate section of the dashboard and identify the NAT Gateway instance relevant to their network environment. This ensures that all subsequent actions are performed on the correct gateway associated with the intended Virtual Network Function (VNF). 
@@ -117,7 +130,7 @@ The following steps guide you through locating the newly added rule in the **Por
 
 To fully enable port forwarding, you must set up the necessary NAT (Network Address Translation) rules in the pfsense firewall. This step ensures that incoming traffic on specific ports is correctly directed to your internal server. 
 
-Follow the steps below to access and configure the NAT settings:
+The Following steps to access and configure the NAT settings:
 
 1. Log in to the **pfSense Firewall** using the IP address shown in the browser (for example  `http://164.164.197.178`).
 2. From the top menu bar, click on the **Firewall** .
@@ -128,7 +141,7 @@ Follow the steps below to access and configure the NAT settings:
 
 To enable traffic redirection to an internal server, you need to create a new Port Forward rule in the pfsense firewall. This rule helps map incoming traffic on a specific port to the desired internal IP and port within your network. 
 
-Follow the steps below to add the rule and configure the necessary settings, including interface selection, protocol type, port range, and internal destination details, to ensure accurate traffic forwarding through the pfsense firewall:
+The following steps to add the rule and configure the necessary settings, including interface selection, protocol type, port range, and internal destination details, to ensure accurate traffic forwarding through the pfsense firewall:
  
 1. Ensure you're in the **Port Forward** tab under the **Firewall > NAT** section.
 2. Click on the green **Add** button (with the upward arrow icon) on the right side of the page to create a new port forwarding rule.
@@ -139,7 +152,7 @@ Follow the steps below to add the rule and configure the necessary settings, inc
 
 To define specific port forwarding behavior, you can manually add a rule with precise values that match your network and access requirements. This allows you to control how incoming traffic on selected ports is redirected to internal resources within your environment.
 
-The following steps walk you through completing each required field with the appropriate values—such as interface, protocol, destination port, and target IP—to ensure accurate and secure forwarding of incoming traffic to the intended internal server.
+The following steps guide you through filling out each required field to ensure accurate and secure forwarding of incoming traffic to the intended internal server.
    
 1. Click on the **Add** button to create a new port forwarding rule.
 2. Fill in the Rule Details as per requirement:
@@ -178,7 +191,7 @@ The following steps guide you through initiating an SSH session using the public
 
 This section helps you check the basic details of your virtual machine. After logging in, you can view the system status and find the IP address to make sure the VM is running and connected to the network.
 
-The following steps guide you through logging into the VM terminal, reviewing system and network information, identifying the correct network interface and IP address, and checking for any available software or OS updates.
+The following steps guide you through logging into the VM terminal, reviewing system and network information, identifying the correct network interface and IP address, and checking for any available software or OS updates:
    
 1. Log in to the VM terminal.
 2. Check system status (CPU, memory, processes, IP) – shown on login.

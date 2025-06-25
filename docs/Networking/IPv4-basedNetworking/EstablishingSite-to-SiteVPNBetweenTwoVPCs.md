@@ -62,7 +62,6 @@ Establish the Site-to-Site VPN tunnel between the two VPCs:
 2. Click **Site-to-Site (IPSEC)**. From the list of available VPN connections, select the appropriate **VPN Connections** that corresponds to the remote VPC.
 3. Click on **Create Connection** to initiate the tunnel setup.
 ![manageaccess](img/manageaccess.png)
-
 Repeat this for the second VPC to complete the bi-directional VPN configuration.
 ## Verifying VPN Status
 

@@ -4,11 +4,21 @@ sidebar_position: 4
 # Port Forwarding with Public IP
 
 In Ananta Cloud, an additional Public IP enables you to expose internal services hosted on virtual machines (VMs) to the internet by creating dedicated port forwarding rules. This approach is especially useful when multiple external IPs are needed for services such as SSH, HTTP, or custom applications. By assigning specific public IPs to particular services or VMs, you can achieve greater control, flexibility, and network segmentation.
+
+This section outlines all the steps required to configure port forwarding with Public IP. Here are the following steps:
+
+1. [Adding Public IPv4 Address](#adding-public-ipv4-address)
+2. [Adding a Port Forwarding Rule](#adding-a-port-forwarding-rule)
+3. [Requiring Values in the Rule](#requiring-values-in-the-rule)
+4. [Configuring Port Forwarding in pfsense](#configuring-port-forwarding-in-pfsense)
+5. [Verifying the Functionality](#verifying-the-functionality)
+6. [Web and SSH Port Forwarding in pfsense](#web-and-ssh-port-forwarding-in-pfsense)
+7. [WAN Rule at pfsense](#wan-rule-at-pfsense)
 ## Adding Public IPv4 Address
 
 To enable external connectivity for your services through a NAT Gateway, you need to allocate a public IPv4 address. This address serves as the entry point for inbound traffic and is essential for setting up port forwarding or other external access configurations.
 
-The following steps walk you through the process of navigating to your NAT Gateway, generating a new public IPv4 address, and verifying its successful addition and availability within the Ananta Cloud environment:
+The following steps guide you through the process of navigating to your NAT Gateway, generating a new public IPv4 address, and verifying its successful addition and availability within the Ananta Cloud environment:
 
 1. Go to the **NAT Gateways** section from the left-hand menu.
 2. Select the desired gateway (e.g., `ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK`).
@@ -19,7 +29,6 @@ The following steps walk you through the process of navigating to your NAT Gatew
 7. The newly added IP (e.g., `164.164.197.8`) shows the status as **Unused**.
 ![ipv4addressadd](img/ipv4addressadd.png)
 ![ipv4purchased](img/ipv4purchased.png)
-
 ## Adding a Port Forwarding Rule
 
 Once a public IPv4 address has been successfully added to your NAT Gateway, the next step is to configure port forwarding. This enables external access to internal services by mapping incoming traffic on specific ports to designated internal IP addresses within your network.
@@ -32,7 +41,6 @@ The following steps guide you through locating the unused public IP, accessing t
     - In the row corresponding to the **Unused** public IP (e.g., `164.164.197.8`), locate and click on the **port forwarding icon**.
     - The icon is next to other icons like the delete (trash bin) and details (eye) icon, as shown in  the red box in the screenshot.
 4. Proceed to Configure the Rule: After clicking the icon, follow the prompted interface to define your port forwarding rule (not shown in the screenshot but typically involves specifying internal and external ports, protocol, and target IP).
-   
 ![publcip](img/publcip.png)
 ## Requiring Values in the Rule
 
@@ -58,11 +66,11 @@ To enable external access to internal services through specific ports, you need 
 The following steps guide you through logging in to the pfsense interface, navigating to the NAT configuration section, and defining the required parameters to create an effective port forwarding rule:
 
 1. Login to pfsense:
-     A. Open a browser and navigate to `https://<pfSense-IP>` (for example `https://164.164.197.178`).
-     B. Login with the appropriate credentials.
+      - Open a browser and navigate to `https://<pfSense-IP>` (for example `https://164.164.197.178`).
+      - Login with the appropriate credentials.
 2. Navigate to NAT Configuration:
-     A. Go to **Firewall** > **NAT**.
-     B. Click on the **Port Forward** tab.
+      - Navigate to **Firewall** > **NAT**.
+      - Click on the **Port Forward** tab.
 3. Click the Add button (typically + icon) to create a new port forward rule.
 4. Configure the Rule Parameters - Fill out the form with the following values:
       - **Address Family**: `IPv4`
@@ -118,11 +126,11 @@ The following steps guide you through configuring both HTTP and SSH port forward
      - **NAT Port (Destination Port)**: Enter `22`.
      - **Description**: Add a meaningful label such as `SSH access`.
 4. Save and Apply the Rules:
-     A. After adding both rules, click **Save**. 
-     B. Then click **Apply Changes** to activate the rules in pfsense.
+      - After adding both rules, click **Save**. 
+      - Then click **Apply Changes** to activate the rules in pfsense.
 5. Port Forwarding Rules:
-     A. Port **80** traffic to the internal server for web (HTTP) access.
-     B. Port **22** traffic to the internal server for SSH access.
+     - Port **80** traffic to the internal server for web (HTTP) access.
+     - Port **22** traffic to the internal server for SSH access.
       
 ![twoportforwarding](img/twoportforwarding.png)
 
@@ -149,6 +157,6 @@ The following steps help you verify and manage these auto-generated WAN rules to
     - **Description**: NAT
     - **Purpose**: Allows external HTTP (web) access to the internal server.
 4. Confirm Rule Status:
-     A. Ensure both rules are **enabled** (indicated by the green check icon).
-     B. You can also edit or delete them from the **Actions** column if needed.  
+    - Ensure both rules are **enabled** (indicated by the green check icon).
+    - You can also edit or delete them from the **Actions** column if needed.  
 ![wanrule](img/wanrule.png)
