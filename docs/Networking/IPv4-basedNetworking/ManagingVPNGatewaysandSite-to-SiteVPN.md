@@ -3,11 +3,7 @@ sidebar_position: 2
 ---
 # Managing VPN Gateways and Site-to-Site VPN
 
-## Creating a VPN Gateway
-
-Site-to-site VPN gateways can be configured from the **Networking > VPN Gateways** section on the main navigation panel.
-
-To create a VPN gateway, navigate to the VPN Gateways section and click on the **Add Gateway** button on the top-right. This will open up a dialog box with IPSec tunnel detail requirements.
+Site-to-site <span class="tooltip-wrapper">**VPN**<span class="tooltip-box">It securely connects users to a private network over the internet by encrypting their data and masking their IP address.</span></span>gateways can be configured from the **Networking > VPN Gateways** section on the main navigation panel. To create a VPN gateway, navigate to the VPN Gateways section and click the **Add Gateway** button. This will open up a dialog box with IPSec tunnel detail requirements.
 
 :::note
  You’ll need to obtain the gateway details from your ISP’s control panel or the primary firewall console.

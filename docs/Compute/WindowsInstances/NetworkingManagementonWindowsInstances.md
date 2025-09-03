@@ -12,7 +12,7 @@ The following actions are available:
 - Network/tier associations can be removed from this section by using the unlink action.
 
 :::note
-Advanced networking configurations can be done using the [Virtual Private Clouds](/docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds) service.
+Advanced networking configurations can be done using the [Virtual Private Clouds](/docs/Networking/VirtualPrivateClouds/AboutVirtualPrivateCloudsandL2Networks) service.
 :::
 
 
