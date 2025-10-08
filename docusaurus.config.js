@@ -1,213 +1,91 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Ananta Cloud Technical Documentation',
- // tagline: 'Find user guides, quickstarts, release notes, FAQs, and more for Service Providers and Subscribers.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://docs.ananta.stpi.in',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: '', // Usually your GitHub org/user name.
-  projectName: '', // Usually your repo name.
+  organizationName: '',
+  projectName: '',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
 
-stylesheets: [
+  stylesheets: [
     {
-      href: 'https://fonts.cdnfonts.com/css/aptos', // Update this to the correct link to load Aptos
+      href: 'https://fonts.cdnfonts.com/css/aptos',
       rel: 'stylesheet',
     },
   ],
+
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+        },
+        blog: false, // ✅ disables blog plugin
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
   ],
-  
-  presets: [
+
+  plugins: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-         sidebarPath: require.resolve('./sidebars.js'),
-		  // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-    //      editUrl:
-      //      'https://github.com/imyogeshs/apiculus',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-		  
-		
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-    //      editUrl:
-      //      'https://github.com/indiqus/docs',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
-        
-		theme: {
-          customCss: './src/css/custom.css',
-        },
-      }),
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+		indexBlog: false, // ✅ this stops it from trying to load the blog
+      },
     ],
   ],
-  
-  // here is the search plug-in.
-plugins: [
-[
-require.resolve("@easyops-cn/docusaurus-search-local"),
-{
-	hashed: true,
-},
-],
-],
 
-  themeConfig:
-  
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-		docs: {
+  themeConfig: {
+    docs: {
       sidebar: {
         autoCollapseCategories: true,
-		hideable: true,
-
+        hideable: true,
       },
-	 
-	  
     },
-      // Replace with your project's social card
-      image: 'img/ananta-social-card.png',
-      navbar: {
-        title: '',
-		// hideOnScroll: true,
-        logo: {
-          alt: 'Ananta',
-          src: 'img/logo.svg',
-        },
-        items: [
-          
-		  {
-            type: 'docSidebar',
-            sidebarId: 'sidebar1',
-            position: 'left',
-            label: 'Docs',
-			position: "left",
-          },
-		 		 
-		/*   {
-          href: '#', // Change to the desired link
-          label: 'APIs', // The label of your button
-          position: 'right',
-          className: 'button button--primary', // Add button classes here
-        },
-		 */  	  
-		  {
-          href: 'https://portal.ananta.stpi.in', // Change to the desired link
-          label: 'Ananta Cloud', // The label of your button
-          position: 'right',
-          className: 'button button--primary', // Add button classes here
-        },
-		  	  
-		  ],
+    image: 'img/ananta-social-card.png',
+    navbar: {
+      title: '',
+      logo: {
+        alt: 'Ananta',
+        src: 'img/logo.svg',
       },
-	/*	
-     footer: {
-		style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Service Providers',
-                to: '/docs/intro',
-              },
-			 ],
-          },
-          {
-            title: 'Social',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              
-              {
-                label: 'GitHub',
-                href: 'https://github.com',
-              },
-            ],
-          },
-        ],		
- Copyright ${new Date().getFullYear()} Software Technology Parks of India (STPI),
-      },
-	*/ 
-	  
-	  /* Algolia Search is here.
-	 
-	  
-	  algolia: {
-      appId: "LR4IO8TKPQ",
-      apiKey: "86496eb0535959e8d78cff40e68ba3b8",
-      indexName: "apiculus",
-      contextualSearch: true,
-      searchParameters: {
-      facetFilters: ["keywords"]
-      }
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'sidebar1',
+          label: 'Docs',
+          position: 'left',
+        },
+        {
+          href: 'https://portal.ananta.stpi.in',
+          label: 'Ananta Cloud',
+          position: 'right',
+          className: 'button button--primary',
+        },
+      ],
     },
-	*/
-	
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
 };
 
 export default config;
-

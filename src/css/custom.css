@@ -29,6 +29,42 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Tool Tip in Yellow color background and yellow popup. */
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+  background-color: #fff176; /* Yellow background */
+  padding: 2px 4px;
+  border-radius: 4px;
+  border-bottom: 1px dotted #555;
+  cursor: help;
+}
+
+.tooltip-wrapper .tooltip-box {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  max-width: 250px;
+  background-color: #fff176; /* Yellow background */
+  color: #000;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  top: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 0.85em;
+}
+
+.tooltip-wrapper:hover .tooltip-box {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Custom CSS for Fonts and Styles */
 
 /* Set Montserrat font for all headings */
@@ -100,20 +136,15 @@ a:hover {
 
 /* Apply zoom effect to all images when clicked */
 
-img {
-  cursor: zoom-in; /* Show zoom-in cursor */
-  transition: transform 0.5s ease; /* Smooth transition effect for scaling */
-  position: relative; /* Allows z-index to work */
-  z-index: 1; /* Base z-index for all images */
+.lightbox-img {
+  cursor: zoom-in;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block;
+  margin: 0.6rem auto;
 }
-
-
-/* Zoom effect on click */
-img:active {
-  transform: scale(1.5); /* Zoom in the image on click */
-  cursor: zoom-out; /* Change cursor to zoom-out */
-  z-index: 1000; /* Bring zoomed image above all other elements */
-  }
 
 .footer {
   background-color: #708090; /* Replace with your desired color */

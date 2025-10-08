@@ -20,7 +20,7 @@
     "@docusaurus/theme-live-codeblock": "^3.5.2",
     "@docusaurus/theme-mermaid": "^3.5.2",
     "@docusaurus/theme-search-algolia": "^3.5.2",
-    "@easyops-cn/docusaurus-search-local": "^0.45.0",
+    "@easyops-cn/docusaurus-search-local": "^0.26.1",
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
@@ -30,6 +30,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^5.3.0",
+    "react-medium-image-zoom": "^5.4.0",
+    "react-modal": "^3.16.3",
     "react-share": "^5.1.0"
   },
   "devDependencies": {
