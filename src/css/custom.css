@@ -65,6 +65,15 @@
   opacity: 1;
 }
 
+.markdown img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* prevents large images from overflowing */
+  height: auto;    /* keeps aspect ratio */
+  width: auto;     /* prevents upscaling of small images */
+}
+
 /* Custom CSS for Fonts and Styles */
 
 /* Set Montserrat font for all headings */
