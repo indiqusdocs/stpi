@@ -2,19 +2,23 @@ import React from 'react';
 import OriginalDocSidebarItem from '@theme-original/DocSidebarItem';
 
 const icons = {
-  category: "📁",   // For folders
-  link: "📄",       // For external links
-  doc: "🔗",        // For individual docs
+  category: "📁",
+  link: "📄",
+  doc: "🔗",
 };
 
 export default function DocSidebarItem(props) {
   const type = props.item.type;
   const icon = icons[type] || "📄";
 
-  // Add icon before the label
   const newItem = {
     ...props.item,
-    label: `${icon} ${props.item.label}`,
+    label: (
+      <span className="sidebar-label-wrapper">
+        <span className="sidebar-icon">{icon}</span>
+        <span className="sidebar-text">{props.item.label}</span>
+      </span>
+    ),
   };
 
   return <OriginalDocSidebarItem {...props} item={newItem} />;
