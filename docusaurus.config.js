@@ -73,7 +73,7 @@ const config = {
           label: 'Docs',
           position: 'left',
         },
-        {
+		{
           href: 'https://portal.ananta.stpi.in',
           label: 'Ananta Cloud',
           position: 'right',
