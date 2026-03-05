@@ -79,6 +79,8 @@ const config = {
           position: 'right',
           className: 'button button--primary',
         },
+		{ type: 'search', position: 'right' }, // KEEP RIGHT
+
       ],
     },
     prism: {

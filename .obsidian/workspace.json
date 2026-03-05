@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/intro.md",
-                "mode": "preview",
+                "file": "docs/AccountCentre/Payments.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "intro"
+              "title": "Payments"
             }
           }
         ]
@@ -164,34 +164,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d45fa90ffa8b9bc5",
+  "active": "287aed1f8416057a",
   "lastOpenFiles": [
+    "docs/FAQs.md",
+    "docs/AccountCentre/Payments.md",
+    "docs/AccountCentre/WalletandTransactions.md",
+    "build/stpiFeb27.zip",
+    "build/index.html",
+    "build/sitemap.zip",
     "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots/index.html",
-    "build/docs/ToolsandUtilities/AboutToolsandUtilities/index.html",
     "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
+    "build/docs/ToolsandUtilities/AboutToolsandUtilities/index.html",
     "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages/index.html",
+    "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs",
     "build/docs/ToolsandUtilities/ManagingInstanceandVolumeSnapshots",
     "build/docs/ToolsandUtilities/AboutToolsandUtilities",
-    "build/docs/ToolsandUtilities/ManagingSSHKeysandKeyPairs",
-    "build/docs/ToolsandUtilities/ManagingCustomTemplatesandImages",
-    "build/docs/ToolsandUtilities",
-    "build/docs/Storage/ObjectStorageBucket/SystemRequirements/index.html",
-    "build/docs/Storage/BlockVolumes/AboutBlockVolumes/index.html",
+    "build/img/logo.png",
+    "build/img/undraw_docusaurus_tree.svg",
+    "build/img/undraw_docusaurus_react.svg",
+    "build/img/favicon.png",
+    "build/img/undraw_docusaurus_mountain.svg",
+    "build/img/sps.svg",
+    "build/img/sps.png",
+    "build/img/sbs.svg",
+    "build/img/sbs.png",
+    "build/img/rn.png",
+    "docs/AccountCentre/AboutAnantaAccountCentre.md",
+    "docs/AccountCentre/UnbilledCharges.md",
+    "docs/intro.md",
     "docs/Networking/IPv4-basedNetworking/EstablishingSite-to-SiteVPNBetweenTwoVPCs.md",
     "docs/Networking/NATGateways/PortForwardingforVMviaVNF.md",
     "docs/Networking/FirewallandSecurity/DeployingVNFandVMWithinVNF.md",
     "docs/Networking/NATGateways/PortForwardingwithPublicIP.md",
     "docs/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
-    "build/img/undraw_docusaurus_react.svg",
-    "build/img/undraw_docusaurus_tree.svg",
-    "build/img/sbs.png",
-    "build/img/undraw_docusaurus_mountain.svg",
-    "build/img/sps.svg",
-    "build/img/sps.png",
-    "build/img/sbs.svg",
-    "build/img/rn.svg",
-    "build/img/rn.png",
-    "build/img/logo.svg",
     "docs/Networking/NATGateways/ManagingNATGateways.md",
     "docs/Networking/FirewallandSecurity/CreatingaVirtualFirewall.md",
     "docs/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
@@ -206,11 +211,6 @@
     "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
     "docs/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
     "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
-    "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
-    "docs/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
-    "docs/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
-    "docs/Networking/NATGateways/AboutNATGateways.md",
-    "docs/Storage/ObjectStorageBucket/CreatingObjectStorageBucket.md",
-    "docs/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md"
+    "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md"
   ]
 }
