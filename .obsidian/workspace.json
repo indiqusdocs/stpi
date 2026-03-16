@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c8ff5a4c2d11214e",
+        "id": "f91dece3fb6e83db",
         "type": "tabs",
         "children": [
           {
-            "id": "287aed1f8416057a",
+            "id": "1be6619c9be96a8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/AccountCentre/Payments.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Payments"
+              "title": "New tab"
             }
           }
         ]
@@ -164,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "287aed1f8416057a",
+  "active": "1be6619c9be96a8d",
   "lastOpenFiles": [
-    "docs/FAQs.md",
+    "Self-service and Administration.md",
     "docs/AccountCentre/Payments.md",
+    "docs/FAQs.md",
     "docs/AccountCentre/WalletandTransactions.md",
     "build/stpiFeb27.zip",
     "build/index.html",
@@ -210,7 +207,6 @@
     "docs/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
     "docs/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
     "docs/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
-    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
-    "docs/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md"
+    "docs/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md"
   ]
 }
