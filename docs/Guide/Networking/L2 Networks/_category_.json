@@ -1,0 +1,10 @@
+{
+  "label": "L2 Networks",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "L2 networks, often called data link layer networks, play a crucial role in computer networking by establishing direct connections between devices in a local network and ensuring data packets are delivered accurately to their intended destination..
+"
+  }
+}
+

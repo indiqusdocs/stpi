@@ -1,0 +1,9 @@
+{
+  "label": "RHEL Instances",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Instances are computing units that provide you with resources to run your applications/workloads. RHEL Instances are virtual machines that run the images of RHEL Operating System."
+  }
+}
+

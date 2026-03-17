@@ -1,0 +1,9 @@
+{
+  "label": "Virtual Firewalls",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Ananta supports the delivery and management of Virtual Firewalls as-a-service model."
+  }
+}
+

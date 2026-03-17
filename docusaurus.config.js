@@ -73,13 +73,19 @@ const config = {
           label: 'Docs',
           position: 'left',
         },
-	//	{
-      //    href: '/pdf/UserGuide.pdf',
-        //  label: 'Download PDF',
-        //  position: 'right',
-		//  className: 'button button--primary',
-        //  target: '_blank',
-       // },
+		{
+          type: 'docSidebar',
+          sidebarId: 'sidebar2',
+          label: 'FAQs',
+          position: 'left',
+        },
+		{
+          href: '/pdf/UserGuide.pdf',
+         label: 'Download PDF',
+         position: 'right',
+		  className: 'button button--primary',
+          target: '_blank',
+        },
 		{
           href: 'https://portal.ananta.stpi.in',
           label: 'Ananta Cloud',

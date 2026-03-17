@@ -1,9 +1,0 @@
-{
-  "label": "Autoscale",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "description": "The autoscale feature allows a system to adjust its computing resources based on the changing workload automatically."
-  }
-}
-
