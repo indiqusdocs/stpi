@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/SSLCertificateConfiguration.md",
+                "file": "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSLCertificateConfiguration"
+              "title": "UsingRemoteAccessVPNwithVPC"
             }
           }
         ]
@@ -166,16 +166,23 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
-    "img.md",
+    "docs/Guide/Networking/IPv4-basedNetworking/EstablishingSite-to-SiteVPNBetweenTwoVPCs.md",
+    "docs/Guide/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
+    "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/connected.png",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/password.png",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/service.png",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/macos3.png",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/macos2.png",
+    "docs/Guide/Networking/IPv4-basedNetworking/img/MacOSVPN.png",
+    "node_modules",
     "docs/Guide/Compute/SSLCertificateConfiguration.md",
+    "img.md",
     "docs/Guide/Compute/SSLCertificateModification.md",
     "docs/Guide/Compute/img/RestartNgnixService.png",
     "docs/Guide/Compute/img/OTRSTicketingandServiceInterface.png",
     "docs/Guide/Compute/img/ObtaintheSSLCertificate.png",
     "docs/Guide/Compute/img/ModifiedNginxSSLConfigurationFile.png",
-    "docs/Guide/Compute/img/MetabaseBusinessIntelligenceDashboards.png",
-    "docs/Guide/Compute/img/ISVConsoles.png",
-    "docs/Guide/Compute/img/adminConsole.png",
     "docs/Guide/Compute/Kubernetes/CreatingaKubernetesCluster.md",
     "docs/Guide/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
     "docs/Guide/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
@@ -191,26 +198,19 @@
     "build/docs/Guide/Storage/ObjectStorageBucket/SystemRequirements/index.html",
     "build/docs/Guide/Storage/ObjectStorageBucket/CreatingObjectStorageBucket/index.html",
     "build/docs/Guide/Storage/ObjectStorageBucket/AboutAnantaObjectStorage/index.html",
-    "build/docs/Guide/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes",
     "docs/Guide/Networking/FirewallandSecurity/pfSenseConfigurations.md",
     "docs/Guide/Networking/FirewallandSecurity/SSLCertificateConfiguration.md",
     "docs/Guide/InstanceProtection/BackupPolicy.md",
-    "docs/Guide/AnantaCentral.png",
     "docs/Guide/InstanceProtection/TurningofftheProtectionPlan.md",
     "docs/Guide/InstanceProtection/ViewingProtectedInstances.md",
     "docs/Guide/InstanceProtection/EnablingInstanceProtection.md",
     "docs/Guide/InstanceProtection/ChangingtheProtectionPlan.md",
     "docs/Guide/InstanceProtection/AboutInstanceprotection.md",
-    "docs/Guide/Networking/FirewallandSecurity/img/RestartNgnixService.png",
-    "docs/Guide/Networking/FirewallandSecurity/img/ModifiedNginxSSLConfigurationFile.png",
     "docs/Guide/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
     "docs/Guide/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
     "docs/Guide/CloudExperienceManagement/CloudConsoleOverview.md",
     "docs/Guide/CloudExperienceManagement/CloudOperationsManagement.md",
     "docs/Guide/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
-    "docs/Guide/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md",
-    "docs/Guide/Networking/LoadBalancerInstances/CreatingaLoadBalancerInstance.md",
-    "docs/Guide/Networking/IPv4-basedNetworking/EstablishingSite-to-SiteVPNBetweenTwoVPCs.md"
+    "docs/Guide/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md"
   ]
 }

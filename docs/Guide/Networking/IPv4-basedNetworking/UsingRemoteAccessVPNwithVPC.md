@@ -55,3 +55,34 @@ To  configure a VPN Connection on Windows using Native VPN client, follow these 
  The configuration is successful.
 ![Connected](img/ConfigureVPN14.png)
 
+## Configuring VPN on Mac OS 
+To  configure a VPN Connection on Mac OS using Native VPN client, follow these steps:
+1. Navigate to **Preferences > Network**. 
+2. To add the VPN, Click the **+** button.
+	![img](img/MacOSVPN.png)
+3. Enter the following details:
+	- From the Interface drop-down, select **VPN**.
+	- From the VPN Type drop-down, select **L2TP over IPSec**.
+	- Enter the **Service Name** (for example: test-vpc1).
+	![img](img/macos3.png)
+4. Click **Create**. The details get listed in the panel on the left.
+5. Select the **Service**. The following screen appears:
+	![img](img/service.png)
+6. Click **Authentication Settings**.
+	- Under the User Authentication section, enter the **Password**.
+	- Under the Machine Authentication section, enter the **Shared Secret**.
+	![img](img/password.png)
+7. Click **OK**. The following screen appears:
+	![img](img/service.png)
+8. Click **Apply** to apply Network configuration changes.
+9. Click **Connect** to initiate VPN connection.
+	![img](img/connected.png)
+:::note 
+When connected to a VPC via VPN, the client have access to all Tiers. 
+
+ To configure VPN client, the following information is required: 
+- Public IP: source NAT with VPN enabled. 
+- IPsec pre-shared key: Provide at the VPN activation. 
+- Username VPN account username. 
+- Password VPN account password.
+:::
