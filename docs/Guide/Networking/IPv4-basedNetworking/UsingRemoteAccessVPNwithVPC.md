@@ -55,8 +55,18 @@ To  configure a VPN Connection on Windows using Native VPN client, follow these 
  The configuration is successful.
 ![Connected](img/ConfigureVPN14.png)
 
-## Configuring VPN on Mac OS 
-To  configure a VPN Connection on Mac OS using Native VPN client, follow these steps:
+## Configuring VPN on macOS 
+Remote Access VPN connection to VPC or Guest Network to access Instances and applications. This section considers you have enabled Remote access VPN, refer to [Remote Access VPN](https://docs.cloudstack.apache.org/en/4.17.1.0/adminguide/networking_and_traffic.html#remote-access-vpn)
+
+When connected to a VPC via VPN, the client have access to all Tiers. 
+
+
+To configure VPN client, the following information is required: 
+- Public IP: source NAT with VPN enabled. 
+- IPsec pre-shared key: Provide at the VPN activation. 
+- Username VPN account username. 
+- Password VPN account password.
+To  configure a VPN Connection on macOS using Native VPN client, follow these steps:
 1. Navigate to **Preferences > Network**. 
 2. To add the VPN, Click the **+** button.
 	![img](img/MacOSVPN.png)
@@ -77,12 +87,3 @@ To  configure a VPN Connection on Mac OS using Native VPN client, follow these s
 8. Click **Apply** to apply Network configuration changes.
 9. Click **Connect** to initiate VPN connection.
 	![img](img/connected.png)
-:::note 
-When connected to a VPC via VPN, the client have access to all Tiers. 
-
- To configure VPN client, the following information is required: 
-- Public IP: source NAT with VPN enabled. 
-- IPsec pre-shared key: Provide at the VPN activation. 
-- Username VPN account username. 
-- Password VPN account password.
-:::
