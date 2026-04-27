@@ -6,33 +6,23 @@ sidebar_position: 9
 Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
 
 :::note
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 :::tip
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 :::info
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 :::warning
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 :::danger
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 In short, the building blocks of Apiculus are:
@@ -97,5 +87,5 @@ Refer to the [Apiculus Datasheet](apioverview.md) for a [complete list of Servic
 
 
 <div className="custom-block-green">
-  This is a custom-styled block with a light blue background and a blue border.
+  This is a custom-styled block with a light green background and a blue border.
 </div>
