@@ -3,8 +3,7 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "A Virtual Private Cloud (VPC) is a software-defined networking capability on Ananta that allows cloud users to simulate a traditional private cloud environment on a public cloud.
-"
+    "description": "A Virtual Private Cloud (VPC) is a private and protected section within a larger public cloud service. It enables you to utilize cloud resources, such as storage, servers, and networks, within a specific environment. Your VPC uses the same public cloud platform as others, but your data and systems are completely private and not shared. On STPI, it is a software-defined networking capability that allows cloud users to simulate a traditional private cloud environment on a public cloud. By using a VPC, users can manage various settings and features such as: organizing their network into smaller parts (called subnets or tiers), controlling who can access what using access control lists (ACLs), setting up internet access using NAT with IPv4, reconfiguring the VPC, managing secure connections like site-to-site or remote VPNs, and other basic operations."
   }
 }
 
