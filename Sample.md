@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Sample
 
-Apiculus CloudConsole is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
+Ananta Cloud Console is the topmost layer on a technology stack that is fine-tuned and optimised for performance, features and experience. The Apiculus solution uses Enterprise-grade components to handle various facets of infrastructure management and service delivery.
 
 :::note
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
@@ -88,4 +88,12 @@ Refer to the [Apiculus Datasheet](apioverview.md) for a [complete list of Servic
 
 <div className="custom-block-green">
   This is a custom-styled block with a light green background and a blue border.
+</div>
+
+<div className="custom-block-blue">
+  This is a custom-styled block with a light blue background and a blue border.
+</div>
+
+<div className="custom-block-pink">
+  This is a custom-styled block with a pink background and a blue border.
 </div>
