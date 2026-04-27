@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
+                "file": "docs/Guide/LoggingIn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UsingRemoteAccessVPNwithVPC"
+              "title": "LoggingIn"
             }
           }
         ]
@@ -164,11 +164,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16a02ceae35e7a02",
+  "active": "d45fa90ffa8b9bc5",
   "lastOpenFiles": [
+    "docs/Guide/LoggingIn.png",
+    "docs/Guide/SigningUp.md",
+    "docs/Guide/SubscriberSignUp.png",
+    "docs/Guide/StackComponents.svg",
+    "docs/Guide/Welcome.png",
+    "Self-service and Administration.md",
+    "Sample.md",
+    "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
     "docs/Guide/Networking/IPv4-basedNetworking/EstablishingSite-to-SiteVPNBetweenTwoVPCs.md",
     "docs/Guide/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
-    "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
     "docs/Guide/Networking/IPv4-basedNetworking/img/connected.png",
     "docs/Guide/Networking/IPv4-basedNetworking/img/password.png",
     "docs/Guide/Networking/IPv4-basedNetworking/img/service.png",
@@ -180,9 +187,6 @@
     "img.md",
     "docs/Guide/Compute/SSLCertificateModification.md",
     "docs/Guide/Compute/img/RestartNgnixService.png",
-    "docs/Guide/Compute/img/OTRSTicketingandServiceInterface.png",
-    "docs/Guide/Compute/img/ObtaintheSSLCertificate.png",
-    "docs/Guide/Compute/img/ModifiedNginxSSLConfigurationFile.png",
     "docs/Guide/Compute/Kubernetes/CreatingaKubernetesCluster.md",
     "docs/Guide/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
     "docs/Guide/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
@@ -207,10 +211,6 @@
     "docs/Guide/InstanceProtection/ChangingtheProtectionPlan.md",
     "docs/Guide/InstanceProtection/AboutInstanceprotection.md",
     "docs/Guide/Networking/FirewallandSecurity/AccessingtheVFControlPanel.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
-    "docs/Guide/CloudExperienceManagement/CloudConsoleOverview.md",
-    "docs/Guide/CloudExperienceManagement/CloudOperationsManagement.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
-    "docs/Guide/ToolsandUtilities/ManagingInstanceandVolumeSnapshots.md"
+    "docs/Guide/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md"
   ]
 }
