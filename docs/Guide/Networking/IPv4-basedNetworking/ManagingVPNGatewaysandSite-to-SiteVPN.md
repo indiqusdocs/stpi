@@ -3,11 +3,15 @@ sidebar_position: 2
 ---
 # Managing VPN Gateways and Site-to-Site VPN
 
-## Creating a VPN Gateway
+Site-to-site <span class="tooltip-wrapper">**VPN**<span class="tooltip-box">It securely connects users to a private network over the internet by encrypting their data and masking their IP address.</span></span>gateways can be configured from the **Networking > VPN Gateways** section on the main navigation panel. 
 
-Site-to-site VPN gateways can be configured from the **Networking > VPN Gateways** section on the main navigation panel.
+## Creating VPN Gateway
 
-To create a VPN gateway, navigate to the VPN Gateways section and click on the **Add Gateway** button on the top-right. This will open up a dialog box with IPSec tunnel detail requirements.
+The following are the steps to create VPN Gateway:
+
+1. To create a VPN gateway, navigate to the **VPN Gateways** section.
+2. Click the **Add Gateway** button. 
+   This will open up a dialog box with IPSec tunnel detail requirements.
 
 :::note
  You’ll need to obtain the gateway details from your ISP’s control panel or the primary firewall console.
@@ -20,7 +24,7 @@ To use a site-to-site VPN connection into your VPC, you’ll need to first defin
    ![IPv4](img/IPv4based.png)
 2. Navigate to VPC, select the **IPv4 ADDRESSES** section, and click the Manage VPN access. After this click the Enable **Site-to-Site(IPSEC) VPN** option.
    ![IPSEC](img/IPSEC.png)
-3. Then select **VPN Connection** from the list of all the VPN connections i.e. the VPN gateway you want to connect to this VPC. Click the C**REATE CONNECTION** button.
+3. Select **VPN Connection** from the list of all the VPN connections i.e. the VPN gateway you want to connect to this VPC. Click the C**REATE CONNECTION** button.
 
 To test this configuration, you can ping any of the subnet IPs or the VR’s default IP from within your external private network.
 

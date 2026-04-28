@@ -3,7 +3,8 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "IPv4 Addresses form the backbone of networking operations on Ananta.
+    "description": "IPv4 addresses are the basic building blocks that allow devices to communicate with each other in the cloud. Internally, IPv4 Addresses are treated as a monetisable Service on Ananta. However, the use of IPv4 addresses is implicit as part of other essential Services. IPv4 Addresses are used for connecting to any Instance created. It helps in accessing a VPC virtual router, Kubernetes clusters, and a VPC network.
+
 "
   }
 }
