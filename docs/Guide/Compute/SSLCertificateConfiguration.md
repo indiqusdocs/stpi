@@ -8,7 +8,7 @@ It enables HTTPS on Nginx web servers through the installation of trusted SSL ce
 
 The scope is limited to standard 2048-bit RSA keys and assumes certificate assets are managed within the `/etc/nginx/ssl` directory.
 
-To generate the CSR all Linux servers:
+To generate the CSR for all Linux servers:
 Get the details from customer site:
 For example:
 - CN = `organization`.in (Domain name)
@@ -41,5 +41,8 @@ certificate, copy the certificate files to the server’s SSL configuration dire
 ## 4. Modify the Nginx SSL Configuration File
 ![Modified Nginx SSL Configuration File](img/ModifiedNginxSSLConfigurationFile.png)
 
-## 5. Restart the Nginx Service
+## 5. Validate TLS
+Enable TLS 1.2 and above. TLS 1.0 and below is not recommended due to security issues.
+![TLS](img/TLS.png)
+## 6. Restart the Nginx Service
 ![Restart Ngnix Service](img/RestartNgnixService.png)
