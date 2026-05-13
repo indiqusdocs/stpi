@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/SSLCertificateConfiguration.md",
+                "file": "docs/Guide/CustomerSatisfactionSurvey.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSLCertificateConfiguration"
+              "title": "CustomerSatisfactionSurvey"
             }
           }
         ]
@@ -166,6 +166,9 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
+    "docs/Guide/intro.md",
+    "docs/Guide/CustomerSatisfactionSurvey.md",
+    "docs/Guide/Compute/SSLCertificateConfiguration.md",
     "build/stpimay06.zip",
     "build/assets.zip",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement/index.html",
@@ -176,7 +179,6 @@
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Operations/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances/index.html",
     "build/assets/images/zonetoimage-02db2770475e7da45b0e1fec354c32b8.png",
     "build/assets/images/WorkingwithInstanceVolumes3-9a2903b8ea354cd2dbfa26bb4b8ba3a3.png",
     "build/assets/images/WorkingwithInstanceVolumes4-e79ef59b00aeec5b167df84d38bb7a9f.png",
@@ -206,11 +208,9 @@
     "docs/Guide/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
     "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
     "docs/Guide/Compute/WindowsInstances/AboutWindowsInstances.md",
-    "docs/Guide/Compute/SSLCertificateConfiguration.md",
     "README.md",
     "docs/Guide/CloudExperienceManagement/ServicePlans.md",
     "docs/Guide/CloudExperienceManagement/CloudOperationsManagement.md",
-    "docs/Guide/LoggingIn.md",
-    "docs/Guide/SigningUp.md"
+    "docs/Guide/LoggingIn.md"
   ]
 }
