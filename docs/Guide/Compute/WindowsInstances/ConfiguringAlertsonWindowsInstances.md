@@ -3,45 +3,51 @@ sidebar_position: 6
 ---
 # Configuring Alerts on Windows Instances
 
-To view the configured alerts or configure new ones, navigate to [Windows Instances Screen](AboutWindowsInstances), select a Windows Instance and access the **Alerts** tab.
-
 Alerts get triggered whenever a configured condition is met. You can create multiple alerts on an instance. Alerts are sent to recipients that you can define and manage.
 
-Subscribers can configure alerts for instances running on the Ananta. Subscribers can define alerts for Instances and configure the email recipients for these alerts using a straightforward and easy-to-use interface.
+You can configure alerts for instances running on NGC. You can define alerts for Instances and configure the email recipients for these alerts using an easy-to-use interface.
+
+Navigate to **Compute > Windows Instance**, click the particular **Windows Instance Name,** and access the **Alerts** tab.
 
 # Instance Alerts
 
-The Alerts tab can be accessed from the instance details. It will list all the alerts already configured for that particular VM and show the details, i.e., ALERT NAME, PARAMETER, TRIGGER, VALUE, and READING DURATION.
+The Alerts tab lists all the alerts already configured for that particular Windows Instance. In addition, it will show the following details:
 
+- Name for the alert
+- Parameter
+- Trigger When
+- Value
+- Reading Duration
 ![Configuring Alerts on Windows Instances](img/ConfiguringAlerts1.png)
+# Creating an Alert
 
-# Adding an Alert
+To create an alert, follow these steps:
 
-Subscribers can create or add alerts simply by clicking on the **CREATE ALERT** button. The following screen will open up, and the subscriber needs to describe the details of the alert.
-![Create Alert Window](img/WindowsInstance1.png)
+1. Click the **Create Alert** button. The following screen appears: ![Create Alert Window](img/WindowsInstance1.png)
+2. Provide the following details:
+	- **Name**: You can define the name for your alert.
+	- **Choose Parameter**: This option allows you to define what parameter needs to be monitored to trigger the alert email. The NGC supports CPU, RAM, Disk, 1-min Load Average, 5-min Load Average, and 15-min Load Average parameters.
+	- **Trigger when**: This set of options lets you define whether to trigger above or below a custom value.
+	- **Reading duration**: This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
+	- **Add Recipients**: This option lets you add recipients from the dropdown.
 
-The various fields of the add alert page are described below:
-- **Name** - You can define the name for your alert.
-- **Choose parameter** - This option will allow you to define what parameter needs to be monitored to trigger the alert email. Ananta Cloud supports CPU, RAM, Disk, 1-min Load Average, 5-min Load Average, 15-min Load Average parameters.
-- **Trigger when** - This set of options lets you define whether to trigger above or below a custom value.
-- **Value** - You can define the Value. 
-- **Reading duration** - This option lets you define the breach window, i.e., the duration for which the breach has to be consistent to trigger the alert email.
-- **Send email to** - Email IDs can be added here, or also you can add them by using the configure recipients. 
-- **1-min Load Average** - How many processes were active, executed, or awaiting execution at the last minute.
-- **5-min Load Average** - How many processes were active, executed, or awaiting execution in the last five minutes.
-- **15-min Load Average** - How many processes were active, executed, or awaiting execution in the last fifteen minutes.
 
 # Configuring Recipients
 
-This will list and display all the email IDs already configured for the alerts. You can delete the existing ids and add other email ids by following these steps:
-1. Click the **Configure Recipients** button.
-2. Click on **+ Add More Recipients**.
-3. Add the email ids; multiple ids can be added and separated by (Comma).
-4. Click the **+** icon.
-5. Then click the **Update** button, and update the recipient's list.![Configuring Alerts on Windows Instances](img/ConfiguringAlerts3.png)
+You can delete the existing email IDs and add other email IDs by following these steps:
+
+1. Click the **Manage Recipients** button. The following screen appears: ![Configuring Alerts on Windows Instances](img/ConfiguringAlerts3.png)
+2. Click the dropdown icon in the **Add Recipients** field to view the recipients list.
+3. Select the recipients from the dropdown.
+4. Click the **Update** button.
+   
 
 :::note
 All configured recipients will receive all the set-up alerts. If no email ID is configured or added, then no email will be sent for the already configured alerts.
 :::
+
+
+
+
 
 
