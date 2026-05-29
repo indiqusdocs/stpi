@@ -8,6 +8,7 @@ Alerts get triggered whenever a configured condition is met. You can create mult
 You can configure alerts for instances running on NGC. You can define alerts for Instances and configure the email recipients for these alerts using an easy-to-use interface.
 
 Navigate to **Compute > Windows Instance**, click the particular **Windows Instance Name,** and access the **Alerts** tab.
+![Windows Instance Alert](img/WindowsInstanceforalert.png)
 
 # Instance Alerts
 
@@ -28,6 +29,7 @@ To create an alert, follow these steps:
 	- **Name**: You can define the name for your alert.
 	- **Choose Parameter**: This option allows you to define what parameter needs to be monitored to trigger the alert email. The NGC supports CPU, RAM, Disk, 1-min Load Average, 5-min Load Average, and 15-min Load Average parameters.
 	- **Trigger when**: This set of options lets you define whether to trigger above or below a custom value.
+	- **Value in Percentage**: This option allows you to define the threshold value in percentage for alert creation.
 	- **Reading duration**: This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
 	- **Add Recipients**: This option lets you add recipients from the dropdown.
 

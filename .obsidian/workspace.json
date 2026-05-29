@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
+                "file": "docs/Guide/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ConfiguringAlertsonLinuxInstances"
+              "title": "ConfiguringAlertsonRHELInstances"
             }
           }
         ]
@@ -166,13 +166,25 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
-    "docs/Guide/AccountCentre/ActivityLogs.md",
+    "docs/Guide/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
+    "docs/Guide/Compute/WindowsInstances/AboutWindowsInstances.md",
+    "Pasted image 20260529172057.png",
+    "docs/Guide/Compute/WindowsInstances/img/WindowsInstanceforalert.png",
+    "docs/Guide/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
+    "docs/Guide/Compute/RHELInstances/AboutRHELInstances.md",
+    "docs/Guide/Compute/RHELInstances/img/CreatedAlert.png",
+    "docs/Guide/Compute/RHELInstances/img/Alerttab.png",
+    "docs/Guide/Compute/RHELInstances/img/NewRHELInstance.png",
     "docs/Guide/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
-    "docs/Guide/Compute/LinuxInstances/img/Alert.png",
-    "docs/Guide/AccountCentre/img/ActivityLogs2.png",
-    "Pasted image 20260527161918.png",
-    "docs/Guide/AccountCentre/img/Account.png",
-    "docs/Guide/AccountCentre/img/ActivityLogs1.png",
+    "docs/Guide/Compute/LinuxInstances/img/LinuxView.png",
+    "docs/Guide/Compute/LinuxInstances/img/AlertView.png",
+    "docs/Guide/Compute/LinuxInstances/AppOverlays.md",
+    "docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
+    "docs/Guide/ToolsandUtilities/img/StatusCheck.png",
+    "docs/Guide/ToolsandUtilities/img/Delete.png",
+    "docs/Guide/ToolsandUtilities/img/Myimages1.png",
+    "docs/Guide/ToolsandUtilities/AboutToolsandUtilities.md",
+    "docs/Guide/AccountCentre/ActivityLogs.md",
     "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
     "docs/Guide/Compute/Kubernetes/ScalingKubernetesClusters.md",
     "docs/Guide/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
@@ -181,9 +193,6 @@
     "docs/Guide/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
     "docs/Guide/Compute/Kubernetes/AbouttheKubernetesDashboard.md",
     "docs/Guide/Compute/Kubernetes/AboutKubernetesonAnanta.md",
-    "docs/Guide/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
-    "docs/Guide/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
-    "docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
     "docs/Guide/AccountCentre/StandardAgreements.md",
     "docs/Guide/Compute/Autoscale/CreatingAutoscaleGroups.md",
     "docs/Guide/Compute/Autoscale/RequirementsforAutoscale.md",
@@ -200,16 +209,8 @@
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Operations/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
-    "build/assets/images/zonetoimage-02db2770475e7da45b0e1fec354c32b8.png",
-    "build/assets/images/WorkingwithInstanceVolumes3-9a2903b8ea354cd2dbfa26bb4b8ba3a3.png",
-    "build/assets/images/WorkingwithInstanceVolumes4-e79ef59b00aeec5b167df84d38bb7a9f.png",
-    "build/assets/images/WorkingwithVolumeSnapshots-ed89425d6162aa2a12df33b525fdc469.png",
-    "build/assets/images/WorkingwithInstanceVolumes2-67a14e5e5531c7a0e15d616d3fb30b8d.png",
     "docs/Guide/Compute/LinuxInstances/ValidatingCortexAnti-Malware-Anti-VirusInstallation StatusontheServer.md",
     "docs/Guide/Compute/WindowsInstances/ValidatingCortexAnti-Malware-Anti-VirusInstallation StatusontheServer.md",
-    "docs/Guide/Compute/LinuxInstances/AppOverlays.md",
-    "docs/Guide/Compute/LinuxInstances/AboutLinuxInstances.md",
-    "docs/Guide/Compute/LinuxInstances/ConnectingtoaLinuxInstance.md",
-    "docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances.md"
+    "docs/Guide/Compute/LinuxInstances/AboutLinuxInstances.md"
   ]
 }
