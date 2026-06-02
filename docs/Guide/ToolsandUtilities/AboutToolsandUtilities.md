@@ -8,7 +8,7 @@ The **Tools and Utilities** sections on Ananta Cloud Console keep a record of 
 Currently, the following utility actions are supported:
 
 - [Managing SSH key pairs for Linux Instances](ManagingSSHKeysandKeyPairs)
-- [Managing Instance and Volume Snapshots](ManagingInstanceandVolumeSnapshots)
+- [Managing Instance and Volume Snapshots](ManagingInstanceandDiskRestorePoints.md)
 - [Managing custom templates and Images](ManagingCustomTemplatesandImages)
 
 

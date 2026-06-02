@@ -12,7 +12,7 @@ Before creating a Windows Instance, it is important to plan the architecture, ne
 To create a Windows instance, follow these steps:
 
 1. Navigate to **Compute > Windows** Instances.
-2. Click the **+ NEW WINDOWS INSTANCE** button.
+2. Click the **NEW WINDOWS INSTANCE** button.
 	![Windows Instance creation](img/WindowsInstance2.png)
 3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the **advanced VPC** from all available AZs.
 	![Windows Instance](img/WindowsInstance4.png)

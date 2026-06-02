@@ -33,7 +33,7 @@ Details on available Linux Instance operations and actions can be found in their
 - [Alerts](ConfiguringAlertsonLinuxInstances.md)
 - [Volumes](VolumeManagementwithLinuxInstances.md)
 - [Networking](NetworkingManagementwithLinuxInstances.md)
-- [Snapshots](WorkingwithLinuxInstanceSnapshots.md)
+- [Snapshots](WorkingwithLinuxRestorePoints.md)
 - [Reconfigure](ReconfiguringLinuxInstances.md)
 - [Operations](LinuxInstanceOperations.md)
 
