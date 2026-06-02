@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Port Forwarding with Public IP
 
-In Ananta cloud platform, an additional Public IP enables you to expose internal services hosted on virtual machines (VMs) to the internet by creating dedicated port forwarding rules. This approach is especially useful when multiple external IPs are needed for services such as SSH, HTTP, or custom applications. By assigning specific public IPs to particular services or VMs, you can achieve greater control, flexibility, and network segmentation.
+In Ananta cloud platform, an additional Public IP enables you to expose internal services hosted on instance to the internet by creating dedicated port forwarding rules. This approach is especially useful when multiple external IPs are needed for services such as SSH, HTTP, or custom applications. By assigning specific public IPs to particular services or instances, you can achieve greater control, flexibility, and network segmentation.
 
 The following are the high level steps required to configure port forwarding with Public IP:
 

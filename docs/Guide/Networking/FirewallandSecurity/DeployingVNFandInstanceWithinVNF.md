@@ -1,16 +1,16 @@
 ---
 sidebar_position: 4
 ---
-# Deploying VNF and VM Within VNF
+# Deploying VNF and Instance Within VNF
 
-This section provides a step-by-step guide for deploying a Virtual Network Function (VNF)—specifically a virtual firewall—and provisioning a Virtual Machine (VM) behind it using the Ananta cloud platform. This setup allows users to route VM traffic through the VNF, enabling secure and segmented network environments. 
+This section provides a step-by-step guide for deploying a Virtual Network Function (VNF)—specifically a virtual firewall and provisioning an instance behind it using the Ananta cloud platform. This setup allows users to route instance traffic through the VNF, enabling secure and segmented network environments. 
 
 It is ideal for use cases requiring:
 - Advanced traffic control
 - Isolation
 - Policy enforcement 
   
-The following are the high level steps required for deploying VNF and VM within VNF:
+The following are the high level steps required for deploying VNF and instance within VNF:
   
 1. [Creating The New Virtual Firewall](#creating-the-new-virtual-firewall)
 2. [Configuration Options For Virtual Firewall](#configuration-options-for-virtual-firewall)
@@ -18,12 +18,12 @@ The following are the high level steps required for deploying VNF and VM within 
 4. [Viewing Firewall Details](#viewing-firewall-details)
 5. [Viewing LAN and WAN Tiers](#viewing-lan-and-wan-tiers)
 6. [Accessing Pfsense Firewall GUI](#accessing-pfsense-firewall-gui)
-7. [Deploying A Linux VM Under Pfsense Firewall](#deploying-a-linux-vm-under-pfsense-firewall)
+7. [Deploying A Linux Instance Under Pfsense Firewall](#deploying-a-linux-instance-under-pfsense-firewall)
 8. [Creating a New Linux Instance](#creating-a-new-linux-instance)
 9. [Choosing A Root Disk](#choosing-a-root-disk)
 10. [Authentication Method](#authentication-method)
 11. [Confirming Instance Purchase](#confirming-instance-purchase)
-12. [Checking VM Console And Internet Connectivity](#checking-vm-console-and-internet-connectivity)
+12. [Checking Instance Console And Internet Connectivity](#checking-instance-console-and-internet-connectivity)
   
 ## Creating the New Virtual Firewall
 
@@ -112,16 +112,16 @@ The following steps help you access the pfsense firewall GUI from your browser u
 4. **Ignore the Security Warning**: If a warning appears, it is because of a self-signed certificate. Click **Advanced** and then **Proceed** to continue.
 5. **Accept the License**: A blue screen with license information appears. Click the **Accept** button.
 ![pfsense](img/pfsense.png)
-### Deploying a Linux VM under pfsense Firewall
+### Deploying a Linux Instance under pfsense Firewall
 
-To deploy a Linux virtual machine (VM) behind the pfsense firewall in Ananta cloud platform, begin by navigating through the dashboard and accessing the compute section. This allows you to view existing Linux instances or initiate the creation of the new under the desired network configuration.
+To deploy a Linux instance behind the pfsense firewall in Ananta cloud platform, begin by navigating through the dashboard and accessing the compute section. This allows you to view existing Linux instances or initiate the creation of the new under the desired network configuration.
 
-The following steps guide you through deploying the new Linux VM under the pfsense firewall:
+The following steps guide you through deploying the new Linux instance under the pfsense firewall:
 
 1. From the Ananta cloud platform, navigate to the left sidebar.
 2. Under the **Compute** section, click on **Linux** Instances.
 3. Choose Availability Zone: Select a zone for example GCC Chennai (or as per your requirement).
-4. Select Compute Configuration: Choose a VM configuration for example 2C4R (2 vCPU, 4 GB RAM).
+4. Select Compute Configuration: Choose an instance configuration for example 2C4R (2 vCPU, 4 GB RAM).
 5. Click **Select** to confirm the compute pack.
 6. Select Firewall Provider: Choose pfSense Plan from the dropdown.
 7. Select Incoming Traffic Rule: Choose Allow All (or set rules as needed).
@@ -134,7 +134,7 @@ Once you deploy it, you see your firewall listed under Virtual Firewalls. The li
 
 ## Creating a New Linux Instance
 
-To create a new Linux instance in Ananta cloud platform, configure parameters such as the zone, network, and operating system image. These options help ensure the VM is deployed in the correct environment and connected to the appropriate virtual network and firewall.
+To create a new Linux instance in Ananta cloud platform, configure parameters such as the zone, network, and operating system image. These options help ensure the instance is deployed in the correct environment and connected to the appropriate virtual network and firewall.
 
 The following steps guide you through the process of creating a new Linux instance based on your setup requirements:
 
@@ -150,7 +150,7 @@ The following steps guide you through the process of creating a new Linux instan
 ![zonetoimage](img/zonetoimage.png)
 ### Choosing a Root Disk
    
-When deploying a Linux VM in Ananta cloud platform, selecting the right root disk is a key step in defining your VM’s storage capacity and performance. The root disk serves as the primary storage where the operating system and essential files are installed. You can choose from predefined disk packs or specify a custom size based on your needs.
+When deploying a Linux instance in Ananta cloud platform, selecting the right root disk is a key step in defining your instance’s storage capacity and performance. The root disk serves as the primary storage where the operating system and essential files are installed. You can choose from predefined disk packs or specify a custom size based on your needs.
    
 The following steps guide you through choosing a root disk option that best fits your storage needs and budget:
    
@@ -171,44 +171,40 @@ The following steps guide you through the configuration and final review before 
    
 1. **Choose an Authentication Method**:
     - **SSH key pair (Recommended)**
-    - **root user password** (Less secure than SSH-based access). 
-      
-:::note
-If you choose root user password method, ensure that **Also email me the password** is checked to receive the root password via email for initial access.
-:::
-   
-2. **Name Your Linux Instance**:
-    - For example, **Gaurav-Test-VM** (Instance name can only contain alphanumeric characters, underscores, dots, and hyphens).
-3. **Summary and Estimated Costs**:
-    - Before creating this Linux instance, you can review all the selected options and their corresponding prices. Once you are done reviewing, you can proceed with your choice. 
+    - **root user password** (Less secure than SSH-based access).   
+	:::note
+	If you choose root user password method, ensure that **Also email me the password** is checked to receive the root password via email for initial access.
+	:::
+2. **Name Your Linux Instance**: Instance name can only contain alphanumeric characters, underscores, dots, and hyphens
+3. **Summary and Estimated Costs**: Before creating this Linux instance, you can review all the selected options and their corresponding prices. Once you are done reviewing, you can proceed with your choice. 
 4. **SELECTIONS**:
     - Availability Zone: **GCC Chennai**
     - HOURLY: **INR 0.0000/hr**
-    - MONTHLY: **INR 0.0000/mo**
-![authenticationmethod](img/authenticationmethod.png)
+    - MONTHLY: **INR 0.0000/month**
+	![authenticationmethod](img/authenticationmethod.png)
 ### Confirming Instance Purchase 
 
-Once you finalized all the configuration details for your Linux VM in Ananta cloud platform, the platform prompts you to confirm the instance purchase. This is your final opportunity to review costs and apply any available discount codes before deployment.
+Once you finalized all the configuration details for your Linux instance in Ananta cloud platform, the platform prompts you to confirm the instance purchase. This is your final opportunity to review costs and apply any available discount codes before deployment.
    
 The following steps guide you through the confirmation process:
    
 1. After reviewing the instance details, a confirmation pop-up appears.
 2. The window displays the **Monthly** charge: for example, INR 1,887.5000.
-3. A discount code option is available (for example, **Diwali10off - 10% off on all purchases**).
-4. Click the **CONFIRM** button to proceed with the instance purchase.
+3. A discount code option is available.
+4. Click the **CONFIRM** button.
 ![instancepurchase](img/instancepurchase.png)
-### Checking VM Console and Internet Connectivity
+### Checking Instance Console and Internet Connectivity
 
-After deploying a Linux VM under the pfsense firewall in Ananta cloud platform, it is important to verify that the instance is running correctly and has internet access. This ensures successful configuration and network functionality.
+After deploying a Linux instance under the pfsense firewall in Ananta cloud platform, it is important to verify that the instance is running correctly and has internet access. This ensures successful configuration and network functionality.
  
- The following steps help you check the VM console and test internet connectivity:
+ The following steps help you check the instance console and test internet connectivity:
 
-1. Open the VM console from the cloud portal.
-2. Log in to the VM and set a new password if prompted.
-3. Run `ip a` to check the VM's IP address.
+1. Open the instance console from the cloud portal.
+2. Log in to the instance and set a new password if prompted.
+3. Run `ip a` to check the instance's IP address.
 4. Run `ping 1.1.1.1` to test internet connectivity.
 5. If you get a reply with 0% packet loss, the internet is working.
-6. Once the VM is deployed, access its console and check the internet connectivity by running network diagnostic commands.
+6. Once the instance is deployed, access its console and check the internet connectivity by running network diagnostic commands.
 ![connectivity](img/connectivity.png)
 
  

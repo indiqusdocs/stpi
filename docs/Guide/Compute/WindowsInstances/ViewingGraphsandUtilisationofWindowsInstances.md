@@ -30,6 +30,8 @@ To view historical usage across supported parameters, navigate to [Windows Insta
 
 The Utilisation table shows a historical date-wise details of daily maximum, minimum, and average readings for all parameters. The utilisation report is downloadable as a **.csv** file.
 
-![Utilisation](img/Utilisation.png)::note
+![Utilisation](img/Utilisation.png)
+
+:::note
 	The logs are available for a maximum period of two years.
 :::

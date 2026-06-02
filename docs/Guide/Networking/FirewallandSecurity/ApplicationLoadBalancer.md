@@ -19,10 +19,10 @@ To set up the Virtual Firewall on Ananta Cloud, refer to the [Creating a Virtual
 ![Pfsense Sign Page](img/ApplicationLoadBalancer3.png)
 5. You will see the pfSense dashboard on the screen.
 ![Pfsense Dashboard](img/ApplicationLoadBalancer5.png)
-6. **Deploy Application VM**
+6. **Deploy Application Instance**
 	- Navigate to the **Create Linux Instance** tab.
-	- Deploy the application VM in the desired tier.
-	- Perform the required application installation on the application VMs.
+	- Deploy the application instance in the desired tier.
+	- Perform the required application installation on the application instances.
 7. Navigate to **System** > **Certificates** > **Certificates**, Click on **Add/Sign**. 
 ![Add Certificates](img/ApplicationLoadBalancer6.png)
 8. Specify the following:

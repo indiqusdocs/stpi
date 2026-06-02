@@ -2,10 +2,13 @@
 sidebar_position: 8
 ---
 # Payments
+
 You can make payments using both online and offline modes. However, we recommend using the online mode because it is the fastest, safest, and most convenient option. It enables instant transactions, secure processing, and easy tracking of payment history. By using the online payment methods such as netbanking, credit/debit cards, or UPI, you can complete your payment in just a few clicks without the delays associated with offline methods like bank transfer/challan.
 ## Why Pay Online
+
 Ananta Cloud’s built-in payment system is secure, safe, and compliant with Indian regulations. It enables automatic and faster settlement by detecting payments made through the online system and settling them directly in the portal, ensuring there are no delays in payment confirmation. All transactions are secure and traceable, as payments are routed through authorized banking channels and generate unique transaction references for audit purposes.
 ## How to Pay Online
+
 You can pay your invoices online using the following options:
 - **Direct Online Transfer**
 	- **UPI** - Use this option to Make payment using your UPI app such as Gpay, PhonePe, or PayTM.

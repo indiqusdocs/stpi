@@ -28,6 +28,6 @@ To view historical usage across supported parameters, navigate to [RHEL Instance
 
 The Utillisation table shows a historical date-wise details of daily maximum, minimum, and average readings for all parameters. The utilisation report is downloadable as a **.csv** file. 
 
-::note
+:::note
 	The logs are available for a maximum period of two years.
 :::

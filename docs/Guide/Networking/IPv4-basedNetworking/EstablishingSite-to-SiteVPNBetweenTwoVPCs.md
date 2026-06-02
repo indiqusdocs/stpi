@@ -25,7 +25,7 @@ Begin by provisioning two separate VPCs (for example, **ACP-E244-VPC A** and **A
 This setup establishes the foundational network segmentation necessary to enable a Site-to-Site VPN connection between the two VPCs.
 ## Launching Virtual Machines
 
-Deploy one Virtual Machine (VM) inside each VPC. Create Virtual Machine (for example, **ACP-E244-124-instance-A**) in Virtual Private Cloud **ACP-E244-VPC A** and (for example, **ACP-E244-124-instance-B**) in Virtual Private Cloud  **ACP-E244-VPC B**.
+Deploy one instance inside each VPC. Create Virtual Machine (for example, **ACP-E244-124-instance-A**) in Virtual Private Cloud **ACP-E244-VPC A** and (for example, **ACP-E244-124-instance-B**) in Virtual Private Cloud  **ACP-E244-VPC B**.
 
 Refer to [Creating Linux Instances](/docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances) for detailed steps on creating Linux instances. 
 ![overview](img/overview.png)

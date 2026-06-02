@@ -33,6 +33,7 @@ To view historical usage across supported parameters, perform these steps:
 
 The Utilisation table shows historical date-wise details of daily maximum, minimum, and average readings for all parameters. The Utilisation report is downloadable as a **.csv** file. 
 
-::note
+
+:::note
 	The logs are available for a maximum period of two years.
 :::

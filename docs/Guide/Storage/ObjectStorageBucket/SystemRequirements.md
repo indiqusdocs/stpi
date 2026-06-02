@@ -7,7 +7,7 @@ sidebar_position: 2
 
 The required version may vary depending on the HyperStore release. The recommended version is Cloudian HyperStore Version  7.4.1.
 
-## Management VM Requirements
+## Management Instance Requirements
 
 Cloudian HyperStore can be deployed as a software-defined storage solution on industry-standard x86 servers.
 

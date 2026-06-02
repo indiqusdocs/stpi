@@ -9,7 +9,7 @@ Ananta Cloud provides SLA-driven support to all subscriber customers in accordan
 
 The Ananta Cloud Console has a ticketing section that can be accessed by clicking on **Support & Tickets** in the main navigation panel of the Account Centre. The tickets section shows a list of all the tickets in your account and lets you filter the view based on ticket priority and ticket status.
 
-To open the ticket creation dialog box , click on the **CREATE A TICKET** button on the left corner. Ticket creation also follows the single-form interaction paradigm where all the relevant information is captured intelligently in one place to create the ticket. The ticket creation dialog will show the following options:
+To open the ticket creation dialog box , click the **Create a Ticket** button on the left corner. Ticket creation also follows the single-form interaction paradigm where all the relevant information is captured intelligently in one place to create the ticket. The ticket creation dialog will show the following options:
 
 - **Ticket Type -** This is a high-level classification in terms of Account, Billing, Technical or another issue.
 - **Sub-type -** Based on the ticket type chosen above, you’ll be asked to specify a sub-type for further classification.
@@ -18,9 +18,7 @@ To open the ticket creation dialog box , click on the **CREATE A TICKET** butt
   The Sub-type and Item information is optional but it is recommended that you provide as much information as possible to help Ananta’s support agents diagnose your issue more effectively.
   :::
 - **Ticket Details -** Providing a subject, priority, and message/description are mandatory.
-- **Attachment -** Optionally, you can also attach a .png, .jpg, or .pdf file as an attachment ,ensuring the file size does not exceed **5MB**.
-
-![Support and Tickets](img/SupportandTickets2.png)
+- **Attachment -** Optionally, you can also attach a .png, .jpg, or .pdf file as an attachment ,ensuring the file size does not exceed **5MB**.![Support and Tickets](img/SupportandTickets2.png)
 
 Creating a ticket will send you a notification email and another email with ticket information that can be used to track and communicate with the support agent(s). Both emails will be received at your email address on record.
 
@@ -34,21 +32,21 @@ Alternatively, you can reply to the email that you received with the ticket info
 
 Please refer to the following table for a quick reference on ticket classifiers:
 
-|   |   |   |
-|---|---|---|
-|**Type**|**Sub-type**|**Item**|
-|Billing|Transactions|List of transactions to choose from|
-||Invoices|List of invoices to choose from|
-||Statements|List of statements to choose from|
-||Other|-|
-|Technical|Virtual Machines|List of VMs to choose from|
-||Virtual Private Clouds|List of VPCs to choose from|
-||Disks|List of root and addon volumes to choose from|
-||Other|-|
-|Account|Active Subscriptions|List of active subscriptions to choose from|
-||Inactive Subscriptions|List of inactive subscriptions to choose from|
-||Users|List of child users to choose from|
-||Other|-|
-|Other|-|-|
+|           |                        |                                               |
+| --------- | ---------------------- | --------------------------------------------- |
+| **Type**  | **Sub-type**           | **Item**                                      |
+| Billing   | Transactions           | List of transactions to choose from           |
+|           | Invoices               | List of invoices to choose from               |
+|           | Statements             | List of statements to choose from             |
+|           | Other                  | -                                             |
+| Technical | Virtual Machines       | List of Instances to choose from                    |
+|           | Virtual Private Clouds | List of VPCs to choose from                   |
+|           | Disks                  | List of root and addon volumes to choose from |
+|           | Other                  | -                                             |
+| Account   | Active Subscriptions   | List of active subscriptions to choose from   |
+|           | Inactive Subscriptions | List of inactive subscriptions to choose from |
+|           | Users                  | List of child users to choose from            |
+|           | Other                  | -                                             |
+| Other     | -                      | -                                             |
 
 

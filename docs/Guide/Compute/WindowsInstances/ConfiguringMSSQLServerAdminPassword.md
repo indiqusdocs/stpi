@@ -3,7 +3,7 @@ sidebar_position: 12
 ---
 # Configuring MS SQL Server Admin Password
 
-After successfully provisioning the VM, the next step is to configure SQL Server Account of System Administrator, which has full control and administrative rights. You can log in to the SQL Server using the OS credentials you received in the email.
+After successfully provisioning the instance, the next step is to configure SQL Server Account of System Administrator, which has full control and administrative rights. You can log in to the SQL Server using the OS credentials you received in the email.
 
 ## Logging In and Setting Password
 
