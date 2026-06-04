@@ -25,7 +25,7 @@ This section outlines the steps to access and select a NAT Gateway within the An
 The following steps guide you through locating and selecting your NAT Gateway from the dashboard:
 
 1. Navigate to the **Networking > NAT Gateways** section from the Ananta cloud dashboard.
-2. Select the appropriate NAT Gateway (for example, ACP-E244-1- Gaurav-Test_ISOLATED_NETWORK) associated with your VNF.
+2. Select the appropriate NAT Gateway associated with your VNF.
 ![gatewaynet](img/gatewaynet.png)
 ## Reviewing Configuration
 
@@ -34,18 +34,18 @@ This section offers a detailed review of the current NAT Gateway configuration w
 The following steps guide you through reviewing key configuration details, checking operational status, and accessing internal system information necessary for validation and troubleshooting within your cloud environment: 
 
 1. **NAT Gateway Configuration Overview**: The following details summarize the key configuration parameters of the selected NAT Gateway.
-    - **vCPU/RAM**: For example 2 vCPU Cores / 4096 MB RAM (Indicates the computational resources allocated for the NAT Gateway).
-    - **AVAILBILITY Zone**: For example GCC Chennai (The region or zone where the gateway is deployed).
+    - **vCPU/RAM**: Indicates the computational resources allocated for the NAT Gateway.
+    - **AVAILBILITY Zone**: The region or zone where the gateway is deployed.
     - **PUBLIC IP**: The public-facing IP through which outbound traffic is routed.
-    - **CREATED**: 7 minutes ago (Time since the instance was launched).
+    - **CREATED**: Time since the instance was launched
 2. **Check Operational Status**: Make sure that the NAT Gateway is in a **RUNNING** state, indicating it is active and fully operational.
 3. **Confirm Network and Gateway Configuration**: Review the virtual gateway pack and network size settings to ensure the correct configuration is applied before proceeding with port forwarding or deployment steps.
      - **Virtual Gateway Pack**: Default NAT Gateway for Virtual Firewall.
-     - **Network Size**: 256 (Specifies the subnet size associated with the gateway).
+     - **Network Size**: Specifies the subnet size associated with the gateway.
 4. **Access Internal Information for System Reference**: The following internal configuration details are provided for system-level reference and tracking of the NAT Gateway within the Ananta cloud platform.
-    - **TEMPLATE NAME**: SystemInstance Template (KVM) (Base image used to launch this NAT Gateway).
-    - **VIRTUAL GATEWAY INTERNAL NAME**: r-2524-VM (Used internally by Ananta cloud platform for instance/gateway tracking and routing).
-    - **CREATED ON**: 30th May 2025, 11:47:35 (Exact timestamp of NAT Gateway provisioning).
+    - Template Name
+    - Virtual Gateway Internal Name
+    - Created On
 ![natgatewayoverview](img/natgatewayoverview.png)
 ## Accessing Port Forwarding Settings for NAT Gateway
 
@@ -54,7 +54,7 @@ To enable external access to internal services hosted behind a NAT Gateway, conf
 The following steps outline the process to navigate to the NAT Gateway, locate the public IP address, and access the port forwarding configuration interface to add or manage rules effectively:
 
 1. In the left-hand menu, click on **NAT Gateways** under the **Networking** section.
-2. Select your NAT Gateway from the list (for example, ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK).
+2. Select your NAT Gateway from the list.
 3. In the gateway page, click on the **IPv4 Addresses** tab.
 4. Find your public IP address listed on this page.
 5. Click the **Port Forwarding Rule** icon (next to the IP address) to start adding a port forwarding rule.
@@ -67,16 +67,16 @@ The following steps guide you through logging into the Ananta cloud platform, na
 
 1. Login to the Ananta cloud platform.
 2. From the left-hand side menu, under the **Networking** section, click on **NAT Gateways**.
-3. Choose the NAT Gateway for which you want to configure the port forwarding rule (for example, ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK).
+3. Choose the NAT Gateway for which you want to configure the port forwarding rule.
 4. Once inside the selected NAT Gateway, see a section titled **Port Forwarding** along with the public IP address.
 5. Click on the **ADD RULE** button located next to the Port Forwarding heading. This opens the interface to add a new port forwarding rule.
-6. Review Existing Rules (Optional): Below the **+ ADD RULE** button, you may see a list of existing rules including details like:
-    - **TIER** (for example, ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK)
-    - **INSTANCE** (for example, ACP-E244-1-Gaurav-Test)
-    - **PRIVATE IPv4** (for example, 10.1.1.252)
-    - **PROTOCOL** (for example, TCP)
-    - **PUBLIC RANGE** (for example, 443 - 443)
-    - **PRIVATE RANGE** (for example, 443 - 443)
+6. Review Existing Rules (Optional): Below the **ADD RULE** button, you may see a list of existing rules including details like:
+    - Tier
+    - Instance
+    - Private IPv4
+    - Protocol
+    - Public Range
+    - Private Range
 ![ruleadd](img/ruleadd.png)
 ## Adding Details and Creating Port Forwarding Rule
 
@@ -85,7 +85,7 @@ Once you click on **ADD RULE**, a new form opens where you must enter the requir
 The following steps guide you through completing the port forwarding rule form by selecting the appropriate protocol, tier, and instance, and by specifying the public and private port ranges required to establish the forwarding rule:
 
 1. After clicking on **ADD RULE** a new form titled **Add Port Forwarding Rule** appears.
-2. Fill in all the required fields marked with a red asterisk (*):
+2. Fill in all the required fields marked with a red asterisk(*):
 	- **Protocol**:  Select the desired protocol from the dropdown (for example, TCP or UDP).
 	- **Tier**:  Choose the appropriate tier from the list that maps to your network environment.
 	- **Instance**:  Select the instance (virtual machine) that receives the forwarded traffic.
@@ -109,13 +109,13 @@ The following steps guide you through locating the newly added rule in the **Por
 
 1. Once the rule is added, it appears in the list under the **Port Forwarding** section for the selected public IP.
 2. Review the displayed rule details, which include:
-    - **Tier** name (for example, ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK)
-    - **Instance** name (for example, ACP-E244-1-Gaurav-Test)
-    - **Private IPv4 address** (for example, 10.1.1.252)
-    - **Protocol** (for example, TCP)
-    - **Public Range** (for example, 22 - 22 or 443 - 443)
-    - **Private Range** (for example, 22 - 22 or 443 - 443)
-3. Ensure the information is accurate and matches the values you entered during rule creation.![rulevisible](img/rulevisible.png)  
+    - Tier name
+    - Instance name
+    - Private IPv4 address
+    - Protocol
+    - Public Range
+    - Private Range
+3. Ensure the information is accurate and matches the values you entered during rule creation.!  
 ## Configuring NAT Settings In pfsense Firewall
 
 To fully enable port forwarding, you must set up the necessary Network Address Translation (NAT) rules in the pfsense firewall. This step ensures that incoming traffic on specific ports is correctly directed to your internal server. 

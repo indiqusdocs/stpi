@@ -34,7 +34,7 @@ The following steps guide you through the process of navigating to the correct s
 1. In the left-hand menu, go to **Virtual Firewalls** under the **Networking** section.
 2. On the Virtual Firewalls page, click the **NEW VIRTUAL FIREWALL** button.
 3. Follow the prompts to configure and create the virtual firewall.
-![virtual](img/virtual.png)
+	![virtual](img/CreatingaVirtualFirewall1.png)
 ### Configuration Options for Virtual Firewall
 
 To configure the new virtual firewall in the Ananta cloud platform, you must define a few key options such as the zone, compute size, firewall provider, and access rules. These settings ensure the firewall is tailored to your deployment needs.
@@ -48,10 +48,10 @@ The following steps guide you through selecting configuration options like avail
     - 2C16R: 2 vCPU, 16 GB RAM
 3. **Select Firewall Provider**: Choose a firewall provider from the dropdown (for example, **pfsense Plan**)    
 4. **Set Incoming Traffic Rule**: Select the desired ACL rule, such as **Allow All**, from the dropdown menu.
-5. **Name Your Virtual Firewall**: Enter a name for your virtual firewall (for example, **Gaurav-Test**). Use only letters, numbers, hyphens, or dots.
+5. **Name Your Virtual Firewall**: Enter a name for your virtual firewall. Use only letters, numbers, hyphens, or dots.
 6. **Review Estimated Costs**: Check the summary and pricing before proceeding.
-![firewallnew](img/firewallnew.png)
-![providertocost](img/providertocost.png)  
+![firewallnew|697](img/CreatingaVirtualFirewall2.png)
+![providertocost](img/FirewallProvider.png)  
 ### Deploying Virtual Firewall
 
 After completing the configuration and deployment steps, the newly created virtual firewall appears in the Virtual Firewalls section. This interface provides a summary of key details such as the firewall's name, compute configuration, provider, zone, public IP address, instance count, and deployment status.
@@ -59,7 +59,7 @@ After completing the configuration and deployment steps, the newly created virtu
 The following steps guide you through accessing the Virtual Firewalls section and verifying that your newly deployed firewall is active and correctly configured:
 
 1. Navigate to the **Virtual Firewalls** section from the left-hand menu. See a list of deployed virtual firewalls. 
-2. The newly created firewall (for example, ACP-E244-1-Gaurav-Test) appears with:
+2. The newly created firewall appears with:
     - Name
     - vCPU and RAM details
     - Firewall provider
@@ -68,7 +68,7 @@ The following steps guide you through accessing the Virtual Firewalls section an
     - Instance count
     - Creation time 
 A green **POWERD ON** icon confirms that the firewall is active and running.
-![firewalltest](img/firewalltest.png)
+![firewalltest](img/CreatingaVirtualFirewall1.png)
 ### Viewing Firewall Details
 
 To check the configuration and operational status of your deployed virtual firewall, you can access its detailed view in the Ananta cloud platform. This section provides essential system specifications, network settings, and real-time status indicators.
@@ -77,7 +77,7 @@ The following steps guide you through viewing the full details of your virtual f
 
 1. From the Ananta cloud platform:
     - Navigate to the **Virtual Firewalls** section in the left-hand menu.
-    - Locate and click on the **ACP-E244-1-Gaurav-Test** firewall instance to open its configuration page.
+    - Locate and click on the firewall instance name to open its configuration page.
 2. On the firewall **Overview** page, you can view the following key details:
     - **Configuration**: vCPU, RAM, and OS details.
     - **Availability Zone**: For example GCC Chennai.
@@ -93,12 +93,10 @@ To understand the network configuration, navigate to the **Networking** section 
 
 The following steps guide you through accessing the Networking section and identifying the WAN and LAN tiers connected to your firewall:
 
-1. **Open the Firewall Instance**: From the Ananta cloud platform, navigate to the **Virtual Firewalls** section and open the required firewall instance (for example, ACP-E244-1-Gaurav-Test).
+1. **Open the Firewall Instance**: From the Ananta cloud platform, navigate to the **Virtual Firewalls** section and open the required firewall instance.
 2. Click on the **Networking** option: In the left-side menu, under the opened firewall instance, click on the **Networking** tab. This section displays all networks linked to the selected firewall.
-3. Identify the **WAN Tier**: Look for the network labeled as ISOLATED_NETWORK. This is the WAN Tier (e.g., ACP-E244-1-Gaurav-Test_ISOLATED_NETWORK), typically connected to external/public networks.
-4. Identify the **LAN Tiers**: All networks labeled as LAN_TIER_X (where X is a number) represent LAN tiers used for internal communications. For example:
-    - ACP-E244-1-Gaurav-Test_L2_LAN_TIER_1
-    - ACP-E244-1-Gaurav-Test_L2_LAN_TIER_2
+3. Identify the **WAN Tier**: Look for the network labeled as ISOLATED_NETWORK. This is the WAN Tier, typically connected to external/public networks.
+4. Identify the **LAN Tiers**: All networks labeled as LAN_TIER_X (where X is a number) represent LAN tiers used for internal communications. 
 ![lanwan](img/lanwan.png) 
 ### Accessing pfsense Firewall GUI
 
@@ -125,12 +123,11 @@ The following steps guide you through deploying the new Linux instance under the
 5. Click **Select** to confirm the compute pack.
 6. Select Firewall Provider: Choose pfSense Plan from the dropdown.
 7. Select Incoming Traffic Rule: Choose Allow All (or set rules as needed).
-8. Name Your Virtual Firewall: Provide a name (for example Gaurav-Test).
+8. Name Your Virtual Firewall: Provide a name.
 9. After filling in all details, proceed with the deployment.
-![firewallnew](img/firewallnew.png)
-![providertocost](img/providertocost.png) 
+
+
 Once you deploy it, you see your firewall listed under Virtual Firewalls. The listing show details like name, configuration, zone, and public IP.
-![pfsensefirewall](img/pfsensefirewall.png)
 
 ## Creating a New Linux Instance
 
@@ -143,11 +140,10 @@ The following steps guide you through the process of creating a new Linux instan
     - GCC Bhubaneswar
     - Hybrid Chennai
     - Hybrid Bhubaneswar
+	  ![zonetoimage](img/zonetoimage.png)
 2. **Select Network Destination**: Pick a VPC network with a subnet or a VNF Appliance that has already been created in the chosen availability zone.
-    - **VPC:** ACP-E244-1-Gaurav-Test
-    - **VNF:** ACP-E244-1-Gaurav-Test_L2_LAN_TIER_1
 3. **Choose an OS Image**: Select an available OS image, for example, **Ubuntu Server 22.04 LTS**, or use a custom image if needed—note that some images may incur charges.
-![zonetoimage](img/zonetoimage.png)
+	![Linux Instance](img/LinuxInstance1.png)
 ### Choosing a Root Disk
    
 When deploying a Linux instance in Ananta cloud platform, selecting the right root disk is a key step in defining your instance’s storage capacity and performance. The root disk serves as the primary storage where the operating system and essential files are installed. You can choose from predefined disk packs or specify a custom size based on your needs.
@@ -159,7 +155,7 @@ The following steps guide you through choosing a root disk option that best fits
     - **RD 50**: 50 GB at INR 257.5000/Month
     - **RD 100**: 100 GB at INR 515.0000/Month (Selected)
 2. Click on **Select Pack** for your desired option.   
-![rootdisk](img/rootdisk.png)
+![rootdisk](img/Rootdisk1.png)
 ### Authentication Method
 
 To ensure secure access to your Linux instance, selecting the right authentication method is crucial. The following options are available: 
