@@ -1,17 +1,18 @@
 ---
 sidebar_position: 3
 ---
-# Working with Volume Snapshots
+# Working with Restore Points
 
-The Ananta Block Volumes Service allows for extensively working with volume snapshots. Snapshots are point-in-time 'images' of the contents of a volume and can be used as a restoration point for the parent volume. The following sections outline all available snapshot functions and capabilities on Ananta Cloud Console.
+The Ananta Block Volumes Service allows for extensively working with restore points. Restore Points are point-in-time 'images' of the contents of a volume and can be used as a restoration point for the parent volume. The following sections outline all available snapshot functions and capabilities on Ananta Cloud Console.
 
-## Creating Instant Snapshots
+## Creating Restore Point
 
-To create Volume Snapshot, navigate to the Snapshots tab and select CREATE SNAPSHOT. It will create a snapshot which can be used to further create an Image (template) or restore an existing volume.
+To create a Restore Point, follow these steps:
+
 
 ![Working with Volume Snapshots](img/WorkingwithVolumeSnapshots.png)
 
-## Creating Automated Snapshot Schedules
+## Creating Automated Restore Point Schedules
 
 Ananta Cloud Console users can create snapshot policies for their root and data disks. These schedules allow for strategic management of data retention policies and can be used as an alternative to using a backup solution. Snapshot schedules can be managed from the **Schedules** section of disk details.
 
@@ -30,7 +31,7 @@ While configuring snapshot schedules, the following points should be considered:
 - All schedule options support time specifications in custom time zones.
 - All schedule options allow for a snapshots to keep option, which is a limit on how many snapshots to keep (or rotate after) as the retention policy.
 
-## Creating a Volume from a Snapshot
+## Creating a Volume from a Restore Point
 
 Volume Snapshots created manually or using a schedule will be listed under the **Snapshots** section of disk details. To create a new data disk using a snapshot, select the option to **create volume** which will initiate a purchase flow similar to [creating a data disk](/docs/Guide/Storage/BlockVolumes/WorkingwithInstanceVolumes).
 
@@ -38,7 +39,7 @@ Volume Snapshots created manually or using a schedule will be listed under the 
 This operation may have associated billing impacts.
 :::
 
-## Creating an Image from a Snapshot
+## Creating an Image from a Restore Point
 
 Volume Snapshots can be used to create OS Images which can be used at the time of Instance creation. To do this, select the "create image" option. This will generate the template and list it under the **My Images** section.
 

@@ -8,7 +8,7 @@ Ananta Block Volumes are the underlying software-defined volume management layer
 The following sections outline the capabilities of Block Volumes on Ananta:
 
 - [Instance Block Volumes](WorkingwithInstanceVolumes)
-- [Taking disk Snapshots](WorkingwithVolumeSnapshots)
+- [Taking disk Snapshots](_WorkingwithRestorePoints.md)
 - [Kubernetes Block Volumes](UsingBlockVolumeswithKubernetes)
 
 
