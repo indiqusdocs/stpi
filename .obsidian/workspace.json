@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/CustomerSatisfactionSurvey.md",
+                "file": "docs/Guide/Storage/BlockVolumes/AboutBlockVolumes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CustomerSatisfactionSurvey"
+              "title": "AboutBlockVolumes"
             }
           }
         ]
@@ -166,9 +166,29 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
+    "build/search-index.json",
+    "build/sitemap.xml",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Snapshots/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Operations/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/NetworkingManagement/index.html",
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts/index.html",
+    "docs/Guide/CustomerSatisfactionSurvey.md",
+    "build/assets/images/CreateBucket-c77d4cae54c7086b2c91b9f8e72abc99.png",
+    "build/assets/images/ConfirmScreen-0e580571aefa695dd6ba3facaca0effc.png",
+    "build/assets/images/ObjectStorageBucketMenu-c192fbb417a3669d79df629d57362bf4.png",
+    "build/assets/images/BlockVolume1-16079543fdd5d8e248ac3e2052e4e26e.png",
+    "build/assets/images/WorkingwithInstanceVolumes4-68df67ed3807e7122566313dc9c568fd.png",
+    "build/assets/images/BlockVolume2-23a6e06e588c78c91a957cd53a2b3d03.png",
+    "build/assets/images/WorkingwithInstanceVolumes3-35705b3bdadbceffb87a31bc4ece336a.png",
+    "build/assets/images/BlockVolume3-326aa3379736b30b95cd829732bf230e.png",
+    "build/assets/images/WorkingwithInstanceVolumes2-cdffa180ae536dd8154d923676a73b0a.png",
     "docs/Guide/AnantaCentral.png",
     "docs/Guide/AccessCentral.md",
-    "docs/Guide/AccessCentral.png",
     "docs/Guide/ToolsandUtilities/ManagingSSHKeysandKeyPairs.md",
     "docs/Guide/ToolsandUtilities/ManagingInstanceandDiskRestorePoints.md",
     "docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages.md",
@@ -177,31 +197,12 @@
     "docs/Guide/Storage/ObjectStorageBucket/FrequentlyAskedQuestions.md",
     "docs/Guide/Storage/ObjectStorageBucket/FeatureListandIntegrationDetails.md",
     "docs/Guide/Storage/ObjectStorageBucket/CreatingObjectStorageBucket.md",
-    "docs/Guide/Storage/ObjectStorageBucket/img/ConfirmScreen.png",
-    "docs/Guide/Storage/ObjectStorageBucket/ApiculusObjectStorage.png",
     "docs/Guide/Storage/ObjectStorageBucket/AboutAnantaObjectStorage.md",
     "docs/Guide/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
     "docs/Guide/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes.md",
     "docs/Guide/Storage/BlockVolumes/AboutBlockVolumes.md",
     "docs/Guide/Storage/BlockVolumes/_WorkingwithRestorePoints.md",
     "docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts.md",
-    "build/assets/js/047f78a7.601f8a40.js",
-    "build/assets/js/runtime~main.9155c942.js",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ConfiguringAlerts/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Overview/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/Snapshots/index.html",
-    "build/assets/images/LinuxInstance1-1a4ef27a4d805e8619127e3fc8a6f03f.png",
-    "build/assets/images/zonetoimage-d7a3f8638b2516d351e037554390e6d8.png",
-    "build/assets/images/instancepurchase-f6b7893fa986021f6cc6d0aa537d5671.png",
-    "build/assets/images/firewallopen-a450a54485db6b4e27fe9a3a1eb21ac6.png",
-    "build/assets/images/lanwan-de2a8751eee9da220a6697e99d21725a.png",
-    "build/assets/images/authenticationmethod-2d6e5c0339fb4834b145759116b37a41.png",
-    "build/assets/images/Rootdisk1-b2ea63203e5e153b8e32060a2a588300.png",
     "docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization.md",
     "docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails.md",
     "docs/Guide/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances.md",
@@ -210,7 +211,6 @@
     "docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC.md",
     "docs/Guide/Networking/IPv4-basedNetworking/ManagingVPNGatewaysandSite-to-SiteVPN.md",
     "docs/Guide/Networking/IPv4-basedNetworking/EstablishingSite-to-SiteVPNBetweenTwoVPCs.md",
-    "docs/Guide/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/WorkingwithVPNConnectionsinaVPC.md"
+    "docs/Guide/Networking/IPv4-basedNetworking/AboutIPv4-basedNetworking.md"
   ]
 }
