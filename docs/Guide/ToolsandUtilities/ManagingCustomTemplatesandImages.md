@@ -34,7 +34,21 @@ To create custom images, follow these steps:
 ## Deleting a Custom Image
 
 You can delete an image by clicking the **delete** icon. 
-![Delete Icon](img/Delete.png)
+	![Delete Icon](img/Delete.png)
 You can also check the status by clicking the image name.
-![Status Check](img/StatusCheck.png)
+	![Status Check](img/StatusCheck.png)
 You can use these Images while creating new Linux or Windows Instances.
+
+## Uploading Custom Image
+You can upload your own instance image to the Ananta Cloud by submitting a request to the support team. Prepare the instance image in the QCOW/QCOW2 format and make it accessible through a downloadable URL.
+
+You can raise a support request by any of the following methods:
+- Email: [support@ananta.stpi.in](mailto:support@ananta.stpi.in)
+- Toll-Free Support Number
+- Raise a ticket to the support team ([Account Centre > Support & Tickets](/docs/Guide/AccountCentre/SupportandTickets))
+
+Include the instance image URL and the required details in the request. 
+
+After the support team validates and uploads the image, the system adds it as a template and makes it available under the **My Images** tab in the Ananta Cloud portal for the instance creation.
+
+![](img/OSimage.png)

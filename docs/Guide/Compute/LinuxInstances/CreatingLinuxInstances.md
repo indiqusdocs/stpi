@@ -13,6 +13,9 @@ To create a Linux instance, follow these steps:
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. ![Availability Zone](img/AvailablitiyZone.png)
 4. Select the **Destination** (VPC/VNF) and then the **Network** from the respective drop-down lists.   
 5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab.
+	:::note
+	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
+	:::
 6. **Choose a Compute Pack** from the available compute collections.  
 	 ![Compute Pack](img/ComputePack.png)
 7. **Choose a Root Disk** from the available options.

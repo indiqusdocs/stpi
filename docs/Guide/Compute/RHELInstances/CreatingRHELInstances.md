@@ -10,7 +10,10 @@ To create a RHEL instance, follow these steps:
 2. Click the **NEW RHEL INSTANCE** button.![RHEL Instances](img/RHEL2.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. 
 4. Select the **Destination** and then the **Network** from the drop-downs. ![Compute Pack](img/RHELInstance2.png)
-5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab.
+5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab. 
+   :::note
+	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
+	:::
 6. **Choose a Compute Pack** from the available compute collections. ![Disk and Authentication option](img/RHELInstance3.png)
 7. **Choose Disk Configuration** from the available **SSD**/**HDD** disk packs, or you can use the free size option to specify the root disk.
 8. Select the option to **Protect this Instance**.
