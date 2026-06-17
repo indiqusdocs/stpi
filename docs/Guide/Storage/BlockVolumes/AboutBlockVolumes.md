@@ -28,7 +28,6 @@ The following are some use cases of Block Volumes:
 The following sections outline the capabilities of Block Volumes on Ananta:
 
 - [Instance Block Volumes](WorkingwithInstanceVolumes)
-- [Taking disk Snapshots](WorkingwithVolumeSnapshots)
 - [Kubernetes Block Volumes](UsingBlockVolumeswithKubernetes)
 
 

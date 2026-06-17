@@ -9,20 +9,19 @@ To configure **pfSense Firewall** and **Application Load Balancer**, follow thes
 
 To set up the Virtual Firewall on Ananta Cloud, refer to the [Creating a Virtual Firewall](CreatingaVirtualFirewall.md) page.
 
-1. To view the details of the pfSense Firewall, click the **Virtual Firewall Name** highlighted in blue.
-![Pfsense Firewall](img/ApplicationLoadBalancer1.png)
+1. To view the details of the pfSense Firewall, click **Virtual Firewall Name**. ![Pfsense Firewall](img/ApplicationLoadBalancer1.png)
 2. To launch your pfSense account, click on **LAUNCH CONSOLE**.
 ![Launch Console](img/ApplicationLoadBalancer2.png)
-3. You will get the mail on your registered mail id with login credentials..
+3. You will get the mail on your registered mail id with login credentials.
 ![UserId and password](img/ApplicationLoadBalancer4.png)
 4. Enter the Username and Password to log in to the pfSense firewall GUI.
 ![Pfsense Sign Page](img/ApplicationLoadBalancer3.png)
 5. You will see the pfSense dashboard on the screen.
 ![Pfsense Dashboard](img/ApplicationLoadBalancer5.png)
-6. **Deploy Application VM**
+6. **Deploy Application Instance**
 	- Navigate to the **Create Linux Instance** tab.
-	- Deploy the application VM in the desired tier.
-	- Perform the required application installation on the application VMs.
+	- Deploy the application instance in the desired tier.
+	- Perform the required application installation on the application instances.
 7. Navigate to **System** > **Certificates** > **Certificates**, Click on **Add/Sign**. 
 ![Add Certificates](img/ApplicationLoadBalancer6.png)
 8. Specify the following:

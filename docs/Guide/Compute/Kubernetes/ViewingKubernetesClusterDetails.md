@@ -9,10 +9,11 @@ To view cluster details on the UI, follow these steps:
 
 1. Navigate to **Compute > Kubernetes**.
 2. All the Kubernetes clusters for your account will be listed here with the following details:
-    1. Kubernetes Cluster Name (Along with the configuration details)
-    2. Public IP address
-    3. Autoscaling Enabled/Disabled
-    4. Created ![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
+    - Kubernetes Cluster Name (Along with the configuration details)
+    - Public IP address
+    - Autoscaling Enabled/Disabled
+    - Created 
+	![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
 
 To  view a list of sections and the various actions you can perform inside the particular section, click the **Kubernetes Cluster** name. Below the cluster name is an informational view where you can find the below details:
 - Configuration
@@ -35,7 +36,7 @@ At this stage, the following details can be accessed for the cluster:
 3. **Internal Information**- This displays the information used for internal identification of this Cluster and communication with other internal services.
     1. Kubernetes Version
     2. Virtual router internal name
-    3. Created on![Details](img/ViewingKubernetes3.png)
+    3. Created on
 
 Additionally, other sections are also available on the left which can then be used to view and access various aspects of managing the Kubernetes cluster. These are:
 - **Access** - To view detailed instructions on how to access the cluster using **kubectl**.

@@ -48,7 +48,7 @@ Details on available RHEL Instance operations and actions can be found in their 
 - [Utilisation](ViewingGraphsandUtilizationofRHELInstances.md)
 - [Volumes](VolumeManagementwithRHELInstances.md)
 - [Networking](NetworkingManagementwithRHELInstances.md)
-- [Snapshots](WorkingwithRHELInstanceSnapshots.md)
+- [Snapshots](WorkingwithRHELRestorePoints.md)
 - [Reconfigure](ReconfiguringRHELInstances.md)
 - [Operations](RHELInstanceOperations.md)
 

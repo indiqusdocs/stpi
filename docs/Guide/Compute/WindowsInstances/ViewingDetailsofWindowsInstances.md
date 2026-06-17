@@ -8,7 +8,7 @@ To view the details navigate to [Windows Instances Screen](AboutWindowsInstances
 1. **Configuration and Availability**
     1. The instance's status, **RUNNING**, is displayed in Green, whereas **STOPPED** is displayed in greyed out.
     2. Information about the networking zone (VPC networking zone).
-![Viewing Details of Windows Instances](img/ViewingDetailsofWindowsInstances1.png)
+![Viewing Details of Windows Instances](img/WindowsInstance.png)
 2. **Internal Information** - This displays the information used for internal identification of this instance and communication with other internal services.
     1. Template Name
     2. Internal Name

@@ -23,8 +23,6 @@ Run the following commands:
 #cd /etc/nginx/ssl
 #openssl genrsa -out /etc/nginx/ssl/organization.in.key 2048
 ```
-
-
 ## 2. Generate CSR
 Run the following commands:
 ```bash
@@ -32,7 +30,6 @@ Run the following commands:
 #openssl req -new -key /etc/nginx/ssl/organization.in.key -out /etc/nginx/ssl/organization.in.csr
 #chmod 777 organization.in.csr
 ```
-
 ## 3. Obtain the SSL certificate
 After generating the CSR, share it with the vendor to obtain the SSL certificate. After receiving the
 certificate, copy the certificate files to the server’s SSL configuration directory.

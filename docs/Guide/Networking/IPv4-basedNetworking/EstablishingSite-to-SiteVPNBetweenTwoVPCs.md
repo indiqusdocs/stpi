@@ -16,7 +16,7 @@ This section outlines all the steps required to establish a Site-to-Site VPN bet
 7. [Testing Connectivity](#testing-connectivity)
 ## Creating Two VPCs
 
-Begin by provisioning two separate VPCs (for example, **ACP-E244-VPC A** and **ACP-E244-VPC B**) in your cloud environment:
+Begin by provisioning two separate VPCs in your cloud environment:
 1. VPCs must be created with non-overlapping CIDR blocks to avoid IP conflicts.
 2. Ensure each VPC is associated with its own internet gateway and route table for external connectivity.
 
@@ -25,11 +25,11 @@ Begin by provisioning two separate VPCs (for example, **ACP-E244-VPC A** and **A
 This setup establishes the foundational network segmentation necessary to enable a Site-to-Site VPN connection between the two VPCs.
 ## Launching Virtual Machines
 
-Deploy one Virtual Machine (VM) inside each VPC. Create Virtual Machine (for example, **ACP-E244-124-instance-A**) in Virtual Private Cloud **ACP-E244-VPC A** and (for example, **ACP-E244-124-instance-B**) in Virtual Private Cloud  **ACP-E244-VPC B**.
-
-Refer to [Creating Linux Instances](/docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances) for detailed steps on creating Linux instances. 
+Deploy one instance inside each VPC. Refer to [Creating Linux Instances](/docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances) for detailed steps on creating Linux instances. 
 ![overview](img/overview.png)
-![overviewb](img/overviewb.png)
+
+![overviewb|697](img/overviewb.png)
+
 ![creatinglinux](img/creatinglinux.png)
 
 These instances are used to validate VPN connectivity after the tunnel is established. Make sure the instances have proper security group and firewall rules to allow ICMP (ping) or SSH for testing purposes.
@@ -42,13 +42,13 @@ Set up VPN gateways in each VPC to serve as endpoints for the IPsec tunnel:
    - Tunnel IP settings
    - IPsec Pre Shared secrets
    - Routing methods
-Repeat this step for both VPCs—each will have its own dedicated VPN Gateway.
+Repeat this step for both VPCs - each will have its own dedicated VPN Gateway.
 ## Creating Customer Gateways
 
 Define the customer gateway configurations for each side of the VPN, Create two customer gateways:
-1. For Gateway **VPN A**, specify the public IP address of Virtual Private Cloud **ACP-E244-VPC A**.
+1. For Gateway **VPN A**, specify the public IP address of Virtual Private Cloud.
 ![vpna](img/vpna.png)
-2. For Gateway **VPN B**, specify the public IP address of of Virtual Private Cloud **ACP-E244-VPC B**.
+2. For Gateway **VPN B**, specify the public IP address of of Virtual Private Cloud.
 ![vpnb](img/vpnb.png)
 This setup allows each VPN Gateway to identify and establish a connection with its remote peer. These customer gateways act as references for establishing IPsec sessions.
 ## Enabling VPN Connection
@@ -66,7 +66,6 @@ Confirm that the VPN connection has been successfully established:
 1. Navigate to the VPN Gateways section and check the tunnel status for both VPCs.
 2. The status should reflect as **Connected**, indicating that the IPsec tunnel is active and secure. If not connected, verify tunnel settings, shared secrets, and routing configurations.
 ![vpnaccess](img/vpnaccess.png)
-![connection](img/connection.png)
 ## Testing Connectivity
 
 Ensure that the communication between VPCs is operational:

@@ -12,7 +12,7 @@ Before creating a Windows Instance, it is important to plan the architecture, ne
 To create a Windows instance, follow these steps:
 
 1. Navigate to **Compute > Windows** Instances.
-2. Click the **+ NEW WINDOWS INSTANCE** button.
+2. Click the **NEW WINDOWS INSTANCE** button.
 	![Windows Instance creation](img/WindowsInstance2.png)
 3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the **advanced VPC** from all available AZs.
 	![Windows Instance](img/WindowsInstance4.png)
@@ -20,7 +20,10 @@ To create a Windows instance, follow these steps:
 	:::note
 	To add a Windows Instance to a VPC, you need to have a VPC configured with at least one tier.
 	:::
-5. **Choose an OS Image** to run on your Instance. 
+5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab. 
+   :::note
+	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
+	:::
 6. **Choose a compute pack** from the available compute collections.
 7. **Choose a Root disk** from the available Disk packs, or you can use the free size option to specify the Root Disk.
 8.  In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance. The Instance name must only contain alphanumeric characters, underscore, dots and hyphens. 

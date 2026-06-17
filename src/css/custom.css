@@ -355,3 +355,41 @@ html .hero__title {
   width: 20px;     /* adjust as needed */
   flex-shrink: 0;  /* prevents icon from collapsing */
 }
+
+
+/* Heading Numbering Reset counters */
+.markdown {
+  counter-reset: h2counter;
+}
+
+/* H2 */
+.markdown h2 {
+  counter-reset: h3counter;
+}
+
+.markdown h2::before {
+  counter-increment: h2counter;
+  content: counter(h2counter) ". ";
+  color: black;
+  font-weight: bold;
+}
+
+/* H3 */
+.markdown h3 {
+  counter-reset: h4counter;
+}
+
+.markdown h3::before {
+  counter-increment: h3counter;
+  content: counter(h2counter) "." counter(h3counter) " ";
+  color: black;
+  font-weight: bold;
+}
+
+/* H4 */
+.markdown h4::before {
+  counter-increment: h4counter;
+  content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) " ";
+  color: black;
+  font-weight: bold;
+}

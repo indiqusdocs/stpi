@@ -3,18 +3,21 @@ sidebar_position: 4
 ---
 # Viewing Graphs and Utilization of RHEL Instances
 
+To view the available graphs and monitor the instance in real-time, navigate to the [RHEL Instance](https://yntraa.netlify.app/docs/Subscribers/Compute/RHELInstances/AboutRHELInstances) and access the **Graphs** tab.
 ## Graphs (Real-time)
 
-To view the available graphs and monitor the instance in real-time, navigate to [RHEL Instances Screen](AboutRHELInstances.md) and access the **Graphs** tab.
+You can use graphs to understand Instance utilisation patterns and create custom alerts.
 
-You can use these graphs to understand Instance utilisation patterns and create custom alerts.
+The graphs are available on a 24-hour time-scale with a 30-day trend line for the following parameters:
 
-The following graphs are available on a 24-hour time-scale graph with a 30-day trend line for the following parameters:
-
-- CPU Utilisation
-- RAM Utilisation
+- CPU
+- RAM
 - Network Input
 - Network Output
+- Disk Read Bytes
+- Disk Write Bytes
+- Disk Read IOPS
+- Disk Write IOPS
 
 ![Viewing Graphs and Utilization of RHEL Instances](img/ViewingGraphs.png)
 
@@ -25,4 +28,6 @@ To view historical usage across supported parameters, navigate to [RHEL Instance
 
 The Utillisation table shows a historical date-wise details of daily maximum, minimum, and average readings for all parameters. The utilisation report is downloadable as a **.csv** file. 
 
-
+:::note
+	The logs are available for a maximum period of two years.
+:::

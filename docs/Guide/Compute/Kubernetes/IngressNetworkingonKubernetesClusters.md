@@ -12,8 +12,10 @@ Ananta Kubernetes Service supports traefik and nginx ingress controllers.
 ## Adding a Firewall Rule to Cluster
 
 A firewall restricts incoming and outgoing network traffic to enhance the security of Kubernetes clusters. It prevents unauthorised access to the cluster's components and resources.
+![Networking](img/Networking1.png)
 
-1. Click the **ADD NETWORKING RULE** button, and a popover will open.   ![Networking Rule](img/NetworkingRule.png)
+To add a firewall rule, follow these steps:
+1. Click the **ADD NETWORKING RULE** button. The following screen appears:  ![Networking](img/Networking2.png)
 2. Select **Firewall** from the list of networking options and then specify the following options.
     1. Super CIDR (CIDR notation typically consists of an IP address followed by a slash ("/") and a number indicating the number of significant bits in the subnet mask. For example, "192.168.1.0/24" represents a subnet with an IP range from 192.168.1.0 to 192.168.1.255).
     2. Choose a Protocol from the available options, i.e., TCP, UDP & ICMP.
@@ -26,7 +28,9 @@ A firewall restricts incoming and outgoing network traffic to enhance the securi
 
 Port forwarding allows external traffic to access specific services running within Kubernetes pods, enabling external communication with applications.
 
-1. Click the **ADD NETWORKING RULE** button, and a popover will open.
+To add a port forwarding rule, follow these steps:
+1. Click the **ADD NETWORKING RULE** button. The following screen appears:
+    ![Networking](img/Networking2.png)
 2. Select **Port Forwarding**  from the list of networking options and then specify the following options.
     1. Select the particular node from the list.
     2. Choose a Protocol from the available options, i.e., TCP, UDP.
@@ -38,6 +42,8 @@ Port forwarding allows external traffic to access specific services running with
 ## Adding a Load Balancing Rule to Cluster
 
 Cluster load balancing rules distribute incoming network traffic across multiple Kubernetes pods to ensure high availability, fault tolerance, and optimal resource utilisation.
+
+To add a load balancer rule, follow these steps:
 
 1. Click the **ADD NETWORKING RULE** button, and a popover will open.
 2. Select **Load Balancing** from the list of networking options and then specify the following options.
