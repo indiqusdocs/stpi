@@ -19,8 +19,7 @@ To create a RHEL instance, follow these steps:
 8. Select the option to **Protect this Instance**.
 9. **Choose an Authentication Method**: 
     - **Use SSH key pair**: Clicking on the Use SSH key pair option, all the SSH key pairs present in your account will be listed; if your account doesn’t have any SSH key pair, then you can click the **Generate a new key pair** option or upload the key pair by clicking the **Upload a key pair** option. 
-    - **Use root user password**: On selecting Use root user password, **Also email me the password** option is displayed. If you select this option, the password, along with the details, for instance, will be emailed to your registered email ID.
-	 ![Name and choose estimated costs](img/RHELInstance4.png)
+    - **Use root user password**: On selecting Use root user password, **Also email me the password** option is displayed. If you select this option, the password, along with the details, for instance, will be emailed to your registered email ID.![Name and choose estimated costs](img/RHELInstance4.png)
 10. In the **Name Your RHEL Instance** field, enter the desired name for your RHEL instance.
 11. Verify the Estimated Cost of your RHEL Instance based on the specifications you have chosen from the Summary and Estimated Costs section (Here both Hourly and Monthly Prices summary will be displayed).
 12. To confirm, click on the check box after going through the policies mentioned by your cloud service provider.
