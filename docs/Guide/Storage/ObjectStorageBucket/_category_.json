@@ -3,8 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Service providers, on Ananta, get access to the following collection of interfaces and control panels to operate various aspects of their cloud operations.
-"
+    "description": "Object Storage stores data as separate objects, like files with metadata. It’s preferred for storing large amounts of unstructured data such as photos, videos, backups, and logs. Object storage is highly expandable and accessible from anywhere."
   }
+  
 }
-

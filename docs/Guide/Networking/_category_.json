@@ -3,8 +3,7 @@
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "Enable seamless connectivity between cloud infrastructure and resources, providing efficient data flow and communication. It manages virtual networks, firewalls, and security groups to ensure secure and scalable cloud operations.
-"
+    "description": "This module covers a comprehensive set of cloud networking essentials, including Virtual Private Clouds (VPCs) that create isolated networks, virtual firewalls to protect your resources, and IPv4 addressing, which assigns unique identifiers to devices. It also includes NAT gateways that enable private resources to access the internet securely, Layer 2 (L2) networks for managing data link communications within the cloud, load balancer instances to distribute incoming traffic evenly across servers for better performance and reliability, and DNS management to ensure seamless connectivity and efficient communication across your cloud infrastructure."
   }
 }
 
