@@ -3,7 +3,7 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Ananta supports the delivery and management of Virtual Firewalls as-a-service model."
+    "description": "The Virtual Firewall Module is an essential component in securing and managing network traffic within a virtualized environment. It supports the creation and deployment of virtual firewall instances, enabling flexible scaling based on workload demands or security segmentation requirements. The virtual firewall instances act as security gateways, enforcing access policies and monitoring data flow. Apart from these topics, the Access Control Panel provides a centralized interface for configuring rules, managing security groups, and the Application Load Balancer feature distributes incoming traffic efficiently. Ananta supports the delivery and management of Virtual Firewalls as a service model."
   }
 }
 

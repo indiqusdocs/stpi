@@ -3,6 +3,9 @@ sidebar_position: 3
 ---
 # Create, List and View VPCs
 
+Managing VPCs is important because it gives you full control over your cloud network. By creating, listing, and viewing VPCs, you can organize your resources better, keep track of active networks, and quickly access details when you need to manage or troubleshoot them.
+
+To create, list and view VPCs, navigate to the **Networking** tab and select the **Virtual Private Clouds** option.
 ## Creating a VPC
 
 To create a VPC, follow these steps:
@@ -11,7 +14,7 @@ To create a VPC, follow these steps:
 2. Click on the **NEW VIRTUAL PRIVATE CLOUD** from the top right.
    ![VPC Creation](img/VPCCreation1.png)
 3. Choose an Availability Zone, which is the geographical region where your VPC will be configured.
-4. Specify network address base size and select size i.e. The **super CIDR** for the internal IP allocation in an x.x.x.x/x format.
+4. Specify network address base size and select size i.e. The <span class="tooltip-wrapper">**super CIDR**<span class="tooltip-box">It is the method of combining multiple continuous smaller CIDR blocks into a larger block to reduce the number of routes.</span></span> for the internal IP allocation in an x.x.x.x/x format.
 5. Choose a Networking pack (IPv4 or IPv6) from the available network collections. 
    ![VPC Creation](img/VPCCreation2.png)
    :::note
