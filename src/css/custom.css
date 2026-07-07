@@ -140,6 +140,7 @@ a:hover {
 [data-theme='dark'] a {
   color: #F59700 !important; /* orange link color for dark mode */
 }
+}
 
 /* Custom CSS for Image Zoom Effect */
 
@@ -496,7 +497,7 @@ ul.table-of-contents > li > ul > li > ul > li > a.table-of-contents__link::befor
   border-bottom: 1px solid #0B5CAD;
 }
 
-* TOC links */
+/* TOC links */
 
 .table-of-contents__link {
   color: #2F3B52;
