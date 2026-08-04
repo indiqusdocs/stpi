@@ -30,4 +30,8 @@ To create an Instance Restore Point, follow these steps:
 3. Select the **save memory and CPU states** option.
 4. Click the **Create** button.
 
-The restore point will be created.
+:::note
+An Instance Restore Point can only be created when the instance is powered on.
+:::
+
+

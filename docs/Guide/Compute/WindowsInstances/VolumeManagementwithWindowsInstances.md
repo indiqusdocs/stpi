@@ -17,4 +17,6 @@ The following quick actions are available:
 Volume-level operations are available as part of the Block Volumes Service.
 :::
 
-
+:::note
+Create Template and Restore point actions are not available for encrypted offerings.
+:::

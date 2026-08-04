@@ -7,7 +7,7 @@ Alerts get triggered whenever a configured condition is met. You can create mult
 
 You can configure alerts for instances running on NGC. You can define alerts for Instances and configure the email recipients for these alerts using an easy-to-use interface.
 
-Navigate to **Compute > Linux Instance,** click the particular **Linux Instance Name,** and access the **Alerts** tab.
+Navigate to **Compute > Linux Instance,** click the **Linux Instance Name,** and access the **Alerts** tab.
 ![Linux](img/LinuxView.png)
 ## Instance Alerts
 

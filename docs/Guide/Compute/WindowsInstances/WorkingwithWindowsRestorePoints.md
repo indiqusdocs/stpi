@@ -26,3 +26,7 @@ To create an instance restore point, follow these steps:
 2. Specify the name and the description of the restore point.
 3. To create a Restore Point, click **Create** button.
    ![Restore Point Created](img/RestorePointCreated.png)
+
+:::note
+An Instance Restore Point can only be created when the instance is powered on.
+:::

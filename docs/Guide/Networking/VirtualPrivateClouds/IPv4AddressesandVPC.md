@@ -3,70 +3,101 @@ sidebar_position: 7
 ---
 # IPv4 Addresses and VPC
 
-IPv4 Addresses are an integral part of using VPC networking, and need to be used to access various components of the VPC. By default, a public IPv4 Address is assigned to the VR which can communicate through the internet to transmit traffic to/from the VR. This IPv4 can also be used for configuring remote access (L2TP) and site-to-site (IPSec) VPN connections.
+IPv4 Addresses are an integral part of using VPC networking and are required to access various components of the VPC. By default, the Public IP address is assigned to the VR, allowing it to communicate over the Public network to transmit traffic to/from the VR. This address can also be used for configuring remote access (L2TP) and site-to-site (IPSec) VPN connections.
 
-## Using Additional IPv4
+## Configuring Additional Public IP
 
-Primarily, IPv4 Addresses can be used for configuring access and NAT-ing via:
+<div className="custom-block-blue">  
+Primarily, you can use a Public IP address to configure access and NAT through:
+- [Configuring Load balancing Rule](#configuring-load-balancing-rule)
+- [Configuring Port forwarding Rule](#configuring-port-forwarding-rule)
+- [Configuring Static NAT](#configuring-static-nat)  
+</div>
 
-- Port forwarding
-- Load balancing
-- Static NAT
 
-![IPv4 Addresses and VPC](img/IPv4AddressesandVPC1.png)
+As a first step, add the new Public IP Address to the VPC. To do this, follow these steps:
 
-As a first step, a new IPv4 Address needs to be added to the VPC, which can be done using the **ADD PUBLIC IPv4 ADDRESS** button.
+1. Navigate to **Networking > Virtual Private Clouds**. ![VPC Screen](img/VPCScreen1.png)
+2. Click the **VPC Name**.
+3. Navigate to the **IP Addresses** menu. The following screen appears: ![ipv4address](img/ipv4address.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![NICNET Address](img/NICNETAddress.png)
+5. Click the **Confirm Purchase** button. The following screen appears: ![Confirm](img/Confirm.png)
+6. Click **Confirm**.
 
-:::note
-Public IPv4 addresses may carry a price which may vary depending on availability of IPv4 addresses in the country of operation, and/or how the service provider has priced them.
+:::note  
+Public IP Address may carry a price which may vary depending on availability of Public IP address in the country of operation, and/or how the service provider has priced them.  
 :::
 
-## Configuring Load Balancing 
-
-Choosing **+ Add Load Balancer Rule** from the menu will enable this IP address to be used as a load balancer. You’ll be asked the following details to first set up it as a load-balancing IP:
-
-- A **name** and **description** for the load balancer rule.
-- **Protocol** to use for the load balancer.
-- The **load balancing algorithm** to use.
-- **Public** and **private** port mapping.
-
-Once the load balancer rule has been created, you can now go into the load balancer and add (or remove) virtual machines to this rule. To do this, follow these steps:
-
-- Click the **Load Balancer Rule** option next to the IP address listing, which would’ve got enabled now.
-- In the dialog box that opens, click on **Add/Remove Virtual Machines**.
-- In the overlay box that opens, you’ll be able to see virtual machines that are part of this load balancer, and the machines that are available to be added to this load balancer. Click on add (or remove) and **confirm** to update the load balancer rule.
-
-To test whether the load balancer has been configured correctly, you can log into the virtual machines that are behind this load balancer individually, create an index.html on each virtual machine (with different content), and access the public IP address directly from your browser. If configured correctly, each browser page refresh should take turns in loading the two index.html pages.
-
-:::note
-A load balancer IP rule can only be configured if the tier/subnet type is set up **Public IP**.
+:::note  
+You need at least one subnet tier with public LB to create a Load Balancer and Port Forwarding rule.
 :::
 
-## Configuring Port Forwarding
+## Configuring Load Balancing Rule
 
-A port forwarding rule is required for accessing the virtual machines contained in a VPC. Since virtual machines in a VPC only have a private IP address, a public IP address is required for each virtual machine that you want to access from your terminal.
+To enable the IP address for load balancing, you need to configure the load balancing rule. To do this, follow these steps:
 
-Choosing **+ Add Port Forwarding Rule** from the IP address menu will enable this IP address to be used as a port-forwarding IP. You’ll be asked the following details to first set this up as a port-forwarding IP:
+1. Click the **Load Balancing** icon (highlighted in red).![Load Balancing](img/LoadBalancerRule1.png)
+	The following screen appears:![Load Balancing](img/LoadBalancingScreen.png)
+2. Click **Add Rule**. The following screen appears: ![Load Balancer](img/Loadbalancing.png)
+3. Provide the following details to set the load-balancing IP:
+	  - A **name** and **description** for the load balancer rule.
+	  - **Protocol** to use for the load balancer.
+	  - Select a **Tier** to be associated with load balancing rule.
+	  - **Public** and **private** port mapping.
+	  -  The **load balancing algorithm** to use.
+	Once the load balancer rule has been created, you can add (or remove) instances to this rule.  
+4. Click the **Load Balancer Rule** button.  
+	The Rule is created.
+5. Click the **Load Balancing** icon. The following screen appears:  ![Load Balancer rule created](img/LoadBalancingRuleCreated.png)
+6. Select the **load balancing rule** from the dropdown. The following screen appears:  ![Add Load Balancing Rule](img/ScreenAfterRuleCreated.png)
+	You can view the instances that are part of this load balancer and are available to be added to this load balancer.  
+7. Click the highlighted icon. The following screen appears:
+8. Select IP addresses (Primary IP, Secondary IP, or both). ![IP Selection](img/IPSelection.png)
+9. Click the **Add Instance to LB Rule** button.![Instance is added with selected IPs to LB](img/InstancesAddedtoLBRule.png)  
+:::note  
+To delete this Load Balancing Rule, click **Delete This Rule**.
+:::
 
-- **Protocol** for port-forwarding.
-- The **tier** and the **virtual machine** to port-forward to.
-- **Public** and **private port** ranges. 
-	:::note
-	The end ports should be equal to or greater than the start ports.
+:::note  
+You need at least one subnet tier to create a Load Balancer IP rule.
+:::
+
+## Configuring Port Forwarding Rule
+
+A port forwarding rule is required for accessing the instances contained in a VPC. Instances in a VPC only have a private IP address, therefore, a Public IP address is required for each instance that you want to access from your terminal.
+
+To configure a port forwarding rule, follow these steps:
+
+1. Click the **Port Forwarding Rule** icon (highlighted in red).![Port Forwarding icon](img/PortForwardingicon.png)
+	The following screen appears: ![Port Forwarding Screen](img/PortForwardingScreen1.png)
+2. Click **Add Rule**. The following screen appears: ![Adding Port forwarding rule](img/AddPortForwarding.png)
+3. Provide the following details:
+	  - **Protocol** for port forwarding.
+	  - The **tier** and the **instance** to port-forward to.
+	  - **Public** and **private port** ranges.  
+	:::note  
+	The end ports must be equal to or greater than the start ports.  
 	:::
+4. Click the **Add Port Forwarding Rule** button.  
+	Once the port-forwarding rule has been created, you can view details of this rule.
+5. Click the **Port Forwarding Rule** option. The following screen appears:![Port Forwarding](img/PortForwarding.png)  
+In the dialog box, view the instance configured with this rule along with the private and public port range mappings.
 
-Once the port-forwarding rule has been created, you can now go into the port-fowarding IP address and view details of this rule. To do this, follow these steps:
+To test whether port-forwarding has been configured correctly, you can use the Public IP to SSH into the instance that the IP port-forwards to.
 
-- Click the **Port Forwarding Rule** option next to the IP address listing.
-- In the dialog box that opens, you can view the virtual machine that this rule has been configured on along with the private and public port range mappings.
-
-To test whether port-forwarding has been configured correctly, you can use the public IP to SSH into the virtual machine that the IP port-forwards to.
-
-:::note
-A port-forwarding IP address can be used to configure multiple port-forwarding access rules but with one virtual machine. To port-forward into a different virtual machine, you’ll need to purchase an additional public IP address.
+:::note  
+You can use a port-forwarding IP address to configure multiple port-forwarding access rules for a single instance. To port-forward into a different instance, you’ll need to purchase an additional Public IP address.  
 :::
+
 ## Configuring Static NAT
 
-Choose the **Enable Static NAT** to use the public IP as a static translation to any of the contained virtual machines. To use this as a static NAT, choose the virtual machine you want to translate this public IP to in the dialog box that opens and click on **enable**.
+Static NAT is required when you want a private instance inside a VPC to be accessible from the internet or external networks using a fixed Public IP.
 
-To test whether static NAT has been configured correctly, you can use the public IP to SSH into the virtual machine that the IP is NAT-ing to.
+To configure Static NAT, follow these steps:
+
+1. Click the **Static NAT** icon (highlighted in red). ![Static NAT](img/StaticNATnew.png)
+	The following screen appears:![Add Static NAT](img/StaticNAT.png)
+2. Select the instance you want to map this Public IP to.
+3. Click the **Add Static NAT** button.
+
+To test whether static NAT has been configured correctly, you can use the Public IP to SSH into the instance that the IP is NAT-ing to.
