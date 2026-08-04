@@ -80,6 +80,12 @@ const config = {
           position: 'left',
         },
 		{
+          type: 'docSidebar',
+          sidebarId: 'sidebar3',
+          label: 'Knowledge Base',
+          position: 'left',
+        },
+		{
           href: '/pdf/UserGuide.pdf',
          label: 'Download PDF',
          position: 'right',

@@ -2,9 +2,9 @@ import React from "react";
 import TOCOriginal from "@theme-original/TOC";
 
 const levelIcons = {
-  2: "🔗", // H2
-  3: "🔗", // H3
-  4: "🔗", // H4
+  2: " ", // H2
+  3: " ", // H3
+  4: " ", // H4
 };
 
 function addIcons(toc) {
