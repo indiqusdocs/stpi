@@ -7,7 +7,7 @@ Before creating a RHEL instance, it is important to plan the architecture, netwo
 To create a RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**.![RHEL Instances](img/RHEL1.png)
-2. Click the **NEW RHEL INSTANCE** button.![RHEL Instances](img/RHEL2.png)
+2. Click the **New RHEL Instance** button.![RHEL Instances](img/RHEL2.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. 
 4. Select the **Destination** and then the **Network** from the drop-downs. ![Compute Pack](img/RHELInstance2.png)
 5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab. 
@@ -16,6 +16,9 @@ To create a RHEL instance, follow these steps:
 	:::
 6. **Choose a Compute Pack** from the available compute collections. ![Disk and Authentication option](img/RHELInstance3.png)
 7. **Choose Disk Configuration** from the available **SSD**/**HDD** disk packs, or you can use the free size option to specify the root disk.
+   :::note
+    The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
+	:::
 8. Select the option to **Protect this Instance**.
 9. **Choose an Authentication Method**: 
     - **Use SSH key pair**: Clicking on the Use SSH key pair option, all the SSH key pairs present in your account will be listed; if your account doesn’t have any SSH key pair, then you can click the **Generate a new key pair** option or upload the key pair by clicking the **Upload a key pair** option. 
@@ -23,11 +26,11 @@ To create a RHEL instance, follow these steps:
 10. In the **Name Your RHEL Instance** field, enter the desired name for your RHEL instance.
 11. Verify the Estimated Cost of your RHEL Instance based on the specifications you have chosen from the Summary and Estimated Costs section (Here both Hourly and Monthly Prices summary will be displayed).
 12. To confirm, click on the check box after going through the policies mentioned by your cloud service provider.
-13. Clicking on the **BUY HOURLY** or **BUY MONTHLY** button, the Confirm Instance Purchase window appears, and the price summary is displayed along with the discount codes if you have any in your account. 
-    1. You can apply any of the discount codes listed by clicking on the **APPLY** button. 
-    2. You can also remove the applied discount code by clicking the **REMOVE** button. 
-    3. Clicking on the **CANCEL** button, this action will be canceled.
-14. Click **CONFIRM** to create the RHEL Instance.
+13. Clicking on the **Buy Hourly** or **Buy Monthly** button, the Confirm Instance Purchase window appears, and the price summary is displayed along with the discount codes if you have any in your account. 
+    1. You can apply any of the discount codes listed by clicking on the **Apply** button. 
+    2. You can also remove the applied discount code by clicking the **Remove** button. 
+    3. Clicking on the **Cancel** button, this action will be canceled.
+14. Click **Confirm** to create the RHEL Instance.
     ![Confirm Instance Purchase](img/ConfirmInstancePurchase.png)
 
 :::note

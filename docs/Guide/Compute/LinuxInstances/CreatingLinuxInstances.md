@@ -19,6 +19,9 @@ To create a Linux instance, follow these steps:
 6. **Choose a Compute Pack** from the available compute collections.  
 	 ![Compute Pack](img/ComputePack.png)
 7. **Choose a Root Disk** from the available options.
+   :::note
+    The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
+	:::
 8. In **Choose Instant Apps**, select the available applications. To Verify/Login into your selected database, refer to [App Overlays](/docs/Guide/Compute/LinuxInstances/AppOverlays). 
     ![Root Disk](img/RootDisk.png)
 9. **Choose an Authentication Method**:
