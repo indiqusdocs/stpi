@@ -11,11 +11,9 @@ Before creating a Windows Instance, it is important to plan the architecture, ne
 
 To create a Windows instance, follow these steps:
 
-1. Navigate to **Compute > Windows** Instances.
-2. Click the **New Windows Instance** button.
-	![Windows Instance creation](img/WindowsInstance2.png)
+1. Navigate to **Compute > Windows** Instances. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
+2. Click the **New Windows Instance** button. The following screen appears:![Windows Instance](img/WindowsInstance4.png)
 3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the **advanced VPC** from all available AZs.
-	![Windows Instance](img/WindowsInstance4.png)
 4.  Select a VPC network from the **Select Network** Dropdown and select the appropriate tier listed in **Select a Network Tier**.
 	:::note
 	To add a Windows Instance to a VPC, you need to have a VPC configured with at least one tier.
@@ -24,21 +22,21 @@ To create a Windows instance, follow these steps:
    :::note
 	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
 	:::
-6. **Choose a compute pack** from the available compute collections.
+	![Compute Pack](img/ComputePack1.png)
+6. **Choose a compute pack** from the available compute collections.![Root Disk](img/WindowsRootDisk.png)
 7. **Choose a Root disk** from the available Disk packs, or you can use the free size option to specify the Root Disk.
    :::note
     The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
 	:::
-8.  In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance. The Instance name must only contain alphanumeric characters, underscore, dots and hyphens. 
-	![Root Disk](img/WindowsRootDisk.png)
-9.  Under the **Summary and Estimated Costs** section, verify the estimated cost of your Windows Instance based on the chosen specifications.
-	![Summary and Estimated ](img/WindowsInstance5.png)
-10. After reviewing the policies mentioned by your cloud service provider, click **The above information is correct**. 
-11. To view the price summary and any discount codes in your account, click the **Buy Hourly** or **Buy Monthly** button.
+8. Select the option to **Protect this Instance**.
+9. In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance. The Instance name must only contain alphanumeric characters, underscore, dots and hyphens.
+10. Under the **Summary and Estimated Costs** section, verify the estimated cost of your Windows Instance based on the chosen specifications.![Summary and Estimated ](img/WindowsInstance5.png)
+11. After reviewing the policies mentioned by your cloud service provider, click the **I have read and agreed to the End User License Agreement and Privacy Policy** option. 
+12. To view the price summary and any discount codes in your account, click the **Buy Hourly** or **Buy Monthly** button.
     - You can apply any of the discount codes listed by clicking on the **Apply** button. 
     - You can also remove the applied discount code by clicking the **Remove** button. 
     - Clicking on the **Cancel** button, this action will be canceled.
-12. Click the **Confirm**  button to create the Windows Instance.
+13. Click the **Confirm**  button to create the Windows Instance.
     
 
 :::note 

@@ -6,8 +6,8 @@ Before creating a RHEL instance, it is important to plan the architecture, netwo
 
 To create a RHEL instance, follow these steps:
 
-1. Navigate to **Compute > RHEL Instances**.![RHEL Instances](img/RHEL1.png)
-2. Click the **New RHEL Instance** button.![RHEL Instances](img/RHEL2.png)
+1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
+2. Click the **New RHEL Instance** button. The following screen appears:![RHEL Instances](img/RHEL2.png)
 3. Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. 
 4. Select the **Destination** and then the **Network** from the drop-downs. ![Compute Pack](img/RHELInstance2.png)
 5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab. 
@@ -25,7 +25,7 @@ To create a RHEL instance, follow these steps:
     - **Use root user password**: On selecting Use root user password, **Also email me the password** option is displayed. If you select this option, the password, along with the details, for instance, will be emailed to your registered email ID.![Name and choose estimated costs](img/RHELInstance4.png)
 10. In the **Name Your RHEL Instance** field, enter the desired name for your RHEL instance.
 11. Verify the Estimated Cost of your RHEL Instance based on the specifications you have chosen from the Summary and Estimated Costs section (Here both Hourly and Monthly Prices summary will be displayed).
-12. To confirm, click on the check box after going through the policies mentioned by your cloud service provider.
+12. After reviewing the policies mentioned by your cloud service provider, click the **I have read and agreed to the End User License Agreement and Privacy Policy** option. 
 13. Clicking on the **Buy Hourly** or **Buy Monthly** button, the Confirm Instance Purchase window appears, and the price summary is displayed along with the discount codes if you have any in your account. 
     1. You can apply any of the discount codes listed by clicking on the **Apply** button. 
     2. You can also remove the applied discount code by clicking the **Remove** button. 
