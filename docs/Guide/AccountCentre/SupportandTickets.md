@@ -3,50 +3,57 @@ sidebar_position: 9
 ---
 # Support and Tickets
 
-Ananta Cloud provides SLA-driven support to all subscriber customers in accordance with the terms and conditions outlined in the Service Level Agreement. The SLA can be accessed from the top helper bar by clicking on the user icon.
-![Support and Tickets](img/SupportandTickets1.png)
+NGC provides support according to the terms and conditions defined in the Service Level Agreement. You can use the **Support & Ticket** section to create, track, and manage your tickets. You can raise tickets for incidents, service requests, or change requests and communicate directly with the assigned support agent.
+
+To access the **Support & Tickets** menu, click the **user** icon and navigate to **Account Centre > Account**.
+![Account Centre](img/AccountCentre2.png)
+The following screen appears:
+![openticket](img/openticket.png)
 ## Creating a Support Ticket
 
-The Ananta Cloud Console has a ticketing section that can be accessed by clicking on **Support & Tickets** in the main navigation panel of the Account Centre. The tickets section shows a list of all the tickets in your account and lets you filter the view based on ticket priority and ticket status.
+To create a support ticket, follow these steps:
+1. Click the **Support & Tickets** menu. The following screen appears:
+    ![openticket](img/openticket.png)
+2. Click the **Create a Ticket** button. The following screen appears:![ticketcreation](img/ticketcreation.png)
+3. Provide the following details:
+	- **Type:** Select the appropriate high-level classification, such as Incident, Service Request, or Change Request. [Click here](#ticket-classifiers) to view the categories and sub-categories.
+	- **Category:** Select the appropriate category (For example: Accounts, Antivirus, Apache SQL Injection Attack, Backup) based on the ticket type.
+	- **Ticket Sub Category:** Select the appropriate subcategory according to the selected category.
+	- **Priority:** Select the appropriate priority level (Very Low, Low, Normal, High) based on the impact and urgency of the ticket.
+	- **Subject:** Enter a clear and descriptive ticket subject.
+	- **Details:** Enter the complete ticket description.
+	- **Attachment:** Optionally, attach a .png, .jpg, or .pdf file. Ensure that the file size does not exceed **5 MB**.
+4. Click the **Create Support Ticket** button.
 
-To open the ticket creation dialog box , click the **Create a Ticket** button on the left corner. Ticket creation also follows the single-form interaction paradigm where all the relevant information is captured intelligently in one place to create the ticket. The ticket creation dialog will show the following options:
+After successfully creating the ticket, you get a notification email and a separate email containing the ticket details on your registered email id. You can use the ticket information to track the request and communicate with the support agent(s).
 
-- **Ticket Type -** This is a high-level classification in terms of Account, Billing, Technical or another issue.
-- **Sub-type -** Based on the ticket type chosen above, you’ll be asked to specify a sub-type for further classification.
-- **Item -** Based on the type and sub-type combination, you’ll be able to pinpoint exactly which item you’re having an issue with. 
-  :::note 
-  The Sub-type and Item information is optional but it is recommended that you provide as much information as possible to help Ananta’s support agents diagnose your issue more effectively.
-  :::
-- **Ticket Details -** Providing a subject, priority, and message/description are mandatory.
-- **Attachment -** Optionally, you can also attach a .png, .jpg, or .pdf file as an attachment ,ensuring the file size does not exceed **5MB**.![Support and Tickets](img/SupportandTickets2.png)
+## Communicating with an Agent
 
-Creating a ticket will send you a notification email and another email with ticket information that can be used to track and communicate with the support agent(s). Both emails will be received at your email address on record.
+To communicate with an agent, follow these steps:
+1. Click **Ticket Number** (highlighted in red).![Ticket Number](img/TicketID.png)
+	The following screen appears:![Replying to an agent](img/ReplyingtoAgent.png)
+2. Enter your message in the textbox. You can also upload attachments along with your message.
+3. Click **Send**.
 
-## Replying to an Agent
+ You can also reply directly to the email containing the ticket information or the latest response from the support agent.
 
-You may reply to the assigned support agent from the ticket interface by using the message box at the bottom of the ticket. You can also upload attachments with your ticket replies.
+## Ticket Classifiers
 
-Alternatively, you can reply to the email that you received with the ticket information or the latest reply from the support agent. Email replies will also show up in the ticket details section on Ananta Cloud Console.
+The following table is a quick reference on ticket classifiers:
 
-# Ticket Classifiers
-
-Please refer to the following table for a quick reference on ticket classifiers:
-
-|           |                        |                                               |
-| --------- | ---------------------- | --------------------------------------------- |
-| **Type**  | **Sub-type**           | **Item**                                      |
-| Billing   | Transactions           | List of transactions to choose from           |
-|           | Invoices               | List of invoices to choose from               |
-|           | Statements             | List of statements to choose from             |
-|           | Other                  | -                                             |
-| Technical | Virtual Machines       | List of Instances to choose from                    |
-|           | Virtual Private Clouds | List of VPCs to choose from                   |
-|           | Disks                  | List of root and addon volumes to choose from |
-|           | Other                  | -                                             |
-| Account   | Active Subscriptions   | List of active subscriptions to choose from   |
-|           | Inactive Subscriptions | List of inactive subscriptions to choose from |
-|           | Users                  | List of child users to choose from            |
-|           | Other                  | -                                             |
-| Other     | -                      | -                                             |
+| **Category** | **Sub Category**        |
+| ------------ | ----------------------- |
+| Activity     | Alert -misue            |
+|              | New Requirement         |
+| AIX          | Alert- Profiled         |
+|              | New Requirement         |
+| AppSecure    | Availability            |
+|              | Backup/Restore/Recover/ |
+|              | BAU Activity            |
+|              | Capacity                |
+| Audit        | Application             |
+|              | Database                |
+|              | Network                 |
+|              | New Requirement         |
 
 

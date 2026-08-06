@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
+                "file": "docs/Guide/AccountCentre/SupportandTickets.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "CreatingRHELInstances"
+              "title": "SupportandTickets"
             }
           }
         ]
@@ -168,32 +168,39 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
-    "docs/Guide/Compute/WindowsInstances/CreatingWindowsInstances.md",
-    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
-    "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
-    "docs/Guide/Compute/WindowsInstances/img/ComputePack1.png",
-    "docs/Guide/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
-    "docs/Guide/AccountCentre/InvoicesPisandCreditNotes.md",
-    "docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "build/search-index.json",
     "build/sitemap.xml",
-    "build/docs/Knowledgebase/WhatisIPv4Networking/index.html",
-    "build/docs/Knowledgebase/WhatisVirtualPrivateCloud/index.html",
     "build/docs/Knowledgebase/WhatisStorageinthecloud/index.html",
-    "build/docs/Knowledgebase/WhatisIPAddressSubnetTierandCIDR/index.html",
-    "build/docs/Knowledgebase/WhatareDiskOfferings/index.html",
-    "build/docs/Knowledgebase/WhatareInstances/index.html",
     "build/docs/Knowledgebase/HowdoIManageDisksLargerThan2TB/index.html",
-    "build/docs/Knowledgebase/WhatisVirtualPrivateCloud",
+    "build/docs/Knowledgebase/WhatareInstances/index.html",
+    "build/docs/Knowledgebase/WhatisVirtualPrivateCloud/index.html",
+    "build/docs/Knowledgebase/WhatareDiskOfferings/index.html",
+    "build/docs/Knowledgebase/WhatisIPv4Networking/index.html",
+    "build/docs/Knowledgebase/WhatisIPAddressSubnetTierandCIDR/index.html",
+    "build/docs/Knowledgebase/WhatisStorageinthecloud",
+    "build/docs/Knowledgebase/WhatareInstances",
+    "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
-    "build/img/sbs.png",
     "build/img/undraw_docusaurus_react.svg",
     "build/img/undraw_docusaurus_mountain.svg",
     "build/img/sps.svg",
     "build/img/sps.png",
     "build/img/sbs.svg",
-    "build/img/logo.svg",
+    "build/img/sbs.png",
+    "build/img/rn.png",
     "build/img/rn.svg",
+    "docs/Guide/Compute/RHELInstances/RHELInstanceOperations.md",
+    "docs/Guide/Compute/WindowsInstances/WindowsInstanceOperations.md",
+    "docs/Guide/Compute/LinuxInstances/LinuxInstanceOperations.md",
+    "docs/Guide/Compute/Autoscale/CreatingAutoscaleGroups.md",
+    "docs/Guide/CloudExperienceManagement/CloudConsoleOverview.md",
+    "docs/Guide/intro.md",
+    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
+    "docs/Guide/Compute/WindowsInstances/CreatingWindowsInstances.md",
+    "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
+    "docs/Guide/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
+    "docs/Guide/AccountCentre/InvoicesPisandCreditNotes.md",
+    "docs/Guide/Compute/LinuxInstances/CreatingLinuxInstances.md",
     "docs/Guide/Compute/LinuxInstances/WorkingwithLinuxRestorePoints.md",
     "docs/Knowledgebase/WhatisRACIFramework.md",
     "docs/Knowledgebase/WhatisVirtualPrivateCloud.md",
@@ -206,12 +213,6 @@
     "docs/Guide/Compute/RHELInstances/WorkingwithRHELRestorePoints.md",
     "docs/Guide/Compute/WindowsInstances/WorkingwithWindowsRestorePoints.md",
     "docs/Guide/Compute/WindowsInstances/VolumeManagementwithWindowsInstances.md",
-    "docs/Guide/Compute/RHELInstances/VolumeManagementwithRHELInstances.md",
-    "docs/Guide/Compute/LinuxInstances/VolumeManagementwithLinuxInstances.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/IPv4AddressesandVPC.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/InternalLBRule.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md"
+    "docs/Guide/Compute/RHELInstances/VolumeManagementwithRHELInstances.md"
   ]
 }

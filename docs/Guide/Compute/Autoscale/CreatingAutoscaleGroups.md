@@ -6,7 +6,7 @@ sidebar_position: 3
 To create Autoscale Groups, follow these steps:
 
 1. Navigate to the **Compute > Autoscale Groups** in the navigation menu.![Creating Autoscale Groups](img/CreatingAutoscaleGroups1.png)
-2. Click the **NEW AUTOSCALE GROUP** button. The following screen appears: 
+2. Click the **New Autoscale Group** button. The following screen appears: 
    ![Autoscale Group](img/CreatingAutoscaleGroups2.png)
 3. Select an **Instance Category**. 
 4. Choose an **Availability Zone** that represents the geographic region for the deployment of your Autoscaled Instance.![VPC Network and Tier](img/VPCNetworkTier.png)
@@ -36,16 +36,16 @@ To create Autoscale Groups, follow these steps:
 			- **Load Balancer**: average connections per Instance
 	- **Breach**: Relational Operator to be used with threshold. This will be greater than by default.
 	- **Threshold**: It is the value for which the counter will be evaluated with the operator selected.
-11. To add the policy, click the **ADD CONDITION** button. If you want to add more policies, click the **ADD NEW** button present beside the Policy name.
+11. To add the policy, click the **Add Condition** button. If you want to add more policies, click the **Add New** button present beside the Policy name.
 12. Define the **Scale Down Policy**; the parameters are similar to the Scale UP policy. Only the breach parameter will be greater than by default.
     ![Scale down](img/CreatingAutoscaleGroups4.png)
     :::note
-		The reading **DURATION** must be at least 60 seconds. The **QUIET TIME** must be between 120 and 3600 seconds.
+		The reading **Duration** must be at least 60 seconds. The **Quiet Time** must be between 120 and 3600 seconds.
 	:::
 13. Next is to set up the SSH Key. If your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting the **Upload a key pair** option.
 14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. For example: Notify to account users, Notify to comma-separated email addresses.
 15. Specify name of your Autoscale group. (Use the naming convention mentioned in the helper text below.)
-16. Click the **PUBLISH THIS AUTOSCALE GROUP** button for publishing the Autoscale group.
+16. Click the **Publish This Autoscale Group** button for publishing the Autoscale group.
     ![Publish AutoScale Group](img/CreatingAutoscaleGroups5.png)
 
 
