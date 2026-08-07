@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/AccountCentre/SupportandTickets.md",
+                "file": "docs/Guide/AccountCentre/AboutAnantaAccountCentre.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "SupportandTickets"
+              "title": "AboutAnantaAccountCentre"
             }
           }
         ]
@@ -168,6 +168,7 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
+    "docs/Guide/AccountCentre/SupportandTickets.md",
     "build/search-index.json",
     "build/sitemap.xml",
     "build/docs/Knowledgebase/WhatisStorageinthecloud/index.html",
@@ -178,7 +179,6 @@
     "build/docs/Knowledgebase/WhatisIPv4Networking/index.html",
     "build/docs/Knowledgebase/WhatisIPAddressSubnetTierandCIDR/index.html",
     "build/docs/Knowledgebase/WhatisStorageinthecloud",
-    "build/docs/Knowledgebase/WhatareInstances",
     "build/icons/home.svg",
     "build/img/undraw_docusaurus_tree.svg",
     "build/img/undraw_docusaurus_react.svg",
