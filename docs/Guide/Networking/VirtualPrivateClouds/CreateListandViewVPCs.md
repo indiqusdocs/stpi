@@ -28,15 +28,16 @@ To do this, follow these steps:
 	:::note
 	To configure IPv6 under a **VPC,** you must create a ticket with our support team for assistance.
     :::
-	![Selecting a networking pack](img/VPCNew1.png)
 6. To create the VPC with a new NICNET IP address, select **Default IP Address for VPC Networking**.
 7. Enter the valid name in the **Name your Virtual Private Cloud** field.
+   	![Selecting a networking pack](img/VPCNew1.png)
 8. Verify the **Summary and Estimated Costs** section (Here, both the hourly and monthly price summaries are displayed).
-9. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option.![Select IP address](img/VPCNew2.png)
-10. To display the price summary, click the **Buy Hourly** or **Buy Monthly** button, a confirmation screen appears:
+9. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option.
+10. Click the **Buy Hourly** or **Buy Monthly** button, a confirmation screen appears:
 	- To apply any of the listed discount codes, click **Apply**.
 	- To remove the applied discount code, click **Remove**.
 	- To cancel the action, click **Cancel**.
+	  ![Select IP address](img/VPCNew2.png)
 11. Click **Confirm**.
 
 Once ready, you get the notification of this purchase on your email address on record. 
@@ -57,6 +58,7 @@ To view the created VPCs, navigate to **Networking** > **Virtual Private Clouds*
 ![Create, List and View VPCs](img/CreateVPC2.png)
 
 ## Viewing VPC Details
+
 To view a list of tabs and the various operations that you can perform, click the **VPC Name**. The following screen appears with these details:
 - Configuration
 - Availability Zone
@@ -67,6 +69,7 @@ Along with the summary, the following information is readily available in the *
 
 - **Configuration and Availability**
     - The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in greyed out.
+    - Information about Availability Zone.
     - Information about the Virtual Router Pack.
     - Information about the Network Size.
 - **Internal Information**
@@ -74,7 +77,5 @@ Along with the summary, the following information is readily available in the *
 	- Template Name
 	- Virtual Router Name
 	- Created On
-
-Navigate to the respective tabs to manage VPC operations, configurations, and other available functions.
 
 

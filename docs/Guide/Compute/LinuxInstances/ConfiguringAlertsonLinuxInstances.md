@@ -5,7 +5,7 @@ sidebar_position: 5
 
 Alerts get triggered whenever a configured condition is met. You can create multiple alerts on an instance. Alerts are sent to recipients that you can define and manage.
 
-You can configure alerts for instances running on NGC. You can define alerts for Instances and configure the email recipients for these alerts using an easy-to-use interface.
+You can configure alerts for instances running on NGC and manage email recipients for these alerts using an easy-to-use interface.
 
 Navigate to **Compute > Linux Instance,** click the **Linux Instance Name,** and access the **Alerts** tab.
 ![Linux](img/LinuxView.png)
@@ -32,7 +32,7 @@ To create an alert, follow these steps:
 
 ## Configuring Recipients
 
-You can delete the existing email IDs and add other email IDs by following these steps:
+To configure recipients, follow these steps:
 
 1. Click the **Manage Recipients** button. The following screen appears:![Configuring Alerts on Linux Instances](img/ConfiguringAlerts3.png)
 2. Click the dropdown icon in the **Add Recipients** field to view the recipients list.

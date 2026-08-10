@@ -40,7 +40,7 @@ To create a custom ACL and add rules, follow these steps:
 2. Click the **VPC name** and navigate to the **Access Control Lists** menu. The following screen appears:![managingaccess](img/managingaccess.png)
 3. Click the **Add Access Control List** button. The following screen appears:![ACL 2](img/AddACL2.png)
 4. Provide the desired name in the **Access Control List Name** field. Then, click the **Add Access Control List** button. The Access Control List gets added as shown in the following screen:![New ACL](img/AddRuleHighlighted.png)
-5. Click on the **Add Rule** icon (highlighted in red). The following screen appears:![ACL Rule](img/AddACL.png)
+5. Click the **Add Rule** icon (highlighted in red). The following screen appears:![ACL Rule](img/AddACL.png)
 6. Provide the following details:
 	- **Traffic Type:** Select the traffic direction: Ingress or Egress.
 	- **Action:** Choose whether to allow or deny the traffic.

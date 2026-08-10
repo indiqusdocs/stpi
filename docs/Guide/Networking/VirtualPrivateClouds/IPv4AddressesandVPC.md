@@ -51,8 +51,8 @@ To enable the IP address for load balancing, you need to configure the load bala
 5. Click the **Load Balancing** icon. The following screen appears:  ![Load Balancer rule created](img/LoadBalancingRuleCreated.png)
 6. Select the **load balancing rule** from the dropdown. The following screen appears:  ![Add Load Balancing Rule](img/ScreenAfterRuleCreated.png)
 	You can view the instances that are part of this load balancer and are available to be added to this load balancer.  
-7. Click the highlighted icon. The following screen appears:
-8. Select IP addresses (Primary IP, Secondary IP, or both). ![IP Selection](img/IPSelection.png)
+7. Click the highlighted icon. The following screen appears:![IP Selection](img/IPSelection.png)
+8. Select IP addresses (Primary IP, Secondary IP, or both). 
 9. Click the **Add Instance to LB Rule** button.![Instance is added with selected IPs to LB](img/InstancesAddedtoLBRule.png)  
 :::note  
 To delete this Load Balancing Rule, click **Delete This Rule**.
