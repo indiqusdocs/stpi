@@ -3,7 +3,11 @@ sidebar_position: 2
 ---
 # Organisation/Account Profile
 
-Using the **Profile** section, you can manage your organisation account profile on Ananta Cloud. The profile management section can be accessed from Account Centre from the top helper bar by clicking on the organisation. Account profiles include the following:
+Using the **Profile** section, you can manage your organisation account profile on Ananta Cloud. 
+
+To access the profile section, navigate to **Account Centre > Account** , and click the **Profile** tab.
+
+Provide the following information in the form:
 
 1. **Basic Details**: These are the basic demographic details of your organisation. All editable fields can be updated at any time.
 2. **Billing Information**: These are the billing details for your organisation, viz., billing address, taxation ID, etc.

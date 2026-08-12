@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/LinuxInstances/NetworkingManagementwithLinuxInstances.md",
+                "file": "docs/Guide/AccountCentre/SupportandTickets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NetworkingManagementwithLinuxInstances"
+              "title": "SupportandTickets"
             }
           }
         ]
@@ -168,12 +168,26 @@
   },
   "active": "16a02ceae35e7a02",
   "lastOpenFiles": [
+    "docs/Guide/AccountCentre/StandardAgreements.md",
+    "docs/Guide/AccountCentre/AboutAnantaAccountCentre.md",
+    "docs/Guide/AccountCentre/Payments.md",
+    "docs/Guide/AccountCentre/Organisation-AccountProfile.md",
+    "docs/Guide/AccountCentre/MakingPaymentAgainstaProformaInvoice.md",
+    "docs/Guide/AccountCentre/InvoicesandCreditNotes.md",
+    "docs/Guide/AccountCentre/ActivityLogs.md",
+    "docs/Guide/AccountCentre/SupportandTickets.md",
+    "docs/Guide/CloudExperienceManagement/CloudOperationsManagement.md",
+    "docs/Guide/CloudExperienceManagement/CloudConsoleOverview.md",
+    "docs/Guide/LoggingIn.md",
+    "docs/Guide/Invoicing1.png",
+    "docs/Guide/SigningUp.md",
+    "docs/Guide/OrganisationForm.png",
+    "docs/Guide/Compute/LinuxInstances/NetworkingManagementwithLinuxInstances.md",
     "build/assets/js/e95509f6.46b28528.js",
     "build/assets/js/d0459f6f.72410345.js",
     "build/assets/js/runtime~main.14a9e0da.js",
     "docs/Guide/Compute/WindowsInstances/NetworkingManagementonWindowsInstances.md",
     "docs/Guide/Compute/RHELInstances/NetworkingManagementwithRHELInstances.md",
-    "docs/Guide/Compute/LinuxInstances/NetworkingManagementwithLinuxInstances.md",
     "docs/Guide/Compute/WindowsInstances/ConfiguringAlertsonWindowsInstances.md",
     "docs/Guide/Compute/RHELInstances/ConfiguringAlertsonRHELInstances.md",
     "docs/Guide/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
@@ -181,8 +195,6 @@
     "docs/Guide/Networking/VirtualPrivateClouds/CreateListandViewVPCs.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ManagingAccessControlonVPCSubnets.md",
     "docs/Guide/AccountCentre/WalletandTransactions.md",
-    "docs/Guide/AccountCentre/MakingPaymentAgainstaProformaInvoice.md",
-    "docs/Guide/AccountCentre/InvoicesandCreditNotes.md",
     "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
     "docs/Guide/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
     "build/assets/js/ad619924.9a261116.js",
@@ -197,22 +209,10 @@
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingVFDetails/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ViewingGraphsandUtilization/index.html",
     "docs/Guide/AccountCentre/img/WallentandTransaction1.png",
     "docs/Guide/AccountCentre/img/PaymentAgainstInvoiceonly.png",
     "docs/Guide/AccountCentre/img/ConfirmPaymentScreen.png",
-    "docs/Guide/AccountCentre/img/PayAgainstPI.png",
-    "docs/Guide/AccountCentre/img/PaymentScreen.png",
-    "docs/Guide/AccountCentre/AboutAnantaAccountCentre.md",
-    "docs/Guide/AccountCentre/SupportandTickets.md",
     "docs/Guide/Compute/RHELInstances/RHELInstanceOperations.md",
-    "docs/Guide/Compute/WindowsInstances/WindowsInstanceOperations.md",
-    "docs/Guide/Compute/LinuxInstances/LinuxInstanceOperations.md",
-    "docs/Guide/Compute/Autoscale/CreatingAutoscaleGroups.md",
-    "docs/Guide/CloudExperienceManagement/CloudConsoleOverview.md",
-    "docs/Guide/intro.md",
-    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
-    "docs/Guide/Compute/WindowsInstances/CreatingWindowsInstances.md",
-    "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md"
+    "docs/Guide/Compute/WindowsInstances/WindowsInstanceOperations.md"
   ]
 }
