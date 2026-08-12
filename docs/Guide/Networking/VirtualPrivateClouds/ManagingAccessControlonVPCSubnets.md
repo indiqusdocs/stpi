@@ -74,7 +74,7 @@ To delete an ACL, follow these steps:
 4. Click the **Delete ACL Rule** button.
 
 :::note
-  To delete an ACL, you must first disassociated it with the attached tier. For more information, refer [Replacing an ACL](/docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers#replacing-an-acl).
+  To delete an ACL, you must first disassociate the ACL with the attached tier. For more information, refer [Replacing an ACL](/docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers#replacing-an-acl).
 :::
 ## Creating Bulk Custom ACL and Adding Rules 
 

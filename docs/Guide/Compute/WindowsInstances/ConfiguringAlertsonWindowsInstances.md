@@ -36,7 +36,7 @@ To create an alert, follow these steps:
 
 # Configuring Recipients
 
-You can delete the existing email IDs and add other email IDs by following these steps:
+To configure recipients, follow these steps:
 
 1. Click the **Manage Recipients** button. The following screen appears: ![Configuring Alerts on Windows Instances](img/ConfiguringAlerts3.png)
 2. Click the dropdown icon in the **Add Recipients** field to view the recipients list.

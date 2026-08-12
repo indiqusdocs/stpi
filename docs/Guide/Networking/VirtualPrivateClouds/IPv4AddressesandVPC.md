@@ -80,7 +80,7 @@ To configure a port forwarding rule, follow these steps:
 	:::
 4. Click the **Add Port Forwarding Rule** button.  
 	Once the port-forwarding rule has been created, you can view details of this rule.
-5. Click the **Port Forwarding Rule** option. The following screen appears:![Port Forwarding](img/PortForwarding.png)  
+![Port Forwarding](img/PortForwarding.png)  
 In the dialog box, view the instance configured with this rule along with the private and public port range mappings.
 
 To test whether port-forwarding has been configured correctly, you can use the Public IP to SSH into the instance that the IP port-forwards to.

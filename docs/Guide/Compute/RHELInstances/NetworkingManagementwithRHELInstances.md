@@ -60,10 +60,11 @@ It is used in the following networking services in the NGC portal:
 
 To add a secondary IP, follow these steps:
 
-1. Navigate to **Compute > RHEL Instances**, and select the **Networking** tab. The following screen appears: ![Secondary IP](img/RHELNetworking.png)
-2. Click the **New Secondary IP** button. The following screen appears:![Secondary IP](img/SecondaryIP1.png)
-3. Enter a **new secondary IP address** and select the associated network from the **select tier** dropdown.
-4. Click the **Add** button.
+1. Navigate to **Compute > RHEL Instances**.
+2. Click the **VPC name** and select the **Networking** tab. The following screen appears: ![Secondary IP](img/RHELNetworking.png)
+3. Click the **New Secondary IP** button. The following screen appears:![Secondary IP](img/SecondaryIP1.png)
+4. Enter a **new secondary IP address** and select the associated network from the **select tier** dropdown.
+5. Click the **Add** button.
 
 The Secondary IP is successfully added.
 ![Added Secondary IP](img/IPAdded.png)

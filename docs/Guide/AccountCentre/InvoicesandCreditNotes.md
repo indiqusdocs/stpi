@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# Invoices, PIs and Credit Notes
+# Invoices and Credit Notes
 
 Invoices are generated at the end of each billing cycle for the services consumed during the billing cycle. 
 
@@ -10,12 +10,3 @@ To view this section, Navigate to **Account Centre > Billing** and click the **I
 :::note
 Ananta Cloud does not store any card or bank account information, and the same is handled solely by the payment gateway provider.
 :::
-
-To view and pay the PI, follow these steps:
-
-1. Navigate to **Account Centre > Billing** and click the **Invoices, PIs and Credit Notes** tab.![Invoices and Credit Notes](img/PI.png)
-2. Click the **Pay Now** button. The following screen appears: ![Payment Method](img/PaymentMethod.png)
-3. Select the Payment method. The following screen appears:![Make Payment](img/MakePaymentScreen.png)
-4. Click the **Proceed** button. The following screen appears: ![Confirm Screen](img/ConfirmScreen.png)
-5. Click the **Confirm** button.
-

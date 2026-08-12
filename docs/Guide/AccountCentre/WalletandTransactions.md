@@ -17,7 +17,7 @@ To add a payment against your invoice or Proforma invoice, follow these steps:
 	  - **Pay Against Proforma Invoice**: Enter the Remarks and amount you want to distribute among the Proforma Invoices. ![Pay Against PI](img/PayAgainstPI.png)
 	The remaining amount will be added to the wallet.
 	:::note
-	    In case of multiple PIs, you can distribute the amount among the PIs or add the entire amount directly to the wallet..
+	    If there are multiple PIs, you can distribute the amount among them or add the entire amount directly to the wallet.
 	:::
 5. Click the **Confirm** button. A confirmation window appears: ![Confirm Payment](img/ConfirmPaymentScreen.png)
 6. Click **Confirm**.
