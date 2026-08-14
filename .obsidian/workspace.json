@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
+                "file": "docs/Guide/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CreatingVPCSubnetsTiers"
+              "title": "ManagingVPCInstances"
             }
           }
         ],
@@ -197,16 +197,17 @@
   },
   "active": "b78177afb20d3d2f",
   "lastOpenFiles": [
+    "docs/Guide/Networking/VirtualPrivateClouds/InternalLBRule.md",
+    "docs/Guide/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
+    "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
+    "docs/Guide/Networking/VirtualPrivateClouds/CreatingaVPC.md",
+    "docs/Guide/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
+    "docs/Guide/Networking/VirtualPrivateClouds/img/DeleteTier.png",
     "docs/Guide/Networking/VirtualPrivateClouds/img/RestartingaTier.png",
     "docs/Guide/AccountCentre - Shortcut.lnk",
-    "docs/Guide/Networking/VirtualPrivateClouds/CreatingaVPC.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/InternalLBRule.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ViewingVPCDetails.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ViewingVPCs.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/DifferenceBetweenL2NetworksandVPC.md",
     "docs/Guide/Networking/VirtualPrivateClouds/VPCManagementandBasicOperations.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
     "docs/Guide/Networking/VirtualPrivateClouds/AboutVirtualPrivateClouds.md",
     "docs/Guide/AccountCentre/StandardAgreements.md",
     "docs/Guide/AccountCentre/Payments.md",
@@ -240,8 +241,6 @@
     "build/docs/Guide/Networking/FirewallandSecurity/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/AboutFirewallInstances/index.html",
     "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/ReconfiguringVirtualFirewall/index.html",
-    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html",
-    "docs/Guide/AccountCentre/img/WallentandTransaction1.png",
-    "docs/Guide/AccountCentre/img/PaymentAgainstInvoiceonly.png"
+    "build/docs/Guide/Networking/FirewallandSecurity/FirewallInstances/VolumeManagement/index.html"
   ]
 }

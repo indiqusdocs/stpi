@@ -70,6 +70,5 @@ Deleting a network tier permanently removes the selected tier from the VPC. Use 
 
 To delete a network tier, follow these steps:
 
-1. Click the **Delete Network** icon (highlighted in red). The following screen appears:
-
+1. Click the **Delete Network** icon (highlighted in red). The following screen appears:![Delete Tier](img/DeleteTier.png)
 2. Select the **I confirm that I have removed everything from this tier** option, and click the **Delete Tier** button.
