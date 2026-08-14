@@ -1,17 +1,9 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
-# Create, List and View VPCs
+# Creating a VPC
 
-This section explains how to create and view VPCs. Creating and viewing VPCs helps you organize your resources (instances), keep track of active networks, and quickly access details for management and troubleshooting.
-
-The following are major topics covered in this section:
-- [Creating a VPC](#creating-a-vpc)
-- [Viewing Available VPCs](#viewing-available-vpcs)
-- [Viewing VPC Details](#viewing-vpc-details)
-
-
-## Creating a VPC
+A Virtual Private Cloud (VPC) is a private virtual network that provides a secure environment for your cloud resources. It helps you organize and manage your network while controlling communication between resources.
 
 To do this, follow these steps:
 
@@ -44,36 +36,3 @@ Once ready, you get the notification of this purchase on your email address on r
 :::note
 This might take up to 5-8 minutes. You may use the Cloud Console during this time, but it is advised that you do not refresh the browser window.
 :::
-## Viewing Available VPCs
-
-To view the created VPCs, navigate to **Networking** > **Virtual Private Clouds**. The created VPC is displayed with the following details:
-- VPC Name
-- Public IP
-- IPv6 Address
-- Network Size
-- Created
-
-![Create, List and View VPCs](img/CreateVPC2.png)
-
-## Viewing VPC Details
-
-To view a list of tabs and the various operations that you can perform, click the **VPC Name**. The following screen appears with these details:
-- Configuration
-- Availability Zone
-- NICNET IP
-- Created
-![Create, List and View VPCs](img/CreateVPC3.png)
-Along with the summary, the following information is readily available in the **Overview** tab:
-
-- **Configuration and Availability**
-    - The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in greyed out.
-    - Information about Availability Zone.
-    - Information about the Virtual Router Pack.
-    - Information about the Network Size.
-- **Internal Information**
-	This displays the information that is used for internal identification of this VPC router and communication with other internal services.
-	- Template Name
-	- Virtual Router Name
-	- Created On
-
-

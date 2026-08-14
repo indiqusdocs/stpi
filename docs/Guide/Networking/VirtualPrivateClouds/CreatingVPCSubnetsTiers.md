@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3.1
 ---
 # Creating VPC Subnets/Tiers
 
@@ -40,6 +40,15 @@ To add a tier, follow these steps:
 	 You can attach the network tier to the instance as a Network Interface Card (NIC).
 :::
 
+## Restarting a Network Tier
+
+Restarting a network tier refreshes the selected tier by reapplying its network configuration. Use this option to restore normal network operations, apply recent configuration changes, or resolve temporary connectivity issues within the tier.
+
+To restart a network tier, follow these steps:
+
+1. Click the **Restart Network** icon (highlighted in red). The follow screen appears:
+   ![Restarting a Tier](img/RestartingaTier.png)
+2. Click the **Restart Tier** button.
 ## Replacing an ACL
 
 To  replace an ACL, follow these steps:
@@ -50,3 +59,17 @@ To  replace an ACL, follow these steps:
 3. Click the **Replace Tier ACL** button.
 
 The tier is attached with selected ACL.
+
+## Deleting a Network Tier
+
+Deleting a network tier permanently removes the selected tier from the VPC. Use this option to remove tiers that are no longer required, simplify network management, and maintain a clean and organized network configuration.
+
+:::note
+	You can delete only the empty network tiers, which means that in order to delete a network tier, ensure that there are no instances and no NAT rule(s) associated with it.
+:::
+
+To delete a network tier, follow these steps:
+
+1. Click the **Delete Network** icon (highlighted in red). The following screen appears:
+
+2. Select the **I confirm that I have removed everything from this tier** option, and click the **Delete Tier** button.

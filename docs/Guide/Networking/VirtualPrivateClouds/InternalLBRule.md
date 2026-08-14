@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3.1
+sidebar_position: 4
 ---
 # Internal LB Rule 
 An internal Load Balancer (LB) is a type of load balancer that routes traffic to workloads within a 
