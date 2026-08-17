@@ -1,9 +1,9 @@
 ---
 sidebar_position: 7
 ---
-# IPv4 Addresses and VPC
+# IPv4 Addresses and Rules
 
-IPv4 Addresses are an integral part of using VPC networking and are required to access various components of the VPC. By default, the Public IP address is assigned to the VR, allowing it to communicate over the Public network to transmit traffic to/from the VR. This address can also be used for configuring remote access (L2TP) and site-to-site (IPSec) VPN connections.
+Additional IPv4 addresses provide extra public network endpoints for resources within a Virtual Private Cloud (VPC). After an IPv4 address is added, you can configure network rules, such as load balancing, port forwarding, and Static NAT, to control how incoming traffic is routed and made accessible. This enables flexible network connectivity while supporting application availability and secure access.
 
 ## Configuring Additional Public IP
 

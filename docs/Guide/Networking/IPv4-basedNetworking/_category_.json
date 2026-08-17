@@ -3,8 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "IPv4 Addresses form the backbone of networking operations on Ananta.
-"
+    "description": "IPv4 Addresses form the backbone of networking operations on Ananta. Internally, IPv4 addresses are treated as a monetisable service on Ananta. However, their use is implicit as part of several other essential Services. IPv4 Addresses are used to connect to Instances created on Ananta, access the VPC virtual router and Kubernetes clusters, and access resources within a VPC network."
   }
 }
 

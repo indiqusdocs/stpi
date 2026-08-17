@@ -3,6 +3,12 @@ sidebar_position: 2
 ---
 # Managing VPN Gateways and Site-to-Site VPN
 
+A VPN Gateway is a network component that creates a secure connection between a private network and another network over the internet.
+
+This section covers the following topics:
+- [Creating a VPN Gateway](#creating-a-vpn-gateway)
+- [Using Site-to-Site VPN Connections with a VPC](#using-site-to-site-vpn-connections-with-a-vpc)
+
 ## Creating a VPN Gateway
 
 Site-to-site VPN gateways can be configured from the **Networking > VPN Gateways** section on the main navigation panel.
@@ -18,9 +24,9 @@ To use a site-to-site VPN connection into your VPC, you’ll need to first defin
 
 1. Navigate to **Networking  > Virtual Private Clouds** from the main navigation panel and enter the VPC that you wish to connect to use the VPN.
    ![IPv4](img/IPv4based.png)
-2. Navigate to VPC, select the **IPv4 ADDRESSES** section, and click the Manage VPN access. After this click the Enable **Site-to-Site(IPSEC) VPN** option.
+2. Navigate to VPC, select the **IPv4 Addresses** section, and click the Manage VPN access. After this click the Enable **Site-to-Site(IPSEC) VPN** option.
    ![IPSEC](img/IPSEC.png)
-3. Then select **VPN Connection** from the list of all the VPN connections i.e. the VPN gateway you want to connect to this VPC. Click the C**REATE CONNECTION** button.
+3. Then select **VPN Connection** from the list of all the VPN connections i.e. the VPN gateway you want to connect to this VPC. Click the **Create Connection** button.
 
 To test this configuration, you can ping any of the subnet IPs or the VR’s default IP from within your external private network.
 

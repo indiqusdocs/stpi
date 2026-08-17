@@ -5,9 +5,11 @@ sidebar_position: 3.2
 
 VPC instances represent the instances running within your Virtual Private Cloud. This section helps you monitor their status and perform basic operations to keep your cloud resources running efficiently and reliably.
 
-This section comprises of the following sub-sections:
-- [Adding an Instance to VPC](#adding-an-instance-to-VPC)
+<div className="custom-block-blue">  
+ This section comprises of the following sub-sections:
+- [Adding Instance to VPC](#adding-instance-to-vpc)
 - [Viewing VPC Instances](#viewing-vpc-instances)
+</div>
 
 ## Adding Instance to VPC
 
@@ -18,11 +20,13 @@ An Instance created in any VPC/advanced Availability Zone must be attached to at
 :::
 
 To add instances to a VPC, follow these steps:
-1. Navigate to **Network > Virtual Private Clouds**. The following screen appears:
-2. Click on your created VPC name from the list. The following screen appears:
-3. Click **VPC Instances**. The following screen appears:
+1. Navigate to **Network > Virtual Private Clouds**. The following screen appears:![VPC Instances](img/VPCInstance1.png)
+2. Click on your created VPC name from the list. The following screen appears:![VPC Instances](img/VPCInstance2.png)
+3. Click **VPC Instances**. The following screen appears:![VPC Instances](img/VPCInstance3.png)
 4. Click the **Add Instance** button. The following screen appears:
+   ![VPC Instance screen](img/VPCInstance4.png)
 5. Select the **Network Tier** from the dropdown, and click the **+** icon (highlighted in red). The following screen appears:
+   ![VPC Instances](img/VPCInstance5.png)
 
 ## Viewing VPC Instances
 
@@ -31,7 +35,8 @@ Viewing instances associated with a VPC enables you to monitor the compute resou
 To view the instances that are a part of the VPC network, follow these steps:
 
 1. Navigate to **Network > Virtual Private Clouds**. The following screen appears:
-![Managing VPC Instances](img/ManagingVPCInstances1.png)
+	![VPC Instances](img/VPCInstance1.png)
 2. Click on your created VPC name from the list. The following screen appears:
+	![VPC Instances](img/VPCInstance2.png)
 
 

@@ -3,20 +3,21 @@ sidebar_position: 2
 ---
 # Creating a Virtual Firewall
 
+Creating a virtual firewall allows you to deploy a firewall instance to secure and manage network traffic for your cloud resources. It helps protect your environment by applying the required security configuration and traffic control policies during deployment.
+
  To create a Virtual Firewall, follow these steps:
  
- 1. Navigate to the **Networking > Virtual Firewalls**.
- 2. Click on **+ NEW VIRTUAL FIREWALL** button.
+ 1. Navigate to the **Networking > Virtual Firewalls**. The following screen appears:
+    ![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
+ 2. Click **New Virtual Firewall** button. The following screen appears:
 	  :::note
 	    Ananta currently only supports one Virtual Firewall per Availability Zone.
 	  :::  
-	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall1.png)
-3. Select your Availability Zone.
 	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall2.png)
+3. Select your Availability Zone.
 4. Choose the compute pack from the list.
 	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall3.png)
-5. Select the Firewall provider from the dropdown menu.
-	 ![Firewall Provider](img/FirewallProvider.png)
+5. **Select the Firewall provider** from the dropdown menu.
 6. Select the Incoming Traffic Rule (Allow All , Deny All, Allow Custom) and give name to your Virtual Firewall.
 	:::note
 		**Allow All-** Grants access to all protocols and services without restriction when selected.
@@ -24,8 +25,10 @@ sidebar_position: 2
 		**Allow Custom-** Enable the user to specify the Source from which traffic should be allowed.
 	:::
 7. Review the summary and estimated costs for both **Hourly** and **Monthly** options.
+8. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option.
 	![Creating a Virtual Firewall](img/CreatingaVirtualFirewall5.png)
-8. Choose **Buy Hourly** or **Buy Monthly** based on your requirement, and then click **Confirm** on the confirmation popover.
+9. Choose **Buy Hourly** or **Buy Monthly** based on your requirement, and then click **Confirm** on the confirmation popover.
+   ![Confirmation Screen](img/ConfirmationScreen.png)
 
 The Virtual Firewall service can be configured for provisioning in a self-service or an approval-based manner.
 ## Managing Virtual Firewall Provisioning Requests
