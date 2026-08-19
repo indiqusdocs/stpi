@@ -5,7 +5,7 @@ sidebar_position: 1
 
 A Virtual Private Cloud (VPC) is a private virtual network that provides a secure environment for your cloud resources. It helps you organize and manage your network while controlling communication between resources.
 
-To do this, follow these steps:
+To create a VPC, follow these steps:
 
 1. Navigate to **Networking > Virtual Private Clouds**. The following screen appears:![VPC Creation](img/VPCCreation.png)
 2. Click the **New Virtual Private Cloud** button. The following screen appears:![Click here](img/Clickhere1.png)
@@ -26,8 +26,7 @@ To do this, follow these steps:
 8. Verify the **Summary and Estimated Costs** section (Here, both the hourly and monthly price summaries are displayed).
 9. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option.
 10. Click the **Buy Hourly** or **Buy Monthly** button, a confirmation screen appears, where you can apply discount code (if available):
-	  ![Select IP address](img/VPCNew2.png)
-	
+	![Select IP address](img/VPCNew2.png)
 11. Click **Confirm**.
 
 Once ready, you get the notification of this purchase on your email address on record. 

@@ -37,7 +37,7 @@ You can access ACLs from the Access Control Lists menu item under the VPC detail
 ### Creating an ACL Rule
 To create a custom ACL and add rules, follow these steps:
 1. Navigate to **Networking > Virtual Private Clouds**. The following screen appears: ![VPC](img/VPCScreen.png)
-2. Click the **VPC name** and navigate to the **Access Control Lists** menu. The following screen appears:![managingaccess](img/managingaccess.png)
+2. Click the **VPC name** and navigate to the **Access Control Lists** tab. The following screen appears:![managingaccess](img/managingaccess.png)
 3. Click the **Add Access Control List** button. The following screen appears:![ACL 2](img/AddACL2.png)
 4. Provide the desired name in the **Access Control List Name** field. Then, click the **Add Access Control List** button. The Access Control List gets added as shown in the following screen:![New ACL](img/AddRuleHighlighted.png)
 5. Click the **Add Rule** icon (highlighted in red). The following screen appears:![ACL Rule](img/AddACL.png)
@@ -59,22 +59,23 @@ Any available (existing or new) ACL can be viewed in detail by clicking on its n
 ### Editing ACL Name
 
 To edit the ACL name, follow these steps:
-1. Click the **edit** icon (highlighted in red) as shown in the following image:![Edit](img/EditHighlighted.png)
-	The following screen appears:![Edit ACL](img/EditACL.png)
-2. Enter the name of your ACL.
-3. Click the **Edit Access Control List** button.
+1. Click **Networking > Virtual Private Clouds > Access Control List**. The following screen appears:![Edit](img/EditHighlighted.png)
+2. Click the **edit** icon (highlighted in red).
+	![Edit ACL](img/EditACL.png)
+3. Enter the name of your ACL.
+4. Click the **Edit Access Control List** button.
 
 ### Deleting an ACL
 
 To delete an ACL, follow these steps:
-1. Click the **Delete** icon (highlighted in red).![Deleting ACL](img/DeleteACL.png)
-	The following screen appears:![Deleting ACL](img/DeleteACL2.png)
-2. Click the **I confirm that i have deleted all Tiers from this Access Control List** option.
-3. Type **DELETE** in the textbox.
-4. Click the **Delete ACL Rule** button.
+1. Click **Networking > Virtual Private Clouds > Access Control List**. The following screen appears: ![Deleting ACL](img/DeleteACL.png)
+2. Click the **Delete** icon (highlighted in red). The following screen appears:![Deleting ACL](img/DeleteACL2.png)
+3. Click the **I confirm that i have deleted all Tiers from this Access Control List** option.
+4. Enter **DELETE** in the textbox.
+5. Click the **Delete ACL Rule** button.
 
 :::note
-  To delete an ACL, you must first disassociate the ACL with the attached tier. For more information, refer [Replacing an ACL](/docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsTiers#replacing-an-acl).
+  To delete an ACL, you must first disassociate the ACL with the attached tier. For more information, refer [Replacing an ACL](CreatingVPCSubnetsandTiers.md#replacing-an-acl).
 :::
 ## Creating Bulk Custom ACL and Adding Rules 
 
@@ -82,9 +83,9 @@ If you want to create custom ACL rule in bulk, then use the import option.
 
 To create rules in bulk, follow these steps:
 1. Navigate to **Networking > Virtual Private Clouds**. The following screen appears: ![VPC](img/VPCScreen.png)
-2. Click the **VPC name** and navigate to **Access Control Lists** menu. The following screen appears:![Import option](img/ImportHighlighted.png)
-3. Click the **Import** option (highlighted in red). The following screen appears:![Import Screen](img/Importscreen.png)
-4. Under the Download Template tab, click the **Download .XLS** or **Download .ODS** button. 
+2. Click the **VPC name** and navigate to **Access Control Lists** tab. The following screen appears:![Import option](img/ImportHighlighted.png)
+3. Click the **Import** button (highlighted in red). The following screen appears:![Import Screen](img/Importscreen.png)
+4. Under the **Download Template** tab, click the **Download .XLS** or **Download .ODS** button. 
 5. Click **Next**.
 6. Create rules in the downloaded file by following the instructions provided for each column within the file.
 7. Under the **Upload File** tab, click or drag and drop your file.![Upload Screen](img/UploadScreen.png)

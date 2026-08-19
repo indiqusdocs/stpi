@@ -1,9 +1,8 @@
 ---
 sidebar_position: 4
 ---
-# Internal LB Rule 
-An internal Load Balancer (LB) is a type of load balancer that routes traffic to workloads within a 
-virtual private network.
+# Internal LB Rule
+An internal Load Balancer (LB) is a type of load balancer that routes traffic to workloads within a virtual private network.
 ## Creating a New Internal LB Rule 
 To create a new Internal LB Rule, follow these steps:
 1. Navigate to **Networking > Virtual Private Clouds**. The following screen appears: ![img](img/VPCScreen.png)
@@ -21,7 +20,7 @@ To create a new Internal LB Rule, follow these steps:
 To add an instance, follow these steps:
 1. Navigate to **Networking > Virtual Private Clouds**. The following screen appears: ![img](img/VPCScreen.png)
 2. Click the **VPC name** and navigate to the **Internal LB Rules** tab. The following screen appears: ![img](img/select.png)
-3. Click the **Add Instance** icon (highlighted in red). The following screen appears: ![](img/AddInstance.png)
+3. Click **Add Instance** (highlighted in red). The following screen appears: ![](img/AddInstance.png)
 4. Select the instance to add in Internal LB Rule.	
 5. Click the **Add to Rule** button.
 ## Deleting an Internal LB Rule 

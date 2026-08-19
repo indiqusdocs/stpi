@@ -6,18 +6,18 @@ sidebar_position: 3
 Team members or child users can be onboarded using the Team section from the account centre. Ananta Cloud allows you to add billing, technical, or other admin users who can log in to your account and perform operations.
 
 To add a child user, follow these steps:
-1. Click the **user** icon and navigate to **Account Centre > Account** > Team. The following screen appears:![Team Dashboard](img/Teamdashboard.png)
-2. Click the **Invite Team Members** button. The following screen appears:![Team and Child User Management](img/TeamandChildUserManagement1.png)
-3. Provide the following details:
-	- **User Details**
-	- **Password**
-		:::note
+1. Click the **User** icon. The following screen appears:![User Icon ](img/UserIconImage.png)
+2. Navigate to **Account Centre > Account** >**Team**. The following screen appears:![Team Dashboard](img/Teamdashboard.png)
+3. Click the **Invite Team Members** button. The following screen appears, where you provide the required details:![Team and Child User Management](img/TeamandChildUserManagement1.png)
+	:::note
 		The child user can reset the password from the Ananta Cloud Console.
-		:::
-	- **Group:** Select from the following options:
-	    - **Admin:** gets access to all functionalities.
-	    - **Billing:** gets permissions to perform billing actions and read-only for other actions.
-	    - **Technical:** gets permissions to perform technical actions and read-only for other actions.
+	:::
+	:::note
+		For Group dropdown menu, select from the following options:
+		- **Admin:** Gets access to all functionalities.
+	    - **Billing:** Gets permissions to perform billing actions and read-only for other actions.
+	    - **Technical:** Gets permissions to perform technical actions and read-only for other actions.
+	::: 
 4. Click the **Create** button.
 
 

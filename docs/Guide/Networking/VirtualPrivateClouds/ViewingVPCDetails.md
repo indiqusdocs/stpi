@@ -11,7 +11,7 @@ To view a list of tabs and the various operations that you can perform, click th
 ![Create, List and View VPCs](img/CreateVPC3.png)
 Along with the summary, the following information is readily available in the **Overview** tab:
 - **Configuration and Availability**
-    - The instance's status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in greyed out.
+    - The instance's status, <span class="green">**Running**</span> or <span class="red">**Stopped**</span>.
     - Information about Availability Zone.
     - Information about the Virtual Router Pack.
     - Information about the Network Size.

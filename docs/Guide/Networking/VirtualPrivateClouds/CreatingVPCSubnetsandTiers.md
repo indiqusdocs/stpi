@@ -1,10 +1,9 @@
 ---
 sidebar_position: 3.1
 ---
-# Creating VPC Subnets/Tiers
+# Creating VPC Subnets and Tiers
 
 VPCs follow the convention of 3-tiered network architecture, with web, app, and DB tiers forming the norm. You can, however, configure these tiers to suit your application architecture or just follow the common convention.
-## Subnet and Tiers 
 
 In a VPC, subnets define IP-based network segments, and tiers represent logical layers of your application architecture. You can design networking tiers within this VPC based on the overall network size and the allocated Super CIDR range. 
 ![Subnet and Tier](img/SubnetandTier1.png)
@@ -24,7 +23,7 @@ There are three icons available on the right side for quick actions:
 - Restarting the network
 - Replacing the access control list
 - Deleting the tier
-### Adding a Tier
+## Adding a Tier
 
 To add a tier, follow these steps:
 1. Click the **Add Tier** button.![Adding Tier](img/AddTier.png)
@@ -70,5 +69,8 @@ Deleting a network tier permanently removes the selected tier from the VPC. Use 
 
 To delete a network tier, follow these steps:
 
-1. Click the **Delete Network** icon (highlighted in red). The following screen appears:![Delete Tier](img/DeleteTier.png)
-2. Select the **I confirm that I have removed everything from this tier** option, and click the **Delete Tier** button.
+1. Navigate to **Virtual Private Clouds > Subnet and Tiers.** The following screen appears:
+	![Delete Tier](img/DeleteTier.png)
+2. Click the **Delete Network** icon. The following screen appears: 
+	![Deleting a Tier](img/DeletingTier.png)
+3. Select the **I confirm that I have removed everything from this tier** option, and click the **Delete Tier** button.
