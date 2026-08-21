@@ -8,6 +8,6 @@ Utilisation reports provide historical usage details for your Virtual Firewall i
 
 To view historical usage across supported parameters, follow these steps:
 
-1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears: ![VPC](img/VirtualFirewallDashboard.png)
 2. Click on your created virtual firewall name from the list. The following screen appears:
 3. Click **Utilisation**. The following screen appears:

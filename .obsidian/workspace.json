@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Networking/VirtualFirewall/ManagingAlerts.md",
+                "file": "docs/Guide/Networking/VirtualFirewall/ViewingUtilisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ManagingAlerts"
+              "title": "ViewingUtilisation"
             }
           },
           {
@@ -197,20 +197,32 @@
   },
   "active": "382c5f3d690b69e9",
   "lastOpenFiles": [
-    "docs/Guide/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
+    "docs/Guide/Networking/VirtualFirewall/ViewingGraphs.md",
+    "docs/Guide/Networking/VirtualFirewall/ViewingUtilisation.md",
+    "docs/Guide/Networking/VirtualFirewall/ManagingVolume.md",
     "docs/Guide/Networking/VirtualFirewall/ManagingAlerts.md",
+    "docs/Guide/Networking/VirtualFirewall/img/ManageRecipients.png",
+    "docs/Guide/Networking/VirtualFirewall/img/CreatingAlert1.png",
+    "build/search-index.json",
+    "build/assets/images/Form-9c9250d5616959a0c9bcf3f70a13e69e.png",
+    "build/assets/images/CreateAlerts-eab8fb064545dd23bed17bc8239226cd.png",
+    "build/assets/images/Overview1-fbe58b006eab2c3decc13bb72ae10d91.png",
+    "build/assets/images/VirtualFirewall1-c13452f40ea0940aa8e99bc642fd61c6.png",
+    "build/docs/Guide/InstanceProtection/ChangingtheProtectionPlan/index.html",
+    "build/docs/Guide/InstanceProtection/ChangingtheProtectionPlan",
+    "build/docs/Guide/ToolsandUtilities/AboutToolsandUtilities/index.html",
+    "build/docs/Guide/ToolsandUtilities/ManagingSSHKeysandKeyPairs/index.html",
+    "build/docs/Guide/ToolsandUtilities/ManagingInstanceandDiskRestorePoints/index.html",
+    "build/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages/index.html",
+    "build/docs/Guide/ToolsandUtilities/AboutToolsandUtilities",
+    "build/docs/Guide/ToolsandUtilities/ManagingSSHKeysandKeyPairs",
+    "build/docs/Guide/ToolsandUtilities/ManagingInstanceandDiskRestorePoints",
+    "docs/Guide/Compute/LinuxInstances/ConfiguringAlertsonLinuxInstances.md",
     "docs/Guide/Networking/VirtualFirewall/img/Form.png",
     "docs/Guide/Networking/VirtualFirewall/img/CreateAlerts.png",
     "docs/Guide/Networking/VirtualFirewall/img/Overview1.png",
     "docs/Guide/Networking/VirtualFirewall/img/VirtualFirewall1.png",
-    "docs/Guide/Networking/VirtualFirewall/ManagingVolume.md",
-    "docs/Guide/Networking/VirtualFirewall/ViewingUtilisation.md",
-    "docs/Guide/Networking/VirtualFirewall/ViewingGraphs.md",
     "docs/Guide/Networking/VirtualFirewall/ViewingVirtualFirewallInstanceDetails.md",
-    "docs/Guide/Networking/VirtualFirewall/img/Graphs.png",
-    "docs/Guide/Networking/VirtualFirewall/img/VirtualFirewallDashboard.png",
-    "docs/Guide/Networking/VirtualFirewall/img/Overview.png",
-    "docs/Guide/Networking/VirtualFirewall/img/VPC1.png",
     "docs/Guide/Networking/VirtualFirewall/ViewingVirtualFirewalls.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ViewingVPCDetails.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ViewingVPCs.md",
@@ -227,21 +239,8 @@
     "docs/Guide/Networking/VirtualPrivateClouds/InternalLBRule.md",
     "docs/Guide/Networking/VirtualPrivateClouds/CreatingVPCSubnetsandTiers.md",
     "docs/Guide/Networking/VirtualPrivateClouds/ManagingVPCInstances.md",
-    "docs/Guide/Networking/VirtualPrivateClouds/img/DeletingTier.png",
-    "docs/Guide/AccountCentre/img/DeletingTier.png",
     "docs/Guide/AccountCentre/ActivityLogs.md",
     "docs/Guide/AccountCentre/InvoicesandCreditNotes.md",
-    "docs/Guide/AccountCentre/AboutAnantaAccountCentre.md",
-    "docs/Guide/AccountCentre/AccountProfile.md",
-    "build/pdf/UserGuide.pdf",
-    "build/pdf",
-    "build/img/favicon.ico",
-    "build/img",
-    "build/icons",
-    "build/assets/js/main.efafdffe.js",
-    "build/assets/js/runtime~main.f89c075d.js",
-    "build/assets/js/main.efafdffe.js.LICENSE.txt",
-    "build/assets/js/fc34a31e.2e47aefb.js",
-    "build/assets/js/fb1fb462.4c01c4dd.js"
+    "docs/Guide/AccountCentre/AboutAnantaAccountCentre.md"
   ]
 }

@@ -29,17 +29,17 @@ To configure alerts, follow these steps:
     - **Reading duration:** This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
     - **Add Recipients:** You can add the emails of the recipients.
 5. Click the **Create** button.
+
+
 ## Managing Recipients
 
 The Manage Recipients feature lets you control who receives firewall alerts. It displays all configured or added email IDs and provides options to remove outdated addresses or add new ones.
 
 To remove existing email IDs and add other email IDs, follow these steps:
 
-1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:
-2. Click on your created virtual firewall name from the list. The following screen appears:
-3. Click **Alerts**. The following screen appears:
-4. Click the **Manage Recipients** button. The following screen appears:
-5. Click the dropdown. From the list, you can perform the following:
+1. Navigate to **Networking > Virtual Firewalls** > **Alerts**. The following screen appears:![Creating Alert](img/CreatingAlert1.png)
+2. Click the **Manage Recipients** button. The following screen appears:![Manage Recipients](img/ManageRecipients.png)
+3. Click the dropdown. From the list, you can perform the following:
     - **Add recipients**: Select the email IDs that you want to add.
     - **Remove recipients**: Clear the selection for the email IDs that you want to remove.
-6. Click the **Update** button to save the changes.
+4. Click the **Update** button to save the changes.
