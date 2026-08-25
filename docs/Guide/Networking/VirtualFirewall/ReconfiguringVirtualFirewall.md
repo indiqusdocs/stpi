@@ -1,19 +1,17 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 # Reconfiguring Virtual Firewall
 
-To view a available reconfiguration options, navigate the Virtual Firewall and access the **Reconfigure** tab.![Reconfigure](img/Reconfigure.png)
+Reconfigure a virtual firewall to replace its current firewall appliance with a different one that better meets your operational and security requirements. This operation updates the firewall configuration by applying the selected appliance.
 
-:::note 
-Your Virtual Firewall needs to be powered OFF in order to be reconfigured.
-:::
- The Virtual Firewall on Ananta can be reconfigured in the following ways:
+To reconfigure the existing virtual firewall, follow these steps:
 
-- Billing interval changed between monthly and hourly.
-- Choosing and applying a new Compute pack.
-- Choosing and applying a new Root Disk pack.
-
-:::note
-You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We suggest switching the plan first before reconfiguring the Instance if you intend to use both the Reconfigure and Switch Plan options. You will be charged as per the pack you have reconfigured, not based on the older pack.
-:::
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual Firewall Dashboard](img/VirtualFirewallDashboard.png)
+2. Click on your created virtual firewall name from the list. The following screen appears:![Overview](img/Overview1.png)
+3. Click **Reconfigure**. The following screen appears:![Reconfigure](img/Reconfiguretab.png)
+4. Click the **Stop Instance** button. The following screen appears:![Virtual Firewall](img/StopVirtualFirewall.png)
+5. Click the **Yes** button. The following screen appears:![After Screen](img/AfterScreen.png)
+6. Select a **Compute** from the list, and click the **Reconfigure Virtual Firewall Pack** button. The following screen appears:![Confirm Reconfigure](img/ConfigureReconfigure.png)
+7. Select **I have read and agreed to the End User License Agreement and Privacy Policy** option.
+8. Click the **Confirm Reconfigure** button.

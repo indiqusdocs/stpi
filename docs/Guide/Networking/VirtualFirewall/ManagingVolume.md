@@ -12,9 +12,8 @@ This section comprises of the following topics:
 View the disks attached to an instance to verify the storage resources associated with it. This helps you identify the attached disks, review their details, and confirm that the required storage volumes are correctly connected, enabling efficient storage management and troubleshooting.
 
 To view the disks attached to an Instance, follow these steps:
-1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:
-2. Click on your created virtual firewall name from the list. The following screen appears:
-3. Click **Volumes**. The following screen appears that shows the associated disks:
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual firewall](img/VirtualFirewallDashboard.png)
+2. Click on your created virtual firewall name from the list and navigate to **Volumes**. The following screen appears that shows the associated disks:![Volumes](img/Volumes2.png)
 
 ## Creating Disk Restore Point
 
@@ -56,7 +55,7 @@ Delete a disk restore point when it is no longer required to free up storage res
 	This action can not be reversed.
 :::
 
-Navigate to **Tools and Utilities > Restore Points**. The following screen appears
-Click **Disk Restore Point**. The following screen appears:
-Click the **Delete Disk Restore Point** button (highlighted in red). The following screen appears
- Click the **Yes** button. The disk restore point is deleted.
+1. Navigate to **Tools and Utilities > Restore Points**. The following screen appears
+2. Click **Disk Restore Point**. The following screen appears:
+3. Click the **Delete Disk Restore Point** button (highlighted in red). The following screen appears
+ 4. Click the **Yes** button. The disk restore point is deleted.

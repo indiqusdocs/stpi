@@ -1,11 +1,11 @@
 ---
-sidebar_position: 5
+sidebar_position: 11
 ---
 # Accessing the Virtual Firewall Control Panel
 
 The Virtual Firewall Service is delivered as an integration using OS images pre-loaded with pfSense. 
 
-Click on the **Launch Console** button to proceed with accessing the Virtual Firewall Control Panel. ![Virtual Firewall Details](img/VirtualFirewallDetails.png)
+Click the **Launch Console** button to proceed with accessing the Virtual Firewall Control Panel. ![Virtual Firewall Details](img/VirtualFirewallDetails.png)
 
 
 

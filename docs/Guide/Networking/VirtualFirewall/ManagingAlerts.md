@@ -13,9 +13,6 @@ This section covers the following topics:
 
 Create an alert to monitor a specific virtual firewall metric and receive an email notification when the configured threshold is reached. While creating an alert, specify a name, select the parameter to monitor, define the trigger condition and reading duration, and add the email recipients for notifications.
 
-
-![Create Alert](img/CreateAlert.png)
-
 To configure alerts, follow these steps:
 
 1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual Firewall](img/VirtualFirewall1.png)

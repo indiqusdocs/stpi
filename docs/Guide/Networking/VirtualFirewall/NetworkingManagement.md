@@ -1,17 +1,54 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 # Networking Management
 
-To view the networks that of particular Instance, navigate to the Virtual Firewall and access the **Networking** tab.![Networking](img/Networking.png)
+Networking management keeps your virtual firewall instance connected securely and ensures smooth traffic flow. It involves expanding connectivity when needed, assigning extra addresses for flexibility, and removing unused interfaces to keep configurations clean.
 
-The Networking and NICs section list all the networks that a Linux Instance is attached to.
+This section covers the following topics:
+- [Adding a Network](#adding-a-network)
+- [Adding a Secondary IP](#adding-a-secondary-ip)
 
-The following actions are available:
+## Adding a Network
 
-- If the Instance is inside a VPC, you can associate the Instance to multiple tiers within the VPC or share the Instance with other VPC networks in the same Availability Zone by using the **ADD NETWORK** option.
-- Network/tier associations can be removed from this section by using the **unlink** action.
+A network connects your virtual firewall to other resources and defines secure traffic flow through IP addressing and subnet configuration. Add a network to extend connectivity or assign secondary IPs, and detach unused networks to simplify management and maintain a secure configuration.
 
-:::note
-Advanced networking configurations can be done using the Virtual Cloud service.
-:::
+To add and detach a network, follow these steps:
+
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual Firewall Dashboard](img/VirtualFirewallDashboard.png)
+2. Click on your created virtual firewall name from the list and click **Networking**. The following screen appears:![Networking](img/Networking.png)
+3. Click the **Add Network** button. The following screen appears where you can provide the required details:![Add Network](img/AddNetworkForm.png)
+4. Click the **Confirm** button. 
+
+### Deleting a NIC
+
+To detach NIC, follow these steps:
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual Firewall Dashboard](img/VirtualFirewallDashboard.png)
+2. Click on your created virtual firewall name from the list and click **Networking**. The following screen appears:![Detaching NIC](img/DetachingNIC.png)
+3. Click the **Delete icon** (highlighted in red).
+4. Click the **Yes** button. The following screen appears:
+	![Delete NIC](img/DeleteNIC.png)
+## Adding a Secondary IP
+
+A secondary IP is an additional address assigned to your virtual firewall instance, allowing it to handle multiple connections or services on the same network interface. Adding a secondary IP is important because it helps you isolate workloads, support different applications, and improve flexibility in managing traffic.
+
+To add a secondary IP, follow these steps:
+
+1. Navigate to **Networking > Virtual Firewalls**. The following screen appears:![Virtual Firewall Dashboard](img/VirtualFirewallDashboard.png)
+2. Click on your created virtual firewall name from the list and click **Networking**. The following screen appears:![Networking](img/Networking.png)
+3. Click the **New Secondary IP** button. The following screen appears where you can provide the required details:![Secondary IP](img/SecondaryIP1.png)
+4. Click the **Add** button. 
+
+The secondary IP is added.
+![Secondary IP](img/SecondaryIPCreated.png)
+
+
+
+
+
+
+
+
+
+
+
