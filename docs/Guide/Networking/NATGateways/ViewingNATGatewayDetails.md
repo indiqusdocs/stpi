@@ -7,8 +7,8 @@ You can view and validate the gateway's settings, monitor its performance, and m
 
 To view NAT Gateway details, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The Overview tab opens automatically. The following screen appears with the details:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The Overview tab opens automatically. The following screen appears with the details:![NAT Gateway](img/NATGatewayOverview.png)
 	- **Configuration and Availability:** This displays the NAT Gateways configuration details to help verify its current configuration and operational state.
 	    - The instance's status **Running** or **Stopped**.
 	    - Availability Zone

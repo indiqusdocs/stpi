@@ -11,11 +11,11 @@ A public IPv4 address uniquely identifies a resource on the internet and enables
 
 To add a public IPv4 address, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
 6. Click the **Confirm** button.
 
 The public IPv4 address is added where you can perform the following actions:
@@ -27,13 +27,13 @@ A firewall rule defines how a NAT Gateway allows or blocks network traffic based
 
 To add a firewall rule, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
-6. Click the **Confirm** button. The following screen appears:
-7. Click the **Firewall Rule** icon (highlighted in red). The following screen appears where you provide the required details:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
+6. Click the **Confirm** button. The following screen appears: ![Confirm buton](img/ConfirmButton.png)
+7. Click the **Firewall Rule** icon (highlighted in red). The following screen appears where you provide the required details:![Firewall Rule](img/FirewallRule.png)
 8. Click the **Add Rule** button. The firewall rule is added.
 
 ## Adding Port Forwarding Rules
@@ -42,12 +42,12 @@ A port forwarding rule maps incoming traffic on a specific public IP address and
 
 To add a port forwarding rule, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
-6. Click the **Confirm** button. The following screen appears:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
+6. Click the **Confirm** button.
 7. Click the **Port Forwarding Rule** icon (highlighted in red). The following screen appears:
 8. Click **Add Rule**. The following screen appears where you provide the required details:
 9. Click the **Add Port Forwarding Rule** button. The port forwarding rule is added.

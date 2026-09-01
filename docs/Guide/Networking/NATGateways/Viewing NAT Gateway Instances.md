@@ -7,6 +7,7 @@ A NAT Gateway enables private instances in a virtual network to access the inter
 
 To view all the instances associated with NAT Gateway, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
 3. Click **Instances**. The following screen appears:
+   ![Instances](img/Instances.png)
