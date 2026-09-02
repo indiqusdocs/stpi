@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Networking/NATGateways/Managing IP Addresses.md",
+                "file": "docs/Guide/Networking/NATGateways/Managing NAT Gateway Operations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Managing IP Addresses"
+              "title": "Managing NAT Gateway Operations"
             }
           },
           {
@@ -197,23 +197,23 @@
   },
   "active": "382c5f3d690b69e9",
   "lastOpenFiles": [
-    "docs/Guide/Networking/NATGateways/img/FirewallRule.png",
-    "docs/Guide/Networking/NATGateways/img/ConfirmButton.png",
-    "docs/Guide/Networking/NATGateways/img/ConfirmScreen.png",
-    "docs/Guide/Networking/NATGateways/Managing NAT Gateway Operations.md",
-    "docs/Guide/Networking/NATGateways/StartingandStoppingaNATGateway.md",
+    "docs/Guide/Networking/NATGateways/img/RestartNATGateway.png",
+    "docs/Guide/Networking/NATGateways/img/Operations.png",
     "docs/Guide/Networking/NATGateways/Managing IP Addresses.md",
-    "docs/Guide/Networking/NATGateways/img/IPAddressbutton.png",
-    "docs/Guide/Networking/NATGateways/img/IPAddresses1.png",
+    "docs/Guide/Networking/NATGateways/Managing NAT Gateway Operations.md",
+    "docs/Guide/Networking/NATGateways/img/PortForwardingIcon.png",
+    "docs/Guide/Networking/NATGateways/img/DeleteIP.png",
+    "docs/Guide/Networking/NATGateways/img/DeletingIPAddress.png",
+    "docs/Guide/Networking/NATGateways/img/StaticNATForm.png",
+    "docs/Guide/Networking/NATGateways/img/StaticNAT.png",
+    "docs/Guide/Networking/NATGateways/img/WarningChangingSourceNAT.png",
+    "docs/Guide/Networking/NATGateways/img/ChangingSourceNAT.png",
+    "docs/Guide/Networking/NATGateways/img/AddRuleForm.png",
+    "docs/Guide/Networking/NATGateways/img/AddRulebutton.png",
+    "docs/Guide/Networking/NATGateways/StartingandStoppingaNATGateway.md",
     "docs/Guide/Networking/NATGateways/Viewing NAT Gateway Instances.md",
-    "docs/Guide/Networking/NATGateways/img/Instances.png",
     "docs/Guide/Networking/NATGateways/ViewingNATGatewayDetails.md",
-    "docs/Guide/Networking/NATGateways/img/StartVR1.png",
-    "docs/Guide/Networking/NATGateways/img/StartVirtualRouter.png",
-    "docs/Guide/Networking/NATGateways/img/Overview.png",
-    "docs/Guide/Networking/NATGateways/img/StopVirtualRouter.png",
     "docs/Guide/Networking/NATGateways/ViewingNATGateways.md",
-    "docs/Guide/Networking/NATGateways/img/ViewingNATGateways.png",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
     "build/docs/Guide/Networking/IPv4-basedNetworking/UsingRemoteAccessVPNwithVPC/index.html",

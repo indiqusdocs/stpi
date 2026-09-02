@@ -47,9 +47,10 @@ To add a port forwarding rule, follow these steps:
 3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
 4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
 5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
-6. Click the **Confirm** button.
+6. Click the **Confirm** button. ![Port Forwarding Icon Highlighted](img/PortForwardingIcon.png)
 7. Click the **Port Forwarding Rule** icon (highlighted in red). The following screen appears:
-8. Click **Add Rule**. The following screen appears where you provide the required details:
+   ![Add Rule button](img/AddRulebutton.png)
+8. Click **Add Rule**. The following screen appears where you provide the required details:![Add Rule Form](img/AddRuleForm.png)
 9. Click the **Add Port Forwarding Rule** button. The port forwarding rule is added.
 
 ## Changing the Source NAT
@@ -62,13 +63,13 @@ A Source NAT (SNAT) IPv4 address is the public IP address that the NAT Gateway u
 
 To change the source NAT, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
-6. Click the **Confirm** button. The following screen appears:
-7. Click the **Source NAT** icon (highlighted in red). The following screen appears:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
+6. Click the **Confirm** button.   ![Changing Source NAT](img/ChangingSourceNAT.png)
+7. Click the **Source NAT** icon (highlighted in red). The following screen appears:![Changing Source NAT](img/WarningChangingSourceNAT.png)
 8. Click the **Okay** button.
 
 ## Adding a Static NAT
@@ -77,13 +78,14 @@ Static NAT maps a dedicated public IP address to a private instance within your 
 
 To add a static NAT, follow these steps:
 
-1. Navigate to **Networking > NAT Gateways**. The following screen appears:
-2. Click a **NAT Gateway name** from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
-6. Click the **Confirm** button. The following screen appears:
-7. Click the **Static NAT** icon (highlighted in red). The following screen appears where you provide the required details:
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
+6. Click the **Confirm** button. ![Static NAT](img/StaticNAT.png)
+7. Click t he **Static NAT** icon (highlighted in red). The following screen appears where you provide the required details:
+   ![Static NAT](img/StaticNATForm.png)
 	- **Instance**: Select the instance to associate with the Static NAT from the **Instance** dropdown.
 	- **IP Address**: Select the instance IP address to map with the Static NAT from the **Select IP Address** dropdown.
 8. Click the **Add Static NAT** button. The static NAT is added.
@@ -98,11 +100,11 @@ A public IP address enables a NAT Gateway to communicate with external networks 
 
 To delete an IP address, follow these steps:
 
-1. Navigate to **Network and Security > NAT Gateways**. The following screen appears:
-2. Click a NAT Gateway name from the list. The following screen appears:
-3. Click **IP Addresses**. The following screen appears:
-4. Click the **Add Public IPv4 Address** button. The following screen appears:
-5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:
-6. Click the **Confirm** button. The following screen appears:
-7. Click the **Delete IP** icon (highlighted in red). The following screen appears:
-8. Select the **I confirm that I have removed everything from this IPv4 Address** option, and click the **Delete Now** button.
+1. Navigate to **Networking > NAT Gateways**. The following screen appears:![Viewing NAT Gateway](img/ViewingNATGateways.png)
+2. Click a NAT Gateway name from the list. The following screen appears:![NAT Gateway](img/NATGatewayOverview.png)
+3. Click **IP Addresses**. The following screen appears:![IP Addresses](img/IPAddresses1.png)
+4. Click the **Add Public IPv4 Address** button. The following screen appears: ![IP Address button](img/IPAddressbutton.png)
+5. Select the **Monthly** option and click the **Confirm Purchase** button. The following screen appears:![Confirm Screen](img/ConfirmScreen.png)
+6. Click the **Confirm** button. ![Deleting IP Address](img/DeletingIPAddress.png)
+7. Click the **Delete IP** icon (highlighted in red). The following screen appears:  ![Delete IP](img/DeleteIP.png)
+8. Select the **I confirm that I have removed everything from this IP Address.** option, and click the **Delete Now** button.
