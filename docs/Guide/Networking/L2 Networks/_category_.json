@@ -3,8 +3,7 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "L2 networks, often called data link layer networks, play a crucial role in computer networking by establishing direct connections between devices in a local network and ensuring data packets are delivered accurately to their intended destination..
-"
+    "description": "L2 network provides Layer 2 connectivity between resources within the same network segment. It enables instances to communicate securely over a private network without routing traffic through external networks. Use L2 networks to organize workloads, simplify network segmentation, and support reliable communication between connected resources."
   }
 }
 
