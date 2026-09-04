@@ -3,13 +3,15 @@ sidebar_position: 2
 ---
 # Creating a Load Balancer Instance
 
+Creating a load balancer instance provisions a dedicated load balancing appliance within your virtual network to distribute application traffic across multiple backend resources. Create a load balancer instance to improve application availability, optimize traffic distribution, and enhance performance by directing client requests to healthy backend servers.
+
 Load Balancer Instances can be created inside a VPC by following these simple steps:
 
 1. Navigate to **Networking > Virtual Private Clouds** and go into that VPC in which the LBI needs to be placed. If unavailable, create a new VPC.
 2. In the VPC, create a subnet/tier with any desired configuration(s).
 3. Add an additional IPv4 Address to the VPC and keep it 'unused'.
-4. Navigate to **Networking > Load Balancer Instances** and click the **+ NEW LOAD BALANCER INSTANCE** button to access the LBI creation options.
-5. In the 'Select VPC and Tier' section, specify the VPC and subnet as created/desired in steps 1 and 2 above. Choose any configurations as required for the rest of the options.
+4. Navigate to **Networking > Load Balancer Instances** and click the **New Load Balancer Instance** button to access the LBI creation options.
+5. In the **Select VPC and Tier** section, specify the VPC and subnet as created/desired in steps 1 and 2 above. Choose any configurations as required for the rest of the options.
 6. Once the LBI is created, navigate back to the VPC and configure the added IPv4 Address as a Static NAT on the newly-created Load Balancer Instance.
 
 :::note
