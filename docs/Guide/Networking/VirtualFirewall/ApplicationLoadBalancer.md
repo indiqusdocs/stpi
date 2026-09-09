@@ -6,7 +6,7 @@ The Application Load Balancer feature prevents the overloading of a single serve
 
 This section covers the following topics:
 -  [Prerequisites](#prerequisites) 
-- [Configuring pfSense Firewall and Application Load Balancer](#configuring-pfSense-firewall-and-application-load-balancer)
+- [Configuring pfSense Firewall and Application Load Balancer](#configuring-pfsense-firewall-and-application-load-balancer)
 ## Prerequisites 
 Before proceeding with the configuration, it is recommended to review the foundational concepts, supported features, and operational considerations of the platform. A clear understanding of these aspects helps ensure consistency, security, and alignment with organizational network standards.
 

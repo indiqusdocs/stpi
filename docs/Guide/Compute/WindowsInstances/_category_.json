@@ -4,7 +4,6 @@
   "link": {
     "type": "generated-index",
     "description": "Window instances enable users to create, manage, monitor, and maintain virtual environments. They provide capabilities for instance configuration, resource management, performance monitoring, alerts, networking, restore points, and operational tasks to support efficient administration."
-	
   }
 }
 

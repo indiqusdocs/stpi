@@ -7,7 +7,7 @@ View detailed information about a Windows instance, including its configuration,
 
 This section comprises of the following sub-sections:
 - [Launching Windows Instance Web based Console](#launching-windows-instance-web-based-console)
-- [Stopping and Starting a Window Instance](#stopping-and-starting-a-windows-instance)
+- [Stopping and Starting a Windows Instance](#stopping-and-starting-a-windows-instance)
 
 To view the details of Windows instances, follow these steps:
 
@@ -27,7 +27,7 @@ To view the details of Windows instances, follow these steps:
 	    - VPC Name
 	    - Access Control
 
-## Launching Window Instance Web Based Console
+## Launching Windows Instance Web Based Console
 
 Launch the Windows instance web-based console to access and manage your Windows virtual machine through a web browser. The console provides a convenient way to perform administrative and management tasks on the instance.
 
@@ -37,7 +37,7 @@ To launch Window instance web based console, follow these steps:
 2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:
 3. Click the **Launch Console** button, and then provide the Windows credentials to login and access the Windows instance web-based console.
 
-## Stopping and Starting a Window Instance
+## Stopping and Starting a Windows Instance
 
 Stop a Windows instance to temporarily shut it down when it is not in use, helping optimize resource usage. Start the instance whenever you need to restore access and resume running your Windows-based applications and workloads.
 

@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Reconfiguring Linux Instances
 
-To access the **Reconfigure** tab and to view available reconfiguration options, navigate to a Linux Instance from [ Linux Instances Screen](AboutLinuxInstances.md).
+To access the **Reconfigure** tab and to view available reconfiguration options, navigate to a Linux Instance from Linux Instances Screen.
 
 A Linux Instance on Ananta can be reconfigured in the following ways:
 

@@ -3,8 +3,7 @@
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "Instances are computing units that provide you with resources to run your applications/workloads. Linux Instances are virtual machines that run the images of Linux Operating Systems, for example, Ubuntu, CentOS, Rocky, Oracle, Debian, etc.
-"
+    "description": "The Compute section provides a centralized platform for provisioning and managing compute resources in your cloud environment. It enables you to deploy and manage Windows, RHEL, and other Linux virtual machine instances, orchestrate containerized workloads using Managed Kubernetes, and automatically adjust compute capacity with Autoscale. These capabilities help you build, run, and scale applications efficiently while optimizing resource utilization and performance."
   }
 }
 

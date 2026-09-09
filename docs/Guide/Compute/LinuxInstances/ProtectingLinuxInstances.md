@@ -7,7 +7,7 @@ Enabling protection ensures that all instances are protected while all the threa
 
 To enable instance protection, follow these steps:
 
-1. From [Linux Instances Screen](AboutLinuxInstances.md), navigate into a Linux Instance and access the **Protection** tab.![Protection](img/Protection1.png)
+1. From Linux Instances Screen navigate into a Linux Instance and access the **Protection** tab.![Protection](img/Protection1.png)
 2. Click the **Enable Protection** button. The following screen appears where the standard protection service is selected.![Protection](img/Protection2.png)
 3. To enable advanced protection features such as antivirus, anti-malware and backup/restore service for the SQL databases, turn on the toggle button. 
 4. Click **Confirm**. The protection gets enabled and the following screen appears:![Protection](img/Protection3.png)
