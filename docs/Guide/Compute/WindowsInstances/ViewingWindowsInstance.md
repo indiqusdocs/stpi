@@ -3,40 +3,6 @@ sidebar_position: 2
 ---
 # Viewing Windows Instances
 
-Create a Windows instance to deploy a virtual machine for running Windows-based applications and workloads in the cloud. During creation, you configure the required compute, storage, networking, and other settings to provision an instance that meets your workload requirements.
+The Windows instances page lets you view and monitor all Windows virtual machines in your cloud environment. It displays key instance details and status information, helping you quickly identify, access, and manage your Windows-based workloads.
 
-To create a Windows instance, follow these steps:
-
-1. Navigate to **Compute > Windows** Instances. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
-2. Click the **New Windows Instance** button. The following screen appears:![Windows Instance](img/WindowsInstance4.png)
-3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the **advanced VPC** from all available AZs.
-4.  Select a VPC network from the **Select Network** Dropdown and select the appropriate tier listed in **Select a Network Tier**.
-	:::note
-	To add a Windows Instance to a VPC, you need to have a VPC configured with at least one tier.
-	:::
-5. **Choose an OS Image** to run on your Instance. You can also select the image from the **My Images** tab. 
-   :::note
-	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
-	:::
-	![Compute Pack](img/ComputePack1.png)
-6. **Choose a compute pack** from the available compute collections.![Root Disk](img/WindowsRootDisk.png)
-7. **Choose a Root disk** from the available Disk packs, or you can use the free size option to specify the Root Disk.
-   :::note
-    The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
-	:::
-8. Select the option to **Protect this Instance**.
-9. In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance. The Instance name must only contain alphanumeric characters, underscore, dots and hyphens.
-10. Under the **Summary and Estimated Costs** section, verify the estimated cost of your Windows Instance based on the chosen specifications.![Summary and Estimated ](img/WindowsInstance5.png)
-11. After reviewing the policies mentioned by your cloud service provider, click the **I have read and agreed to the End User License Agreement and Privacy Policy** option. 
-12. To view the price summary and any discount codes in your account, click the **Buy Hourly** or **Buy Monthly** button.
-    - You can apply any of the discount codes listed by clicking on the **Apply** button. 
-    - You can also remove the applied discount code by clicking the **Remove** button. 
-    - Clicking on the **Cancel** button, this action will be canceled.
-13. Click the **Confirm**  button to create the Windows Instance.
-    
-
-:::note 
-This might take up to 5-8 minutes. You may use the Cloud Console during this time, but it is advised that you do not refresh the browser window.
-:::
-
-Once ready, you receive a notification of this purchase at your email address. To access the newly created Windows instance, navigate to **Compute > Windows Instances** on the main navigation panel.
+To view the Window instances, navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)

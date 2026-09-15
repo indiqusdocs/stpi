@@ -25,18 +25,12 @@ To create a Windows instance, follow these steps:
     The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
 	:::
 8. Select the option to **Protect this Instance**.
-9. In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance. The Instance name must only contain alphanumeric characters, underscore, dots and hyphens.
+9. In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance.
 10. Under the **Summary and Estimated Costs** section, verify the estimated cost of your Windows Instance based on the chosen specifications.![Summary and Estimated ](img/WindowsInstance5.png)
-11. After reviewing the policies mentioned by your cloud service provider, click the **I have read and agreed to the End User License Agreement and Privacy Policy** option. 
-12. To view the price summary and any discount codes in your account, click the **Buy Hourly** or **Buy Monthly** button.
-    - You can apply any of the discount codes listed by clicking on the **Apply** button. 
-    - You can also remove the applied discount code by clicking the **Remove** button. 
-    - Clicking on the **Cancel** button, this action will be canceled.
-13. Click the **Confirm**  button to create the Windows Instance.
+11. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option, and click **Buy Hourly** or **Buy Monthly** button.
+12. Click the **Confirm**  button to create the Windows Instance.
     
 
 :::note 
 This might take up to 5-8 minutes. You may use the Cloud Console during this time, but it is advised that you do not refresh the browser window.
 :::
-
-Once ready, you receive a notification of this purchase at your email address. To access the newly created Windows instance, navigate to **Compute > Windows Instances** on the main navigation panel.
