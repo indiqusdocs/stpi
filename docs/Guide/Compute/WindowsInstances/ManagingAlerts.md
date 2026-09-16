@@ -16,27 +16,27 @@ Create an alert to monitor a specific Window instance metric and receive an emai
 
 To configure alerts, follow these steps:
 
-1. Navigate to **Compute > Windows Instances**. The following screen appears:
-2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:
-3. Click **Alerts**. The following screen appears:
+1. Navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
+2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:![Viewing Details of Windows Instances](img/WindowsInstance.png)
+3. Click **Alerts**. The following screen appears:![Alerts](img/Alerts.png)
 4. Click the **Create Alert** button. The following screen appears where you provide the required details:
-	-  **Name** - You can define the name for your alert.
-    - **Choose Parameter** - This option allows you to define what parameter needs to be monitored to trigger the alert email. Yntraa Cloud supports CPU, RAM, Network Input, and Network Output parameters.
-    - **Trigger when** - This set of options lets you define whether to trigger above or below a custom value.
-    - **Reading duration** - This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
-    - **Add Recipients** - You can add the emails of the recipients.
-5. Click the **Create** button. The following screen appears:
-
+   ![](img/Alerts1.png)
+	-  **Name**: You can define the name for your alert.
+    - **Choose Parameter**: This option allows you to define what parameter needs to be monitored to trigger the alert email. Ananta Cloud supports CPU, RAM, Network Input, and Network Output parameters.
+    - **Trigger when**: This set of options lets you define whether to trigger above or below a custom value.
+    - **Reading duration**: This option lets you define the breach window, that is, the duration for which the breach must be consistent to trigger the alert email.
+    - **Add Recipients**: You can add the emails of the recipients.
+5. Click the **Create** button. The following screen appears:![Alert Created](img/AlertCreated.png)
 ## Managing Recipients
 
 The Manage Recipients feature lets you control who receives Window instance alerts. It displays all configured or added email IDs and provides options to remove outdated addresses or add new ones.
 
 To remove existing email IDs and add other email IDs, follow these steps:
 
-1. Navigate to **Compute > Windows Instances**. The following screen appears:
-2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:
-3. Click **Alerts**. The following screen appears:
-4. Click the **Manage Recipients** button. The following screen appears:
+1. Navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
+2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:![Viewing Details of Windows Instances](img/WindowsInstance.png)
+3. Click **Alerts**. The following screen appears:![Alerts](img/Alerts.png)
+4. Click the **Manage Recipients** button. The following screen appears:![Manage Recipients](img/ManageRecipients.png)
 5. Click the dropdown. From the list, you can perform the following:
     - **Add recipients**: Select the email IDs that you want to add.
     - **Remove recipients**: Clear the selection for the email IDs that you want to remove.

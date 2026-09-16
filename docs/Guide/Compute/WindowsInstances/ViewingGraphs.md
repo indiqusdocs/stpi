@@ -7,6 +7,6 @@ Graphs provide a visual representation of the performance and resource utilizati
 
 To view graphs, follow these steps:
 
-1. Navigate to **Compute > Windows Instances**. The following screen appears:
-2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:
-3. Click **Graphs**. The following screen appears:
+1. Navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
+2. Click on your created Window instance name from the list. The following screen appears:![Viewing Details of Windows Instances](img/WindowsInstance.png)
+3. Click **Graphs**. The following screen appears: ![Graphs](img/Graphs.png)
