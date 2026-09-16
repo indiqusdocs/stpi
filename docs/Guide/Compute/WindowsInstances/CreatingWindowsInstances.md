@@ -9,8 +9,8 @@ To create a Windows instance, follow these steps:
 
 1. Navigate to **Compute > Windows** Instances. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
 2. Click the **New Windows Instance** button. The following screen appears:![Windows Instance](img/WindowsInstance4.png)
-3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the **advanced VPC** from all available AZs.
-4.  Select a VPC network from the **Select Network** Dropdown and select the appropriate tier listed in **Select a Network Tier**.
+3.  Choose an **Availability Zone**, which is the geographical region where your Instance will be deployed. The chosen option should be the advanced VPC from all available AZs.
+4.  Select a VPC network from the **Select Network Destination** and select the appropriate tier listed in **Select a Network Tier**.
 	:::note
 	To add a Windows Instance to a VPC, you need to have a VPC configured with at least one tier.
 	:::
@@ -18,12 +18,12 @@ To create a Windows instance, follow these steps:
    :::note
 	  To learn how to upload a custom instance image, refer to the [Uploading Custom Image](/docs/Guide/ToolsandUtilities/ManagingCustomTemplatesandImages#uploading-custom-image) page.
 	:::
-	![Compute Pack](img/ComputePack1.png)
-6. **Choose a compute pack** from the available compute collections.![Root Disk](img/WindowsRootDisk.png)
+6. **Choose a compute pack** from the available compute collections.![Compute Pack](img/ComputePack1.png)
 7. **Choose a Root disk** from the available Disk packs, or you can use the free size option to specify the Root Disk.
    :::note
     The NGC offers both encrypted and non-encrypted offerings. To learn more about it, refer [Disk Offerings](/docs/Knowledgebase/WhatareDiskOfferings).
 	:::
+	![Root Disk](img/WindowsRootDisk.png)
 8. Select the option to **Protect this Instance**.
 9. In the **Name Your Windows Instance** field, enter the desired name for your Windows Instance.
 10. Under the **Summary and Estimated Costs** section, verify the estimated cost of your Windows Instance based on the chosen specifications.![Summary and Estimated ](img/WindowsInstance5.png)

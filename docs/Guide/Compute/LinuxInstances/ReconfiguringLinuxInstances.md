@@ -18,11 +18,11 @@ To reconfigure the Linux instances, follow these steps:
 5. Navigate to **Reconfigure**. The following screen appears:![Reconfiguring Linux Instances](img/Reconfiguring1.png)
 6. Select a **compute pack** from the list.
 7. Click the **Reconfigure Compute Pack** button. The following screen appears:![Reconfigure Compute Pack](img/ReconfigureComputePack.png)
-8. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option, and click the **Confirm Reconfigure** button. ![Root Disk](img/RootdiskReconfiguration.png)
+8. Select the **I have read and agreed to the End User License Agreement** and **Privacy Policy** option, and click the **Confirm Reconfigure** button. ![Root Disk](img/RootdiskReconfiguration.png)
 9. Select **Root Disk**.
 10. Click the **Reconfigure Root Disk** button. The following screen appears:
     ![Reconfigure root disk](img/ReconfigureRootDisk.png)
- 11. Select the **I have read and agreed to the End User License Agreement and Privacy Policy** option, and click the **Confirm Reconfigure** button. 
+ 11. Select the **I have read and agreed to the End User License Agreement** and **Privacy Policy** option, and click the **Confirm Reconfigure** button. 
 
 
 

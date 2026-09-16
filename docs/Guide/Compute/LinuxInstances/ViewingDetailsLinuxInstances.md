@@ -46,8 +46,8 @@ To stop and start the Linux instance, follow these steps:
 
 1. Navigate to the **Compute > Linux Instances**. The following screen appears:![Create Linux Instance](img/CreatingLinuxInstances1.png)
 2. Click on your created Linux instance name from the list. The Overview tab opens automatically. The following screen appears: ![Viewing Details of Linux Instances](img/LaunchConsole.png)
-3. Click the **Stop Instance** button. The following screen appears:
-4. Click the **Yes** button. The following screen appears:![Stop Instance](img/StopInstance.png)
-5. Click the Start Instance button. The following screen appears: ![Start Instance](img/StartInstance.png)
-6. Click the **Yes** button. The following screen appears:![Start Instance Confirmation](img/StartInstanceConfirmation.png)
+3. Click the **Stop Instance** button. The following screen appears:![Stop Instance](img/StopInstance.png)
+4. Click the **Yes** button. The following screen appears:![Start Instance](img/StartInstance.png)
+5. Click the **Start Instance** button. The following screen appears: ![Start Instance Confirmation](img/StartInstanceConfirmation.png)
+6. Click the **Yes** button.
 

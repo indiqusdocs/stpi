@@ -20,7 +20,7 @@ To configure alerts, follow these steps:
 2. Click on your created Window instance name from the list. The Overview tab opens automatically. The following screen appears:![Viewing Details of Windows Instances](img/WindowsInstance.png)
 3. Click **Alerts**. The following screen appears:![Alerts](img/Alerts.png)
 4. Click the **Create Alert** button. The following screen appears where you provide the required details:
-   ![](img/Alerts1.png)
+   ![Alert Managament](img/Alerts1.png)
 	-  **Name**: You can define the name for your alert.
     - **Choose Parameter**: This option allows you to define what parameter needs to be monitored to trigger the alert email. Ananta Cloud supports CPU, RAM, Network Input, and Network Output parameters.
     - **Trigger when**: This set of options lets you define whether to trigger above or below a custom value.
