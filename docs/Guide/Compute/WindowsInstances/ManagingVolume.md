@@ -69,9 +69,9 @@ To create volume from disk restore point, follow these steps:
 3. Click **Volumes**. The following screen appears: ![Volume Management](img/VolumeManagement.png)
 4. Click the **Create Restore Point** icon.
 5. Click the **Create Disk Restore Point** button.
-6. Navigate to **Tools and Utilities > Restore Points**. The following screen appears:
-7. Click **Disk Restore Point**. The following screen appears:
-8. Click the **Create Volume** icon (highlighted in red) corresponding to the required disk restore point. The following screen appears:
+6. Navigate to **Tools and Utilities > Restore Points**.
+7. Click **Disk Restore Point**.
+8. Click the **Create Volume** icon (highlighted in red) corresponding to the required disk restore point.
 9. Select availability zone.
 10. Select the instance from the dropdown for which you want to create a restore point.
 11. In the **Choose Disk Configuration** section:
@@ -92,9 +92,9 @@ Delete a disk restore point when it is no longer required to free up storage res
 
 To delete a disk restore point, follow these steps:
 
-1. Navigate to **Tools and Utilities > Restore Points**. The following screen appears:
-2. Click **Disk Restore Point**. The following screen appears:
-3. Click the **Delete Disk Restore Point** icon (highlighted in red). The following screen appears:
+1. Navigate to **Tools and Utilities > Restore Points**.![Instance Restore Point](img/InstanceRestorePoint.png)
+2. Click **Disk Restore Point**.![Disk Restore Point](img/DiskRestorePoint.png)
+3. Click the **Delete Disk Restore Point** icon.
 4. Click the **Yes** button. The disk restore point is deleted.
 
 
