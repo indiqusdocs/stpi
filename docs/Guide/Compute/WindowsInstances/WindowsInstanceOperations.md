@@ -67,7 +67,7 @@ To reset SSH key of a Window instance, follow these steps:
 3. Navigate to **Operations**. ![Operations Tab](img/OperationsTab.png)
 4. Click the **Stop Instance** button. The following screen appears: ![Stopping Instance](img/StopInstanceOperations.png)
 5. Click the **Yes** button.
-6. Click the **Reset SSH key** button. The following screen appears:
+6. Click the **Reset SSH key** button.
 7. Select an SSH key from the dropdown and select the **Send new password for this Instance on my email** option.
 8. Click the **Confirm SSH Key Pair Reset** button.
 

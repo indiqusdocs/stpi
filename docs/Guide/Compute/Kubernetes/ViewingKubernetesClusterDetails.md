@@ -3,46 +3,21 @@ sidebar_position: 3
 ---
 # Viewing Kubernetes Cluster Details
 
-Ananta Cloud Console offers a detailed view of Kubernetes clusters on the UI. Ananta also brings the full power and accessibility of cluster management via the **kubectl** interface.
+View the Kubernetes cluster details to access comprehensive information about the cluster, including its configuration, node information, networking, and current status. Reviewing these details helps you monitor cluster health, verify settings, and troubleshoot issues effectively.
 
-To view cluster details on the UI, follow these steps:
+To view the details of a Kubernetes cluster, follow these steps:
 
-1. Navigate to **Compute > Kubernetes**.
-2. All the Kubernetes clusters for your account will be listed here with the following details:
-    - Kubernetes Cluster Name (Along with the configuration details)
-    - Public IP address
-    - Autoscaling Enabled/Disabled
-    - Created 
-	![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
-
-To  view a list of sections and the various actions you can perform inside the particular section, click the **Kubernetes Cluster** name. Below the cluster name is an informational view where you can find the below details:
-- Configuration
-- Availability Zone
-- Cluster Pack
-- High Availability Enabled/Disabled
-
-![ Viewing Details of Cluster ](img/ViewingKubernetes2.png)
-
-A quick option is available in the top right corner, i.e., to  **POWER OFF/ON** the cluster.
-
-At this stage, the following details can be accessed for the cluster:
-1. **Configuration and Availability**
-    1. The cluster’s status, **RUNNING**, is displayed in <span class="green">**green**</span>, whereas **STOPPED** is displayed in <span style={{ color: 'grey' }}>grey</span>.
-    2. Information about the VPC networking zone.
-2. **Nodes Information**- This displays the basic information about the nodes as listed below.
-    1. Cluster Size
-    2. Computed Pack
-    3. Root disk size
-3. **Internal Information**- This displays the information used for internal identification of this Cluster and communication with other internal services.
-    1. Kubernetes Version
-    2. Virtual router internal name
-    3. Created on
-
-Additionally, other sections are also available on the left which can then be used to view and access various aspects of managing the Kubernetes cluster. These are:
-- **Access** - To view detailed instructions on how to access the cluster using **kubectl**.
-- **Nodes** - To view the cluster nodes (control and worker) and also scale the cluster.
-- **Dashboard** - To view detailed instructions on how to access the Kubernetes dashboard for the cluster.
-- **Networking** - To manage ingress networking rules.
-- **Operations** - To perform basic management operations on the cluster.
-
-
+1. Navigate to **Compute > Kubernetes**. The following screen appears:![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
+2. Click on your created Kubernetes cluster name from the list. 
+	- **Configuration and Availability:** This displays the following Kubernetes cluster configuration details to help verify its current configuration and operational state:
+	    - The instance's status **Running** or **Stopped**.
+	    - Availability Zone
+	    - Cluster Pack
+	    - High Availability
+	- **Nodes:** This displays the following information about the worker nodes associated with the Kubernetes cluster, helping you monitor node health, capacity, and overall cluster status:
+	    - Template Name
+	    - Created On
+	- **Internal Information:** This displays the following information that is used for internal identification of the Kubernetes cluster and communication with other internal services:
+	    - Kubernetes Version
+	    - Virtual Router Internal Name
+	    - Created On
