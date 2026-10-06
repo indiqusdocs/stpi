@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/Kubernetes/StoppingandStartingaKubernetesCluster.md",
+                "file": "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StoppingandStartingaKubernetesCluster"
+              "title": "ViewingKubernetesClusterDetails"
             }
           },
           {
@@ -197,17 +197,21 @@
   },
   "active": "382c5f3d690b69e9",
   "lastOpenFiles": [
+    "docs/Guide/Compute/Kubernetes/StoppingandStartingaKubernetesCluster.md",
+    "docs/Guide/Compute/Kubernetes/ScalingKubernetesClusters.md",
+    "docs/Guide/Compute/Kubernetes/KubernetesDashboard.md",
+    "docs/Guide/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
+    "docs/Guide/Compute/Kubernetes/CreatingaKubernetesCluster.md",
+    "docs/Guide/Compute/Kubernetes/ClusterOperations.md",
+    "docs/Guide/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
+    "docs/Guide/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
+    "docs/Guide/Compute/Kubernetes/img/NodesScreen.png",
     "docs/Guide/Compute/Kubernetes/img/StartingCluster.png",
     "docs/Guide/Compute/Kubernetes/img/StartCluster.png",
     "Pasted image 20260928170922.png",
     "docs/Guide/Compute/Kubernetes/img/Overview.png",
     "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusters.md",
-    "docs/Guide/Compute/Kubernetes/StoppingandStartingaKubernetesCluster.md",
     "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
-    "docs/Guide/Compute/Kubernetes/ClusterOperations.md",
-    "docs/Guide/Compute/Kubernetes/CreatingaKubernetesCluster.md",
-    "docs/Guide/Compute/Kubernetes/IngressNetworkingonKubernetesClusters.md",
-    "docs/Guide/Compute/Kubernetes/ScalingKubernetesClusters.md",
     "docs/Guide/Compute/WindowsInstances/ValidatingCortexAnti-Malware-Anti-VirusInstallation StatusontheServer.md",
     "docs/Guide/Compute/Kubernetes/AboutKubernetesonAnanta.md",
     "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md",
@@ -218,8 +222,6 @@
     "docs/Guide/Compute/WindowsInstances/img/MigrateNetworkScreen.png",
     "docs/Guide/Compute/WindowsInstances/img/ResettingPassword.png",
     "docs/Guide/Compute/WindowsInstances/img/StopInstanceOperations.png",
-    "docs/Guide/Compute/WindowsInstances/img/ForceStop.png",
-    "docs/Guide/Compute/WindowsInstances/img/OperationsTab.png",
     "docs/Guide/Compute/WindowsInstances/ViewingGraphs.md",
     "docs/Guide/Compute/LinuxInstances/ManagingAlerts.md",
     "docs/Guide/Compute/WindowsInstances/ReconfiguringWindowsInstances.md",
@@ -231,8 +233,6 @@
     "docs/Guide/Compute/WindowsInstances/ManagingAlerts.md",
     "docs/Guide/Compute/WindowsInstances/CreatingWindowsInstances.md",
     "docs/Guide/Compute/LinuxInstances/ManagingLinuxInstanceOperations.md",
-    "docs/Guide/Compute/LinuxInstances/ViewingDetailsLinuxInstances.md",
-    "docs/Guide/Compute/LinuxInstances/ViewingLinuxInstances.md",
     "build/search-index.json",
     "build/sitemap.xml",
     "build/assets/js/fb1fb462.12e20c23.js",

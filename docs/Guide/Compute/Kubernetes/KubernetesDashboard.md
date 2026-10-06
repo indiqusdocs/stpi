@@ -1,7 +1,7 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
-# About the Kubernetes Dashboard
+# Kubernetes Dashboard
 
 The Kubernetes Dashboard is a web-based user interface that provides a visual representation of a cluster's resources and enables easier management and monitoring. Here's an overview of the dashboard:
 
