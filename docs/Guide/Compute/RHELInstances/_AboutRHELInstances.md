@@ -42,7 +42,7 @@ On the top right corner, two quick options are available, one to **Launch Consol
  
 Details on available RHEL Instance operations and actions can be found in their respective sections on the left.
 
-- [Overview](ViewingDetailsofRHELInstances.md)
+- [Overview](ViewingRHELInstances.md)
 - [Graphs](ViewingGraphsandUtilizationofRHELInstances.md)
 - [Alerts](ConfiguringAlertsonRHELInstances.md)
 - [Utilisation](ViewingGraphsandUtilizationofRHELInstances.md)

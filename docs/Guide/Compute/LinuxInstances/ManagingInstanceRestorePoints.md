@@ -6,7 +6,7 @@ sidebar_position: 9
 Instance restore points help protect your Linux instances by creating point-in-time recovery snapshots. You can create restore points before performing maintenance, configuration changes, or updates, and restore the instance to a previous state if required. You can also delete restore points that are no longer needed to optimize resource usage. This section explains how to create, restore, and delete instance restore points for a Linux instance.
 
 This section comprises of the following sub-sections:
-- [Creating an Instance Restore Point](#creating-an-iinstance-restore-point)
+- [Creating an Instance Restore Point](#creating-an-instance-restore-point)
 - [Restoring an Instance Restore Point](#restoring-an-instance-restore-point)
 - [Deleting an Instance Restore Point](#deleting-an-instance-restore-point)
 ## Creating an Instance Restore Point

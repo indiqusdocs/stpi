@@ -8,7 +8,7 @@ You can manage the lifecycle of Linux instance by restarting, force stopping, re
 Ananta Cloud provides the following operations on Linux instances:
 - [Restarting an Instance](#restarting-an-instance)
 - [Force Stopping an Instance](#force-stopping-an-instance)
-- [Resetting Password of an Instance](#restarting-password-of-an-instance)
+- [Resetting Password of an Instance](#resetting-password-of-an-instance)
 - [Resetting SSH key](#resetting-ssh-key)
 - [Renaming an Instance](#renaming-an-instance)
 - [Migrating Network](#migrating-network)
