@@ -43,10 +43,10 @@ On the top right corner, two quick options are available, one to **Launch Consol
 Details on available RHEL Instance operations and actions can be found in their respective sections on the left.
 
 - [Overview](ViewingRHELInstances.md)
-- [Graphs](ViewingGraphsandUtilizationofRHELInstances.md)
-- [Alerts](ConfiguringAlertsonRHELInstances.md)
-- [Utilisation](ViewingGraphsandUtilizationofRHELInstances.md)
-- [Volumes](VolumeManagementwithRHELInstances.md)
+- [Graphs](docs/Guide/Compute/RHELInstances/ViewingGraphs.md)
+- [Alerts](docs/Guide/Compute/RHELInstances/ManagingAlerts.md)
+- [Utilisation](docs/Guide/Compute/RHELInstances/ViewingGraphs.md)
+- [Volumes](docs/Guide/Compute/RHELInstances/ManagingVolume.md)
 - [Networking](NetworkingManagementwithRHELInstances.md)
 - [Snapshots](WorkingwithRHELRestorePoints.md)
 - [Reconfigure](ReconfiguringRHELInstances.md)
