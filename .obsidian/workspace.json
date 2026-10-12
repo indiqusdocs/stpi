@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/RHELInstances/ManagingVolume.md",
+                "file": "docs/Guide/Compute/RHELInstances/ManagingInstanceRestorePoints.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ManagingVolume"
+              "title": "ManagingInstanceRestorePoints"
             }
           },
           {
@@ -197,10 +197,18 @@
   },
   "active": "382c5f3d690b69e9",
   "lastOpenFiles": [
-    "docs/Guide/Compute/RHELInstances/ViewingUtilisation.md",
-    "docs/Guide/Compute/RHELInstances/ManagingVolume.md",
-    "docs/Guide/Compute/RHELInstances/ViewingRHELInstances.md",
+    "docs/Guide/Compute/RHELInstances/img/DeletingRestorePoint1.png",
+    "docs/Guide/Compute/RHELInstances/img/DeletingRestorePoint.png",
+    "docs/Guide/Compute/RHELInstances/img/RestoreInstancePoint.png",
+    "docs/Guide/Compute/RHELInstances/img/RestorePoint1.png",
+    "docs/Guide/Compute/RHELInstances/img/InstanceRestorePoint1.png",
     "docs/Guide/Compute/RHELInstances/ManagingAlerts.md",
+    "docs/Guide/Compute/RHELInstances/ManagingInstanceRestorePoints.md",
+    "docs/Guide/Compute/RHELInstances/ManagingNetworks.md",
+    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
+    "docs/Guide/Compute/RHELInstances/ManagingVolume.md",
+    "docs/Guide/Compute/RHELInstances/ViewingUtilisation.md",
+    "docs/Guide/Compute/RHELInstances/ViewingRHELInstances.md",
     "docs/Guide/Compute/RHELInstances/ViewingGraphs.md",
     "docs/Guide/Compute/RHELInstances/img/CreateAlert1.png",
     "docs/Guide/Compute/RHELInstances/ViewingDetailsofRHELInstances.md",
@@ -209,9 +217,6 @@
     "docs/Guide/Compute/RHELInstances/img/StopCluster.png",
     "docs/Guide/Compute/RHELInstances/img/StartingCluster1.png",
     "docs/Guide/Compute/RHELInstances/img/Stopingcluster1.png",
-    "docs/Guide/Compute/Kubernetes/img/Stopingcluster1.png",
-    "docs/Guide/Compute/Kubernetes/img/StartingCluster1.png",
-    "docs/Guide/Compute/Kubernetes/img/Stopingcluster.png",
     "docs/Guide/Compute/LinuxInstances/ManagingLinuxInstanceOperations.md",
     "build/search-index.json",
     "build/sitemap.xml",
@@ -223,12 +228,10 @@
     "build/docs/Guide/Networking/VirtualFirewall/ViewingVirtualFirewallInstanceDetails/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/ViewingVirtualFirewallInstanceDetails",
     "build/docs/Guide/Networking/VirtualFirewall/ViewingVirtualFirewalls/index.html",
-    "build/assets/images/ReconfigureComputePack-58199b2795eecd421fea9451b1be84ca.png",
     "docs/Guide/Compute/LinuxInstances/ManagingInstanceRestorePoints.md",
     "docs/Guide/Compute/RHELInstances/ProtectingRHELInstances.md",
     "docs/Guide/Compute/RHELInstances/ReconfiguringRHELInstances.md",
     "docs/Guide/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
-    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
     "docs/Guide/Compute/RHELInstances/_AboutRHELInstances.md",
     "docs/Guide/Compute/Kubernetes/Accessingthekubernetesdashboard.md",
     "docs/Guide/Compute/Kubernetes/ManagingKubernetesClusterOperations.md",
@@ -239,9 +242,6 @@
     "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusterDetails.md",
     "docs/Guide/Compute/Kubernetes/StoppingandStartingaKubernetesCluster.md",
     "docs/Guide/Compute/Kubernetes/AccessingaClusterusingtheCommandLine.md",
-    "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusters.md",
-    "docs/Guide/Compute/WindowsInstances/ValidatingCortexAnti-Malware-Anti-VirusInstallation StatusontheServer.md",
-    "docs/Guide/Compute/Kubernetes/AboutKubernetesonAnanta.md",
-    "docs/Guide/Compute/WindowsInstances/ConnectingtoaWindowsInstance.md"
+    "docs/Guide/Compute/Kubernetes/ViewingKubernetesClusters.md"
   ]
 }
