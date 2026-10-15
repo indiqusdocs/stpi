@@ -3,8 +3,10 @@ sidebar_position: 4
 ---
 # Using Static Password In Autoscale Group’s Instance
 
+This section covers the step to use a static password in autoscale group's instance.
+
 1. Create a VPC and add a network tier inside the VPC.   ![Adding a Tier](img/SubnetandTier.png)
-2. Create a Virtual Machine using the standard templates.
+2. Create an Instance using the standard templates.
 3. Launch the console and login with the initial password (Generated at the time of Instance Creation).
 4. Run the following commands. 
 	1. Create your password. <br />`sudo passwd <yourusername>` (ubuntu/root)

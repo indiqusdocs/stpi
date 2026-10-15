@@ -10,6 +10,7 @@ The scope is limited to standard 2048-bit RSA keys and assumes certificate asset
 
 To generate the CSR for all Linux servers:
 Get the details from customer site:
+
 For example:
 - CN = `organization`.in (Domain name)
 - O = Organization Name

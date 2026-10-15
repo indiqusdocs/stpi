@@ -22,6 +22,7 @@ To create an instance restore point, follow these steps:
 4. Click the **Create Instance Restore Point** button. The following screen appears where you provide the required details:![RHEL Instance Snapshots](img/Snapshots2.png)
 5. Click the **Create** button. 
 
+The instance restore point is created.
 ![Instance Restore Point](img/InstanceRestorePoint1.png)
 
 ## Restoring an Instance Restore Point

@@ -50,6 +50,6 @@ Details on available RHEL Instance operations and actions can be found in their 
 - [Networking](docs/Guide/Compute/RHELInstances/ManagingNetworks.md)
 - [Snapshots](docs/Guide/Compute/RHELInstances/ManagingInstanceRestorePoints.md)
 - [Reconfigure](ReconfiguringRHELInstances.md)
-- [Operations](RHELInstanceOperations.md)
+- [Operations](ManagingRHELOperations.md)
 
 ![RHEL Instance Details](img/RHELInstance1.png)

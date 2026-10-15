@@ -3,26 +3,32 @@ sidebar_position: 12
 ---
 # Connecting to a RHEL Instance
 
-You can connect to RHEL Instances via SSH sessions using passwords (less secure) or [SSH key pairs](/docs/Guide/ToolsandUtilities/ManagingSSHKeysandKeyPairs) (most secure)
+Connecting to a RHEL instance allows you to securely access and manage your virtual machine remotely. You can connect using either a password or an SSH key pair. SSH key-based authentication is recommended as it provides a more secure way to access your instance.
 
+This section comprises of the following sub-sections:
+- [Connecting from a Windows Machine](#connecting-from-a-windows-machine)
+- [Connecting from a macOS or Linux Machine](#connecting-from-a-macos-or-linux-machine)
 ## Connecting from a Windows Machine
 
-To connect to your RHEL Instance from a Windows machine, you will need to use an application called PuTTy, an SSH client.
+You can connect to your RHEL instance from a Windows machine using an SSH client such as PuTTY. This allows you to securely access and manage your instance for administration and configuration tasks.
+
+To connect a RHEL instance from a Windows machine, follow these steps:
 
 1. [Download and install PuTTy.](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-2. To launch PuTTY on your computer, open the PuTTY application.
-3. To enter your instance’s IP address, type it in the Hostname field. Then, navigate to **Connection** > **SSH** > **Auth**.
-4. To select the private key file, click the **Browse** button and choose the key file you previously generated.
-5. To open a connection to the instance, click **Open** at the bottom of the screen. PuTTY will prompt you to allow the connection to the host.
-6. To confirm the connection, click **OK**, and the terminal window will appear.
-7. To authenticate using your SSH key, enter the default root username (**root**) and press **Enter**.
+2. Launch PuTTy on your computer.
+3. Enter your Instance’s IP address in the Hostname field.
+4. Navigate to **Connection > SSH** > **Auth**.
+5. Click the **Browse** button and select the private key file you previously generated.
+6. Click **Open** at the bottom of the screen to open a connection to the Instance. PuttY prompts you to allow the connection to the host.
+7. Click **OK** to confirm and the terminal window will be displayed.
+8. Enter the default root user name (**root**) and press **Enter** to authenticate against the server with your SSH key.
 
-You are now connected to your Instance.
+You are now connected to your Instance
 
 ## Connecting from a macOS or Linux Machine
 
 1. Open any terminal program.
-2. Enter the following command into the terminal. Make sure you replace _your_private_key_ with the filename of your private key; _your_instance_ip_ with the IP address of your Instance; and username with the default root user name (_**root**_).
+2. Enter the following command into the terminal. Make sure you replace `your_private_key` with the filename of your private key; `your_instance_ip` with the IP address of your Instance; and username with the default root user name (_**root**_).
 
 	```
 	ssh -i ~/.ssh/<your_private_key> <username>@<your_instance_ip>
