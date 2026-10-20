@@ -3,7 +3,22 @@ sidebar_position: 1
 ---
 # Creating Data Disk
 
-A data disk is additional storage attached to a cloud instance for storing application data, files, databases, and other workloads separately from the system disk. Creating a data disk in Yntraa Cloud helps improve data management, provides flexibility to scale storage as needed, and ensures better performance and organization of your cloud resources.
+A data disk is additional storage attached to a cloud instance for storing application data, files, databases, and other workloads separately from the system disk. Creating a data disk in Ananta Cloud helps improve data management, provides flexibility to scale storage as needed, and ensures better performance and organization of your cloud resources.
+
+Each Instance on Ananta (Linux or Windows) includes a 'root' disk or volume. This is the primary disk partition on the Instance, and by default, all operating systems, data, components and files reside on the root disk.
+
+Further, Instances can have add-on or 'data' disks attached to them which act as additional disk partitions. These data disks are modular and can be moved between multiple Instances.
+
+Apart from this, there is no difference between a root disk and a data disk. Both types of Volumes are managed using the Block Volumes Service. However, based on the volume type, certain operations may not be available.
+
+| Operations                    | Root Disks                      | Data Disks |
+| ----------------------------- | ------------------------------- | ---------- |
+| Overview & Volume Information | Available                       | Available  |
+| Snapshot Management           | Available                       | Available  |
+| Recurring Snapshot Schedules  | Available                       | Available  |
+| Resizing Volumes              | Available (via parent Instance) | Available  |
+| Volume Operations             | Not Available                   | Available  |
+
 
 To create a data disk, follow these steps:
 

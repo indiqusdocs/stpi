@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Compute/RHELInstances/ManagingRHELOperations.md",
+                "file": "docs/Guide/Storage/BlockVolumes/ResizingtheBlockVolume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ManagingRHELOperations"
+              "title": "ResizingtheBlockVolume"
             }
           },
           {
@@ -197,6 +197,26 @@
   },
   "active": "382c5f3d690b69e9",
   "lastOpenFiles": [
+    "docs/Guide/Storage/BlockVolumes/img/Resize1.png",
+    "docs/Guide/Storage/BlockVolumes/img/Resize.png",
+    "docs/Guide/Storage/BlockVolumes/CreatingDataDisk.md",
+    "docs/Guide/Storage/BlockVolumes/ResizingtheBlockVolume.md",
+    "docs/Guide/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes.md",
+    "docs/Guide/Storage/BlockVolumes/CreatingRestorePointSchedules.md",
+    "docs/Guide/Storage/BlockVolumes/img/ScheduleCreated.png",
+    "docs/Guide/Storage/BlockVolumes/img/ScheduleForm.png",
+    "docs/Guide/Storage/BlockVolumes/img/CreateSchedule.png",
+    "docs/Guide/Storage/BlockVolumes/ManagingOperations.md",
+    "docs/Guide/Storage/BlockVolumes/CreatingDiskRestorePointsandVolumes.md",
+    "docs/Guide/Storage/BlockVolumes/ViewingBlockVolumesDetails.md",
+    "docs/Guide/Storage/BlockVolumes/ViewingBlockVolumes.md",
+    "docs/Guide/Storage/BlockVolumes/img/CreatingVolumeicon.png",
+    "docs/Guide/Storage/BlockVolumes/img/CreatingRestorePoints2.png",
+    "docs/Guide/Storage/BlockVolumes/img/CreatingRestorePoints1.png",
+    "docs/Guide/Storage/BlockVolumes/img/CreatingRestorePoints.png",
+    "docs/Guide/Storage/BlockVolumes/_WorkingwithRestorePoints.md",
+    "docs/Guide/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
+    "docs/Guide/Compute/RHELInstances/ManagingRHELOperations.md",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/ViewingUtilisation/index.html",
@@ -207,24 +227,9 @@
     "build/docs/Guide/Networking/VirtualFirewall/ReconfiguringVirtualFirewall/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/ManagingInstanceRestorePoint/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/ManagingVolume/index.html",
-    "build/docs/Guide/Networking/VirtualFirewall/ManagingVirtualFirewallInstanceOperations/index.html",
     "docs/Guide/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
-    "docs/Guide/Storage/BlockVolumes/CreatingDataDisk.md",
     "build/assets/images/ResetPassword-a53602308cde9ca04c9a8fd636b2b6d9.png",
     "build/assets/images/StopInstance-383d36924e7d64bc2a28dadeb6cd16be.png",
-    "build/assets/images/ForceStop-752c294a46805406dfa44de2d2077a67.png",
-    "build/assets/images/ReinstallingInstance-ac283ef75986f398eea3d3134c9fbbe4.png",
-    "build/assets/images/ResetScreen-c9cde9aa19b9d9af89469bcf374cc52f.png",
-    "build/assets/images/VolumeManagement-150abbd95ca74d471f6d0fd626d7b65f.png",
-    "build/assets/images/ResetSSHKey-87bc94ee1a205f9e541bab655f6fac48.png",
-    "build/assets/images/RestorePoint1-2d95acf2740f72d2a7749b4a9bfdbf5e.png",
-    "build/assets/images/MigrateNetwork-302bde5ff31b255def4374f9399bc7bb.png",
-    "build/assets/images/RenamingInstance-424bec33889cba93aae202e5fc0bb1ca.png",
-    "docs/Guide/Storage/BlockVolumes/UsingBlockVolumeswithKubernetes.md",
-    "docs/Guide/Storage/BlockVolumes/_WorkingwithRestorePoints.md",
-    "docs/Guide/Storage/BlockVolumes/ViewingBlockVolumesDetails.md",
-    "docs/Guide/Storage/BlockVolumes/WorkingwithInstanceVolumes.md",
-    "docs/Guide/Storage/BlockVolumes/ViewingBlockVolumes.md",
     "docs/Guide/Compute/Autoscale/ModifyingConfigurations.md",
     "docs/Guide/Compute/Autoscale/ViewingAutoscaleGroups.md",
     "docs/Guide/Compute/Autoscale/UsingStaticPasswordinAutoscaleGroupInstances.md",
@@ -233,15 +238,10 @@
     "docs/Guide/Storage/BlockVolumes/AboutBlockVolumes.md",
     "docs/Guide/Compute/SSLCertificateConfiguration.md",
     "docs/Guide/Compute/Autoscale/AboutAutoscale.md",
-    "docs/Guide/Compute/RHELInstances/ManagingRHELOperations.md",
     "docs/Guide/Compute/RHELInstances/ManagingVolume.md",
     "docs/Guide/Compute/RHELInstances/ManagingNetworks.md",
     "docs/Guide/Compute/RHELInstances/ProtectingRHELInstances.md",
     "docs/Guide/Compute/RHELInstances/ReconfiguringRHELInstances.md",
-    "docs/Guide/Compute/RHELInstances/ManagingInstanceRestorePoints.md",
-    "docs/Guide/Compute/RHELInstances/CreatingRHELInstances.md",
-    "docs/Guide/Compute/RHELInstances/ManagingAlerts.md",
-    "docs/Guide/Compute/RHELInstances/ViewingUtilisation.md",
-    "docs/Guide/Compute/RHELInstances/ViewingRHELInstances.md"
+    "docs/Guide/Compute/RHELInstances/ManagingInstanceRestorePoints.md"
   ]
 }

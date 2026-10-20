@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Viewing Block Volumes Details
 
-Viewing block volume details allows you to monitor and manage the additional storage attached to your cloud instances. In Yntraa Cloud, you can view key details such as volume name, attached instance, and storage utilization to track disk usage, optimize resource management, and maintain better control over your cloud infrastructure.
+Viewing block volume details allows you to monitor and manage the additional storage attached to your cloud instances. In Ananta Cloud, you can view key details such as volume name, attached instance, and storage utilization to track disk usage, optimize resource management, and maintain better control over your cloud infrastructure.
 
 To view the disk details, follow these steps:
 
