@@ -3,10 +3,10 @@ sidebar_position: 7
 ---
 # Kubernetes Dashboard
 
-The Kubernetes Dashboard is a web-based user interface that provides a visual representation of a cluster's resources and enables easier management and monitoring. Here's an overview of the dashboard:
+The Kubernetes is a web-based user interface that provides a visual representation of a cluster's resources and enables easier management and monitoring. Here is an overview of the dashboard:
 
 - **Features:** The dashboard displays various cluster resources, such as pods, services, nodes, deployments, and more. It offers an interactive view of the cluster's current state.
-- **Access Control:** Access to the dashboard is subject to RBAC (Role-Based Access Control) policies. Users need appropriate permissions to view and modify resources.
+- **Access Control:** Access to the dashboard is subject to Role-Based Access Control (RBAC) policies. Users need appropriate permissions to view and modify resources.
 - **Monitoring:** While the dashboard provides essential monitoring, more comprehensive monitoring solutions like Prometheus and Grafana can be integrated for in-depth insights.
 
 ![Dashboard](img/DashboardNew.png)
@@ -29,7 +29,7 @@ Each Kubernetes cluster has its own dashboard.
 
 **Getting Token for Dashboard Login**
 
-To login to the cluster dashboard, a token must be obtained which can be done using the following command:
+To login to the cluster dashboard, a token must be obtained which by running the following command:
 
 ```
 kubectl --kubeconfig /custom/path/kube.conf describe secret $(kubectl --kubeconfig /custom/path/kube.conf get secrets -n kubernetes-dashboard | grep kubernetes-dashboard-token | awk '{print $1}') -n kubernetes-dashboard

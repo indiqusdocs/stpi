@@ -6,7 +6,7 @@ sidebar_position: 10
 Reconfigure a Window instance to change its compute and root disk configuration when your workload requirements change.  Updating the compute pack and root disk allows you to allocate resources that better match your application's performance and capacity needs.
 
 :::note
-You can only reconfigure the Instance with the same billing interval. To change the billing interval, use the **Switch Plan** button. It is recommended to switch the plan before reconfiguring the Instance if you intend to use both the Reconfigure and Switch Plan options. Charges will be applied based on the reconfigured pack, not the previous pack.
+You can reconfigure your instance only with the same billing interval. If you want to change the billing interval, use the **Switch Plan** button. If you want to use both the Switch Plan and Reconfigure options, switch your plan first and then reconfigure your instance. You will be charged based on the reconfigured pack, not your previous pack.
 :::
 
 To reconfigure the Window instances, follow these steps:

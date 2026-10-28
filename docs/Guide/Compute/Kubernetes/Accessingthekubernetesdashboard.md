@@ -7,9 +7,9 @@ Accessing the kubernetes dashboard enables you to securely connect to and view t
 
 To access the dashboard in Kubernetes version 1.24 and onwards, follow these steps:
 
-1. Navigate to **Compute > Managed Kubernetes**. The following screen appears:
-2. Click on your created kubernetes cluster name from the list.
-3. Click **Access**. The following screen appears, download the `kubeconfig` file from there.
+1. Navigate to **Compute > Kubernetes**. The following screen appears:![New Kubernetes Cluster](img/KubernetesCluster1.png)
+2. Click on your created Kubernetes cluster name from the list.
+3. Navigate to **Access**. The following screen appears:
 	![Download Kubeconfig ](img/Download.png)
 	 :::note
 	Ensure that `kubectl` is installed on your system or any system from which you are trying to access the Kubernetes API.
@@ -103,12 +103,12 @@ To access the dashboard in Kubernetes version 1.24 and onwards, follow these ste
 	```
 	You can see the token in the output that follows.
 			![Code](img/Code3.png)
-	    
-8. Run the following command to start the proxy for the Kubernetes cluster: <br/>
+7. Run the following command to start the proxy for the Kubernetes cluster: <br/>
 	`# kubectl --kubeconfig /custom/path/kube.conf proxy`
+	
 	You should be able to see the following output:<br/><br/>
 	![Code](img/Code4.png)
-9. Open the following URL on your browser:
+8. Open the following URL on your browser:
 	[http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/](http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/)
 
 To view the dashboard interface, click **Token**, paste the token fetched from **Step 5**, and click **Sign in**.

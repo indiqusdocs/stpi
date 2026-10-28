@@ -11,15 +11,15 @@ Ananta Cloud provides the following operations on RHEL instances:
 - [Resetting Password of an Instance](#resetting-password-of-an-instance)
 - [Resetting SSH key](#resetting-ssh-key)
 - [Migrating Network](#migrating-network)
-- [Reinstalling Window Instance](#reinstalling-window-instance)
+- [Reinstalling RHEL Instance](#reinstalling-rhel-instance)
 - [Renaming an Instance](#renaming-an-instance)
 - [Deleting an Instance](#deleting-an-instance)
 
 ## Restarting an Instance
 
-Restart a RHEL instance to refresh its operating state, apply certain configuration changes, or resolve temporary issues without changing its existing settings. This action helps restore normal operation, improve service reliability, and ensure efficient traffic distribution across backend resources.
+Restart an RHEL instance to refresh its operating state, apply certain configuration changes, or resolve temporary issues without changing its existing settings. This action helps restore normal operation, improve service reliability, and ensure efficient traffic distribution across backend resources.
 
-To restart a RHEL instance, follow these steps:
+To restart an RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
@@ -29,8 +29,9 @@ To restart a RHEL instance, follow these steps:
 
 ## Force Stopping an Instance
 
-Force stop a RHEL instance to immediately terminate its operations when it becomes unresponsive or cannot be shut down through a normal stop operation. This action helps recover from critical issues, restore control of the instance, and prepare it for troubleshooting or restart.
-To force stop a RHEL instance, follow these steps:
+Force stop an RHEL instance to immediately terminate its operations when it becomes unresponsive or cannot be shut down through a normal stop operation. This action helps recover from critical issues, restore control of the instance, and prepare it for troubleshooting or restart.
+
+To force stop an RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
@@ -42,7 +43,7 @@ To force stop a RHEL instance, follow these steps:
 
 Resetting the password allows you to regain access to your RHEL instance if you have forgotten the current password or need to update it for security purposes. You can generate a new administrator password and use it to securely sign in to your RHEL instance.
 
-To reset password of a RHEL instance, follow these steps:
+To reset password of an RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list.
@@ -50,17 +51,18 @@ To reset password of a RHEL instance, follow these steps:
 4. Click the **Stop Instance** button. The following screen appears:![Stop Instance](img/StopInstance.png)
 5. Click the **Yes** button.
 6. Click the **Reset Password**. The following screen appears: ![Reset Password](img/ResetPassword.png)
-7. Select the **Send the Password via Email** or **Send the Password via SMS** option, and click the **Yes** button. A password reset link is sent to your registered email address or mobile number.
+7. Select the **Send the Password via Email** and/or **Send the Password via SMS** option.
+8. Click the **Yes** button. A password reset link is sent to your registered email address and/or mobile number.
 
-## Resetting SSH key
+## Resetting SSH Key
 
 Resetting the SSH key allows you to replace the existing key pair associated with your RHEL instance. This is useful if the current SSH key is lost, compromised, or needs to be updated for secure administrative access.
 
-To reset SSH key of a RHEL instance, follow these steps:
+To reset the SSH key of an RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
-3. Navigate to **Operations**, the following screen appears:![RHEL Instance Operations](img/Operations1.png)
+3. Navigate to **Operations**. The following screen appears:![RHEL Instance Operations](img/Operations1.png)
 4. Click the **Stop Instance** button. The following screen appears:![Stop Instance](img/StopInstance.png)
 5. Click the **Yes** button. 
 6. Click the **Reset SSH key** button. The following screen appears:![Reset SSH Key](img/ResetSSHKey.png)
@@ -68,40 +70,41 @@ To reset SSH key of a RHEL instance, follow these steps:
 
 ## Migrating Network
 
-Migrating a RHEL instance between networks allows you to move the instance from its current network to a different target network while retaining the instance and its data. This is useful when reorganizing network infrastructure, improving connectivity, or aligning the instance with a different network environment.
+Migrating an RHEL instance between networks allows you to move the instance from its current network to a different target network while retaining the instance and its data. This is useful when reorganizing network infrastructure, improving connectivity, or aligning the instance with a different network environment.
 
 :::note
 	Remove any **Port Forwarding**, **Load Balancing**, or **Static NAT** configurations from the selected NIC before migrating the instance to another network.
 :::
 
-To migrate RHEL Instance between networks, follow these steps:
+To migrate an RHEL Instance between networks, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
-3. Navigate to **Operations**, the following screen appears:![RHEL Instance Operations](img/Operations1.png)
+3. Navigate to **Operations**. The following screen appears:![RHEL Instance Operations](img/Operations1.png)
 4. Click the **Migrate Network** button. The following screen appears:![Migrate Network](img/MigrateNetwork.png)
-5. Select the target network from the dropdown, and select the **I Agree to Migrate Network for the Instance** option, and click the **Migrate Network** button.
+5. Select the target network from the dropdown, and select the **I Agree to Migrate Network for the Instance** option.
+6. Click the **Migrate Network** button.
 
-## Reinstalling Window Instance
+## Reinstalling RHEL Instance
 
-Reinstalling a RHEL instance replaces the existing operating system with a fresh installation while preserving the instance configuration. This is useful for recovering from system issues, restoring a clean operating system, or resolving configuration problems.
+Reinstalling an RHEL instance replaces the existing operating system with a fresh installation while preserving the instance configuration. This is useful for recovering from system issues, restoring a clean operating system, or resolving configuration problems.
 
-:::note
+:::warning
 	Reinstalling the operating system permanently erases all data on the root disk, including system files, installed applications, and any data stored on the root partition (/ or C drive). Attached data disks remain unaffected. Before proceeding, create a restore point or backup of the instance and ensure that you have saved all important data to another location.
 :::
 
-To reinstalling a RHEL instance, follow these steps:
+To reinstalling an RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
 3. Navigate to **Operations**, the following screen appears:![RHEL Instance Operations](img/Operations1.png)
-4. Click the **Reinstall Instance** button. The following screen appears:
-5. Select a Reinstall Mode from the dropdown and select the **Send the Password via Email** or **Send the Password via SMS** option.![Reinstalling an Instance](img/ReinstallingInstance.png)
+4. Click the **Reinstall Instance** button. The following screen appears:![Reinstalling an Instance](img/ReinstallingInstance.png)
+5. Select a Reinstall Mode from the dropdown and select the **Send the Password via Email** and/or **Send the Password via SMS** option.
 6. Click the **Reinstall Instance** button.
 
 ## Renaming an Instance
 
-Rename a RHEL instance to assign a more meaningful or recognizable name without affecting its configuration or functionality. This action helps improve resource identification, simplifies instance management, and makes it easier to locate the instance in cloud environment.
+Rename an RHEL instance to assign a more meaningful or recognizable name without affecting its configuration or functionality. This action helps improve resource identification, simplifies instance management, and makes it easier to locate the instance in cloud environment.
 
 To rename an instance, follow these steps:
 
@@ -109,11 +112,11 @@ To rename an instance, follow these steps:
 2. Click on your created RHEL instance name from the list. 
 3. Navigate to **Operations**, the following screen appears:![RHEL Instance Operations](img/Operations1.png)
 4. Click the **Rename Instance** button. The following screen appears where you can update the RHEL instance name in **Instance Name**. ![Renaming an Instance](img/RenamingInstance.png)
-5. Click the **Done** button. The following screen appears:
+5. Click the **Done** button. 
 
 ## Deleting an Instance
 
-Delete a RHEL instance when it is no longer required to remove it permanently from cloud environment. This action helps free up resources, reduce unnecessary costs, and keep your infrastructure organized by eliminating unused instances.
+Delete an RHEL instance when it is no longer required to remove it permanently from cloud environment. This action helps free up resources, reduce unnecessary costs, and keep your infrastructure organized by eliminating unused instances.
 
 :::warning
 	You can schedule deletion to continue using the resource until the end of the current billing cycle and cancel the deletion before it takes effect. Alternatively, you can delete the resource immediately, which is permanent and cannot be undone.
@@ -124,7 +127,7 @@ To delete an instance, follow these steps:
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. 
 3. Navigate to **Operations**, the following screen appears:![RHEL Instance Operations](img/Operations1.png)
-4. Click the **Delete Instance** button. The following screen appears, where you can choose to delete the RHEL instance instantly or schedule it to be deleted at a later stage:
+4. Click the **Delete Instance** button. The following screen appears, where you can choose to delete the RHEL instance instantly or schedule it to be deleted at a later stage:![Deleting Instance](img/DeleteInstance.png)
 	- To delete the RHEL instance instantly, enter **DELETE** and click the **Delete Now** button. The RHEL instance is deleted.
-	- To schedule the RHEL instance to be deleted at a later stage, enter **DELETE** and click the **Schedule Deletion** button.![Deleting Instance](img/DeleteInstance.png)
+	- To schedule the RHEL instance to be deleted at a later stage, enter **DELETE** and click the **Schedule Deletion** button.
 

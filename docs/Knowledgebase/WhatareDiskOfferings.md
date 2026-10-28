@@ -31,7 +31,7 @@ Encrypted offerings are commonly used to secure:
 - Application logs and backups
 - Databases containing sensitive information
 
-The following table lists the operations that support encrypted and non-encrypted offerings in the NGC portal:
+The following table lists the operations that support encrypted and non-encrypted offerings in the Ananta portal:
 
 | Operation                                         | Encrypted Offering | Non-Encrypted Offering |
 | ------------------------------------------------- | ------------------ | ---------------------- |
@@ -52,4 +52,4 @@ The following table lists the operations that support encrypted and non-encrypte
 | Create Template from encrypted Disk Restore Point | No                 | Yes                    |
 | Create Volume from encrypted Disk Restore Point   | No                 | Yes                    |
 
-NGC supports both encrypted and non-encrypted offerings. You can select encryption offerings wherever possible to strengthen the security of your cloud infrastructure and safeguard critical business data.
+Ananta supports both encrypted and non-encrypted offerings. You can select encryption offerings wherever possible to strengthen the security of your cloud infrastructure and safeguard critical business data.

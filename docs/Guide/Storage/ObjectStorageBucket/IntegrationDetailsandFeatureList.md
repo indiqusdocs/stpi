@@ -1,9 +1,16 @@
 ---
-sidebar_position: 3
+sidebar_position: 11
 ---
-# Feature List and Integration Details
+# Integration Details and Feature List
 
-AS3 is delivered as an integration with Cloudian HyperStore. The integration functions using API-driven checkpoints.
+The feature list and integration details section provides an overview of the core capabilities and integration aspects of the Object Storage service. It outlines the standard and service-specific integration touchpoints that enable seamless provisioning, management, and monitoring of storage resources.
+
+Additionally, it highlights the key features available within the service, helping you understand its functionality and effectively manage their object storage environment.
+
+This section comprises of the following sub-sections:
+- [Standard Integration Touchpoints](#standard-integration-touchpoints)
+- [Specific Integration Touchpoints](#specific-integration-touchpoints)
+- [Feature List](#feature-list)
 
 ## Standard Integration Touchpoints
 

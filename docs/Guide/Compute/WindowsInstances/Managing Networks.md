@@ -25,11 +25,6 @@ To add a network, follow these steps:
 	:::
 6. Click **Yes**.  
 
-
-:::note
-	The Unlink action removes the network/tier association.
-:::
-
 :::note  
 Advanced networking configurations can be done using the [Virtual Private Clouds](https://coda.grammarly.com/docs/Guides/Networking/VirtualPrivateClouds/AboutVirtualPrivateCloud) service.  
 :::
@@ -55,5 +50,5 @@ To add a secondary IP, follow these steps:
 1. Navigate to **Compute > Windows Instances**. ![Windows Instance creation](img/WindowsInstance2.png)
 2. Click the **VPC name** and select the **Networking** tab. The following screen appears: ![management](img/management.png)
 3. Click the **New Secondary IP** button. The following screen appears:  ![Adding Secondary IP](img/AddingSecondaryIP.png)
-4. Enter a **new secondary IP address** and select the associated network from the **select tier** dropdown.
+4. Enter a **new secondary IP address** and select the associated network from the **Associate Network** dropdown.
 5. Click the **Add** button.

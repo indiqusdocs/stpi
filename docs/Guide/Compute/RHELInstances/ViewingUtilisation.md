@@ -7,6 +7,6 @@ Utilisation reports provide historical usage details for your RHEL instance. You
 
 To view historical usage across supported parameters, follow these steps:
 
-1. Navigate to **Compute > RHEL Instances**. The following screen appears![Viewing Details of RHEL Instances](img/RHELInstance1.png)
-2. Click on your created RHEL instance name from the list. The Overview tab opens automatically. The following screen appears:
-3. Click **Utilisation**. The following screen appears: ![Utilisation](img/Utilisation.png)
+1. Navigate to **Compute > RHEL Instances**. The following screen appears:![Viewing Details of RHEL Instances](img/RHELInstance1.png)
+2. Click on your created RHEL instance name from the list. The Overview tab opens automatically.
+3. Navigate to **Utilisation**. The following screen appears: ![Utilisation](img/Utilisation.png)

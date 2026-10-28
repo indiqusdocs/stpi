@@ -14,7 +14,7 @@ To view the details of RHEL instances, follow these steps:
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list. The Overview tab opens automatically. The following screen appears with the details:![Viewing Details of RHEL Instances](img/RHELInstance1.png)
 	- **Configuration and Availability:** This displays the following RHEL instance configuration details to help verify its current configuration and operational state:
-	    - The instance's status <span class="green">**Running**</span> or **Stopped**
+	    - The instance's status <span class="green">**Running**</span> or **<span class="red">**Stopped**</span>**
 	    - Availability Zone
 	    - Operating System
 	    - Compute Pack

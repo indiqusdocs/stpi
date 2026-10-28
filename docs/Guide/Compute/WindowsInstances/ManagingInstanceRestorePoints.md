@@ -7,24 +7,27 @@ Instance restore points help protect your Window instances by creating point-in-
 
 This section comprises of the following sub-sections:
 - [Creating an Instance Restore Point](#creating-an-instance-restore-point)
-- [Restoring an Instance Restore Point](#restoring-an-instance-restore-point)
+- [Restoring an Instance from a Restore Point](#restoring-an-instance-from-a-restore-point)
 - [Deleting an Instance Restore Point](#deleting-an-instance-restore-point)
 ## Creating an Instance Restore Point
 Create an instance restore point to capture the current state of your Windows instance. You can use the restore point to recover the instance to a previous state when needed, helping protect data and simplify recovery during maintenance or unexpected issues.
+:::note
+An Instance Restore Point can only be created when the instance is powered on.
+:::
 
 To create an instance restore point, follow these steps:
 
 1. Navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
 2. Click on your created Window instance name from the list.
-3. Click **Restore Points**. The following screen appears:![Restore Points](img/RestorePointDashboard.png)
+3. Navigate to **Restore Points**. The following screen appears:![Restore Points](img/RestorePointDashboard.png)
 4. Click the **Create Instance Restore Point** button. The following screen appears where you provide the required details: ![Restore Point](img/RestorePoint1.png)
-5. Click the **Create** button. The following screen appears:
+5. Click the **Create** button. 
 
-## Restoring an Instance Restore Point
+## Restoring an Instance from a Restore Point
 
-Restoring an instance from a restore point reverts the Window instance to a previously saved state. This operation restores the instance configuration and data captured at the selected restore point, allowing you to recover from configuration errors, failed updates, or other unexpected issues. Restoring a restore point helps minimize service disruption, ensures business continuity, and provides a reliable method to recover the Window instance to a known working state.
+Restoring an instance from a restore point reverts the Window instance to a previously saved state. This operation restores the instance configuration and data captured at the selected restore point, allowing you to recover from configuration errors, failed updates, or other unexpected issues. Restoring an instance from a restore point helps minimize service disruption, ensures business continuity, and provides a reliable method to recover the Window instance to a known working state.
 
-To restore an instance restore point, follow these steps:
+To restore an instance from a restore point, follow these steps:
 
 1. Navigate to **Compute > Windows Instances**. The following screen appears:![Windows Instance creation](img/WindowsInstance2.png)
 2. Click on your created Window instance name from the list.
@@ -48,6 +51,3 @@ To delete an instance restore point, follow these steps:
 4. Click the **Delete Restore Point** icon (highlighted in red). The following screen appears:![Deleting Instance Restore Point](img/DeletingRestorePoint.png)
 5. Click the **Yes** button. The restore point is deleted.
 
-:::note
-An Instance Restore Point can only be created when the instance is powered on.
-:::

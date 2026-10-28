@@ -7,7 +7,7 @@ The RHEL instances page lets you view and monitor all RHEL virtual machines in y
 
 To view the RHEL instances, navigate to **Compute > RHEL Instances**. The following screen appears:
 
-![Viewing Details of RHEL Instances](img/RHELInstance1.png)
+![RHEL Instances](img/RHEL1.png)
 
 
 

@@ -21,7 +21,7 @@ To add a firewall rule, follow these steps:
 2. Click on your created Kubernetes cluster name from the list.
 3. Click **Networking**. The following screen appears:![Networking](img/Networking1.png)
 4. Click **Add Networking Rule** button. The following screen appears:![Networking](img/Networking2.png)
-5. Click the **Firewall** rule from the dropdown. The following screen appears, where you provide the required details: ![Firewall Rule](img/FirewallRule.png)
+5. Select the **Firewall** rule from the dropdown. The following screen appears, where you provide the required details: ![Firewall Rule](img/FirewallRule.png)
 6. Click the **Add Firewall Rule** button. The following screen appears: ![Firewall Created](img/FirewallCreated.png)
 
 ## Adding Port Forwarding Rule
@@ -34,7 +34,7 @@ To add a port forwarding rule, follow these steps:
 2. Click on your created Kubernetes cluster name from the list.
 3. Click **Networking**. The following screen appears:![Networking](img/Networking1.png)
    4. Click the **Add Networking Rule** button.![Networking](img/Networking2.png)
-5. Select **Port Forwarding Rule** option from the dropdown. The following screen appears where you provide the required details:![Add Port Forwarding](img/AddPortForwarding.png)
+5. Select the **Port Forwarding Rule** option from the dropdown. The following screen appears where you provide the required details:![Add Port Forwarding](img/AddPortForwarding.png)
 6. Click the **Add Port Forwarding Rule** button. The following screen appears:![Port Forwarding](img/PortForwardingCreated.png)
 
 ## Adding Load Balancing Rule
@@ -46,6 +46,6 @@ To add a load balance rule, follow these steps:
 1. Navigate to **Compute > Kubernetes**. The following screen appears:![New Kubernetes Cluster](img/KubernetesCluster1.png)
 2. Click on your created Kubernetes cluster name from the list.
 3. Click **Networking**. The following screen appears:![Networking](img/Networking1.png)
-   4. Click the **Add Networking Rule** button.s![Networking](img/Networking2.png)
+   4. Click the **Add Networking Rule** button.![Networking](img/Networking2.png)
 5. Select the **Load Balancing Rule** option from the dropdown. The following screen appears where you provide the required details:![Load Balancing Rule](img/LoadBalancingRuleForm.png)
-6. Click the **Add Port Forwarding Rule** button.![Add Load Balancing](img/AddLoadBalancing.png)
+6. Click the **Add Load Balancing Rule** button. The following screen appears:![Add Load Balancing](img/AddLoadBalancing.png)

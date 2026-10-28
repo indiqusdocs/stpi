@@ -3,12 +3,12 @@ sidebar_position: 12
 ---
 # Connecting to a RHEL Instance
 
-Connecting to a RHEL instance allows you to securely access and manage your virtual machine remotely. You can connect using either a password or an SSH key pair. SSH key-based authentication is recommended as it provides a more secure way to access your instance.
+To remotely access and manage your RHEL instance, you can securely connect to the instance using either a password or an SSH key pair. However, SSH key based authentication is recommended, because it provides more secure way to access your instance.
 
 This section comprises of the following sub-sections:
-- [Connecting from a Windows Machine](#connecting-from-a-windows-machine)
-- [Connecting from a macOS or Linux Machine](#connecting-from-a-macos-or-linux-machine)
-## Connecting from a Windows Machine
+- [Connecting to a RHEL Instance from a Windows Machine](#connecting-to-a-rhel-instance-from-a-windows-machine)
+- [Connecting to a RHEL Instance from a macOS or Linux Machine](#connecting-to-a-rhel-instance-from-a-macos-or-linux-machine)
+## Connecting to a RHEL Instance from a Windows Machine
 
 You can connect to your RHEL instance from a Windows machine using an SSH client such as PuTTY. This allows you to securely access and manage your instance for administration and configuration tasks.
 
@@ -25,7 +25,7 @@ To connect a RHEL instance from a Windows machine, follow these steps:
 
 You are now connected to your Instance
 
-## Connecting from a macOS or Linux Machine
+## Connecting to a RHEL Instance from a macOS or Linux Machine
 
 1. Open any terminal program.
 2. Enter the following command into the terminal. Make sure you replace `your_private_key` with the filename of your private key; `your_instance_ip` with the IP address of your Instance; and username with the default root user name (_**root**_).

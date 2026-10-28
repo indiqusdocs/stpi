@@ -79,7 +79,7 @@ To create volume from disk restore point, follow these steps:
     - Click the **Custom Disk** option and adjust the disk size using the plus (+) or minus (–) controls as per requirement.
     - Click the **Select Pack** to choose the configured disk pack.
 12. Enter the disk name in **Name Your Data Disk**.
-13. Select the **I have read and agreed to the Yntraa Cloud Terms and Conditions and Privacy Policy** option, and click **Buy Monthly** button. The following screen appears:
+13. Select the **I have read and agreed to the Cloud Terms and Conditions** and **Privacy Policy** option, and click **Buy Monthly** button. The following screen appears:
 14. Click the **Confirm** button. The data disk is created.
 
 ## Deleting a Disk Restore Point

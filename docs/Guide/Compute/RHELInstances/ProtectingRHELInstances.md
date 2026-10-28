@@ -7,7 +7,7 @@ Enabling protection ensures that all instances are protected while all the threa
 
 To enable instance protection, follow these steps:
 
-1. Navigate to **Compute > RHEL Instances**. The following screen appears:
+1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list.
 3. Navigate to **Protection**. The following screen appears:   ![Enable Protection Screen](img/EnableProtection.png)
 4. Click the **Enable Protection** button. The following screen appears:![Enable Protection](img/EnableProtection1.png)

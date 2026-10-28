@@ -5,7 +5,7 @@ sidebar_position: 7
 
 Manage volumes to monitor and protect the storage resources attached to your instances. Volume management allows you to view attached disks, create disk restore points to safeguard data before changes, and create custom images for rapid instance deployment and recovery. These operations help ensure data protection, simplify backup and restoration, and maintain consistent storage configurations across your cloud environment.
 
-This section comprises of the following sub-sections:
+This section covers the following topics:
 - [Viewing Attached Disk](#viewing-attached-disk)
 - [Adding Volume](#adding-volume)
 - [Creating Disk Restore Point](#creating-disk-restore-point)
@@ -34,7 +34,7 @@ To add volume, follow these steps:
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list.
 3. Navigate to **Volumes**. The following screen appears:![Volume Management](img/VolumeManagement.png)
-4. Click the **Add Volume** button.
+4. Click the [**Add Volume**](/docs/Guide/Storage/BlockVolumes/CreatingDataDisk) button.
 
 ## Creating Disk Restore Point
 

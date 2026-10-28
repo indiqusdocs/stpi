@@ -1,11 +1,11 @@
 ---
-sidebar_position: 7
+sidebar_position: 7.1
 ---
 # Managing Networks
 
-This section explains how to manage the network settings of your RHEL instances. You can add a network to connect an instance to a virtual network and assign secondary IP addresses to enable multiple network connections on the same instance. This helps you configure and manage your networking requirements more efficiently. 
+This section explains steps to manage the network settings of your RHEL instances. You can add a network to connect an instance to a virtual network and assign secondary IP addresses to enable multiple network connections on the same instance. This helps you configure and manage your networking requirements more efficiently. 
 
-The following are the major topics covered in this section:
+The following are the topics covered in this section:
 
 - [Adding a Network](#adding-a-network)
 - [Adding a Secondary IP](#adding-a-secondary-ip)
@@ -26,8 +26,6 @@ To add a network, follow these steps:
 	:::
 6. Click **Yes**.  
 
-The Unlink action removes the network/tier association.
-
 :::note  
 The [Virtual Private Clouds](https://coda.grammarly.com/docs/Guides/Networking/VirtualPrivateClouds/AboutVirtualPrivateCloud) service is used for advanced networking configurations.
 :::
@@ -45,7 +43,7 @@ A Secondary IP Address is an additional IP address assigned to the same network 
 - Providing unique IP addresses for containers, databases, and cloud workloads.
 
 
-It is used in the following networking services in the NGC portal:
+It is used in the following networking services in the Ananta Cloud:
   - **Static NAT**: You can map a public IP to a secondary IP for external access.
   - **Port Forwarding**: You can direct traffic on specific ports to a secondary IP address assigned to the instance.
   - **Load Balancing**: You can use secondary IPs as backend or virtual service IPs to distribute traffic.
@@ -56,7 +54,7 @@ To add a secondary IP, follow these steps:
 2. Click on your created RHEL instance name from the list.
 3. Navigate to **Networking**. The following screen appears:![Secondary IP](img/RHELNetworking.png)
 4. Click the **New Secondary IP** button. The following screen appears:![Secondary IP](img/SecondaryIP1.png)
-5. Enter a **new secondary IP address** and select the associated network from the **select tier** dropdown.
+5. Enter a **new secondary IP address** and select the associated network from the **Associate Network** dropdown.
 6. Click the **Add** button.
 
 The Secondary IP is successfully added.

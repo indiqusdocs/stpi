@@ -3,13 +3,13 @@ sidebar_position: 9
 ---
 # Reconfiguring RHEL Instances
 
-Reconfigure a window instance to change its compute and root disk configuration when your workload requirements change. Updating the compute pack and root disk allows you to allocate resources that better match your application's performance and capacity needs.
+Reconfigure a RHEL instance to change its compute and root disk configuration when your workload requirements change. Updating the compute pack and root disk allows you to allocate resources that better match your application's performance and capacity needs.
 
 :::note
-You can only reconfigure with the same billing interval. If you wish just to change the billing interval, please use the Switch Plan button. We recommend switching the plan first before reconfiguring the Instance if you wish to use both the Reconfigure and Switch Plan options. You will be charged as per the pack you have reconfigured, not based on the older pack.
+You can reconfigure your instance only with the same billing interval. If you want to change the billing interval, use the **Switch Plan** button. If you want to use both the Switch Plan and Reconfigure options, switch your plan first and then reconfigure your instance. You will be charged based on the reconfigured pack, not your previous pack.
 :::
 
-To reconfigure the window instances, follow these steps:
+To reconfigure the RHEL instance, follow these steps:
 
 1. Navigate to **Compute > RHEL Instances**. The following screen appears:![RHEL Instances](img/RHEL1.png)
 2. Click on your created RHEL instance name from the list, and navigate to **Reconfigure**.

@@ -13,13 +13,13 @@ To create a Kubernetes cluster, follow these steps:
 4. Select a cluster pack from the list.![Compute Pack](img/ComputePack.png)
 5. Select the required IP address configuration for the cluster.
 6. Choose a **Compute Pack** from the available compute collections.![Cluster Options](img/ClusterOptions.png)
-7. You need to define the various cluster options listed below:
-    1. You can enable the high availability HA for the cluster.
-    2. Specify the cluster size (For example: The no. of worker nodes). 
+7. You can define the following cluster options:
+    1. Enable the high availability HA for the cluster.
+    2. Specify the cluster size (For example: The number of worker nodes). 
     3. Specify the node root disk size; a minimum of 8GB is required.
     4. Choose Kubernetes version (To learn how to access the dashboard from version 1.24 onwards, refer to [Accessing the Dashboard](Accessingthekubernetesdashboard.md)).
 8. Enter the Kubernetes cluster name in **Name Your Kubernetes Cluster**.
-9. Select the **I have read and agreed to the** **End User License Agreement** and **Privacy Policy**. option, and click the **Buy Monthly** or **Buy Hourly** button.
+9. Select the **I have read and agreed to the** **End User License Agreement** and **Privacy Policy** option, and click the **Buy Monthly** or **Buy Hourly** button.
     ![Summary](img/Summary.png)
 
 

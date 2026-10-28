@@ -13,9 +13,10 @@ To create a disk restore point, follow these steps:
 
 1. Navigate to **Storage > Block Volumes.** The following screen appears:
 	![New Block Volume](img/BlockVolume1.png)
-2. Click **Restore Points**. The following screen appears:![Creating Restore Points](img/CreatingRestorePoints.png)
-3. Click the **Create Disk Restore Point**. The following screen appears:![Creating Restore Point](img/CreatingRestorePoints1.png)
-4. Click the **Create Disk Restore Point**. The following screen appears:![Creating Restore Point](img/CreatingRestorePoints2.png)
+2. Click on your created Block Volume.
+3. Navigate to **Restore Points**. The following screen appears:![Creating Restore Points](img/CreatingRestorePoints.png)
+4. Click the **Create Disk Restore Point**. The following screen appears:![Creating Restore Point](img/CreatingRestorePoints1.png)
+5. Click the **Create Disk Restore Point**. The following screen appears:![Creating Restore Point](img/CreatingRestorePoints2.png)
 
 
 ## Creating Volume from Disk Restore Point

@@ -35,6 +35,9 @@ To scale a Kubernetes cluster, follow these steps:
 
 Delete a Kubernetes cluster when it is no longer required. Deleting the cluster permanently removes its configuration, worker nodes, and associated resources, helping you free up infrastructure resources and avoid unnecessary costs.
 
+:::warning
+	 This action cannot be reversed.
+:::
 To delete a Kubernetes cluster, follow these steps:
 
 1. Navigate to **Compute > Kubernetes**. The following screen appears:![New Kubernetes Cluster](img/KubernetesCluster1.png)

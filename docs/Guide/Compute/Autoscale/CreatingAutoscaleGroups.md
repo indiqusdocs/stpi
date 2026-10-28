@@ -5,17 +5,17 @@ sidebar_position: 3
 
 Creating an Autoscale group enables automatic scaling of compute instances based on workload demand and defined scaling policies. This helps maintain application performance, improve availability, and optimize resource utilization by automatically adding or removing instances as needed.
 
-To create Autoscale group, follow these steps:
+To create an Autoscale group, follow these steps:
 
 1. Navigate to the **Compute > Autoscale Groups** in the navigation menu.![Creating Autoscale Groups](img/CreatingAutoscaleGroups1.png)
 2. Click the **New Autoscale Group** button. The following screen appears: ![Autoscale Group](img/CreatingAutoscaleGroups2.png)
 3. Select an **Instance Category**. 
 4. Choose an **Availability Zone** that represents the geographic region for the deployment of your Autoscaled Instance.![VPC Network and Tier](img/VPCNetworkTier.png)
-5. **Select VPC Network**, choose the appropriate tier in **Select a Network Tier**, and then select a load balancer from the options in the **Select Load Balancer** dropdown.
+5. Select VPC network, choose the appropriate tier in **Select a Network Tier**, and then select a load balancer from the options in the **Select Load Balancer** dropdown.
 6. Choose an **OS Image** to run on your Instance.![Compute pack](img/ComputePack.png)
 7. Choose a **Compute pack** from the available compute collections.![Root Disk](img/RootDisk.png)
-8. Choose a **Root disk** from the available Disk packs, or alternatively, use the free size option to define the size of the Root Disk.![configuring Autoscale group](img/AutoScaleGroup.png)
-9. Configure the **Autoscale group** as per your requirement; the following options needs to be specified:
+8. Choose a **Root disk** from the available Disk packs or use the free size option to define the size of the Root Disk.![configuring Autoscale group](img/AutoScaleGroup.png)
+9. Configure the **Autoscale group** as per your requirement:
 	- **Min. Group Limit:** This is the minimum number of members in the Autoscale Group. The number of instances in the group will be equal to or more than this number.
     - **Max. Group Limit:** This is the maximum number of members in the Autoscale Group. The number of instances in the group will be equal to or more than this number.
     - **Expunge instance grace period:** This defines how long before a scale-down is executed should the app/user connections to an Instance be removed.
@@ -24,9 +24,9 @@ To create Autoscale group, follow these steps:
 	    The **Polling Interval** must be between 60 and 3600 seconds.
 	    :::
 	![Scale Up](img/ScaleUp.png)
-10. Define the **Scale Up policy** (Multiple policies can be configured; if multiple conditions are specified, all of them need to be met for the Autoscale Group to execute). You need to specify the following:
+10. Define the **Scale Up policy** (Multiple policies can be configured; if multiple conditions are specified, all of them need to be met for the Autoscale Group to execute).
 	- **Policy Name**: Specify the name for your policy.
-	- **Duration (in mins)**: This is the duration in which the conditions have to be true before action is taken.
+	- **Duration (in mins)**: This is the duration in which the conditions must be true before action is taken.
 	- **Quiet Time (in mins)**: The cool-down period in which the policy should not be evaluated after the action has been taken.
 	- **Parameter**: Name of the counter for which the policy will be evaluated.
 	    - **Parameters**: The performance parameters expose the state of the monitored Instances. As of now, there are five new parameters to work with that feature:
@@ -43,10 +43,10 @@ To create Autoscale group, follow these steps:
     :::note
 		The reading **Duration** must be at least 60 seconds. The **Quiet Time** must be between 120 and 3600 seconds.
 	:::
-13. If your account doesn’t have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting the **Upload a key pair** option.
-14. If you want to notify your users or custom email addresses upon the execution of this Autoscale Group, then you can select the appropriate option available under Notify on email. For example: Notify to account users, Notify to comma-separated email addresses.
+13. If your account does not have any SSH key pair, then you can use the **Generate a new key pair** option, and you can also upload the key by selecting the **Upload a key pair** option.
+14. To notify your users or custom email addresses upon the execution of this Autoscale Group, you can select the appropriate option available under Notify on email. For example: Notify to account users, Notify to comma-separated email addresses.![Publish AutoScale Group](img/CreatingAutoscaleGroups5.png)
 15. Specify name of your Autoscale group.
 16. Click the **Publish This Autoscale Group** button.
-    ![Publish AutoScale Group](img/CreatingAutoscaleGroups5.png)
+    
 
 

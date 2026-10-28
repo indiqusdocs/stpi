@@ -10,7 +10,7 @@ To view the details of a Kubernetes cluster, follow these steps:
 1. Navigate to **Compute > Kubernetes**. The following screen appears:![ View Kubernetes Cluster ](img/KubernetesCluster1.png)
 2. Click on your created Kubernetes cluster name from the list. 
 	- **Configuration and Availability:** This displays the following Kubernetes cluster configuration details to help verify its current configuration and operational state:
-	    - The instance's status **Running** or **Stopped**.
+	    - The instance's status <span class="green">**Running**</span> or **<span class="red">**Stopped**</span>**
 	    - Availability Zone
 	    - Cluster Pack
 	    - High Availability
