@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/Storage/ObjectStorageBucket/DeletingObjectBucket.md",
+                "file": "docs/Guide/Storage/ObjectStorageBucket/FrequentlyAskedQuestions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeletingObjectBucket"
+              "title": "FrequentlyAskedQuestions"
             }
           },
           {
@@ -211,9 +211,11 @@
   },
   "active": "7484f3a39fd2190d",
   "lastOpenFiles": [
+    "docs/Guide/Storage/ObjectStorageBucket/DeletingObjectBucket.md",
+    "docs/Guide/Storage/ObjectStorageBucket/img/DeleteBucket1.png",
+    "docs/Guide/Storage/ObjectStorageBucket/img/DeleteBucket.png",
     "docs/Guide/Storage/ObjectStorageBucket/CreatingObjectStorageBucket.md",
     "docs/Guide/Storage/ObjectStorageBucket/img/Overview.png",
-    "docs/Guide/Storage/ObjectStorageBucket/DeletingObjectBucket.md",
     "docs/Guide/Storage/ObjectStorageBucket/ViewingObjectStorageBucketDetails.md",
     "docs/Guide/Storage/ObjectStorageBucket/IntegrationDetailsandFeatureList.md",
     "docs/Guide/Storage/ObjectStorageBucket/ViewingObjectStorageBucket.md",
@@ -244,8 +246,6 @@
     "docs/Guide/Compute/Autoscale/CreatingAutoscaleGroups.md",
     "docs/Guide/Compute/Kubernetes/CreatingaKubernetesCluster.md",
     "docs/Guide/Compute/RHELInstances/ConnectingtoaRHELInstance.md",
-    "docs/Guide/Storage/BlockVolumes/img/Resize1.png",
-    "docs/Guide/Storage/BlockVolumes/img/Resize.png",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingLinuxInstance/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/AddingInstancetoaVFI-basedNetwork/AddingWindowsInstance/index.html",
     "build/docs/Guide/Networking/VirtualFirewall/ViewingUtilisation/index.html",
