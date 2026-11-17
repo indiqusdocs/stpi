@@ -3,7 +3,7 @@
   "position": 12,
   "link": {
     "type": "generated-index",
-    "description": "Keep a record of cloud management utilities and assets that might be needed to use specific sections of the Ananta-powered cloud."
+    "description": "The Tools and Utilities section provides essential features for managing and maintaining your cloud resources. It enables you to manage SSH public key pairs, create and maintain custom templates and images, manage instance and disk restore points for recovery, and add VPN gateways for secure network connectivity. These utilities help simplify resource administration and improve operational efficiency."
   }
 }
 

@@ -3,8 +3,7 @@
   "position": 11,
   "link": {
     "type": "generated-index",
-    "description": "Instance protection safeguards virtual machine instances and workloads by creating backups using Acronis backup solutions.
-"
+    "description": "Instance Protection safeguards virtual machine instances and workloads by creating backups using Acronis Cyber Protect, an enterprise-grade backup and recovery solution. It simplifies backup management, recovery, and cybersecurity while providing enhanced security and compliance features. This service enables end-users to restore instances to a previous state in the event of data loss, corruption, or system failure. It also supports advanced capabilities such as disaster recovery, Endpoint Detection and Response (EDR), email security, and document signing."
   }
 }
 

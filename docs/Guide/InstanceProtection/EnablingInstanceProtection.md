@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 # Enabling Instance Protection
 
@@ -14,7 +14,7 @@ Instance Protection service can be enabled in two ways:
 ## After Instance Creation
 If you did not enable the protection service while creating the instance, follow these steps to activate it:
 
-1. Go to the **Linux/Windows Instances** section and click on the specific instance. Then, navigate to the **Protection** section and click the **ENABLE PROTECTION** button.
+1. Navigate to **Linux/Windows Instances** and click on the specific instance. Then, navigate to the **Protection** section and click the **Enable Protection** button.
    ![Enabling Instance Protection](img/InstanceProtection1.png)
 2. To enable advanced protection features, toggle the switch to enable them and Click **Confirm**.
    :::note
